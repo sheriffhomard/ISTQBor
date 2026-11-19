@@ -1,0 +1,909 @@
+{
+  "certifications": [
+    {
+      "id": "ctfl",
+      "code": "CTFL",
+      "name": {
+        "fr": "Certified Tester Foundation Level",
+        "en": "Certified Tester Foundation Level"
+      },
+      "level": "foundation",
+      "domain": "core",
+      "description": {
+        "fr": "Certification fondamentale couvrant les principes universels du test logiciel, le test tout au long du SDLC, les tests statiques, les techniques d’analyse et de conception, la gestion des activités de test et les outils.",
+        "en": "Core foundation certification covering universal software testing fundamentals, testing across the SDLC, static testing, test analysis and design techniques, managing test activities, and test tools."
+      },
+      "prerequisites": [],
+      "currentVersionId": "ctfl-v4.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/certified-tester-foundation-level/",
+      "sources": [
+        "ISTQB Official Portfolio & CTFL v4.0 Public Syllabus Overview"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctfl-at",
+      "code": "CTFL-AT",
+      "name": {
+        "fr": "Certified Tester Foundation Level — Agile Tester",
+        "en": "Certified Tester Foundation Level — Agile Tester"
+      },
+      "level": "foundation",
+      "domain": "agile",
+      "description": {
+        "fr": "Extension Agile du niveau Foundation portant sur les pratiques de test au sein d’équipes Scrum, Kanban et XP, le rôle du testeur dans la qualité continue et les quadrants de test Agile.",
+        "en": "Agile extension to Foundation Level focusing on testing practices within Scrum, Kanban, and XP teams, whole-team quality ownership, and Agile testing quadrants."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ctfl-at-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/agile-tester/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctal-tm",
+      "code": "CTAL-TM",
+      "name": {
+        "fr": "Certified Tester Advanced Level — Test Management",
+        "en": "Certified Tester Advanced Level — Test Management"
+      },
+      "level": "advanced",
+      "domain": "core",
+      "description": {
+        "fr": "Certification avancée dédiée au pilotage stratégique et opérationnel des activités de test, à l’analyse des risques produit/projet, à l’estimation, aux métriques et à la gestion des équipes.",
+        "en": "Advanced certification focused on strategic and operational test management, product/project risk management, estimation, metrics, and team leadership."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ctal-tm-v3.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/test-management-v3-0/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctal-ta",
+      "code": "CTAL-TA",
+      "name": {
+        "fr": "Certified Tester Advanced Level — Test Analyst",
+        "en": "Certified Tester Advanced Level — Test Analyst"
+      },
+      "level": "advanced",
+      "domain": "core",
+      "description": {
+        "fr": "Approfondissement des techniques de conception de tests boîte noire basées sur les spécifications, l’expérience et les défauts, ainsi que les caractéristiques qualité fonctionnelles et d’utilisabilité.",
+        "en": "Deep dive into black-box specification-based, experience-based, and defect-based test design techniques alongside functional and usability quality characteristics."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ctal-ta-v3.1.2",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/test-analyst/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctal-tta",
+      "code": "CTAL-TTA",
+      "name": {
+        "fr": "Certified Tester Advanced Level — Technical Test Analyst",
+        "en": "Certified Tester Advanced Level — Technical Test Analyst"
+      },
+      "level": "advanced",
+      "domain": "core",
+      "description": {
+        "fr": "Maîtrise des tests boîte blanche structurels, de l’analyse statique/dynamique du code, des tests de fiabilité/performance/sécurité et de l’architecture d’automatisation.",
+        "en": "Mastery of white-box structural testing, static/dynamic code analysis, reliability/performance/security testing, and test automation engineering."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ctal-tta-v4.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/technical-test-analyst/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-tas",
+      "code": "CT-TAS",
+      "name": {
+        "fr": "Specialist — Test Automation Strategy (ex-TAE)",
+        "en": "Specialist — Test Automation Strategy"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Conception et gouvernance d’une stratégie d’automatisation des tests pérenne, architecture générique d’automatisation (gTAA), ROI et intégration CI/CD.",
+        "en": "Designing and governing sustainable test automation strategies, generic test automation architecture (gTAA), ROI evaluation, and CI/CD integration."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-tas-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/test-automation-strategy/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-tae-legacy",
+      "code": "CT-TAE (2016)",
+      "name": {
+        "fr": "Specialist — Test Automation Engineer (v1.0 historique)",
+        "en": "Specialist — Test Automation Engineer (v1.0 historical)"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Version historique remplacée par Test Automation Strategy (CT-TAS) et Test Automation Engineering v2.0 dans l’évolution du portfolio Specialist.",
+        "en": "Historical version superseded by Test Automation Strategy (CT-TAS) and Test Automation Engineering v2.0 in the Specialist portfolio."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-tae-v1.0",
+      "status": "replaced",
+      "replacedById": "ct-tas",
+      "availableLanguages": [
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/",
+      "sources": [
+        "ISTQB Historical Portfolio Archive"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-ai",
+      "code": "CT-AI",
+      "name": {
+        "fr": "Specialist — Testing with Artificial Intelligence",
+        "en": "Specialist — AI Testing"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Test des systèmes basés sur l’apprentissage automatique (qualité des données, dérive, biais, métriques ML) et usage de l’IA au service des activités de test.",
+        "en": "Testing ML/AI-based systems (data quality, drift, bias, ML evaluation metrics) and leveraging AI to support software testing activities."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-ai-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/artificial-intelligence-tester/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-pt",
+      "code": "CT-PT",
+      "name": {
+        "fr": "Specialist — Performance Testing",
+        "en": "Specialist — Performance Testing"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Concepts fondamentaux de mesure de performance, modélisation des profils de charge, exécution des campagnes de test de charge/stress et analyse des goulots d’étranglement.",
+        "en": "Performance testing fundamentals, workload modeling, load and stress test execution, and bottleneck root-cause analysis."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-pt-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/performance-testing/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-sec",
+      "code": "CT-SEC",
+      "name": {
+        "fr": "Specialist — Security Tester",
+        "en": "Specialist — Security Tester"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Évaluation des risques de sécurité, politiques et conformité, tests de vulnérabilité, modélisation des menaces et tests d’intrusion encadrés.",
+        "en": "Security risk evaluation, policy compliance, vulnerability assessment, threat modeling, and structured penetration testing practices."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-sec-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/security-tester/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ct-mat",
+      "code": "CT-MAT",
+      "name": {
+        "fr": "Specialist — Mobile Application Testing",
+        "en": "Specialist — Mobile Application Testing"
+      },
+      "level": "specialist",
+      "domain": "specialist",
+      "description": {
+        "fr": "Spécificités des applications natives, hybrides et web mobiles, fragmentation matérielle/OS, contraintes réseau, capteurs et automatisation mobile.",
+        "en": "Testing native, hybrid, and mobile web apps, device/OS fragmentation, network/battery constraints, sensors, and mobile test automation."
+      },
+      "prerequisites": [
+        "CTFL"
+      ],
+      "currentVersionId": "ct-mat-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/mobile-application-testing/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctel-tm",
+      "code": "CTEL-TM",
+      "name": {
+        "fr": "Expert Level — Test Management",
+        "en": "Expert Level — Test Management"
+      },
+      "level": "expert",
+      "domain": "core",
+      "description": {
+        "fr": "Direction stratégique des organisations de test à l’échelle entreprise, gouvernance multi-projets, maturité et pilotage par la valeur.",
+        "en": "Enterprise-scale strategic test management, multi-program governance, organizational test maturity, and value-driven leadership."
+      },
+      "prerequisites": [
+        "CTFL",
+        "CTAL-TM"
+      ],
+      "currentVersionId": "ctel-tm-v1.0",
+      "status": "active",
+      "availableLanguages": [
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/expert-level-test-management/",
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "id": "ctfl-2011-legacy",
+      "code": "CTFL (2011)",
+      "name": {
+        "fr": "Foundation Level — Édition historique 2011",
+        "en": "Foundation Level — Historical 2011 Edition"
+      },
+      "level": "foundation",
+      "domain": "core",
+      "description": {
+        "fr": "Édition historique retirée du programme Foundation Level, conservée pour la traçabilité documentaire et la compréhension de l’évolution terminologique.",
+        "en": "Retired historical Foundation Level edition preserved for archival traceability and terminology evolution comparison."
+      },
+      "prerequisites": [],
+      "currentVersionId": "ctfl-v2011",
+      "status": "retired",
+      "replacedById": "ctfl",
+      "availableLanguages": [
+        "fr",
+        "en"
+      ],
+      "officialUrl": "https://www.istqb.org/certifications/certified-tester-foundation-level/",
+      "sources": [
+        "ISTQB Archive"
+      ],
+      "lastVerified": "2026-11-19"
+    }
+  ],
+  "versions": [
+    {
+      "id": "ctfl-v4.0",
+      "certificationId": "ctfl",
+      "versionNumber": "v4.0",
+      "title": {
+        "fr": "CTFL Syllabus v4.0 (Actuel)",
+        "en": "CTFL Syllabus v4.0 (Current)"
+      },
+      "releaseDate": "2023-05-09",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": 60,
+        "nonNativeExtraPercent": 25,
+        "questionCount": 40,
+        "passingScorePercent": 65,
+        "passingScorePoints": 26,
+        "totalPoints": 40,
+        "hasOfficialDistribution": true,
+        "chapterQuestionDistribution": {
+          "ctfl-v4.0-ch1": 8,
+          "ctfl-v4.0-ch2": 6,
+          "ctfl-v4.0-ch3": 4,
+          "ctfl-v4.0-ch4": 11,
+          "ctfl-v4.0-ch5": 9,
+          "ctfl-v4.0-ch6": 2
+        },
+        "specialRules": {
+          "fr": "40 questions à choix unique ou multiple (1 point par question correcte, aucun point négatif). +25 % de temps si examen passé dans une langue non maternelle.",
+          "en": "40 single or multiple-choice questions (1 point per correct answer, no negative marking). +25% extra time when taken in a non-native language."
+        },
+        "isVerified": true,
+        "verificationNote": {
+          "fr": "Structure d’examen CTFL v4.0 vérifiée : 40 questions, 60 min, seuil 26/40 (65 %), répartition par chapitre 8/6/4/11/9/2.",
+          "en": "Verified CTFL v4.0 exam structure: 40 questions, 60 min, pass mark 26/40 (65%), chapter weights 8/6/4/11/9/2."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Modernisation majeure : intégration native des pratiques Agile/DevOps, approche Shift-Left, analyse de valeur limite à 2 et 3 valeurs, techniques basées sur la collaboration (ATDD, BDD), restructuration de l’estimation et des outils.",
+        "en": "Major modernization: native Agile/DevOps integration, Shift-Left approach, explicit 2-value and 3-value BVA, collaboration-based testing (ATDD, BDD), streamlined estimation and tools chapter."
+      },
+      "sources": [
+        "ISTQB CTFL v4.0 Exam Structure & Public Overview"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": true
+    },
+    {
+      "id": "ctfl-v3.1",
+      "certificationId": "ctfl",
+      "versionNumber": "v3.1 (2018)",
+      "title": {
+        "fr": "CTFL Syllabus v3.1 / 2018 (Historique)",
+        "en": "CTFL Syllabus v3.1 / 2018 (Historical)"
+      },
+      "releaseDate": "2018-06-04",
+      "retirementDate": "2024-05-09",
+      "status": "retired",
+      "examConfig": {
+        "durationMinutes": 60,
+        "nonNativeExtraPercent": 25,
+        "questionCount": 40,
+        "passingScorePercent": 65,
+        "passingScorePoints": 26,
+        "totalPoints": 40,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "40 questions, 60 min, seuil 65 % (26/40). Répartition détaillée par LO non embarquée dans le simulateur local.",
+          "en": "40 questions, 60 min, 65% pass mark (26/40). Detailed LO weights not bundled in local simulator."
+        },
+        "isVerified": true,
+        "verificationNote": {
+          "fr": "Paramètres globaux historiques vérifiés (40 questions, 60 min, 65 %). Version retirée.",
+          "en": "Historical global parameters verified (40 questions, 60 min, 65%). Retired version."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Version 2018 (révisée v3.1.1) organisée en 6 chapitres classiques incluant les tests basés sur les cas d’utilisation et une classification détaillée des outils par activité.",
+        "en": "2018 edition (updated v3.1.1) structured in 6 classic chapters including use-case testing and an activity-by-activity tool classification."
+      },
+      "sources": [
+        "ISTQB CTFL 2018 Archive"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": true
+    },
+    {
+      "id": "ctfl-v2011",
+      "certificationId": "ctfl-2011-legacy",
+      "versionNumber": "v2011",
+      "title": {
+        "fr": "CTFL Syllabus 2011 (Archivé)",
+        "en": "CTFL Syllabus 2011 (Archived)"
+      },
+      "releaseDate": "2011-03-31",
+      "retirementDate": "2019-06-04",
+      "status": "historical",
+      "examConfig": {
+        "durationMinutes": 60,
+        "nonNativeExtraPercent": 25,
+        "questionCount": 40,
+        "passingScorePercent": 65,
+        "passingScorePoints": 26,
+        "totalPoints": 40,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres d’archive conservés à titre informatif.",
+          "en": "Archived parameters preserved for informational reference."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Version archivée : consulter les archives officielles ISTQB pour le barème complet 2011.",
+          "en": "Archived edition: verify complete 2011 exam rules via official ISTQB archives."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Première grande consolidation internationale du syllabus Foundation avant la refonte 2018.",
+        "en": "Early international Foundation syllabus prior to the 2018 overhaul."
+      },
+      "sources": [
+        "ISTQB Historical Archive"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ctfl-at-v1.0",
+      "certificationId": "ctfl-at",
+      "versionNumber": "v1.0 (2014)",
+      "title": {
+        "fr": "Agile Tester Foundation Extension v1.0",
+        "en": "Agile Tester Foundation Extension v1.0"
+      },
+      "releaseDate": "2014-05-30",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": 60,
+        "nonNativeExtraPercent": 25,
+        "questionCount": 40,
+        "passingScorePercent": 65,
+        "passingScorePoints": 26,
+        "totalPoints": 40,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Prérequis CTFL requis avant passage officiel. Paramètres globaux standards Foundation Extension (40 questions, 60 min, 65 %).",
+          "en": "CTFL prerequisite required. Standard Foundation Extension parameters (40 questions, 60 min, 65%)."
+        },
+        "isVerified": true,
+        "verificationNote": {
+          "fr": "Paramètres globaux vérifiés ; distribution fine par chapitre à vérifier avant examen officiel.",
+          "en": "Global exam settings verified; exact chapter question weights should be confirmed on istqb.org."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Couvre les fondamentaux Agile, le statut du testeur dans une équipe Agile, les quadrants de test et les techniques exploratoires en itération.",
+        "en": "Covers Agile fundamentals, tester role in Agile teams, testing quadrants, and exploratory testing within iterations."
+      },
+      "sources": [
+        "ISTQB Agile Tester Overview"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": true
+    },
+    {
+      "id": "ctal-tm-v3.0",
+      "certificationId": "ctal-tm",
+      "versionNumber": "v3.0",
+      "title": {
+        "fr": "CTAL Test Management v3.0",
+        "en": "CTAL Test Management v3.0"
+      },
+      "releaseDate": "2024-05-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Les questions Advanced Level comportent des barèmes pondérés (1 à 3 points). Vérifiez la structure officielle exacte CTAL-TM v3.0 sur istqb.org.",
+          "en": "Advanced Level exams use multi-point scenario questions (1–3 points). Verify exact official CTAL-TM v3.0 exam structure on istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Paramètres exacts CTAL-TM v3.0 marqués « à vérifier » afin de ne jamais inventer de barème.",
+          "en": "Exact CTAL-TM v3.0 exam metrics marked \"To verify\" to avoid fabricating official scoring rules."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Refonte majeure alignée sur CTFL v4.0, intégrant la gestion de test en contextes Agile, hybrides et DevOps.",
+        "en": "Major update aligned with CTFL v4.0 covering test management across Agile, hybrid, and DevOps contexts."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "versionNumber": "v3.1.2",
+      "title": {
+        "fr": "CTAL Test Analyst v3.1.2",
+        "en": "CTAL Test Analyst v3.1.2"
+      },
+      "releaseDate": "2021-05-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres exacts d’examen à vérifier selon votre comité national (GASQ / CFTL / BCS).",
+          "en": "Exact exam parameters should be verified with your national exam board."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Paramètres détaillés non embarqués dans ce pack — à vérifier sur istqb.org.",
+          "en": "Detailed exam parameters not bundled in this pack — verify on istqb.org."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Techniques boîte noire avancées et analyse fonctionnelle orientée risques.",
+        "en": "Advanced black-box techniques and risk-driven functional test analysis."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "versionNumber": "v4.0",
+      "title": {
+        "fr": "CTAL Technical Test Analyst v4.0",
+        "en": "CTAL Technical Test Analyst v4.0"
+      },
+      "releaseDate": "2021-05-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres détaillés à vérifier sur le portail officiel ISTQB.",
+          "en": "Detailed exam parameters to be verified on the official ISTQB portal."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Non vérifié localement — mode entraînement configurable uniquement.",
+          "en": "Locally unverified — configurable practice mode only."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Couverture structurelle avancée (MC/DC), analyse de code et tests non fonctionnels techniques.",
+        "en": "Advanced structural coverage (MC/DC), code analysis, and technical non-functional testing."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "versionNumber": "v1.0 (2024)",
+      "title": {
+        "fr": "Test Automation Strategy v1.0",
+        "en": "Test Automation Strategy v1.0"
+      },
+      "releaseDate": "2024-03-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Consulter la fiche officielle ISTQB CT-TAS pour le barème exact.",
+          "en": "Refer to official ISTQB CT-TAS exam structure for exact scoring details."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Métadonnées uniquement — paramètres d’examen à vérifier.",
+          "en": "Metadata only — exam parameters to verify."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Nouveau module Specialist orienté stratégie, architecture et maintenabilité de l’automatisation.",
+        "en": "Specialist module focusing on automation strategy, architecture, and maintainability."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-tae-v1.0",
+      "certificationId": "ct-tae-legacy",
+      "versionNumber": "v1.0 (2016)",
+      "title": {
+        "fr": "Test Automation Engineer v1.0 (Remplacée)",
+        "en": "Test Automation Engineer v1.0 (Superseded)"
+      },
+      "releaseDate": "2016-10-01",
+      "retirementDate": "2025-03-01",
+      "status": "replaced",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Version remplacée par la nouvelle filière Test Automation.",
+          "en": "Superseded by the updated Test Automation track."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Archive historique non active.",
+          "en": "Inactive historical archive."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Module historique gTAA de 2016.",
+        "en": "Historical 2016 gTAA specialist module."
+      },
+      "sources": [
+        "ISTQB Historical Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "versionNumber": "v1.0",
+      "title": {
+        "fr": "AI Testing Syllabus v1.0",
+        "en": "AI Testing Syllabus v1.0"
+      },
+      "releaseDate": "2021-10-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres à vérifier sur istqb.org.",
+          "en": "Parameters to verify on istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Pack complet en cours de préparation éditoriale.",
+          "en": "Full learning pack in editorial preparation."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Fondamentaux IA/ML, qualité des jeux de données, tests métamorphiques et tests basés sur l’IA.",
+        "en": "AI/ML fundamentals, dataset quality, metamorphic testing, and AI-assisted testing."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-pt-v1.0",
+      "certificationId": "ct-pt",
+      "versionNumber": "v1.0",
+      "title": {
+        "fr": "Performance Testing v1.0",
+        "en": "Performance Testing v1.0"
+      },
+      "releaseDate": "2018-05-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres à vérifier sur istqb.org.",
+          "en": "Parameters to verify on istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Métadonnées uniquement.",
+          "en": "Metadata only."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Métriques de performance, profils opérationnels et ingénierie de charge.",
+        "en": "Performance metrics, operational profiles, and load test engineering."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-sec-v1.0",
+      "certificationId": "ct-sec",
+      "versionNumber": "v1.0",
+      "title": {
+        "fr": "Security Tester v1.0",
+        "en": "Security Tester v1.0"
+      },
+      "releaseDate": "2016-06-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres à vérifier sur istqb.org.",
+          "en": "Parameters to verify on istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Métadonnées uniquement.",
+          "en": "Metadata only."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Tests de sécurité applicative et infrastructure.",
+        "en": "Application and infrastructure security testing."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ct-mat-v1.0",
+      "certificationId": "ct-mat",
+      "versionNumber": "v1.0",
+      "title": {
+        "fr": "Mobile Application Testing v1.0",
+        "en": "Mobile Application Testing v1.0"
+      },
+      "releaseDate": "2019-06-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Paramètres à vérifier sur istqb.org.",
+          "en": "Parameters to verify on istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Métadonnées uniquement.",
+          "en": "Metadata only."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Tests d’applications mobiles iOS et Android.",
+        "en": "Mobile application testing across iOS and Android ecosystems."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    },
+    {
+      "id": "ctel-tm-v1.0",
+      "certificationId": "ctel-tm",
+      "versionNumber": "v1.0",
+      "title": {
+        "fr": "Expert Level Test Management v1.0",
+        "en": "Expert Level Test Management v1.0"
+      },
+      "releaseDate": "2015-01-01",
+      "status": "active",
+      "examConfig": {
+        "durationMinutes": null,
+        "nonNativeExtraPercent": 25,
+        "questionCount": null,
+        "passingScorePercent": null,
+        "passingScorePoints": null,
+        "totalPoints": null,
+        "hasOfficialDistribution": false,
+        "specialRules": {
+          "fr": "Examen Expert composé de questions à choix multiples et de rédaction (essays). Consulter istqb.org.",
+          "en": "Expert exam includes multiple-choice and essay sections. Refer to istqb.org."
+        },
+        "isVerified": false,
+        "verificationNote": {
+          "fr": "Métadonnées uniquement.",
+          "en": "Metadata only."
+        }
+      },
+      "changelogSummary": {
+        "fr": "Gouvernance stratégique du test au niveau Expert.",
+        "en": "Strategic test governance at Expert level."
+      },
+      "sources": [
+        "ISTQB Official Portfolio"
+      ],
+      "lastVerified": "2026-11-19",
+      "isPackDownloaded": false
+    }
+  ]
+}

@@ -1,0 +1,1260 @@
+{
+  "chapters": [
+    {
+      "id": "ctfl-v4.0-ch1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Fondamentaux des tests",
+        "en": "Fundamentals of Testing"
+      },
+      "summary": {
+        "fr": "Finalité du test logiciel, distinction erreur/défaut/défaillance, les 7 principes fondamentaux, activités et testware du processus de test, compétences et approche Whole Team.",
+        "en": "Purpose of testing, error/defect/failure chain, 7 testing principles, test process activities and testware, roles, skills, and the whole-team approach."
+      },
+      "recommendedMinutes": 75,
+      "targetExamQuestions": 8
+    },
+    {
+      "id": "ctfl-v4.0-ch2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Tester tout au long du cycle de vie logiciel (SDLC)",
+        "en": "Testing Throughout the Software Development Lifecycle"
+      },
+      "summary": {
+        "fr": "Influence du modèle SDLC (séquentiel, itératif, Agile), Shift-Left, rétrospectives, CI/CD, niveaux de test, types de test et tests de maintenance.",
+        "en": "SDLC impact on testing (sequential, iterative, Agile), Shift-Left, retrospectives, CI/CD, test levels, test types, and maintenance testing."
+      },
+      "recommendedMinutes": 70,
+      "targetExamQuestions": 6
+    },
+    {
+      "id": "ctfl-v4.0-ch3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Tests statiques",
+        "en": "Static Testing"
+      },
+      "summary": {
+        "fr": "Bases du test statique vs dynamique, valeur des revues précoces, processus formel de revue, rôles, types de revues et facteurs de succès.",
+        "en": "Static vs dynamic testing fundamentals, early feedback value, formal review process, roles, review types, and success factors."
+      },
+      "recommendedMinutes": 45,
+      "targetExamQuestions": 4
+    },
+    {
+      "id": "ctfl-v4.0-ch4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "Analyse et conception des tests",
+        "en": "Test Analysis and Test Design"
+      },
+      "summary": {
+        "fr": "Techniques boîte noire (partitions, valeurs limites 2 et 3 valeurs, tables de décision, transitions d’états), boîte blanche (instructions, branches), basées sur l’expérience et sur la collaboration.",
+        "en": "Black-box techniques (EP, 2/3-value BVA, decision tables, state transitions), white-box (statement, branch), experience-based, and collaboration-based approaches."
+      },
+      "recommendedMinutes": 120,
+      "targetExamQuestions": 11
+    },
+    {
+      "id": "ctfl-v4.0-ch5",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 5,
+      "code": "5",
+      "title": {
+        "fr": "Gestion des activités de test",
+        "en": "Managing the Test Activities"
+      },
+      "summary": {
+        "fr": "Planification des tests, critères d’entrée/sortie, estimation, pyramide et quadrants, gestion des risques produit/projet, suivi/contrôle/clôture, gestion de configuration et des défauts.",
+        "en": "Test planning, entry/exit criteria, estimation, test pyramid & quadrants, risk-based testing, monitoring/control/completion, configuration and defect management."
+      },
+      "recommendedMinutes": 95,
+      "targetExamQuestions": 9
+    },
+    {
+      "id": "ctfl-v4.0-ch6",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "order": 6,
+      "code": "6",
+      "title": {
+        "fr": "Outils de test",
+        "en": "Test Tools"
+      },
+      "summary": {
+        "fr": "Catégories d’outils soutenant les activités de test, bénéfices et risques réalistes de l’automatisation des tests.",
+        "en": "Tool support categories across testing activities, benefits and realistic risks of test automation."
+      },
+      "recommendedMinutes": 30,
+      "targetExamQuestions": 2
+    }
+  ],
+  "objectives": [
+    {
+      "id": "FL-1.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.1",
+      "code": "FL-1.1.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Identifier les objectifs typiques du test",
+        "en": "Identify typical test objectives"
+      },
+      "description": {
+        "fr": "Reconnaître pourquoi on teste : évaluer les produits d’activité, déclencher des défaillances, assurer la couverture, réduire le risque, vérifier la conformité et renforcer la confiance.",
+        "en": "Recognize core purposes of testing: evaluating work products, triggering failures, ensuring coverage, reducing risk, verifying compliance, and building stakeholder confidence."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.1.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.1",
+      "code": "FL-1.1.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer test et débogage",
+        "en": "Differentiate testing from debugging"
+      },
+      "description": {
+        "fr": "Expliquer que le test met en évidence des défaillances ou défauts tandis que le débogage vise à diagnostiquer et corriger la cause racine dans le code.",
+        "en": "Explain how testing reveals failures or defects whereas debugging locates, analyzes, and eliminates root causes in code."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.2",
+      "code": "FL-1.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer la contribution du test à la réussite",
+        "en": "Exemplify why testing is necessary"
+      },
+      "description": {
+        "fr": "Illustrer la réduction des risques opérationnels, l’apport d’informations fiables aux décideurs et l’obligation de conformité réglementaire.",
+        "en": "Illustrate how testing reduces operational risk, informs release decisions, and supports contractual or regulatory compliance."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.2.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.2",
+      "code": "FL-1.2.2",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Relier assurance qualité et test",
+        "en": "Recall the relation between testing and quality assurance"
+      },
+      "description": {
+        "fr": "Distinguer l’assurance qualité (orientée processus préventif) du contrôle qualité et du test (orientés produit).",
+        "en": "Distinguish process-oriented preventive quality assurance from product-oriented quality control and testing."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.2.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.2",
+      "code": "FL-1.2.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer erreur, défaut, défaillance et cause racine",
+        "en": "Distinguish between root cause, error, defect, and failure"
+      },
+      "description": {
+        "fr": "Expliquer la chaîne causale entre l’erreur humaine, le défaut introduit dans un artefact, la défaillance observée à l’exécution et sa cause racine.",
+        "en": "Explain the causal chain connecting human error, introduced defect, runtime failure, and underlying root cause."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.3.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.3",
+      "code": "FL-1.3.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer les 7 principes du test",
+        "en": "Explain the seven testing principles"
+      },
+      "description": {
+        "fr": "Comprendre et appliquer les 7 principes fondamentaux : présence de défauts, exhaustivité impossible, test précoce, regroupement, usure des tests, dépendance au contexte et illusion de l’absence de défauts.",
+        "en": "Understand and apply the 7 principles: presence of defects, exhaustive testing impossible, early testing, defect clustering, tests wear out, context dependency, and absence-of-defects fallacy."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.4.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.4",
+      "code": "FL-1.4.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer les activités du processus de test",
+        "en": "Summarize the different test activities and tasks"
+      },
+      "description": {
+        "fr": "Décrire planification, suivi/contrôle, analyse, conception, implémentation, exécution et clôture des tests.",
+        "en": "Summarize test planning, monitoring/control, analysis, design, implementation, execution, and completion."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.4.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.4",
+      "code": "FL-1.4.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’impact du contexte sur le processus de test",
+        "en": "Explain the impact of context on the test process"
+      },
+      "description": {
+        "fr": "Montrer comment la criticité, l’organisation, le SDLC et la réglementation adaptent l’ordre et le formalisme des activités de test.",
+        "en": "Explain how system criticality, team structure, SDLC model, and regulations tailor test process execution."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.4.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.4",
+      "code": "FL-1.4.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Associer les testware aux activités de test",
+        "en": "Differentiate the testware supporting the test activities"
+      },
+      "description": {
+        "fr": "Relier plans, conditions, cas, procédures, données, environnements et rapports d’avancement à leurs activités productrices.",
+        "en": "Map test plans, test conditions, cases, scripts, data, environments, and reports to their corresponding activities."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.4.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.4",
+      "code": "FL-1.4.4",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’intérêt de la traçabilité",
+        "en": "Explain the value of maintaining traceability"
+      },
+      "description": {
+        "fr": "Démontrer comment la traçabilité entre base de test et artefacts facilite l’analyse d’impact, les audits et les critères de sortie.",
+        "en": "Explain how traceability between test basis and testware supports impact analysis, audits, and exit evaluation."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.4.5",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.4",
+      "code": "FL-1.4.5",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Comparer les rôles de test et de gestion des tests",
+        "en": "Compare the different roles in testing"
+      },
+      "description": {
+        "fr": "Distinguer les responsabilités du rôle de test management et du rôle de testing selon la taille et l’agilité de l’organisation.",
+        "en": "Compare test management and testing role responsibilities across traditional and agile contexts."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.5.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.5",
+      "code": "FL-1.5.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Identifier les compétences génériques utiles au test",
+        "en": "Give examples of the generic skills required for testing"
+      },
+      "description": {
+        "fr": "Illustrer l’importance de l’esprit critique, de la communication bienveillante, de la curiosité et de la connaissance métier.",
+        "en": "Provide examples of critical thinking, constructive communication, curiosity, and domain knowledge in testing."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.5.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.5",
+      "code": "FL-1.5.2",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les bénéfices de l’approche Whole Team",
+        "en": "Recall the advantages of the whole team approach"
+      },
+      "description": {
+        "fr": "Identifier comment la co-responsabilité de toute l’équipe sur la qualité améliore la collaboration et la vélocité.",
+        "en": "Recall how shared quality ownership across all team members improves communication and delivery quality."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-1.5.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "sectionId": "ctfl-v4.0-s1.5",
+      "code": "FL-1.5.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer les degrés d’indépendance des tests",
+        "en": "Distinguish the benefits and drawbacks of independence of testing"
+      },
+      "description": {
+        "fr": "Comparer la réduction des biais cognitifs (regard neuf) aux risques d’isolement ou de goulot d’étranglement.",
+        "en": "Compare reduced cognitive bias from independent testers against potential isolation or bottleneck risks."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’impact du SDLC sur le test",
+        "en": "Explain the impact of the chosen SDLC on testing"
+      },
+      "description": {
+        "fr": "Adapter les niveaux, l’automatisation et la fréquence des tests entre modèles séquentiels, itératifs et incrémentaux.",
+        "en": "Explain how sequential, iterative, and incremental SDLCs shape test timing, documentation, and automation."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.2",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les bonnes pratiques de test applicables à tout SDLC",
+        "en": "Recall good testing practices that apply to all SDLCs"
+      },
+      "description": {
+        "fr": "Associer chaque activité de développement à une activité de test correspondante et impliquer les testeurs dès les revues initiales.",
+        "en": "Recall universal practices: matching development and test activities, early tester involvement, and tailored test objectives per level."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.3",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler le TDD, l’ATDD et le BDD",
+        "en": "Recall the examples of test-first approaches to development"
+      },
+      "description": {
+        "fr": "Identifier comment TDD, ATDD et BDD utilisent des tests exécutables avant l’écriture du code métier.",
+        "en": "Recall how TDD, ATDD, and BDD define executable tests before production implementation."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.4",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer l’impact du DevOps sur le test",
+        "en": "Summarize how DevOps might have an impact on testing"
+      },
+      "description": {
+        "fr": "Expliquer l’intégration CI/CD, le feedback rapide, les tests non fonctionnels continus et le risque de dépendance excessive aux suites automatisées.",
+        "en": "Summarize DevOps impacts: automated CI/CD gates, fast feedback, shift-left & shift-right testing, and automation maintenance."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.5",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.5",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’approche Shift-Left",
+        "en": "Explain the shift-left approach"
+      },
+      "description": {
+        "fr": "Démontrer pourquoi déplacer revues, écriture de tests et analyse statique vers l’amont réduit le coût global de non-qualité.",
+        "en": "Explain how performing reviews, test design, and static checks earlier lowers total defect-remediation costs."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.1.6",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.1",
+      "code": "FL-2.1.6",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer comment les rétrospectives améliorent les tests",
+        "en": "Explain how retrospectives can be used as a mechanism for process improvement"
+      },
+      "description": {
+        "fr": "Montrer le rôle des rétrospectives d’itération ou de projet pour ajuster les pratiques d’équipe et la qualité des tests.",
+        "en": "Explain how team retrospectives identify actionable improvements for test effectiveness and workflow."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.2",
+      "code": "FL-2.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer les 5 niveaux de test",
+        "en": "Distinguish the different test levels"
+      },
+      "description": {
+        "fr": "Comparer tests de composant, d’intégration de composants, de système, d’intégration de systèmes et d’acceptation (UAT, OAT, alpha/beta).",
+        "en": "Distinguish component, component integration, system, system integration, and acceptance testing."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.2.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.2",
+      "code": "FL-2.2.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer les types de test",
+        "en": "Distinguish the different test types"
+      },
+      "description": {
+        "fr": "Différencier tests fonctionnels, non fonctionnels (ISO 25010), boîte noire et boîte blanche.",
+        "en": "Distinguish functional, non-functional (ISO 25010), black-box, and white-box test types."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.2.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.2",
+      "code": "FL-2.2.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer tests de confirmation et de non-régression",
+        "en": "Distinguish confirmation testing from regression testing"
+      },
+      "description": {
+        "fr": "Expliquer que le test de confirmation valide un correctif ciblé tandis que la non-régression vérifie l’absence d’impacts collatéraux.",
+        "en": "Distinguish targeted fix verification (confirmation testing) from broader side-effect verification (regression testing)."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-2.3.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "sectionId": "ctfl-v4.0-s2.3",
+      "code": "FL-2.3.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer les tests de maintenance et leurs déclencheurs",
+        "en": "Summarize maintenance testing and its triggers"
+      },
+      "description": {
+        "fr": "Identifier les 3 déclencheurs majeurs (modification, migration, retrait) et le rôle central de l’analyse d’impact.",
+        "en": "Summarize maintenance triggers (modification, migration, retirement) and the role of impact analysis."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.1",
+      "code": "FL-3.1.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Reconnaître les produits examinables par test statique",
+        "en": "Recognize types of products that can be examined by static testing"
+      },
+      "description": {
+        "fr": "Identifier presque tout artefact lisible : spécifications, user stories, code, architecture, plans et cas de test.",
+        "en": "Recognize eligible work products: requirements, user stories, source code, architecture models, and testware."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.1.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.1",
+      "code": "FL-3.1.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer la valeur des tests statiques",
+        "en": "Explain the value of static testing"
+      },
+      "description": {
+        "fr": "Montrer comment la détection précoce des défauts d’exigences ou de conception réduit les coûts avant même l’exécution du code.",
+        "en": "Explain how detecting defects in specifications and code before execution saves rework cost and improves quality."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.1.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.1",
+      "code": "FL-3.1.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Comparer tests statiques et tests dynamiques",
+        "en": "Compare and contrast static testing and dynamic testing"
+      },
+      "description": {
+        "fr": "Distinguer les défauts trouvés directement sans exécution des défaillances déclenchées en exécution dynamique.",
+        "en": "Contrast finding defects directly without code execution vs triggering failures dynamically at runtime."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.2",
+      "code": "FL-3.2.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Identifier les bénéfices du feedback précoce",
+        "en": "Identify the benefits of early and frequent stakeholder feedback"
+      },
+      "description": {
+        "fr": "Reconnaître comment les retours fréquents évitent les malentendus coûteux et alignent la valeur métier.",
+        "en": "Identify how early stakeholder feedback prevents misunderstandings and costly late-stage rework."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.2.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.2",
+      "code": "FL-3.2.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer les activités du processus de revue",
+        "en": "Summarize the activities of the review process"
+      },
+      "description": {
+        "fr": "Décrire planification, initiation, revue individuelle, communication/analyse et correction/clôture.",
+        "en": "Summarize planning, review initiation, individual review, communication/analysis, and fixing/reporting."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.2.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.2",
+      "code": "FL-3.2.3",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les responsabilités des rôles en revue",
+        "en": "Recall which responsibilities are assigned to the principal roles"
+      },
+      "description": {
+        "fr": "Identifier les rôles : Manager, Auteur, Modérateur, Scribe, Réviseur et Responsable de revue.",
+        "en": "Recall responsibilities of Manager, Author, Moderator, Scribe, Reviewer, and Review Leader."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.2.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.2",
+      "code": "FL-3.2.4",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Comparer les types de revues",
+        "en": "Compare and contrast the different review types"
+      },
+      "description": {
+        "fr": "Différencier revue informelle, walkthrough, revue technique et inspection formelle.",
+        "en": "Compare informal reviews, walkthroughs, technical reviews, and formal inspections."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-3.2.5",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "sectionId": "ctfl-v4.0-s3.2",
+      "code": "FL-3.2.5",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les facteurs de succès des revues",
+        "en": "Recall the factors that contribute to a successful review"
+      },
+      "description": {
+        "fr": "Identifier objectifs clairs, taille limitée des artefacts, culture constructive sans blâme et check-lists adaptées.",
+        "en": "Recall success factors: clear objectives, manageable chunk sizes, supportive blame-free culture, and focused checklists."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.1",
+      "code": "FL-4.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer techniques boîte noire, boîte blanche et basées sur l’expérience",
+        "en": "Distinguish black-box, white-box, and experience-based test techniques"
+      },
+      "description": {
+        "fr": "Classer les techniques selon qu’elles s’appuient sur le comportement externe, la structure interne ou le savoir-faire du testeur.",
+        "en": "Classify techniques based on external specifications, internal code structure, or tester expertise."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.2",
+      "code": "FL-4.2.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer les partitions d’équivalence",
+        "en": "Use equivalence partitioning to derive test cases"
+      },
+      "description": {
+        "fr": "Identifier les partitions valides et invalides et calculer la couverture Each Choice en pratique.",
+        "en": "Identify valid and invalid equivalence partitions and derive minimal covering test cases."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.2.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.2",
+      "code": "FL-4.2.2",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer l’analyse des valeurs limites (2 et 3 valeurs)",
+        "en": "Use boundary value analysis to derive test cases"
+      },
+      "description": {
+        "fr": "Déterminer les bornes exactes et dériver les valeurs de test en BVA 2-valeurs et 3-valeurs.",
+        "en": "Determine exact boundaries and derive 2-value and 3-value BVA test inputs."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.2.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.2",
+      "code": "FL-4.2.3",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer les tables de décision",
+        "en": "Use decision table testing to derive test cases"
+      },
+      "description": {
+        "fr": "Modéliser les combinaisons de conditions et d’actions, simplifier les règles redondantes et dériver les cas de test.",
+        "en": "Build condition/action tables, handle indifferent conditions, and derive covering test cases."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.2.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.2",
+      "code": "FL-4.2.4",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer les tests de transition d’états",
+        "en": "Use state transition testing to derive test cases"
+      },
+      "description": {
+        "fr": "Dériver des séquences couvrant tous les états, toutes les transitions valides (0-switch) et détecter les transitions invalides.",
+        "en": "Derive test sequences covering all states, valid transitions, and invalid transitions."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.3.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.3",
+      "code": "FL-4.3.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer la couverture des instructions",
+        "en": "Explain statement testing"
+      },
+      "description": {
+        "fr": "Comprendre le calcul du taux de couverture des instructions exécutables et ses limites face aux branches vides.",
+        "en": "Explain statement coverage calculation and why 100% statement coverage may still miss false branches."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.3.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.3",
+      "code": "FL-4.3.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer la couverture des branches",
+        "en": "Explain branch testing"
+      },
+      "description": {
+        "fr": "Comprendre la couverture des arêtes décisionnelles du flot de contrôle et sa subsomption de la couverture des instructions.",
+        "en": "Explain branch coverage of control-flow edges and why it subsumes statement coverage."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.3.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.3",
+      "code": "FL-4.3.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer la valeur des tests boîte blanche",
+        "en": "Explain the value of white-box testing"
+      },
+      "description": {
+        "fr": "Identifier le repérage de code mort, de branches non spécifiées et la complémentarité avec la boîte noire.",
+        "en": "Explain how white-box testing uncovers dead code and unspecified logic paths alongside black-box tests."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.4.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.4",
+      "code": "FL-4.4.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’estimation d’erreur",
+        "en": "Explain error guessing"
+      },
+      "description": {
+        "fr": "Expliquer comment anticiper les erreurs typiques (limites nulles, formats, concurrence) grâce aux taxonomies de défauts.",
+        "en": "Explain anticipating common mistakes using defect taxonomies and past experience."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.4.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.4",
+      "code": "FL-4.4.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer les tests exploratoires",
+        "en": "Explain exploratory testing"
+      },
+      "description": {
+        "fr": "Expliquer l’apprentissage et la conception simultanés guidés par des chartes de session chronométrées (SBTM).",
+        "en": "Explain simultaneous learning and test execution guided by time-boxed session charters."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.4.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.4",
+      "code": "FL-4.4.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer les tests basés sur les check-lists",
+        "en": "Explain checklist-based testing"
+      },
+      "description": {
+        "fr": "Expliquer la conception de tests guidée par des listes de contrôle évolutives sans couvrir uniquement des scripts rigides.",
+        "en": "Explain designing and executing tests from maintained quality checklists."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.5.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.5",
+      "code": "FL-4.5.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’écriture collaborative des User Stories (3C & INVEST)",
+        "en": "Explain how to write user stories in collaboration with developers and business representatives"
+      },
+      "description": {
+        "fr": "Appliquer les 3 C (Card, Conversation, Confirmation) et les critères INVEST pour obtenir des stories testables.",
+        "en": "Explain the 3 Cs (Card, Conversation, Confirmation) and INVEST criteria for testable user stories."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.5.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.5",
+      "code": "FL-4.5.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Classifier les critères d’acceptation",
+        "en": "Classify the different options for writing acceptance criteria"
+      },
+      "description": {
+        "fr": "Distinguer les formats orientés scénarios (Given/When/Then) et orientés règles (listes à puces ou tables).",
+        "en": "Classify scenario-oriented (Given/When/Then) and rule-oriented acceptance criteria formats."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-4.5.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "sectionId": "ctfl-v4.0-s4.5",
+      "code": "FL-4.5.3",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer l’ATDD pour dériver des cas de test",
+        "en": "Use acceptance test-driven development (ATDD) to derive test cases"
+      },
+      "description": {
+        "fr": "Transformer des exemples collaboratifs issus d’ateliers « Trois Amigos » en cas de test exécutables.",
+        "en": "Derive executable test cases collaboratively from Three Amigos examples prior to coding."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer l’objet et le contenu d’un plan de test",
+        "en": "Exemplify the purpose and content of a test plan"
+      },
+      "description": {
+        "fr": "Décrire le rôle du plan de test : périmètre, objectifs, risques, stratégie, ressources, calendrier et critères d’entrée/sortie.",
+        "en": "Exemplify scope, objectives, risks, approach, resources, schedule, and entry/exit criteria in a test plan."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.2",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Reconnaître la contribution du testeur au planning d’itération et de release",
+        "en": "Recognize how a tester adds value to iteration and release planning"
+      },
+      "description": {
+        "fr": "Identifier l’apport du testeur : estimation de l’effort de test, découpage des stories, analyse de risque et critères d’acceptation.",
+        "en": "Recognize tester contributions to release and iteration planning: risk input, test effort sizing, and testability."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Comparer critères d’entrée et critères de sortie",
+        "en": "Compare and contrast entry criteria and exit criteria"
+      },
+      "description": {
+        "fr": "Distinguer les préconditions de démarrage (Definition of Ready) des conditions d’achèvement (Definition of Done).",
+        "en": "Compare preconditions to start testing with measurable completion conditions (DoR vs DoD)."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.4",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Appliquer les techniques d’estimation de l’effort de test",
+        "en": "Use estimation techniques to calculate the required test effort"
+      },
+      "description": {
+        "fr": "Utiliser l’estimation par ratios, l’extrapolation, Wideband Delphi et l’estimation à trois points (O+4M+P)/6.",
+        "en": "Apply ratio-based estimation, extrapolation, Wideband Delphi, and three-point estimation (O+4M+P)/6."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.5",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.5",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Prioriser les cas de test selon les risques et dépendances",
+        "en": "Apply test case prioritization"
+      },
+      "description": {
+        "fr": "Ordonnancer l’exécution selon le niveau de risque, la couverture et les dépendances techniques entre cas.",
+        "en": "Order test execution by risk exposure, coverage gain, and technical dependencies."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.6",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.6",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les concepts de pyramide et de quadrants de test",
+        "en": "Recall the concepts of the test pyramid"
+      },
+      "description": {
+        "fr": "Identifier l’équilibre entre tests rapides bas niveau et tests E2E, ainsi que la classification en 4 quadrants.",
+        "en": "Recall the test pyramid balance and the four Agile testing quadrants."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.1.7",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.1",
+      "code": "FL-5.1.7",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer les quadrants de test",
+        "en": "Summarize the testing quadrants and their relationships with test levels and test types"
+      },
+      "description": {
+        "fr": "Relier Q1, Q2, Q3 et Q4 aux objectifs d’aide à l’équipe ou de critique produit.",
+        "en": "Map Q1–Q4 quadrants to technology/business orientation and team-support vs product-critique goals."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.2",
+      "code": "FL-5.2.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Identifier les facteurs de risque et niveaux de risque",
+        "en": "Identify risk level by using risk likelihood and risk impact"
+      },
+      "description": {
+        "fr": "Comprendre que le niveau de risque combine probabilité d’occurrence et impact métier/technique.",
+        "en": "Identify how risk level combines likelihood and impact."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.2.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.2",
+      "code": "FL-5.2.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Distinguer risques projet et risques produit",
+        "en": "Distinguish between project risks and product risks"
+      },
+      "description": {
+        "fr": "Classer des exemples concrets entre menaces sur le planning/budget (projet) et menaces sur la qualité logicielle (produit).",
+        "en": "Differentiate schedule/resource threats (project risks) from software quality threats (product risks)."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.2.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.2",
+      "code": "FL-5.2.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer comment l’analyse des risques produit oriente les tests",
+        "en": "Explain how product risk analysis may influence thoroughness and scope of testing"
+      },
+      "description": {
+        "fr": "Montrer l’adaptation des techniques, de l’indépendance et du niveau d’effort en fonction des risques produit.",
+        "en": "Explain how product risk drives test depth, technique selection, and prioritization."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.2.4",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.2",
+      "code": "FL-5.2.4",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer les mesures de mitigation des risques produit par le test",
+        "en": "Explain what measures can be taken in response to analyzed product risks"
+      },
+      "description": {
+        "fr": "Décrire la sélection de testeurs experts, le choix de techniques rigoureuses et les tests de confirmation/non-régression.",
+        "en": "Explain risk mitigation actions: rigorous techniques, expert assignment, independent testing, and targeted regression."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.3.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.3",
+      "code": "FL-5.3.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les métriques utilisées en test",
+        "en": "Recall metrics used for testing"
+      },
+      "description": {
+        "fr": "Identifier les métriques d’avancement, de couverture, de défauts et de risque résiduel.",
+        "en": "Recall progress, coverage, defect density, and residual risk metrics."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.3.2",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.3",
+      "code": "FL-5.3.2",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer l’objet des rapports d’avancement et de clôture",
+        "en": "Summarize the purposes, content, and audiences for test reports"
+      },
+      "description": {
+        "fr": "Adapter les rapports d’avancement (pendant) et de synthèse/clôture (à la fin) aux attentes des décideurs et équipes.",
+        "en": "Distinguish ongoing test progress reports from end-of-cycle test completion reports."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.3.3",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.3",
+      "code": "FL-5.3.3",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Communiquer le statut des tests",
+        "en": "Exemplify how to communicate the status of testing"
+      },
+      "description": {
+        "fr": "Présenter des informations factuelles via tableaux de bord, réunions quotidiennes et rapports structurés.",
+        "en": "Communicate factual test status using dashboards, daily standups, and structured reports."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.4.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.4",
+      "code": "FL-5.4.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Résumer le rôle de la gestion de configuration dans les tests",
+        "en": "Summarize how configuration management supports testing"
+      },
+      "description": {
+        "fr": "Expliquer l’identification, le versionnement et l’intégrité des builds, scripts de test et environnements.",
+        "en": "Explain versioning, baseline control, and traceability across builds, testware, and environments."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-5.5.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "sectionId": "ctfl-v4.0-s5.5",
+      "code": "FL-5.5.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Rédiger un rapport de défaut clair et exploitable",
+        "en": "Prepare a defect report"
+      },
+      "description": {
+        "fr": "Inclure identifiant, titre, environnement, étapes de reproduction, résultat observé vs attendu, sévérité/priorité et preuves.",
+        "en": "Include ID, concise summary, environment, reproduction steps, actual vs expected results, severity/priority, and evidence."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-6.1.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch6",
+      "sectionId": "ctfl-v4.0-s6.1",
+      "code": "FL-6.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Expliquer comment les outils soutiennent les différentes activités de test",
+        "en": "Explain how different types of test tools support testing"
+      },
+      "description": {
+        "fr": "Catégoriser les outils de gestion, d’analyse statique, de conception, d’exécution/couverture et de tests non fonctionnels.",
+        "en": "Categorize test management, static analysis, design, execution/coverage, and non-functional testing tools."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    },
+    {
+      "id": "FL-6.2.1",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch6",
+      "sectionId": "ctfl-v4.0-s6.2",
+      "code": "FL-6.2.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Rappeler les bénéfices et risques de l’automatisation des tests",
+        "en": "Recall the benefits and risks of test automation"
+      },
+      "description": {
+        "fr": "Identifier les gains (vitesse, répétabilité, libération du temps humain) et les risques (maintenance coûteuse, faux sentiment de sécurité, attentes irréalistes).",
+        "en": "Recall automation benefits (speed, consistency, regression safety) and risks (maintenance overhead, false confidence, unrealistic ROI)."
+      },
+      "source": "CTFL v4.0 Structure Reference"
+    }
+  ]
+}

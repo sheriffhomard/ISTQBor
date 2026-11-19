@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-ctfl4-01",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.1.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence fondamentale entre Test et Débogage ?",
+        "en": "What is the core difference between Testing and Debugging?"
+      },
+      "back": {
+        "fr": "Le test met en évidence des défaillances (ou défauts en test statique) ; le débogage (activité de développement) localise et corrige la cause du défaut dans le code.",
+        "en": "Testing reveals failures (or defects in static testing); debugging (a development activity) locates and removes the defect cause in code."
+      },
+      "hint": {
+        "fr": "Lequel révèle le problème et lequel répare le code ?",
+        "en": "Which exposes the problem and which fixes the code?"
+      },
+      "tags": [
+        "ch1",
+        "fundamentals"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-02",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.2.3",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Reliez dans l’ordre causal : Erreur, Défaut et Défaillance.",
+        "en": "Order and link the causal chain: Error, Defect, and Failure."
+      },
+      "back": {
+        "fr": "Une erreur humaine → produit un défaut dans un artefact/code → qui peut entraîner une défaillance observable lors de l’exécution.",
+        "en": "A human error → introduces a defect in a work product/code → which may cause an observable failure when executed."
+      },
+      "tags": [
+        "ch1",
+        "terminology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-03",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.3.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’énonce le Principe 5 : « Les tests s’usent » (Tests wear out) ?",
+        "en": "What does Principle 5 (\"Tests wear out\") state?"
+      },
+      "back": {
+        "fr": "Si les mêmes tests sont répétés indéfiniment sans évolution, ils cessent de détecter de nouveaux défauts. Il faut les réviser, varier les données et créer de nouveaux cas.",
+        "en": "If the same tests are repeated unchanged over time, they stop finding new defects. Tests and data must be regularly updated and refreshed."
+      },
+      "tags": [
+        "ch1",
+        "principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-04",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.3.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’illusion de l’absence de défauts (Principe 7) ?",
+        "en": "What is the Absence-of-Defects Fallacy (Principle 7)?"
+      },
+      "back": {
+        "fr": "Croire qu’un logiciel exempt de bugs techniques réussira automatiquement : s’il est inutilisable ou ne répond pas au besoin métier réel, le projet échoue.",
+        "en": "Assuming a bug-free system guarantees success: if the software is unusable or fails to fulfill real user needs, it still fails."
+      },
+      "tags": [
+        "ch1",
+        "principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-05",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.4.4",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels bénéfices procure la traçabilité entre base de test et testware ?",
+        "en": "What value does traceability between test basis and testware provide?"
+      },
+      "back": {
+        "fr": "Analyse d’impact lors de changements d’exigences, vérification des critères de sortie/couverture, auditabilité et communication claire avec les parties prenantes.",
+        "en": "Impact analysis when requirements change, coverage/exit criteria evaluation, auditability, and clear stakeholder reporting."
+      },
+      "tags": [
+        "ch1",
+        "process"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-06",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch1",
+      "objectiveId": "FL-1.5.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste l’approche « Whole Team » en CTFL v4.0 ?",
+        "en": "What is the Whole-Team approach in CTFL v4.0?"
+      },
+      "back": {
+        "fr": "Toute l’équipe partage la responsabilité de la qualité : chacun contribue selon ses compétences (pair testing, revues croisées, espaces de travail communs).",
+        "en": "Every team member shares responsibility for quality, collaborating closely regardless of role via pairing and shared workspaces."
+      },
+      "tags": [
+        "ch1",
+        "team"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-07",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "objectiveId": "FL-2.1.5",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez l’approche Shift-Left et citez deux exemples concrets.",
+        "en": "Define Shift-Left and give two concrete examples."
+      },
+      "back": {
+        "fr": "Déplacer le test plus tôt dans le SDLC : revue précoce des exigences/stories avant codage, écriture de tests avant le code (TDD/ATDD), analyse statique dans l’IDE.",
+        "en": "Performing testing earlier in the SDLC: reviewing user stories before coding, writing tests before code (TDD/ATDD), and IDE static analysis."
+      },
+      "tags": [
+        "ch2",
+        "shift-left"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-08",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "objectiveId": "FL-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Intégration de Composants et Intégration de Systèmes.",
+        "en": "Distinguish Component Integration from System Integration testing."
+      },
+      "back": {
+        "fr": "Intégration de composants : vérifie les interfaces entre composants internes du même système. Intégration de systèmes : vérifie les échanges avec des systèmes externes ou tiers.",
+        "en": "Component integration tests internal interfaces between modules; system integration tests interactions with external/third-party systems."
+      },
+      "tags": [
+        "ch2",
+        "levels"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-09",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "objectiveId": "FL-2.2.3",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Test de confirmation vs Test de non-régression : quelle différence ?",
+        "en": "Confirmation testing vs Regression testing: what is the difference?"
+      },
+      "back": {
+        "fr": "Confirmation : vérifier que le défaut corrigé ne se reproduit plus. Non-régression : vérifier que la correction ou l’évolution n’a rien cassé ailleurs.",
+        "en": "Confirmation checks that a specific defect fix worked; regression checks that the change caused no unintended side effects elsewhere."
+      },
+      "tags": [
+        "ch2",
+        "types"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-10",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch2",
+      "objectiveId": "FL-2.3.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels sont les 3 déclencheurs des tests de maintenance ?",
+        "en": "What are the 3 triggers for Maintenance Testing?"
+      },
+      "back": {
+        "fr": "1) Modification (évolutions, correctifs d’urgence). 2) Migration (changement de plateforme, OS, cloud). 3) Retrait (archivage et décommissionnement).",
+        "en": "1) Modification (enhancements, hotfixes). 2) Migration (platform, OS, or cloud moves). 3) Retirement (archiving and decommissioning)."
+      },
+      "tags": [
+        "ch2",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-11",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "objectiveId": "FL-3.1.3",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Test statique vs Test dynamique : que détecte chacun directement ?",
+        "en": "Static vs Dynamic testing: what does each find directly?"
+      },
+      "back": {
+        "fr": "Le test statique trouve des défauts directement dans les artefacts sans exécuter le code ; le test dynamique déclenche des défaillances en exécutant le logiciel.",
+        "en": "Static testing finds defects directly in work products without execution; dynamic testing triggers runtime failures by executing software."
+      },
+      "tags": [
+        "ch3",
+        "static"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-12",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "objectiveId": "FL-3.2.4",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le type de revue le plus formel et qui le dirige ?",
+        "en": "Which review type is the most formal and who leads it?"
+      },
+      "back": {
+        "fr": "L’Inspection : animée par un Modérateur formé (jamais l’auteur), avec rôles définis, check-lists, critères d’entrée/sortie et métriques.",
+        "en": "Inspection: led by a trained Moderator (never the author), using defined roles, checklists, entry/exit criteria, and metrics."
+      },
+      "tags": [
+        "ch3",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-13",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch3",
+      "objectiveId": "FL-3.2.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Listez les 5 activités du processus formel de revue.",
+        "en": "List the 5 activities of the formal review process."
+      },
+      "back": {
+        "fr": "1) Planification 2) Initiation de la revue 3) Revue individuelle 4) Communication et analyse 5) Correction et rapport.",
+        "en": "1) Planning 2) Review Initiation 3) Individual Review 4) Communication & Analysis 5) Fixing & Reporting."
+      },
+      "tags": [
+        "ch3",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-14",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.2.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pour une plage entière [1..100], quelles sont les valeurs en BVA 2-valeurs ?",
+        "en": "For integer range [1..100], what are the 2-value BVA test inputs?"
+      },
+      "back": {
+        "fr": "4 valeurs : 0, 1 (borne min et voisin externe) et 100, 101 (borne max et voisin externe).",
+        "en": "4 values: 0, 1 (min boundary and outer neighbor) and 100, 101 (max boundary and outer neighbor)."
+      },
+      "tags": [
+        "ch4",
+        "bva"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-15",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.2.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pour la même plage [1..100], qu’ajoute la BVA à 3 valeurs ?",
+        "en": "For the same range [1..100], what does 3-value BVA add?"
+      },
+      "back": {
+        "fr": "Les voisins internes immédiats (2 et 99), soit 6 valeurs au total : {0, 1, 2, 99, 100, 101}.",
+        "en": "The immediate inner neighbors (2 and 99), totaling 6 values: {0, 1, 2, 99, 100, 101}."
+      },
+      "tags": [
+        "ch4",
+        "bva"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-16",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.3.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "100 % de couverture des branches implique-t-il 100 % de couverture des instructions ?",
+        "en": "Does 100% branch coverage imply 100% statement coverage?"
+      },
+      "back": {
+        "fr": "Oui, toujours (en l’absence de code mort inaccessible). En revanche, 100 % d’instructions n’implique pas 100 % de branches (ex. un « if » sans « else »).",
+        "en": "Yes, always (assuming reachable code). Conversely, 100% statement coverage does NOT guarantee 100% branch coverage (e.g., an \"if\" without \"else\")."
+      },
+      "tags": [
+        "ch4",
+        "white-box"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-17",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.4.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structure-t-on efficacement le test exploratoire ?",
+        "en": "How is exploratory testing effectively structured?"
+      },
+      "back": {
+        "fr": "Par gestion de tests basée sur les sessions (SBTM) : sessions chronométrées (time-boxed) guidées par une charte de test (objectif et périmètre).",
+        "en": "Via Session-Based Test Management (SBTM): time-boxed sessions guided by a focused test charter."
+      },
+      "tags": [
+        "ch4",
+        "experience"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-18",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.5.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie l’acronyme INVEST pour une User Story ?",
+        "en": "What does the INVEST acronym stand for in User Stories?"
+      },
+      "back": {
+        "fr": "Independent (Indépendante), Negotiable (Négociable), Valuable (Apportant de la valeur), Estimable, Small (Petite), Testable.",
+        "en": "Independent, Negotiable, Valuable, Estimable, Small, Testable."
+      },
+      "tags": [
+        "ch4",
+        "collaboration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-19",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "objectiveId": "FL-5.1.4",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Formule de l’estimation à trois points (PERT) et écart-type.",
+        "en": "Three-point estimation (PERT) formula and standard deviation."
+      },
+      "back": {
+        "fr": "Effort estimé E = (O + 4M + P) / 6. Écart-type SD = (P - O) / 6.",
+        "en": "Estimated effort E = (O + 4M + P) / 6. Standard deviation SD = (P - O) / 6."
+      },
+      "tags": [
+        "ch5",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-20",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "objectiveId": "FL-5.1.7",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que couvre le Quadrant Q4 des tests Agile ?",
+        "en": "What does Testing Quadrant Q4 cover?"
+      },
+      "back": {
+        "fr": "Tests orientés Technologie critiquant le produit : performance, charge, stress, sécurité, fiabilité, portabilité (souvent outillés).",
+        "en": "Technology-facing tests that critique the product: performance, load, stress, security, reliability, and compatibility (tool-supported)."
+      },
+      "tags": [
+        "ch5",
+        "quadrants"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-21",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "objectiveId": "FL-5.2.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Risque Projet vs Risque Produit : donnez un exemple de chacun.",
+        "en": "Project Risk vs Product Risk: give one example of each."
+      },
+      "back": {
+        "fr": "Risque Projet : indisponibilité d’un environnement de test ou retard de livraison fournisseur. Risque Produit : calcul erroné de paie ou faille d’injection SQL.",
+        "en": "Project risk: test environment outage or staffing shortage. Product risk: wrong payroll tax calculation or SQL injection vulnerability."
+      },
+      "tags": [
+        "ch5",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-22",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch5",
+      "objectiveId": "FL-5.3.2",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Rapport d’avancement de test vs Rapport de clôture : quand les produit-on ?",
+        "en": "Test Progress Report vs Test Completion Report: when is each produced?"
+      },
+      "back": {
+        "fr": "Avancement : périodiquement pendant l’exécution (avancement vs critères, blocages). Clôture : à la fin d’un niveau, sprint ou release (synthèse, risque résiduel, leçons apprises).",
+        "en": "Progress report: periodically during execution (status, blockers). Completion report: at the end of a test level, sprint, or release (summary, residual risk, lessons)."
+      },
+      "tags": [
+        "ch5",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-23",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch6",
+      "objectiveId": "FL-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez deux risques clés de l’automatisation des tests.",
+        "en": "Name two key risks of test automation."
+      },
+      "back": {
+        "fr": "1) Sous-estimation de l’effort continu de maintenance des scripts. 2) Faux sentiment de sécurité ou négligence des tests exploratoires humains.",
+        "en": "1) Underestimating ongoing maintenance effort for test scripts. 2) False confidence or neglecting human exploratory testing."
+      },
+      "tags": [
+        "ch6",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl4-24",
+      "certificationId": "ctfl",
+      "versionId": "ctfl-v4.0",
+      "chapterId": "ctfl-v4.0-ch4",
+      "objectiveId": "FL-4.2.3",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Combien de colonnes comporte une table de décision complète pour 4 conditions booléennes ?",
+        "en": "How many columns are in a full decision table with 4 Boolean conditions?"
+      },
+      "back": {
+        "fr": "2⁴ = 16 colonnes (règles) avant réduction des conditions indifférentes (« — »).",
+        "en": "2⁴ = 16 columns (rules) before collapsing indifferent (\"don’t care\") conditions."
+      },
+      "tags": [
+        "ch4",
+        "decision-table"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL v4.0 & Agile",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-19",
+        "status": "published"
+      },
+      "createdAt": "2026-11-19T00:00:00.000Z",
+      "updatedAt": "2026-11-19T00:00:00.000Z"
+    }
+  ]
+}

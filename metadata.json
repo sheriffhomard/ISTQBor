@@ -1,0 +1,8 @@
+{
+  "name": "ISTQB Academy",
+  "description": "Plateforme PWA bilingue complète de préparation aux certifications ISTQB avec cours, répétition espacée FSRS, QCM, examens blancs et fonctionnement hors ligne.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
