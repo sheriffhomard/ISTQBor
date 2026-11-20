@@ -1,0 +1,814 @@
+{
+  "chapters": [
+    {
+      "id": "ct-ai-v1.0-ch1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Introduction à l’IA",
+        "en": "Introduction to AI"
+      },
+      "summary": {
+        "fr": "Définitions de l’IA, distinction entre IA étroite/générale/superintelligence, systèmes basés sur l’IA vs systèmes conventionnels, apprentissage automatique, frameworks, matériel et aspects réglementaires.",
+        "en": "AI definitions, Narrow/General/Super AI, AI-based vs conventional systems, ML paradigms, frameworks, hardware, pre-trained models, and regulations."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-ai-v1.0-ch2",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Caractéristiques qualité des systèmes basés sur l’IA",
+        "en": "Quality Characteristics for AI-Based Systems"
+      },
+      "summary": {
+        "fr": "Flexibilité, adaptabilité, autonomie, évolution, biais, éthique, effets secondaires (reward hacking), transparence, interprétabilité, explicabilité et sûreté.",
+        "en": "Flexibility, adaptability, autonomy, evolution, bias, ethics, side effects (reward hacking), transparency, interpretability, explainability, and safety."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-ai-v1.0-ch3",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Apprentissage automatique (ML) — Vue d’ensemble",
+        "en": "Machine Learning (ML) — Overview"
+      },
+      "summary": {
+        "fr": "Apprentissage supervisé, non supervisé et par renforcement, workflow ML complet, sélection d’algorithmes, surapprentissage (overfitting) et sous-apprentissage (underfitting).",
+        "en": "Supervised, unsupervised, and reinforcement learning, ML workflow, algorithm selection, overfitting, underfitting, and bias-variance trade-off."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-ai-v1.0-ch4",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "ML — Données",
+        "en": "ML — Data"
+      },
+      "summary": {
+        "fr": "Préparation des données, étiquetage, séparation apprentissage/validation/test, validation croisée, défauts de qualité des jeux de données, déséquilibre des classes et fuite de données.",
+        "en": "Data preparation, labeling, train/validation/test splits, cross-validation, dataset quality defects, class imbalance, augmentation, and data leakage."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-ai-v1.0-ch5",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 5,
+      "code": "5",
+      "title": {
+        "fr": "Métriques de performance fonctionnelle ML",
+        "en": "ML Functional Performance Metrics"
+      },
+      "summary": {
+        "fr": "Matrice de confusion, Exactitude (Accuracy), Précision, Rappel (Recall), Spécificité, score F1, courbe ROC-AUC, métriques de régression (MSE, RMSE, MAE, R²) et de clustering.",
+        "en": "Confusion matrix, Accuracy, Precision, Recall, Specificity, F1-score, ROC-AUC, regression metrics (MSE, RMSE, MAE, R²), clustering metrics, and metric trade-offs."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-ai-v1.0-ch6",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 6,
+      "code": "6",
+      "title": {
+        "fr": "ML — Réseaux de neurones et test",
+        "en": "ML — Neural Networks and Testing"
+      },
+      "summary": {
+        "fr": "Perceptron, réseaux profonds (DNN), fonctions d’activation, rétropropagation, architectures CNN/RNN/Transformers et métriques de couverture structurelle des neurones.",
+        "en": "Perceptrons, deep neural networks (DNN), activation functions, backpropagation, CNN/RNN/Transformer architectures, and neural network coverage criteria."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-ai-v1.0-ch7",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 7,
+      "code": "7",
+      "title": {
+        "fr": "Vue d’ensemble du test des systèmes basés sur l’IA",
+        "en": "Testing AI-Based Systems Overview"
+      },
+      "summary": {
+        "fr": "Problème de l’oracle de test, niveaux de test spécifiques à l’IA, systèmes auto-apprenants, dérive des données et de concept, non-déterminisme et biais d’automatisation.",
+        "en": "Test oracle problem, AI-specific test levels, self-learning systems, data/concept drift, non-determinism, automation bias, and human-in-the-loop."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-ai-v1.0-ch8",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 8,
+      "code": "8",
+      "title": {
+        "fr": "Test des caractéristiques qualité spécifiques à l’IA",
+        "en": "Testing AI-Specific Quality Characteristics"
+      },
+      "summary": {
+        "fr": "Vérification de l’autonomie, tests d’équité et de biais, évaluation de la transparence et de l’explicabilité (LIME, SHAP), sûreté et gouvernance des systèmes évolutifs.",
+        "en": "Testing autonomy, bias and fairness metrics, evaluating transparency/explainability (LIME, SHAP), safety testing, and self-learning system safeguards."
+      },
+      "recommendedMinutes": 85
+    },
+    {
+      "id": "ct-ai-v1.0-ch9",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 9,
+      "code": "9",
+      "title": {
+        "fr": "Méthodes et techniques de test des systèmes basés sur l’IA",
+        "en": "Methods and Techniques for the Testing of AI-Based Systems"
+      },
+      "summary": {
+        "fr": "Tests adversariaux (FGSM, évasion, empoisonnement), tests combinatoires/pairwise, tests dos-à-dos (back-to-back), A/B et shadow testing, tests métamorphiques et exploratoires.",
+        "en": "Adversarial testing (FGSM, evasion, poisoning), combinatorial/pairwise testing, back-to-back testing, A/B & shadow testing, metamorphic testing, and exploratory testing."
+      },
+      "recommendedMinutes": 100
+    },
+    {
+      "id": "ct-ai-v1.0-ch10",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 10,
+      "code": "10",
+      "title": {
+        "fr": "Environnements de test pour les systèmes basés sur l’IA",
+        "en": "Test Environments for AI-Based Systems"
+      },
+      "summary": {
+        "fr": "Contraintes matérielles et de reproductibilité, environnements virtuels et simulateurs, jumeaux numériques, données synthétiques et limites de fidélité.",
+        "en": "Compute/seed reproducibility constraints, virtual test environments, simulation, digital twins, synthetic data, and sim-to-real fidelity gaps."
+      },
+      "recommendedMinutes": 60
+    },
+    {
+      "id": "ct-ai-v1.0-ch11",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "order": 11,
+      "code": "11",
+      "title": {
+        "fr": "Utiliser l’IA pour tester",
+        "en": "Using AI for Testing"
+      },
+      "summary": {
+        "fr": "Technologies IA au service du test, prédiction de défauts, génération et priorisation de cas de test, tests visuels IHM, localisateurs auto-réparants et risques associés.",
+        "en": "AI technologies applied to testing, defect prediction, test generation & prioritization, visual GUI testing, self-healing locators, and adoption risks."
+      },
+      "recommendedMinutes": 80
+    }
+  ],
+  "sections": [
+    {
+      "id": "ct-ai-v1.0-s1.1",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Définition, taxonomie et effet IA",
+        "en": "AI Definitions, Taxonomy, and the AI Effect"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s1.2",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "1.2",
+      "title": {
+        "fr": "Écosystème technologique, modèles pré-entraînés et normes",
+        "en": "Technology Stack, Pre-Trained Models, and Standards"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s2.1",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Flexibilité, autonomie, évolution et effets secondaires",
+        "en": "Flexibility, Autonomy, Evolution, and Side Effects"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s2.2",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "2.2",
+      "title": {
+        "fr": "Biais, éthique, transparence et sûreté",
+        "en": "Bias, Ethics, Transparency, and Safety"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s3.1",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Formes d’apprentissage automatique",
+        "en": "Forms of Machine Learning"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s3.2",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "3.2",
+      "title": {
+        "fr": "Workflow ML, sélection de modèle et généralisation",
+        "en": "ML Workflow, Model Selection, and Generalization"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s4.1",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "4.1",
+      "title": {
+        "fr": "Préparation des données et jeux d’entraînement/validation/test",
+        "en": "Data Preparation and Train/Validation/Test Splits"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s4.2",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "4.2",
+      "title": {
+        "fr": "Qualité des données, étiquetage et risques associés",
+        "en": "Dataset Quality, Labeling, and Associated Risks"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s5.1",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "5.1",
+      "title": {
+        "fr": "Métriques de classification et matrice de confusion",
+        "en": "Classification Metrics and Confusion Matrix"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s5.2",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "5.2",
+      "title": {
+        "fr": "Métriques de régression, clustering et choix contextuel",
+        "en": "Regression, Clustering Metrics, and Contextual Selection"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s6.1",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "6.1",
+      "title": {
+        "fr": "Architecture et entraînement des réseaux de neurones",
+        "en": "Neural Network Architectures and Training"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s6.2",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "6.2",
+      "title": {
+        "fr": "Critères de couverture pour réseaux de neurones",
+        "en": "Coverage Measures for Neural Networks"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s7.1",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "7.1",
+      "title": {
+        "fr": "Spécifications, niveaux de test et problème de l’oracle",
+        "en": "Specifications, Test Levels, and the Test Oracle Problem"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s7.2",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "7.2",
+      "title": {
+        "fr": "Dérives, non-déterminisme et biais d’automatisation",
+        "en": "Drift, Non-Determinism, and Automation Bias"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s8.1",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "8.1",
+      "title": {
+        "fr": "Test d’autonomie, d’équité et de transparence/explicabilité",
+        "en": "Testing Autonomy, Fairness, and Transparency/Explainability"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s8.2",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "8.2",
+      "title": {
+        "fr": "Test de sûreté et systèmes auto-apprenants",
+        "en": "Testing Safety and Self-Learning Systems"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s9.1",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "9.1",
+      "title": {
+        "fr": "Tests adversariaux, combinatoires et dos-à-dos",
+        "en": "Adversarial, Combinatorial, and Back-to-Back Testing"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s9.2",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "9.2",
+      "title": {
+        "fr": "Tests A/B, shadow testing, tests métamorphiques et exploratoires",
+        "en": "A/B, Shadow, Metamorphic, and Exploratory Testing"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s10.1",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "10.1",
+      "title": {
+        "fr": "Contraintes d’environnement et simulation virtuelle",
+        "en": "Test Environment Constraints and Virtual Simulation"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s11.1",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 1,
+      "code": "11.1",
+      "title": {
+        "fr": "Applications de l’IA pour l’analyse, la génération et l’automatisation des tests",
+        "en": "AI Applications in Test Analysis, Generation, and Automation"
+      }
+    },
+    {
+      "id": "ct-ai-v1.0-s11.2",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "versionId": "ct-ai-v1.0",
+      "certificationId": "ct-ai",
+      "order": 2,
+      "code": "11.2",
+      "title": {
+        "fr": "Limites et gouvernance des outils de test basés sur l’IA",
+        "en": "Limitations and Governance of AI-Based Testing Tools"
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "AI-1.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "sectionId": "ct-ai-v1.0-s1.1",
+      "code": "AI-1.1.1",
+      "kLevel": "K1",
+      "title": {
+        "fr": "Concepts d’IA et typologie (étroite, générale, superintelligence)",
+        "en": "AI concepts and Narrow/General/Super AI taxonomy"
+      },
+      "description": {
+        "fr": "Définir l’IA, distinguer IA étroite, IA générale et superintelligence, et expliquer l’effet IA.",
+        "en": "Define AI, distinguish Narrow/General/Super AI, and explain the AI effect."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-1.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "sectionId": "ct-ai-v1.0-s1.2",
+      "code": "AI-1.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Systèmes IA vs systèmes conventionnels et écosystème",
+        "en": "AI-based vs conventional systems and ecosystem"
+      },
+      "description": {
+        "fr": "Comparer systèmes déterministes classiques et modèles appris, AIaaS, transfert learning et cadres réglementaires.",
+        "en": "Contrast rule-based systems with learned models, AIaaS, transfer learning, and regulatory compliance."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-2.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "sectionId": "ct-ai-v1.0-s2.1",
+      "code": "AI-2.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Flexibilité, adaptabilité, autonomie et évolution",
+        "en": "Flexibility, adaptability, autonomy, and evolution"
+      },
+      "description": {
+        "fr": "Caractériser l’autonomie, l’adaptation continue et les risques d’effets secondaires ou de reward hacking.",
+        "en": "Explain autonomy, self-evolution, and risks of unintended side effects or reward hacking."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-2.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "sectionId": "ct-ai-v1.0-s2.2",
+      "code": "AI-2.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Biais, éthique, transparence et sûreté",
+        "en": "Bias, ethics, transparency, and safety"
+      },
+      "description": {
+        "fr": "Distinguer biais d’échantillonnage/algorithmique/d’automatisation, transparence, interprétabilité et explicabilité.",
+        "en": "Differentiate sample, algorithmic, and automation bias alongside transparency, interpretability, and explainability."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-3.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "sectionId": "ct-ai-v1.0-s3.1",
+      "code": "AI-3.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Paradigmes d’apprentissage automatique",
+        "en": "Machine learning paradigms"
+      },
+      "description": {
+        "fr": "Classifier l’apprentissage supervisé, non supervisé, semi-supervisé et par renforcement.",
+        "en": "Classify supervised, unsupervised, semi-supervised, and reinforcement learning."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-3.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "sectionId": "ct-ai-v1.0-s3.2",
+      "code": "AI-3.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Workflow ML, sélection d’algorithme et généralisation",
+        "en": "ML workflow, model selection, and generalization"
+      },
+      "description": {
+        "fr": "Identifier les étapes du workflow ML, le surapprentissage (overfitting) et le sous-apprentissage (underfitting).",
+        "en": "Identify ML workflow stages, hyperparameter tuning, overfitting, and underfitting."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-4.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "sectionId": "ct-ai-v1.0-s4.1",
+      "code": "AI-4.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Préparation et partitionnement des données",
+        "en": "Data preparation and dataset splitting"
+      },
+      "description": {
+        "fr": "Expliquer nettoyage, normalisation, ingénierie de variables, jeux train/validation/test et k-fold cross-validation.",
+        "en": "Explain cleaning, normalization, feature engineering, train/validation/test splits, and k-fold cross-validation."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-4.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "sectionId": "ct-ai-v1.0-s4.2",
+      "code": "AI-4.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Défauts de qualité des données et étiquetage",
+        "en": "Dataset quality defects and data labeling"
+      },
+      "description": {
+        "fr": "Détecter données manquantes, bruitées, déséquilibrées, fuite de données et erreurs d’annotation.",
+        "en": "Detect missing/noisy/imbalanced data, data leakage, poisoning, and labeling inconsistencies."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-5.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "sectionId": "ct-ai-v1.0-s5.1",
+      "code": "AI-5.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Matrice de confusion et métriques de classification",
+        "en": "Confusion matrix and classification metrics"
+      },
+      "description": {
+        "fr": "Calculer et interpréter Exactitude, Précision, Rappel, Spécificité, score F1 et ROC-AUC.",
+        "en": "Compute and interpret Accuracy, Precision, Recall, Specificity, F1-score, and ROC-AUC."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-5.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "sectionId": "ct-ai-v1.0-s5.2",
+      "code": "AI-5.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Métriques de régression, clustering et limites",
+        "en": "Regression, clustering metrics, and trade-offs"
+      },
+      "description": {
+        "fr": "Distinguer MSE, RMSE, MAE, R², coefficient de silhouette et choisir la métrique selon le coût des erreurs.",
+        "en": "Compare MSE, RMSE, MAE, R², silhouette score, and select metrics based on false-positive vs false-negative risk."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-6.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "sectionId": "ct-ai-v1.0-s6.1",
+      "code": "AI-6.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Fondamentaux des réseaux de neurones",
+        "en": "Neural network fundamentals"
+      },
+      "description": {
+        "fr": "Décrire neurones artificiels, poids, biais, fonctions d’activation, rétropropagation, CNN, RNN et Transformers.",
+        "en": "Describe artificial neurons, weights, biases, activation functions, backpropagation, CNNs, RNNs, and Transformers."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-6.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "sectionId": "ct-ai-v1.0-s6.2",
+      "code": "AI-6.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Critères de couverture des réseaux de neurones",
+        "en": "Neural network test coverage measures"
+      },
+      "description": {
+        "fr": "Expliquer Neuron Coverage, Threshold Coverage, Sign-Change, Value-Change et sign-sign coverage.",
+        "en": "Explain Neuron Coverage, Threshold Coverage, Sign-Change, Value-Change, and Sign-Sign coverage."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-7.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "sectionId": "ct-ai-v1.0-s7.1",
+      "code": "AI-7.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Oracle de test et niveaux de test des systèmes IA",
+        "en": "Test oracle problem and AI test levels"
+      },
+      "description": {
+        "fr": "Expliquer le problème de l’oracle, les tests sur données d’entrée, modèle ML, API, système et acceptation.",
+        "en": "Explain the test oracle challenge alongside input-data, ML-model, integration, system, and acceptance test levels."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-7.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "sectionId": "ct-ai-v1.0-s7.2",
+      "code": "AI-7.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Dérives, non-déterminisme et biais d’automatisation",
+        "en": "Drift, non-determinism, and automation bias"
+      },
+      "description": {
+        "fr": "Distinguer data drift et concept drift, gérer les sorties probabilistes et le biais d’automatisation humain.",
+        "en": "Distinguish data drift from concept drift, manage probabilistic outputs, and mitigate automation bias."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-8.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "sectionId": "ct-ai-v1.0-s8.1",
+      "code": "AI-8.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Tester l’autonomie, l’équité et l’explicabilité",
+        "en": "Testing autonomy, fairness, and explainability"
+      },
+      "description": {
+        "fr": "Évaluer l’équité par groupes, tester l’explicabilité locale/globale (SHAP, LIME) et la prise de relais humaine.",
+        "en": "Evaluate group fairness, test local/global explainability (SHAP, LIME), and validate human takeover safeguards."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-8.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "sectionId": "ct-ai-v1.0-s8.2",
+      "code": "AI-8.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Tester la sûreté et les systèmes auto-apprenants",
+        "en": "Testing safety and self-learning systems"
+      },
+      "description": {
+        "fr": "Vérifier les garde-fous, seuils de confiance, repli sécurisé et non-régression lors d’apprentissage continu.",
+        "en": "Verify safety envelopes, confidence thresholds, fail-safe fallbacks, and continuous-learning regression gates."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-9.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "sectionId": "ct-ai-v1.0-s9.1",
+      "code": "AI-9.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tests adversariaux, combinatoires et dos-à-dos",
+        "en": "Adversarial, pairwise, and back-to-back testing"
+      },
+      "description": {
+        "fr": "Concevoir des tests d’évasion/empoisonnement, combinaisons pairwise et comparaisons avec un pseudo-oracle.",
+        "en": "Apply adversarial perturbation checks, pairwise feature combinations, and back-to-back pseudo-oracle testing."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-9.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "sectionId": "ct-ai-v1.0-s9.2",
+      "code": "AI-9.2.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tests métamorphiques, A/B, shadow et exploratoires",
+        "en": "Metamorphic, A/B, shadow, and exploratory testing"
+      },
+      "description": {
+        "fr": "Formuler des relations métamorphiques, conduire des tests A/B, shadow deployments et chartes exploratoires IA.",
+        "en": "Formulate metamorphic relations, run A/B and shadow deployments, and execute AI exploratory charters."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-10.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "sectionId": "ct-ai-v1.0-s10.1",
+      "code": "AI-10.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Environnements de test et simulation virtuelle",
+        "en": "AI test environments and virtual simulation"
+      },
+      "description": {
+        "fr": "Gérer GPU/TPU, graines aléatoires, simulateurs, jumeaux numériques et écart entre simulation et réel.",
+        "en": "Manage GPU/TPU environments, random seeds, simulators, digital twins, and sim-to-real validation gaps."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-11.1.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "sectionId": "ct-ai-v1.0-s11.1",
+      "code": "AI-11.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "L’IA au service de la conception et exécution de tests",
+        "en": "Using AI for test design, visual testing, and self-healing"
+      },
+      "description": {
+        "fr": "Exploiter prédiction de défauts, NLP pour génération de tests, reconnaissance visuelle IHM et auto-réparation des sélecteurs.",
+        "en": "Use defect prediction, NLP test generation, visual UI validation, and self-healing object locators."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    },
+    {
+      "id": "AI-11.2.1",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "sectionId": "ct-ai-v1.0-s11.2",
+      "code": "AI-11.2.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Risques et gouvernance des outils de test IA",
+        "en": "Risks and governance of AI-assisted testing tools"
+      },
+      "description": {
+        "fr": "Évaluer hallucinations, faux positifs/négatifs, coût de maintien des modèles de test et supervision humaine.",
+        "en": "Evaluate hallucinations, false positives/negatives, test-model drift, and required human oversight."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-AI v1.0 Public Outline"
+    }
+  ]
+}

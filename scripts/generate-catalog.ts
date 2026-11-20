@@ -6,6 +6,8 @@ import { CTFL_V4_LESSONS } from '../src/data/lessons_ctfl_v4';
 import { SEED_FLASHCARDS } from '../src/data/flashcards_ctfl_v4';
 import { CTFL_V4_QUESTIONS } from '../src/data/questions_ctfl_v4';
 import { GLOSSARY_TERMS } from '../src/data/glossary';
+import { CT_AI_CHAPTERS, CT_AI_OBJECTIVES, CT_AI_SECTIONS } from '../src/data/syllabi_ct_ai';
+import { CT_AI_FLASHCARDS } from '../src/data/flashcards_ct_ai';
 
 const contentDir = path.resolve(process.cwd(), 'content');
 const dirs = ['certifications', 'syllabi', 'lessons', 'flashcards', 'questions', 'glossary'];
@@ -22,12 +24,24 @@ fs.writeFileSync(
   JSON.stringify({ chapters: CTFL_V4_CHAPTERS, objectives: CTFL_V4_OBJECTIVES }, null, 2),
 );
 fs.writeFileSync(
+  path.join(contentDir, 'syllabi', 'ct-ai-v1.0.json'),
+  JSON.stringify(
+    { chapters: CT_AI_CHAPTERS, sections: CT_AI_SECTIONS, objectives: CT_AI_OBJECTIVES },
+    null,
+    2,
+  ),
+);
+fs.writeFileSync(
   path.join(contentDir, 'lessons', 'ctfl-v4.0-bilingual.json'),
   JSON.stringify(CTFL_V4_LESSONS, null, 2),
 );
 fs.writeFileSync(
   path.join(contentDir, 'flashcards', 'ctfl-v4.0-bilingual.json'),
   JSON.stringify({ schemaVersion: 1, type: 'flashcards_pack', cards: SEED_FLASHCARDS }, null, 2),
+);
+fs.writeFileSync(
+  path.join(contentDir, 'flashcards', 'ct-ai-v1.0-bilingual.json'),
+  JSON.stringify({ schemaVersion: 1, type: 'flashcards_pack', cards: CT_AI_FLASHCARDS }, null, 2),
 );
 fs.writeFileSync(
   path.join(contentDir, 'questions', 'ctfl-v4.0-bilingual.json'),

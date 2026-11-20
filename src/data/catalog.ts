@@ -638,17 +638,17 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Pack complet en cours de préparation éditoriale.',
-        en: 'Full learning pack in editorial preparation.',
+        fr: 'Structure complète (11 chapitres) et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: '11-chapter syllabus structure and 100 bilingual flashcards included; official exam scoring parameters to be verified on istqb.org.',
       },
     },
     changelogSummary: {
-      fr: 'Fondamentaux IA/ML, qualité des jeux de données, tests métamorphiques et tests basés sur l’IA.',
-      en: 'AI/ML fundamentals, dataset quality, metamorphic testing, and AI-assisted testing.',
+      fr: 'Fondamentaux IA/ML, qualité des jeux de données, métriques ML, réseaux de neurones, tests métamorphiques/adversariaux et IA pour le test.',
+      en: 'AI/ML fundamentals, dataset quality, ML metrics, neural network coverage, metamorphic/adversarial testing, and AI-assisted testing.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-pt-v1.0',

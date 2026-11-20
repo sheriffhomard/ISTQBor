@@ -15,6 +15,8 @@ import { SEED_FLASHCARDS } from '../data/flashcards_ctfl_v4';
 import { CTFL_V4_QUESTIONS } from '../data/questions_ctfl_v4';
 import { GLOSSARY_TERMS } from '../data/glossary';
 import { AGILE_FLASHCARDS, AGILE_LESSONS, AGILE_QUESTIONS } from '../data/extensions_agile';
+import { CT_AI_CHAPTERS, CT_AI_OBJECTIVES, CT_AI_SECTIONS } from '../data/syllabi_ct_ai';
+import { CT_AI_FLASHCARDS } from '../data/flashcards_ct_ai';
 import type { AppSettings } from '../types/domain';
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -64,16 +66,22 @@ export async function ensureSeeded(targetDb: IstqbAcademyDB = db): Promise<void>
       await targetDb.chapters.bulkPut([
         ...CTFL_V4_CHAPTERS,
         ...HISTORICAL_AND_EXTENSION_CHAPTERS,
+        ...CT_AI_CHAPTERS,
       ]);
-      await targetDb.sections.bulkPut([...CTFL_V4_SECTIONS, ...HISTORICAL_SECTIONS]);
+      await targetDb.sections.bulkPut([
+        ...CTFL_V4_SECTIONS,
+        ...HISTORICAL_SECTIONS,
+        ...CT_AI_SECTIONS,
+      ]);
       await targetDb.learningObjectives.bulkPut([
         ...CTFL_V4_OBJECTIVES,
         ...HISTORICAL_OBJECTIVES,
+        ...CT_AI_OBJECTIVES,
       ]);
       await targetDb.lessons.bulkPut([...CTFL_V4_LESSONS, ...AGILE_LESSONS]);
 
       // Only add built-in flashcards; never delete or overwrite custom flashcards
-      const builtInCards = [...SEED_FLASHCARDS, ...AGILE_FLASHCARDS];
+      const builtInCards = [...SEED_FLASHCARDS, ...AGILE_FLASHCARDS, ...CT_AI_FLASHCARDS];
       await targetDb.flashcards.bulkPut(builtInCards);
 
       await targetDb.questions.bulkPut([...CTFL_V4_QUESTIONS, ...AGILE_QUESTIONS]);

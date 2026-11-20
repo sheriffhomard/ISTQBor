@@ -1,5 +1,14 @@
 # Journal des modifications — ISTQB Academy
 
+## [1.0.1] — Pack Flashcards CT-AI (Testing with Artificial Intelligence)
+
+### Ajouts
+- **CT-AI v1.0 (Specialist — Testing with Artificial Intelligence)** :
+  - Ajout de la structure complète en **11 chapitres**, 21 sections et 21 objectifs pédagogiques bilingues (`AI-1.1.1` à `AI-11.2.1`).
+  - Ajout de **100 flashcards bilingues FR/EN originales** (`fc-ctai-001` à `fc-ctai-100`) couvrant les fondamentaux IA/ML, qualité des données, métriques de classification/régression/clustering, couverture des réseaux de neurones, dérives, explicabilité/équité, tests adversariaux et métamorphiques, environnements virtuels et IA pour le test.
+  - Amélioration de la navigation par flèches (`Précédent` / `Suivant`) et de la progression en mode `À réviser` dans `FlashcardsView`.
+  - Génération et validation Zod des packs JSON `content/syllabi/ct-ai-v1.0.json` et `content/flashcards/ct-ai-v1.0-bilingual.json`.
+
 ## [1.0.0] — V1.0 Pilote CTFL v4.0 & Socle multi-certifications
 
 ### Ajouts majeurs

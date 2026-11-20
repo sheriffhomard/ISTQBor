@@ -1,7 +1,7 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useTranslation } from 'react-i18next';
-import { Download, Edit3, Eye, Plus, Star, Upload } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Download, Edit3, Eye, Plus, Star, Upload } from 'lucide-react';
 import { db } from '../../db/database';
 import { tText } from '../../lib/localize';
 import {
@@ -60,6 +60,14 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
   const [showHint, setShowHint] = useState(false);
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
+  useEffect(() => {
+    setCardIndex(0);
+    setRevealed(false);
+    setShowHint(false);
+    setSelectedChapterId(initialChapterId ?? '');
+    setSelectedObjectiveId('');
+  }, [versionId, initialChapterId]);
+
   // Create / Edit custom card modal
   const [editorOpen, setEditorOpen] = useState(false);
   const [editingCard, setEditingCard] = useState<Flashcard | null>(null);
@@ -112,7 +120,8 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
     return list;
   }, [flashcards, stateMap, mode, selectedChapterId, selectedObjectiveId, chapters, objectives]);
 
-  const currentCard = queue[cardIndex] ?? queue[0];
+  const safeIndex = queue.length > 0 ? Math.min(cardIndex, queue.length - 1) : 0;
+  const currentCard = queue[safeIndex];
   const currentState = currentCard
     ? (stateMap.get(currentCard.id) ?? createInitialFlashcardState(currentCard))
     : null;
@@ -123,11 +132,21 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
     await recordFlashcardReview(currentCard, rating);
     setRevealed(false);
     setShowHint(false);
-    if (cardIndex < queue.length - 1) {
-      setCardIndex((i) => i + 1);
+    if (mode === 'due') {
+      // Rated card leaves the due queue automatically; stay at same index (or wrap if at end)
+      setCardIndex((i) => (queue.length <= 1 ? 0 : Math.min(i, queue.length - 2)));
+    } else if (safeIndex < queue.length - 1) {
+      setCardIndex(safeIndex + 1);
     } else {
       setCardIndex(0);
     }
+  };
+
+  const handleStep = (delta: number) => {
+    if (queue.length <= 1) return;
+    setRevealed(false);
+    setShowHint(false);
+    setCardIndex((safeIndex + delta + queue.length) % queue.length);
   };
 
   const toggleFavorite = async (card: Flashcard) => {
@@ -369,10 +388,30 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         <div className="max-w-3xl mx-auto rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 sm:p-8 space-y-6">
           <div className="flex items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
             <div className="font-mono tabular-nums">
-              {cardIndex + 1} / {queue.length} · {currentCard.objectiveId} ·{' '}
+              {safeIndex + 1} / {queue.length} · {currentCard.objectiveId} ·{' '}
               {currentState?.reps ?? 0} reps
             </div>
             <div className="flex items-center gap-2">
+              {queue.length > 1 && (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => handleStep(-1)}
+                    aria-label={t('common.previous')}
+                    className="p-2 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300"
+                  >
+                    <ChevronLeft className="h-3.5 w-3.5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => handleStep(1)}
+                    aria-label={t('common.next')}
+                    className="p-2 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300"
+                  >
+                    <ChevronRight className="h-3.5 w-3.5" />
+                  </button>
+                </>
+              )}
               <button
                 type="button"
                 onClick={() => openEditModal(currentCard)}

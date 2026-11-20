@@ -119,4 +119,32 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
     expect(secondImport.importedCount).toBe(0);
     expect(secondImport.skippedDuplicates).toBe(1);
   });
+
+  it('seeds 100 bilingual CT-AI v1.0 flashcards linked to valid chapters and objectives', async () => {
+    const ctAiCards = await testDb.flashcards.where('versionId').equals('ct-ai-v1.0').toArray();
+    const ctAiChapters = await testDb.chapters.where('versionId').equals('ct-ai-v1.0').toArray();
+    const ctAiObjectives = await testDb.learningObjectives
+      .where('versionId')
+      .equals('ct-ai-v1.0')
+      .toArray();
+
+    expect(ctAiCards).toHaveLength(100);
+    expect(ctAiChapters).toHaveLength(11);
+
+    const chapterSet = new Set(ctAiChapters.map((c) => c.id));
+    const objectiveSet = new Set(ctAiObjectives.map((o) => o.id));
+    const cardIds = new Set<string>();
+
+    for (const card of ctAiCards) {
+      expect(cardIds.has(card.id)).toBe(false);
+      cardIds.add(card.id);
+      expect(card.certificationId).toBe('ct-ai');
+      expect(chapterSet.has(card.chapterId)).toBe(true);
+      expect(objectiveSet.has(card.objectiveId)).toBe(true);
+      expect(card.front.fr.length).toBeGreaterThan(5);
+      expect(card.front.en.length).toBeGreaterThan(5);
+      expect(card.back.fr.length).toBeGreaterThan(10);
+      expect(card.back.en.length).toBeGreaterThan(10);
+    }
+  });
 });
