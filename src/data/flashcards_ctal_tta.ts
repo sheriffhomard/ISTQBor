@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CTAL_TTA_PART2_FLASHCARDS } from './flashcards_ctal_tta_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)',
@@ -1025,12 +1026,15 @@ const RAW_CTAL_TTA_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CTAL_TTA_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ctal-tta',
-    versionId: 'ctal-tta-v4.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CTAL_TTA_CARDS,
-);
+export const CTAL_TTA_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ctal-tta',
+      versionId: 'ctal-tta-v4.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CTAL_TTA_CARDS,
+  ),
+  ...CTAL_TTA_PART2_FLASHCARDS,
+];

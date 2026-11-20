@@ -385,8 +385,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Archive historique (6 chapitres) et 100 flashcards bilingues incluses ; consulter les archives officielles ISTQB pour le barème complet 2011.',
-        en: 'Historical 6-chapter syllabus and 100 bilingual flashcards included; verify complete 2011 exam rules via official ISTQB archives.',
+        fr: 'Archive historique (6 chapitres) et 200 flashcards bilingues incluses ; consulter les archives officielles ISTQB pour le barème complet 2011.',
+        en: 'Historical 6-chapter syllabus and 200 bilingual flashcards included; verify complete 2011 exam rules via official ISTQB archives.',
       },
     },
     changelogSummary: {
@@ -421,8 +421,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: true,
       verificationNote: {
-        fr: 'Paramètres globaux vérifiés et 100 flashcards bilingues incluses ; distribution fine par chapitre à vérifier avant examen officiel.',
-        en: 'Global exam settings verified and 100 bilingual flashcards included; exact chapter question weights should be confirmed on istqb.org.',
+        fr: 'Paramètres globaux vérifiés et 200 flashcards bilingues incluses ; distribution fine par chapitre à vérifier avant examen officiel.',
+        en: 'Global exam settings verified and 200 bilingual flashcards included; exact chapter question weights should be confirmed on istqb.org.',
       },
     },
     changelogSummary: {
@@ -457,8 +457,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres d’examen CTAL-TM v3.0 à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; exact CTAL-TM v3.0 exam metrics remain to be verified on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres d’examen CTAL-TM v3.0 à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; exact CTAL-TM v3.0 exam metrics remain to be verified on istqb.org.',
       },
     },
     changelogSummary: {
@@ -493,8 +493,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; official exam scoring parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; official exam scoring parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -529,8 +529,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres d’examen non vérifiés localement.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; exam parameters remain locally unverified.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres d’examen non vérifiés localement.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; exam parameters remain locally unverified.',
       },
     },
     changelogSummary: {
@@ -565,8 +565,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses — paramètres d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included — exam parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses — paramètres d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included — exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -602,8 +602,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Archive historique remplacée : structure et 100 flashcards bilingues incluses ; paramètres d’examen archivés.',
-        en: 'Superseded historical archive: syllabus structure and 100 bilingual flashcards included; exam parameters unverified.',
+        fr: 'Archive historique remplacée : structure et 200 flashcards bilingues incluses ; paramètres d’examen archivés.',
+        en: 'Superseded historical archive: syllabus structure and 200 bilingual flashcards included; exam parameters unverified.',
       },
     },
     changelogSummary: {
@@ -638,8 +638,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure complète (11 chapitres) et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: '11-chapter syllabus structure and 100 bilingual flashcards included; official exam scoring parameters to be verified on istqb.org.',
+        fr: 'Structure complète (11 chapitres) et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: '11-chapter syllabus structure and 200 bilingual flashcards included; official exam scoring parameters to be verified on istqb.org.',
       },
     },
     changelogSummary: {
@@ -674,8 +674,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -710,8 +710,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -746,8 +746,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -782,8 +782,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
-        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
+        fr: 'Structure syllabus et 200 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 200 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {

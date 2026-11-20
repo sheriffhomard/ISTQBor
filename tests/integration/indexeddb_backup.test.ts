@@ -120,7 +120,7 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
     expect(secondImport.skippedDuplicates).toBe(1);
   });
 
-  it('seeds 100 bilingual CT-AI v1.0 flashcards linked to valid chapters and objectives', async () => {
+  it('seeds 200 bilingual CT-AI v1.0 flashcards linked to valid chapters and objectives', async () => {
     const ctAiCards = await testDb.flashcards.where('versionId').equals('ct-ai-v1.0').toArray();
     const ctAiChapters = await testDb.chapters.where('versionId').equals('ct-ai-v1.0').toArray();
     const ctAiObjectives = await testDb.learningObjectives
@@ -128,7 +128,7 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
       .equals('ct-ai-v1.0')
       .toArray();
 
-    expect(ctAiCards).toHaveLength(100);
+    expect(ctAiCards).toHaveLength(200);
     expect(ctAiChapters).toHaveLength(11);
 
     const chapterSet = new Set(ctAiChapters.map((c) => c.id));
@@ -148,7 +148,7 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
     }
   });
 
-  it('seeds 100 original bilingual flashcards for every one of the 13 certifications (1,300 total)', async () => {
+  it('seeds 200 original bilingual flashcards for every one of the 13 certifications (2,600 total) with zero duplicates', async () => {
     const allCerts = await testDb.certifications.toArray();
     const allVersions = await testDb.syllabusVersions.toArray();
     const allChapters = await testDb.chapters.toArray();
@@ -156,17 +156,34 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
     const allCards = await testDb.flashcards.toArray();
 
     expect(allCerts).toHaveLength(13);
-    expect(allCards).toHaveLength(1300);
+    expect(allCards).toHaveLength(2600);
+
+    const normalizeQuestion = (text: string) =>
+      text
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .replace(/\s+/g, ' ')
+        .trim();
 
     const versionSet = new Set(allVersions.map((v) => v.id));
     const chapterSet = new Set(allChapters.map((c) => c.id));
     const objectiveSet = new Set(allObjectives.map((o) => o.id));
     const seenIds = new Set<string>();
+    const seenFrontsFr = new Set<string>();
+    const seenFrontsEn = new Set<string>();
     const countsByCert = new Map<string, number>();
 
     for (const card of allCards) {
       expect(seenIds.has(card.id)).toBe(false);
       seenIds.add(card.id);
+      const normFr = normalizeQuestion(card.front.fr);
+      const normEn = normalizeQuestion(card.front.en);
+      expect(seenFrontsFr.has(normFr)).toBe(false);
+      expect(seenFrontsEn.has(normEn)).toBe(false);
+      seenFrontsFr.add(normFr);
+      seenFrontsEn.add(normEn);
+
       expect(card.languageScope).toBe('bilingual');
       expect(versionSet.has(card.versionId)).toBe(true);
       expect(chapterSet.has(card.chapterId)).toBe(true);
@@ -179,7 +196,7 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
     }
 
     for (const cert of allCerts) {
-      expect(countsByCert.get(cert.id)).toBe(100);
+      expect(countsByCert.get(cert.id)).toBe(200);
     }
   });
 });

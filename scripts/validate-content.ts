@@ -103,7 +103,17 @@ const allFlashcards = [
   ...CTEL_TM_FLASHCARDS,
   ...CTFL_2011_FLASHCARDS,
 ];
+const normalizeQuestion = (text: string) =>
+  text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
 const cardIds = new Set<string>();
+const globalFrontsFr = new Map<string, string>();
+const globalFrontsEn = new Map<string, string>();
 const countByCert = new Map<string, number>();
 
 for (const card of allFlashcards) {
@@ -117,13 +127,29 @@ for (const card of allFlashcards) {
   if (!versionIds.has(card.versionId)) fail(`Flashcard ${card.id} unknown version ${card.versionId}`);
   if (!chapterIds.has(card.chapterId)) fail(`Flashcard ${card.id} unknown chapter ${card.chapterId}`);
   if (!objectiveIds.has(card.objectiveId)) fail(`Flashcard ${card.id} unknown objective ${card.objectiveId}`);
+
+  const normFr = normalizeQuestion(card.front.fr);
+  const normEn = normalizeQuestion(card.front.en);
+  const existingFr = globalFrontsFr.get(normFr);
+  if (existingFr) {
+    fail(`Duplicate normalized FR flashcard front between ${existingFr} and ${card.id}: "${card.front.fr}"`);
+  } else {
+    globalFrontsFr.set(normFr, card.id);
+  }
+  const existingEn = globalFrontsEn.get(normEn);
+  if (existingEn) {
+    fail(`Duplicate normalized EN flashcard front between ${existingEn} and ${card.id}: "${card.front.en}"`);
+  } else {
+    globalFrontsEn.set(normEn, card.id);
+  }
+
   countByCert.set(card.certificationId, (countByCert.get(card.certificationId) ?? 0) + 1);
 }
 
 for (const cert of CERTIFICATIONS_CATALOG) {
   const count = countByCert.get(cert.id) ?? 0;
-  if (count !== 100) {
-    fail(`Expected exactly 100 bilingual flashcards for certification ${cert.id}, got ${count}`);
+  if (count !== 200) {
+    fail(`Expected exactly 200 bilingual flashcards for certification ${cert.id}, got ${count}`);
   }
 }
 

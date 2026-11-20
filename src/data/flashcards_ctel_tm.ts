@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CTEL_TM_PART2_FLASHCARDS } from './flashcards_ctel_tm_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)',
@@ -735,8 +736,8 @@ const RAW_CARDS: RawBilingualCard[] = [
     id: 'fc-cteltm-071',
     chapter: 3,
     objectiveId: 'ETM-3.1.1',
-    frontFr: 'Quels sont les 5 niveaux de maturité du modèle TMMi (Test Maturity Model integration) ?',
-    frontEn: 'What are the 5 maturity levels of the TMMi model?',
+    frontFr: 'Dans une feuille de route de gouvernance CTEL-TM, quels sont les 5 niveaux progressifs de maturité du modèle TMMi ?',
+    frontEn: 'In a CTEL-TM enterprise improvement roadmap, what are the 5 progressive maturity levels of TMMi?',
     backFr: '1 : Initial, 2 : Géré (Managed), 3 : Défini (Defined), 4 : Mesuré (Measured), 5 : Optimisation (Optimization).',
     backEn: '1: Initial, 2: Managed, 3: Defined, 4: Measured, 5: Optimization.',
     hintFr: 'Même progression en 5 niveaux que CMMI.',
@@ -1035,12 +1036,15 @@ const RAW_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CTEL_TM_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ctel-tm',
-    versionId: 'ctel-tm-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CARDS
-);
+export const CTEL_TM_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ctel-tm',
+      versionId: 'ctel-tm-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CARDS,
+  ),
+  ...CTEL_TM_PART2_FLASHCARDS,
+];

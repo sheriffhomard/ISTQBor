@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CT_PT_PART2_FLASHCARDS } from './flashcards_ct_pt_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)',
@@ -17,8 +18,8 @@ const RAW_CT_PT_CARDS: RawBilingualCard[] = [
     id: 'fc-ctpt-001',
     chapter: 1,
     objectiveId: 'PT-1.1.1',
-    frontFr: 'Quels sont les trois piliers de l’Efficacité de Performance selon ISO/IEC 25010 ?',
-    frontEn: 'What are the three sub-characteristics of Performance Efficiency in ISO/IEC 25010?',
+    frontFr: 'En test de performance CT-PT, quels sont les trois piliers de l’Efficacité de Performance selon ISO/IEC 25010 ?',
+    frontEn: 'In CT-PT Performance Testing, what are the three pillars of Performance Efficiency under ISO/IEC 25010?',
     backFr: '1) Comportement temporel (Time Behaviour : temps de réponse, débit). 2) Utilisation des ressources (Resource Utilization : CPU, mémoire, I/O, réseau). 3) Capacité (Capacity : limites maximales soutenables).',
     backEn: '1) Time Behaviour (response times, latency, throughput). 2) Resource Utilization (CPU, RAM, disk, network). 3) Capacity (maximum supported users/data limits).',
     tags: ['ch1', 'iso25010'],
@@ -1021,12 +1022,15 @@ const RAW_CT_PT_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CT_PT_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ct-pt',
-    versionId: 'ct-pt-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CT_PT_CARDS,
-);
+export const CT_PT_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ct-pt',
+      versionId: 'ct-pt-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CT_PT_CARDS,
+  ),
+  ...CT_PT_PART2_FLASHCARDS,
+];

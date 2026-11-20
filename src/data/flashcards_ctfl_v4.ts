@@ -1,4 +1,5 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
+import { CTFL_V4_PART2_FLASHCARDS } from './flashcards_ctfl_v4_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CTFL v4.0 & Agile',
@@ -1096,5 +1097,6 @@ export const SEED_FLASHCARDS: Flashcard[] = [
     createdAt: NOW,
     updatedAt: NOW,
   })),
+  ...CTFL_V4_PART2_FLASHCARDS,
 ];
 

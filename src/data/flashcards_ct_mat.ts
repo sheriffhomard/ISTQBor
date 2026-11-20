@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CT_MAT_PART2_FLASHCARDS } from './flashcards_ct_mat_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CT-MAT v1.0 (Mobile Application Testing)',
@@ -1019,12 +1020,15 @@ const RAW_CT_MAT_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CT_MAT_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ct-mat',
-    versionId: 'ct-mat-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CT_MAT_CARDS,
-);
+export const CT_MAT_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ct-mat',
+      versionId: 'ct-mat-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CT_MAT_CARDS,
+  ),
+  ...CT_MAT_PART2_FLASHCARDS,
+];

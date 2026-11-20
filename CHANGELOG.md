@@ -1,5 +1,13 @@
 # Journal des modifications — ISTQB Academy
 
+## [1.0.3] — Extension à 200 Flashcards bilingues FR/EN par certification (2 600 au total)
+
+### Ajouts
+- **Doublement du corpus de flashcards bilingues (13 × 200 = 2 600 cartes originales)** :
+  - Ajout de **100 nouvelles flashcards bilingues FR/EN originales** pour chacune des 13 certifications (`CTFL`, `CTFL-AT`, `CTAL-TM`, `CTAL-TA`, `CTAL-TTA`, `CT-TAS`, `CT-TAE`, `CT-AI`, `CT-PT`, `CT-SEC`, `CT-MAT`, `CTEL-TM`, `CTFL 2011`) portant le total à **200 cartes par certification** (`2 600` au total).
+  - Découpage des bundles Vite en 4 chunks dédiés (`flashcards-ctfl`, `flashcards-ctal`, `flashcards-spec`, `flashcards-exp-hist`) et régénération des packs JSON dans `content/flashcards/*.json`.
+  - Audit complet d'unicité garantissant **0 doublon** sur les identifiants ainsi que sur les intitulés normalisés `front.fr` et `front.en` (intra-certification et inter-certifications).
+
 ## [1.0.2] — 100 Flashcards bilingues FR/EN pour chaque certification (1 300 au total)
 
 ### Ajouts

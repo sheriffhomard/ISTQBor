@@ -3004,6 +3004,3020 @@
       },
       "createdAt": "2026-11-20T00:00:00.000Z",
       "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-101",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le syllabus CT-TAE (2016) déconseille-t-il de confondre « automatisation de test » et « simple exécution de scripts de régression » ?",
+        "en": "Why did CT-TAE (2016) emphasize that test automation extends beyond running regression scripts?"
+      },
+      "back": {
+        "fr": "L’automatisation englobe aussi génération de cas depuis des modèles, création/masquage de données, configuration d’environnements, comparaison complexe de sorties et publication de rapports ALM.",
+        "en": "Because automation also spans model-based test generation, test-data synthesis/masking, environment provisioning, complex output comparison, and ALM reporting."
+      },
+      "tags": [
+        "ch1",
+        "scope"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-102",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la « Volatilité des exigences » influence-t-elle la décision d’automatiser dans un projet séquentiel ou itératif ?",
+        "en": "How does Requirements Volatility affect the TAE’s decision on when to automate?"
+      },
+      "back": {
+        "fr": "Automatiser des écrans dont les règles changent chaque semaine détruit le ROI par réécriture continue ; il faut attendre la stabilisation ou cibler uniquement les contrats stables.",
+        "en": "Automating volatile screens rewritten weekly destroys ROI via constant rework; wait until rules stabilize or target stable underlying service interfaces."
+      },
+      "tags": [
+        "ch1",
+        "volatility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-103",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels obstacles techniques spécifiques pose l’automatisation d’applications Desktop riches (WPF, Swing, Qt, Citrix) ?",
+        "en": "What technical challenges arise when automating rich Desktop UIs (WPF, Swing, Qt, Citrix/VDI)?"
+      },
+      "back": {
+        "fr": "Arbres d’accessibilité UI Automation incomplets, contrôles graphiques personnalisés sans identifiants, fenêtres natives OS (boîtes d’impression/fichier) et latence de rendu sous Citrix/VDI.",
+        "en": "Incomplete UI Automation accessibility trees, custom-drawn widgets lacking handles, OS file/print dialogs, and pixel-only streaming over Citrix/VDI."
+      },
+      "tags": [
+        "ch1",
+        "desktop"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-104",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TAE évalue-t-il les interfaces en ligne de commande (CLI) du SUT ?",
+        "en": "Why are CLI interfaces particularly attractive targets for TAE automation?"
+      },
+      "back": {
+        "fr": "Elles offrent flux standards (`stdin`/`stdout`/`stderr`), codes de retour numériques (`exit code`) déterministes, exécution ultra-rapide et facile intégration dans scripts/conteneurs.",
+        "en": "CLIs offer deterministic `stdin`/`stdout`/`stderr` streams, explicit integer exit codes, near-zero overhead, and effortless scripting in CI containers."
+      },
+      "tags": [
+        "ch1",
+        "cli"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-105",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la limite des tests automatisés face aux défauts de « Convivialité / Ergonomie » (Usability) ?",
+        "en": "Why cannot functional script automation evaluate Usability quality effectively?"
+      },
+      "back": {
+        "fr": "Un script vérifie que le bouton existe et répond à `click()`, mais ne perçoit ni la confusion d’un libellé ambigu, ni la surcharge cognitive, ni un contraste peu lisible sur écran réel.",
+        "en": "A script verifies a button exists and responds to `click()`, yet cannot judge confusing wording, awkward workflows, or visual clutter on real screens."
+      },
+      "tags": [
+        "ch1",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-106",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage spécifique offre l’automatisation dans les tests de « Configuration / Matrice OS-Navigateur » ?",
+        "en": "How does TAE automation solve Compatibility / Configuration Matrix testing?"
+      },
+      "back": {
+        "fr": "Un seul jeu de définitions s’exécute automatiquement en parallèle sur Windows, macOS, Linux et multiples versions de navigateurs ou résolutions, couvrant une matrice impossible manuellement.",
+        "en": "One test definition suite runs in parallel across OSes, browser engines, and viewport sizes, tackling compatibility matrices infeasible manually."
+      },
+      "tags": [
+        "ch1",
+        "compatibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-107",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’absence d’un « Oracle automatique clair » rend-elle certains tests inadaptés à l’automatisation complète ?",
+        "en": "Why does the lack of an unambiguous Automated Oracle make certain tests hard to automate?"
+      },
+      "back": {
+        "fr": "Si déterminer si le résultat est correct exige une interprétation subjective humaine (qualité artistique, mise en page éditoriale, pertinence sémantique ouverte), l’oracle automatisé devient peu fiable.",
+        "en": "When judging correctness requires subjective human judgment (layout aesthetics, open-ended semantic quality), coded pass/fail oracles turn noisy or brittle."
+      },
+      "tags": [
+        "ch1",
+        "oracles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-108",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’automatisation contribue-t-elle aux tests de « Récupération et Redémarrage » (Recovery Testing) ?",
+        "en": "How can a TAE automate Recovery and Restart testing reliably?"
+      },
+      "back": {
+        "fr": "En scriptant arrêt brutal d’un service/conteneur, coupure réseau simulée ou saturation disque, puis redémarrage et vérification automatique de l’intégrité transactionnelle après reprise.",
+        "en": "By scripting abrupt service/container kills or network drops, restarting nodes, and asserting post-recovery data consistency automatically."
+      },
+      "tags": [
+        "ch1",
+        "recovery"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-109",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Automatisation pilotée par les exigences » (Requirements-Driven Scripting / BDD early)?",
+        "en": "What characterizes Specification/Requirements-Driven test automation?"
+      },
+      "back": {
+        "fr": "Les cas automatisés sont directement exprimés à partir des critères d’acceptation structurés (`Given/When/Then` ou tableaux métier) et reliés de bout en bout aux exigences.",
+        "en": "Automated specs derive directly from structured acceptance criteria (`Given/When/Then` or decision tables) with direct requirement traceability."
+      },
+      "tags": [
+        "ch1",
+        "requirements"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-110",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un test manuel qui ne détecte jamais de défauts doit-il quand même être évalué avant automatisation ?",
+        "en": "Why assess defect-finding history before automating an existing manual test?"
+      },
+      "back": {
+        "fr": "Si le cas manuel couvre un flux trivial ou mort sans risque, l’automatiser gaspille du budget de développement et de maintenance ; mieux vaut cibler les zones critiques et risquées.",
+        "en": "If a manual check guards trivial dead code with negligible risk, automating it wastes engineering and upkeep budget; target high-risk areas instead."
+      },
+      "tags": [
+        "ch1",
+        "prioritization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-111",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel problème entraîne le lancement de l’automatisation sans « Gouvernance de nommage et de structure » dès le début ?",
+        "en": "What debt accrues when TAE scripting starts without naming, folder, and coding standards?"
+      },
+      "back": {
+        "fr": "Chaque auteur crée ses propres conventions de répertoires, helpers et tags, aboutissant vite à des doublons incompatibles et des scripts impossibles à retrouver.",
+        "en": "Each author invents conflicting folders, helper styles, and tags, quickly yielding duplicated utilities and unsearchable test repositories."
+      },
+      "tags": [
+        "ch1",
+        "standards"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-112",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les contraintes légales de « Signature électronique et Auditabilité » impactent-elles la TAS (FDA 21 CFR Part 11, finance) ?",
+        "en": "How do regulatory audit mandates (e.g., FDA 21 CFR Part 11, finance) affect TAS design?"
+      },
+      "back": {
+        "fr": "Exigent conservation horodatée immuable des preuves d’exécution, traçabilité exacte version SUT + scripts + données utilisées et contrôle d’accès strict sur la modification des oracles.",
+        "en": "They mandate tamper-evident timestamped run archives, exact traceability linking SUT build + script commit + dataset, and strict change approvals on oracles."
+      },
+      "tags": [
+        "ch1",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-113",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Testabilité de Contrôle » et « Testabilité d’Observation » sur un bus événementiel asynchrone ?",
+        "en": "Illustrate Control vs. Observation testability on an asynchronous event bus."
+      },
+      "back": {
+        "fr": "Contrôle : pouvoir injecter un événement factice avec identifiant déterministe et horloge simulée. Observation : pouvoir lire la file de sortie ou la dead-letter queue via une API d’inspection.",
+        "en": "Control: injecting deterministic events and mocked timestamps onto the bus. Observation: reading emitted events and dead-letter queues via an inspection endpoint."
+      },
+      "tags": [
+        "ch1",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-114",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’automatisation ne réduit-elle pas à zéro le besoin de testeurs humains dès le premier trimestre ?",
+        "en": "Why does test automation initially increase rather than decrease QA workload in Quarter 1?"
+      },
+      "back": {
+        "fr": "Durant les premiers mois, l’équipe doit continuer à tester les livraisons manuellement tout en investissant dans l’architecture, la formation et l’écriture de la TAS avant d’atteindre le seuil de rentabilité.",
+        "en": "Early months carry dual overhead: continuing manual release testing while designing, learning, and coding the TAS before reaching the break-even point."
+      },
+      "tags": [
+        "ch1",
+        "expectations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-115",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TAE gère-t-il les « Interfaces graphiques générées dynamiquement » (IDs aléatoires type React/ExtJS/Salesforce) ?",
+        "en": "How should a TAE handle frameworks that generate randomized DOM IDs (e.g., `#ext-gen-1042`)?"
+      },
+      "back": {
+        "fr": "Collaborer avec le frontend pour ajouter des attributs stables (`data-testid`, `aria-label`, `name`) ou ancrer les localisateurs sur le texte sémantique/rôle parent stable, jamais sur l’ID généré.",
+        "en": "Partner with frontend devs to add explicit `data-testid` or `aria-label` hooks, or anchor selectors to stable semantic roles/labels—never auto-generated IDs."
+      },
+      "tags": [
+        "ch1",
+        "locators"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-116",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure l’usage de « Mock Servers / Bouchons HTTP » lors de l’automatisation de composants frontend ?",
+        "en": "Why use HTTP Mock Servers (e.g., WireMock, MSW) when automating frontend component/E2E suites?"
+      },
+      "back": {
+        "fr": "Pour tester immédiatement erreurs 500, timeouts réseau, listes vides et cas limites rares côté interface sans dépendre de la disponibilité ou de l’état complexe d’un backend complet.",
+        "en": "To deterministically exercise UI error banners (HTTP 500), network timeouts, empty states, and rare payloads without wrestling a heavy live backend."
+      },
+      "tags": [
+        "ch1",
+        "mocking"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-117",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Automatisation des Tests de Non-Régression Sécurité » (Security Regression Automation) ?",
+        "en": "What does automated Security Regression Testing enforce in a TAE pipeline?"
+      },
+      "back": {
+        "fr": "Rejouer automatiquement à chaque build des tests négatifs vérifiant qu’un endpoint corrigé reste bloqué aux rôles non autorisés (403), aux injections SQL et aux jetons expirés.",
+        "en": "Automatically re-running negative checks on every build to confirm patched endpoints still reject unauthorized roles (403), SQLi payloads, and expired tokens."
+      },
+      "tags": [
+        "ch1",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-118",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Séparation entre Données de Test et Code de Test » est-elle un principe fondateur de CT-TAE ?",
+        "en": "Why is separating Test Data from Test Logic a foundational principle in CT-TAE?"
+      },
+      "back": {
+        "fr": "Elle permet d’ajouter 50 nouveaux cas aux limites ou de traduire des jeux de données dans un fichier externe sans jamais modifier ni recompiler la logique des scripts.",
+        "en": "It lets analysts add 50 new boundary datasets or locale inputs externally without touching or recompiling script code."
+      },
+      "tags": [
+        "ch1",
+        "data-separation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-119",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans quel cas l’approche « Model-Based Testing » (MBT) devient-elle particulièrement rentable pour le TAE ?",
+        "en": "When does Model-Based Testing (MBT) deliver strong value in a TAE context?"
+      },
+      "back": {
+        "fr": "Sur des systèmes à nombreux états et transitions complexes (workflow bancaire, télécom, automobile) où la génération automatique depuis un diagramme d’états évite d’oublier des chemins critiques.",
+        "en": "On state-rich systems with complex transitions (telecom, automotive, banking workflows) where generating paths from a state model prevents coverage blind spots."
+      },
+      "tags": [
+        "ch1",
+        "mbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-120",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel écueil menace le Model-Based Testing si le modèle devient aussi complexe que le programme lui-même ?",
+        "en": "What hazard threatens Model-Based Testing if the test model mirrors full implementation complexity?"
+      },
+      "back": {
+        "fr": "Le modèle coûte aussi cher à déboguer et maintenir que le SUT et risque de reproduire les mêmes erreurs conceptuelles (« double implémentation »). Il doit rester abstrait.",
+        "en": "An overly detailed model costs as much to debug as the SUT itself and risks duplicating design bugs; models must stay cleanly abstract."
+      },
+      "tags": [
+        "ch1",
+        "mbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-121",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’automatisation aide-t-elle les tests de « Migration et Conversion de Données » (ETL / Upgrade) ?",
+        "en": "How is TAE automation applied to Data Migration and ETL validation?"
+      },
+      "back": {
+        "fr": "Comparer automatiquement volumétries, sommes de contrôle (checksums), intégrité référentielle et transformation de champs entre base source et base cible sur des millions de lignes.",
+        "en": "Automatically reconciling row counts, aggregate checksums, foreign-key integrity, and field mappings between source and target databases across millions of rows."
+      },
+      "tags": [
+        "ch1",
+        "data-migration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-122",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’ingénieur TAE doit-il évaluer la « Dépendance aux mises à jour de l’OS ou du navigateur » ?",
+        "en": "Why must a TAE factor OS and browser auto-update policies into TAS planning?"
+      },
+      "back": {
+        "fr": "Des navigateurs ou pilotes WebDriver mis à jour automatiquement peuvent casser subitement la communication du runner ; les agents d’exécution doivent épingler leurs versions.",
+        "en": "Uncontrolled auto-updates break WebDriver-to-browser protocol compatibility mid-sprint; test runners must pin locked browser/driver binaries."
+      },
+      "tags": [
+        "ch1",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-123",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que doit vérifier un TAE lorsqu’il automatise des tests sur des composants utilisant des WebSockets ou flux temps réel ?",
+        "en": "What special considerations apply when automating tests for WebSockets or real-time streams?"
+      },
+      "back": {
+        "fr": "Souscrire avant de déclencher l’action émettrice pour éviter les courses critiques, corréler les messages reçus dans un ordre non garanti et gérer timeouts/reconnexions.",
+        "en": "Subscribe to the socket stream before triggering the action to avoid race misses, correlate out-of-order frames, and assert reconnect behavior."
+      },
+      "tags": [
+        "ch1",
+        "websockets"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-124",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue l’« Environnement de Pré-production / Staging » par rapport aux tests automatisés en environnement local développeur ?",
+        "en": "How do automated runs in Staging complement developer-local automated tests?"
+      },
+      "back": {
+        "fr": "Le local valide rapidement logique et contrats isolés avec mocks ; le Staging valide déploiement réel, certificats TLS, réseau, permissions IAM et intégration bout en bout.",
+        "en": "Local suites verify fast isolated logic and contracts; Staging validates real deployment packaging, TLS certs, network routing, IAM policies, and full integration."
+      },
+      "tags": [
+        "ch1",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-125",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les tests automatisés doivent-ils eux-mêmes être « Rapides et Déterministes » pour convaincre les développeurs ?",
+        "en": "Why are Speed and Determinism essential for developer adoption of a TAS?"
+      },
+      "back": {
+        "fr": "Si une suite prend 2 heures ou échoue aléatoirement une fois sur cinq, les développeurs cessent de la lancer avant commit et ignorent ses alertes.",
+        "en": "If a suite takes 2 hours or flakes 20% of the time, developers stop running it locally and routinely disregard red CI builds."
+      },
+      "tags": [
+        "ch1",
+        "determinism"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-126",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Automatisation de Tests » et « Automatisation de Processus Robotisés (RPA) » ?",
+        "en": "How does Test Automation (TAS) differ from Robotic Process Automation (RPA)?"
+      },
+      "back": {
+        "fr": "La RPA exécute des tâches métier répétitives en production sans oracles ni assertions de défauts ; la TAS vérifie la qualité du SUT face à des oracles attendus en environnement contrôlé.",
+        "en": "RPA executes repetitive business workflows in production without quality oracles; TAS evaluates SUT conformance against expected assertions across controlled test environments."
+      },
+      "tags": [
+        "ch1",
+        "concepts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-127",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’automatisation soutient-elle les « Revues de Code » et l’« Intégration Continue » ?",
+        "en": "How does TAS integration reshape Pull Request code reviews?"
+      },
+      "back": {
+        "fr": "Les vérifications mécaniques (lint, unitaires, couverture, contrats) sont prouvées automatiquement par la CI, permettant aux relecteurs humains de se concentrer sur design et logique.",
+        "en": "Automated PR checks prove syntax, unit behavior, and API contract health beforehand so human reviewers focus on design and edge logic."
+      },
+      "tags": [
+        "ch1",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-128",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que risque une équipe qui achète un outil d’automatisation commercial coûteux avant d’avoir défini sa stratégie et ses cas prioritaires ?",
+        "en": "What trap awaits organizations that buy an expensive automation suite before defining strategy and architecture?"
+      },
+      "back": {
+        "fr": "Le phénomène de « Shelfware » : l’outil reste inutilisé sur l’étagère faute de compétences, de testabilité SUT ou de processus CI adapté.",
+        "en": "The \"Shelfware\" trap: costly licenses sit unused because teams lacked testability readiness, skills, or a clear layered architecture."
+      },
+      "tags": [
+        "ch1",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-129",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le degré de « Couplage au SUT » d’une approche d’automatisation envisagée ?",
+        "en": "How does a TAE evaluate SUT coupling risk across automation interfaces?"
+      },
+      "back": {
+        "fr": "Classer du moins couplé au plus stable : coordonnées pixel écran (très fragile) < XPath absolus < CSS/classes < `data-testid` / ARIA < contrats API publics stables.",
+        "en": "From tightest/most brittle to safest: screen XY pixels < absolute XPaths < CSS layout classes < `data-testid`/ARIA < versioned public API contracts."
+      },
+      "tags": [
+        "ch1",
+        "coupling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-130",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "objectiveId": "TAE-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le but ultime d’une « Conception évolutive » (Maintainability) dans CT-TAE ?",
+        "en": "Why is Maintainability the #1 architectural non-functional requirement for a TAS?"
+      },
+      "back": {
+        "fr": "Sur la vie d’un logiciel, le coût de maintenance des scripts automatisés dépasse de loin leur coût d’écriture initial ; seule une architecture propre garantit un ROI positif durable.",
+        "en": "Over a product’s lifetime, script upkeep dwarfs initial scripting cost; only clean modular maintainability keeps ROI positive."
+      },
+      "tags": [
+        "ch1",
+        "maintainability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-131",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans la gTAA, quelle couche porte la responsabilité de traduire un appel abstrait `Login(user)` en requêtes HTTP ou clics WebDriver ?",
+        "en": "Which gTAA layer translates an abstract step like `Login(user)` into concrete WebDriver clicks or HTTP POST calls?"
+      },
+      "back": {
+        "fr": "La couche Test Adaptation : elle encapsule toute interaction technique spécifique au protocole ou à l’IHM du SUT.",
+        "en": "The Test Adaptation layer—it hides protocol- or UI-specific mechanics behind clean abstract operations."
+      },
+      "tags": [
+        "ch2",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-132",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans la gTAA, comment circulent les données entre Test Generation, Test Definition et Test Execution ?",
+        "en": "Describe the flow of artifacts from Test Generation through Test Definition to Test Execution in gTAA."
+      },
+      "back": {
+        "fr": "Test Generation produit des cas abstraits et vecteurs de données vers Test Definition ; Test Execution lit ces définitions et données pour piloter les adaptateurs et comparer les résultats.",
+        "en": "Test Generation outputs abstract cases and data into Test Definition; Test Execution reads definitions and feeds steps into Adaptation while asserting outcomes."
+      },
+      "tags": [
+        "ch2",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-133",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le comparateur de résultats (Oracle) réside-t-il dans la couche Test Execution plutôt que dans Test Adaptation ?",
+        "en": "Why does the Result Comparator (Oracle) belong in Test Execution rather than Test Adaptation?"
+      },
+      "back": {
+        "fr": "Les adaptateurs doivent rester des traducteurs techniques neutres qui retournent des valeurs/états bruts ; la décision de succès ou d’échec métier appartient au moteur d’exécution selon l’oracle défini.",
+        "en": "Adapters should remain neutral technical drivers returning observed SUT states; pass/fail verdict evaluation belongs in Execution against Definition expectations."
+      },
+      "tags": [
+        "ch2",
+        "gtaa",
+        "oracle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-134",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Architecture à Dépôt d’Objets Partagé » (Shared Object Repository) vs Localisateurs dans le code ?",
+        "en": "Compare a central Shared Object Repository vs. code-encapsulated Page Objects."
+      },
+      "back": {
+        "fr": "Un dépôt externe (XML/JSON/YAML) facilite l’édition par outil sans recompiler, tandis que des Page Objects typés en code offrent refactorisation IDE, héritage/composition et contrôle de types à la compilation.",
+        "en": "External repositories (JSON/YAML) enable non-code edits, whereas coded Page Objects give IDE refactoring, compile-time checks, and clean composition."
+      },
+      "tags": [
+        "ch2",
+        "pom"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-135",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir un adaptateur de ligne de commande (CLI Adapter) fiable dans une TAA ?",
+        "en": "What features should a robust CLI Test Adapter provide in a TAA?"
+      },
+      "back": {
+        "fr": "Exécution de processus avec timeout strict, capture séparée de `stdout` et `stderr`, vérification du code de sortie, gestion des variables d’environnement et nettoyage des processus zombies.",
+        "en": "Bounded execution timeouts, separate `stdout`/`stderr` capture, exit-code assertions, isolated env-var injection, and zombie-process cleanup."
+      },
+      "tags": [
+        "ch2",
+        "cli"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-136",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer un adaptateur de fichiers / exports (CSV, Excel, XML, PDF) dans la couche Adaptation ?",
+        "en": "How should a TAA File/Export Adapter parse and validate CSV, XML, or PDF outputs?"
+      },
+      "back": {
+        "fr": "Encapsuler le parsing (bibliothèque CSV/PDF/XML) pour retourner des structures typées normalisées, en isolant encodage UTF-8, séparateurs régionaux et métadonnées volatiles (date de génération).",
+        "en": "Wrap parsers to return normalized typed records while abstracting UTF-8 BOMs, locale delimiters, and volatile metadata (generation timestamps)."
+      },
+      "tags": [
+        "ch2",
+        "adapters"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-137",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert un « Harnais de Test » (Test Harness) au niveau Intégration / Composant dans CT-TAE ?",
+        "en": "What components make up a Component/Integration Test Harness in CT-TAE?"
+      },
+      "back": {
+        "fr": "Un Pilote (Driver) qui appelle le composant testé, des Bouchons (Stubs/Mocks) qui remplacent ses dépendances aval, des générateurs d’entrées et un enregistreur de verdicts.",
+        "en": "A Test Driver invoking the unit under test, Stubs/Mocks substituting downstream dependencies, input feeders, and a verdict logger."
+      },
+      "tags": [
+        "ch2",
+        "harness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-138",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence fonctionnelle existe entre un Pilote (Driver) et un Bouchon (Stub) dans un harnais ?",
+        "en": "Contrast a Test Driver and a Test Stub in a test harness."
+      },
+      "back": {
+        "fr": "Le Driver simule le composant appelant supérieur pour invoquer la cible ; le Stub simule une dépendance inférieure appelée par la cible et renvoie des réponses contrôlées.",
+        "en": "A Driver acts as the upstream caller invoking the component under test; a Stub stands in for a downstream callee returning controlled responses."
+      },
+      "tags": [
+        "ch2",
+        "driver-stub"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-139",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment modéliser la couche « Préconditions et État Initial » pour éviter la dépendance en chaîne (`Test1 -> Test2 -> Test3`) ?",
+        "en": "How should TAA architecture enforce test independence instead of chained tests (`Test1 → Test2 → Test3`)?"
+      },
+      "back": {
+        "fr": "Chaque test déclare et prépare ses propres préconditions autonomes (via fixture API rapide ou snapshot DB) au démarrage, sans jamais compter sur les effets de bord d’un test précédent.",
+        "en": "Each test provisions its own autonomous initial state via fast API fixtures or DB snapshots—never relying on side effects left by an earlier test."
+      },
+      "tags": [
+        "ch2",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-140",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Adaptateur de Contrôle d’Environnement » (Environment Controller) dans une TAA avancée ?",
+        "en": "What does an Environment Controller component manage inside an advanced TAA?"
+      },
+      "back": {
+        "fr": "Démarrage/arrêt automatique de conteneurs Docker, réinitialisation de jeux de données de base, activation de feature flags et vérification de santé (`/health`) avant le lancement des tests.",
+        "en": "Spinning up/down Docker containers, resetting baseline DB seeds, toggling feature flags, and polling `/health` readiness before suite execution."
+      },
+      "tags": [
+        "ch2",
+        "environment"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-141",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment implémenter une stratégie de « Masquage / Redaction » dans la journalisation automatique de la couche Execution ?",
+        "en": "How should the Execution layer redact secrets inside automated logs and HTTP traces?"
+      },
+      "back": {
+        "fr": "Passer tous les en-têtes `Authorization`, cookies de session et champs sensibles (`password`, `token`, `cardNumber`) dans un filtre centralisé remplaçant leur valeur par `[REDACTED]` avant écriture.",
+        "en": "Route all `Authorization` headers, cookies, and sensitive payload keys (`password`, `token`) through a centralized log sanitizer replacing values with `[REDACTED]`."
+      },
+      "tags": [
+        "ch2",
+        "logging",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-142",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi implémenter le patron « Retry sur requête idempotente / Wait-Until » au niveau de l’adaptateur plutôt que d’échouer au premier polling ?",
+        "en": "Why handle transient async polling inside Adapters rather than failing on the first read?"
+      },
+      "back": {
+        "fr": "Dans les systèmes éventuels/distribués, une écriture peut prendre 200 ms pour se propager à la vue de lecture ; un polling borné avec backoff court dans l’adaptateur reflète l’attente métier réaliste.",
+        "en": "Eventual-consistency APIs or UI projections may take 200ms to settle; bounded short-backoff polling in the adapter handles async propagation cleanly without sleep hacks."
+      },
+      "tags": [
+        "ch2",
+        "async"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-143",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir une TAA capable d’exécuter le même jeu de cas métier en mode « API rapide » ET en mode « GUI complet » ?",
+        "en": "How does gTAA enable switching the same test suite between fast API mode and full GUI mode?"
+      },
+      "back": {
+        "fr": "Les scénarios dans Test Definition appellent une interface de service métier abstraite (`OrderActions`), liée à l’exécution soit à `ApiOrderAdapter`, soit à `WebUiOrderAdapter`.",
+        "en": "Test Definition steps target an abstract workflow interface (`OrderActions`), bound via configuration to either `ApiOrderAdapter` or `WebUiOrderAdapter`."
+      },
+      "tags": [
+        "ch2",
+        "gtaa",
+        "adapters"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-144",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure une gestion centralisée des « Timeouts hiérarchisés » (Action < Étape < Test < Suite) ?",
+        "en": "Why define hierarchical timeouts (Action < Step < Test < Suite) in the TAA?"
+      },
+      "back": {
+        "fr": "Un sélecteur bloqué échoue en 5 s, un test bloqué s’arrête en 60 s et une suite coincée s’interrompt en 15 min — empêchant un blocage unique de paralyser un runner CI pendant des heures.",
+        "en": "A stuck element fails in 5s, a hung test aborts at 60s, and a stalled suite stops at 15m—preventing a single deadlock from freezing CI runners for hours."
+      },
+      "tags": [
+        "ch2",
+        "timeouts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-145",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la TAA traite-t-elle les fenêtres modales natives navigateur (`alert`, `confirm`, téléchargement) ou onglets multiples ?",
+        "en": "How should GUI adapters encapsulate browser dialogs (`alert`/`confirm`), file uploads, and multi-tab popups?"
+      },
+      "back": {
+        "fr": "Enregistrer des gestionnaires événementiels explicites via l’API du pilote navigateur avant l’action déclenchante afin d’éviter tout blocage silencieux du thread principal.",
+        "en": "Register explicit driver dialog/popup/download listeners prior to triggering actions so native prompts never hang the browser automation thread."
+      },
+      "tags": [
+        "ch2",
+        "gui"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-146",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Abstraction de Génération de Données Aléatoires avec Graine Fixe » (Seeded RNG) ?",
+        "en": "Why use a Seeded Random Number Generator (Seeded RNG) when generating dynamic test data?"
+      },
+      "back": {
+        "fr": "Chaque exécution journalise sa graine (`seed=84921`) : si un test échoue sur une combinaison générée rare, on rejoue exactement le même cas à l’identique en passant cette graine.",
+        "en": "Logging the exact RNG seed (`seed=84921`) lets engineers replay the exact randomized edge-case dataset deterministically whenever a failure occurs."
+      },
+      "tags": [
+        "ch2",
+        "test-data",
+        "reproducibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-147",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer la comparaison de structures JSON ou XML dont l’ordre des éléments de tableau n’est pas significatif ?",
+        "en": "How should the Execution Comparator assert JSON/XML arrays whose item ordering is non-deterministic?"
+      },
+      "back": {
+        "fr": "Trier canoniquement par clé métier ou utiliser des matchers sémantiques « contient exactement dans n’importe quel ordre » (`arrayContainingInAnyOrder`) au lieu d’une comparaison textuelle brute.",
+        "en": "Canonicalize by stable business key or use order-insensitive structural matchers rather than raw string diffs."
+      },
+      "tags": [
+        "ch2",
+        "comparator"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-148",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre un « Adaptateur Passif » (Passive / Spy Observer) et un « Adaptateur Actif » dans gTAA ?",
+        "en": "Distinguish an Active Adapter from a Passive / Monitoring Adapter in gTAA."
+      },
+      "back": {
+        "fr": "L’adaptateur actif envoie commandes et entrées au SUT ; l’adaptateur passif écoute en arrière-plan journaux serveurs, métriques réseau ou événements de bus sans intervenir pour enrichir l’oracle.",
+        "en": "Active adapters drive inputs/commands into the SUT; passive adapters observe server logs, network traffic, or event streams unobtrusively to enrich verification."
+      },
+      "tags": [
+        "ch2",
+        "adapters"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-149",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi éviter d’inclure de la logique conditionnelle complexe (`if/else/for`) à l’intérieur même des cas de test définis ?",
+        "en": "Why should individual test cases avoid branching logic (`if/else`, nested loops)?"
+      },
+      "back": {
+        "fr": "Un test avec des `if` cache peut-être plusieurs chemins distincts, devient difficile à comprendre et risque lui-même de contenir des bogues sautant silencieusement les assertions.",
+        "en": "Branching inside a test blurs expected outcomes, complicates debugging, and risks introducing logic bugs in the test itself that skip assertions silently."
+      },
+      "tags": [
+        "ch2",
+        "test-design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-150",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment modéliser les dépendances entre suites lorsque l’exécution parallèle est activée sur N nœuds ?",
+        "en": "What architectural design guarantees safe parallel execution across N worker nodes?"
+      },
+      "back": {
+        "fr": "Isolation stricte des espaces de données par worker/test (préfixe `workerId`, locataires dédiés), zéro fichier temporaire partagé à chemin fixe et ports dynamiques.",
+        "en": "Per-worker/per-test isolated tenants or ID prefixes, zero fixed temp-file paths, and ephemeral port allocation."
+      },
+      "tags": [
+        "ch2",
+        "parallelism"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-151",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Architecture dirigée par plugins » (Plugin Architecture) pour une TAS d’entreprise ?",
+        "en": "Why build an enterprise TAS core using a Plugin Architecture?"
+      },
+      "back": {
+        "fr": "Le noyau gère exécution, reporting et configuration, tandis que des plugins chargent dynamiquement nouveaux protocoles (gRPC, Kafka, mobile) ou nouveaux formats de rapport sans modifier le cœur.",
+        "en": "A lean core manages execution, configuration, and reporting while pluggable modules add new protocol adapters (gRPC, Kafka, mobile) or reporters cleanly."
+      },
+      "tags": [
+        "ch2",
+        "extensibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-152",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier automatiquement la conformité des messages d’erreur localisés dans une TAA ?",
+        "en": "How should a TAA verify localized error and validation messages cleanly?"
+      },
+      "back": {
+        "fr": "Tester idéalement des codes d’erreur machine stables côté API (`INVALID_IBAN`) pour le fonctionnel pur, et vérifier les libellés humains traduits via des tables de clés i18n dans un jeu de tests dédié.",
+        "en": "Assert stable machine error codes (`INVALID_IBAN`) in functional checks and verify rendered translated copy against i18n resource bundles in dedicated locale checks."
+      },
+      "tags": [
+        "ch2",
+        "i18n",
+        "oracles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-153",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue un « Proxy d’enregistrement HTTP » (HAR / MITM proxy) dans la couche Adaptation ?",
+        "en": "How can an HTTP Inspection Proxy inside the Adaptation layer supercharge web E2E diagnostics?"
+      },
+      "back": {
+        "fr": "Capturer automatiquement requêtes/réponses XHR échouées (4xx/5xx), mesurer temps serveur exacts et injecter des pannes ciblées sans modifier le frontend.",
+        "en": "Automatically capturing failed XHR/Fetch payloads (4xx/5xx), server timings, and injecting targeted network faults without altering frontend code."
+      },
+      "tags": [
+        "ch2",
+        "proxy",
+        "diagnostics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-154",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir l’interface entre la TAS et un outil externe de gestion de tests (ALM / Jira / TestRail) ?",
+        "en": "How should the ALM / Test Management connector be decoupled in the TAA?"
+      },
+      "back": {
+        "fr": "Via un exportateur asynchrone post-exécution lisant les résultats standards (JUnit/JSON) et publiant vers l’API ALM, pour que la suite continue de fonctionner même si le serveur ALM est hors ligne.",
+        "en": "Via an asynchronous post-run publisher reading standard JUnit/JSON results so test execution never fails just because the ALM server hiccups."
+      },
+      "tags": [
+        "ch2",
+        "alm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-155",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la couche Test Definition doit-elle favoriser des « Tables d’Exemples Paramétrées » (Scenario Outline / `@ParameterizedTest`) ?",
+        "en": "Why favor Parameterized Test Tables (`@ParameterizedTest` / `Scenario Outline`) in Test Definition?"
+      },
+      "back": {
+        "fr": "Écrire une seule logique de scénario couvrant 15 partitions d’équivalence et valeurs limites sans dupliquer 15 fois le même script, tout en donnant un statut distinct à chaque ligne.",
+        "en": "One test logic drives 15 equivalence partitions and boundary rows without duplicating code 15 times, while still reporting each row’s verdict individually."
+      },
+      "tags": [
+        "ch2",
+        "parameterization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-156",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’échec en cascade quand un élément UI est temporairement masqué par un spinner de chargement ou bannière cookie ?",
+        "en": "How should GUI adapters guard against transient overlays (loading spinners, cookie banners, toasts)?"
+      },
+      "back": {
+        "fr": "Attendre la disparition de l’overlay de chargement dans les actions d’adaptation et initialiser l’état de consentement cookie/modal via cookie ou `localStorage` dès l’ouverture du contexte.",
+        "en": "Wait for loading spinners to detach inside adapter actions and pre-seed cookie/onboarding consent via browser storage on context startup."
+      },
+      "tags": [
+        "ch2",
+        "gui",
+        "stability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-157",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel problème résout le motif « State Restoration / DB Snapshot » entre tests d’intégration lourds ?",
+        "en": "How does fast DB Snapshot / Transaction Rollback restoration speed up heavy integration suites?"
+      },
+      "back": {
+        "fr": "Au lieu de recréer un environnement complet ou supprimer manuellement 30 tables, chaque test tourne dans une transaction annulée (`ROLLBACK`) ou restaure un snapshot en quelques millisecondes.",
+        "en": "Wrapping tests in rolled-back transactions or millisecond schema snapshots avoids slow full DB rebuilds while guaranteeing pristine test isolation."
+      },
+      "tags": [
+        "ch2",
+        "database",
+        "isolation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-158",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer une TAS pour tester des workflows longue durée (ex. approbation sur 3 jours avec relance) ?",
+        "en": "How does a TAA automate multi-day business workflows (e.g., 3-day SLA escalations) in seconds?"
+      },
+      "back": {
+        "fr": "Combiner injection d’horloge virtuelle (ou modification contrôlée de date d’échéance via fixture backdoor) avec déclenchement manuel du job planifié vérifiant la transition.",
+        "en": "Combine clock injection (or fixture-adjusted expiry timestamps) with an on-demand job trigger to verify the 3-day transition deterministically in seconds."
+      },
+      "tags": [
+        "ch2",
+        "workflows"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-159",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi documenter un « Contrat d’Adaptateur » clair lorsque plusieurs développeurs ajoutent de nouveaux pilotes ?",
+        "en": "Why define explicit Adapter Interfaces / Contracts in a multi-contributor TAS?"
+      },
+      "back": {
+        "fr": "Tous les adaptateurs respectent les mêmes conventions d’erreurs, timeouts, journaux et nettoyage, rendant leur comportement prévisible dans la couche Execution.",
+        "en": "Every new protocol/UI adapter adheres to uniform error wrapping, timeout bounds, logging, and teardown contracts."
+      },
+      "tags": [
+        "ch2",
+        "contracts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-160",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Graceful Teardown » dans le cycle de vie d’un Runner d’automatisation ?",
+        "en": "What does Graceful Teardown guarantee when a test suite completes or receives a CI cancellation signal (`SIGTERM`)?"
+      },
+      "back": {
+        "fr": "Flusher les rapports partiels, fermer tous navigateurs/conteneurs ouverts, révoquer les ressources temporaires cloud et renvoyer un code de sortie exact sans laisser de processus orphelins.",
+        "en": "Flushing partial reports, closing open browsers/containers, releasing cloud allocations, and exiting cleanly without orphaned processes."
+      },
+      "tags": [
+        "ch2",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-161",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la gTAA sépare-t-elle l’interface de saisie humaine d’un mot-clé (ex. tableau Excel / Gherkin) de son interpréteur ?",
+        "en": "How does gTAA decouple human-friendly keyword tables or Gherkin files from their execution engine?"
+      },
+      "back": {
+        "fr": "Un parseur dans Test Definition/Execution lit les fichiers tabulaires ou `.feature` et résout dynamiquement chaque étape vers les fonctions codées correspondantes sans coupler les auteurs métier au code.",
+        "en": "A parser translates tabular/Gherkin syntax into bound step invocations so domain analysts author readable specs without touching driver code."
+      },
+      "tags": [
+        "ch2",
+        "gtaa",
+        "keywords"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-162",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque architectural survient si les « Page Objects » conservent un état mutable interne entre appels ?",
+        "en": "What subtle bug arises when Page Objects store mutable instance state across test steps?"
+      },
+      "back": {
+        "fr": "Si un Page Object singleton conserve des données périmées d’un test précédent, il crée une contamination croisée en exécution parallèle ; les Page Objects doivent rester sans état ou liés à une instance de page unique par test.",
+        "en": "Cached fields inside shared Page Objects leak stale data across tests; keep Page Objects stateless or scoped strictly per single test page instance."
+      },
+      "tags": [
+        "ch2",
+        "pom"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-163",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’architecture TAS prend-elle en charge le « Rejeu ciblé des seuls échecs » (Re-run Failed Tests Only) ?",
+        "en": "How does a TAS architecture support fast \"Re-run Last Failed Tests\" workflows?"
+      },
+      "back": {
+        "fr": "Le moteur d’exécution exporte un manifeste des IDs échoués (`last-failed.json`) que le développeur ou la CI peut repasser immédiatement en entrée après correction.",
+        "en": "The runner emits a machine-readable failed-ID manifest (`last-failed.json`) so developers re-run only failing tests immediately after a fix."
+      },
+      "tags": [
+        "ch2",
+        "execution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-164",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier l’intégrité d’un fichier téléchargé (PDF/CSV/ZIP) dans un test UI automatisé sans dépendre des boîtes de dialogue OS ?",
+        "en": "How should a GUI adapter verify downloaded files (PDF/CSV/ZIP) without wrestling OS Save dialogs?"
+      },
+      "back": {
+        "fr": "Configurer le profil navigateur ou l’API du pilote pour télécharger silencieusement dans un répertoire temporaire isolé par test, puis lire et vérifier contenu/checksums directement.",
+        "en": "Configure the browser driver to auto-save into a per-test temp folder (or intercept the HTTP download stream) and assert file checksums/contents directly."
+      },
+      "tags": [
+        "ch2",
+        "downloads"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-165",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Abstraction d’Horloge et d’Aléa » côté SUT pour soutenir l’architecture TAS ?",
+        "en": "Why should SUT architectures expose injectable Clock and RNG abstractions for TAS reliability?"
+      },
+      "back": {
+        "fr": "Permet aux tests automatisés d’exiger des UUID prévisibles, tirages déterministes et dates figées en environnement de test, éliminant les fluctuations de calendrier et tirages aléatoires.",
+        "en": "It lets automated suites freeze dates, fix random outcomes, and stabilize UUIDs during tests—eliminating calendar and RNG non-determinism."
+      },
+      "tags": [
+        "ch2",
+        "determinism"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-166",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "objectiveId": "TAE-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel principe résume la bonne conception d’une Architecture d’Automatisation (TAA) ?",
+        "en": "What core architectural rule summarizes great TAA design?"
+      },
+      "back": {
+        "fr": "Haute cohésion par couche (Génération, Définition, Exécution, Adaptation), faible couplage vers les détails techniques volatiles du SUT et observabilité complète de chaque verdict.",
+        "en": "High layer cohesion (Generation, Definition, Execution, Adaptation), loose coupling to volatile SUT mechanics, and rich diagnostics on every failure."
+      },
+      "tags": [
+        "ch2",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-167",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réaliser concrètement un test de « Vérification par Mutation / Injection de Défaut » sur une nouvelle TAS ?",
+        "en": "How does a TAE perform Negative Fault-Injection verification on a newly built TAS?"
+      },
+      "back": {
+        "fr": "Introduire temporairement des défauts connus sur une branche test du SUT (mauvais calcul TVA, HTTP 500 caché, texte manquant) et confirmer que les tests cibles basculent bien au Rouge avec message exact.",
+        "en": "Temporarily inject known faults on a scratch SUT branch (wrong tax math, suppressed error banner) and confirm the target TAS checks turn Red with accurate diagnostics."
+      },
+      "tags": [
+        "ch3",
+        "verification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-168",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi vérifier que la TAS n’avale pas les exceptions silencieuses dans les promesses ou threads asynchrones ?",
+        "en": "Why verify that the TAS never swallows async Promise rejections or background thread exceptions?"
+      },
+      "back": {
+        "fr": "Une erreur ignorée dans un callback asynchrone laisse le test se terminer en « Succès » trompeur ; il faut brancher des écouteurs globaux `unhandledRejection` faisant échouer immédiatement le test.",
+        "en": "An uncaught async callback error can let a runner exit green; global `unhandledRejection` hooks must fail the test immediately."
+      },
+      "tags": [
+        "ch3",
+        "verification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-169",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment planifier la montée en charge des suites automatisées lors de la phase de déploiement post-pilote ?",
+        "en": "How should TAS rollout scale across teams after a successful Pilot?"
+      },
+      "back": {
+        "fr": "Déployer par vagues progressives : fournir modèles de dépôt prêts à l’emploi, organiser ateliers pratiques de binômage et nommer des champions TAE dans chaque équipe produit.",
+        "en": "Roll out in waves using golden starter templates, hands-on pairing workshops, and embedded automation champions inside each product squad."
+      },
+      "tags": [
+        "ch3",
+        "rollout"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-170",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle d’un « Tableau de Bord Unifié Multi-Niveaux » pour le reporting automatisé ?",
+        "en": "What should a unified multi-layer test dashboard show after every CI run?"
+      },
+      "back": {
+        "fr": "Vue consolidée Unitaire + Intégration/API + E2E + Sécurité/Perf reliée au numéro de build/commit, avec tendance de flakiness et temps d’exécution.",
+        "en": "A consolidated view across Unit + API/Integration + E2E + Security/Perf tied to build SHA, surfacing flakiness trends and runtimes."
+      },
+      "tags": [
+        "ch3",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-171",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer un rapport d’échec pour réduire le « Ping-Pong » entre QA et Développeurs ?",
+        "en": "How do high-quality TAS failure reports eliminate \"Cannot Reproduce\" ping-pong with developers?"
+      },
+      "back": {
+        "fr": "Joindre commande exacte de rejeu local, URL/ID d’environnement, trace réseau requête/réponse cURL, logs console navigateur, capture/vidéo et commit SHA testé.",
+        "en": "Include one-line local replay command, exact environment URL, failing HTTP cURL/response payload, browser console logs, video trace, and SUT commit SHA."
+      },
+      "tags": [
+        "ch3",
+        "diagnostics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-172",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi regrouper les échecs récurrents par « Signature d’Erreur » (Failure Clustering) dans les grands rapports ?",
+        "en": "How does Failure Clustering (grouping by stack-trace signature) help large automated runs?"
+      },
+      "back": {
+        "fr": "Si un microservice d’authentification tombe et fait échouer 180 tests d’un coup, le clustering regroupe les 180 échecs sous 1 seule cause racine au lieu de submerger l’équipe.",
+        "en": "When a single auth service hiccup breaks 180 tests at once, grouping by shared error signature highlights 1 root cause instead of 180 noisy alerts."
+      },
+      "tags": [
+        "ch3",
+        "reporting",
+        "triage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-173",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer la migration progressive des anciens tests manuels quand la couverture métier n’est pas documentée ?",
+        "en": "How should a TAE convert undocumented legacy manual regression into automated suites?"
+      },
+      "back": {
+        "fr": "Binômer avec les experts métier pour cartographier les parcours critiques réels en production (analytics/logs), écrire d’abord ces flux au bon niveau (API/E2E) et écarter les scénarios obsolètes.",
+        "en": "Pair with domain experts and production traffic logs to map real critical journeys, automate them at optimal pyramid layers, and discard obsolete legacy steps."
+      },
+      "tags": [
+        "ch3",
+        "transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-174",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle règle de gouvernance garantit que la TAS reste à jour lors des correctifs urgents (Hotfixes) ?",
+        "en": "What rule keeps the TAS synchronized during emergency production Hotfixes?"
+      },
+      "back": {
+        "fr": "Aucun hotfix ne contourne les tests unitaires/smoke automatisés rapides ; si le comportement attendu change, le test correspondant est mis à jour et fusionné avec le hotfix (ou sous 24h suivies).",
+        "en": "Hotfixes still pass fast smoke/unit gates; if expected behavior changes, matching test updates land in the same PR or via a tracked immediate follow-up."
+      },
+      "tags": [
+        "ch3",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-175",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’automatisation soutient-elle les revues Go/No-Go avant mise en production (Release Readiness) ?",
+        "en": "How do TAS execution metrics inform formal Release Go/No-Go gates?"
+      },
+      "back": {
+        "fr": "Fournir en temps réel : 100 % des suites critiques vertes sur le candidat exact, zéro régression ouverte sur les risques élevés, et validation des seuils non fonctionnels (perf/sécurité).",
+        "en": "Providing real-time evidence on the exact release candidate: critical suites green, zero unmitigated high-risk regressions, and passing security/latency gates."
+      },
+      "tags": [
+        "ch3",
+        "release"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-176",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’indicateur « Temps de maintenance par sprint » doit-il être visible dans les indicateurs d’équipe ?",
+        "en": "Why must \"Weekly/Sprint Automation Maintenance Hours\" be tracked visibly alongside feature velocity?"
+      },
+      "back": {
+        "fr": "Si la réparation de scripts passe de 4 h à 30 h par sprint, le management voit immédiatement l’urgence de rembourser la dette architecturale de la TAS.",
+        "en": "Seeing script-repair hours climb from 4h to 30h per sprint alerts leadership immediately to invest in TAS architectural cleanup."
+      },
+      "tags": [
+        "ch3",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-177",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer si un rapport automatisé contient trop de « bruit » (Noise) ?",
+        "en": "What signals reveal excessive \"reporting noise\" in a TAS?"
+      },
+      "back": {
+        "fr": "Avertissements ignorés en masse, logs de debug verbeux noyant la vraie erreur, échecs répétés de tests déjà connus comme cassés sans mise en quarantaine et alertes envoyées pour des environnements en maintenance.",
+        "en": "Walls of ignored warnings, verbose debug dumps burying the assertion line, repeated noise from un-quarantined broken tests, and alerts during planned downtime."
+      },
+      "tags": [
+        "ch3",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-178",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la bonne pratique d’accompagnement humain des testeurs manuels inquiets lors du déploiement d’une TAS ?",
+        "en": "How should leadership support manual testers anxious about automation rollout?"
+      },
+      "back": {
+        "fr": "Clarifier que l’automatisation libère du travail répétitif pour monter en compétence sur test exploratoire avancé, analyse de risque, conception BDD/données ou ingénierie TAE accompagnée par formation.",
+        "en": "Show how automation removes repetitive regression drudgery, opening growth paths into exploratory risk testing, BDD specification, data design, or funded TAE upskilling."
+      },
+      "tags": [
+        "ch3",
+        "people"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-179",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lors de la validation d’un nouvel agent d’exécution CI (ex. nouveau runner Linux/macOS/Windows) ?",
+        "en": "What verification checklist validates a newly provisioned CI test runner agent?"
+      },
+      "back": {
+        "fr": "Versions exactes compilateurs/navigateurs, polices systèmes installées, accès réseau/DNS aux environnements cibles, absence de fuite de variables secrètes, espace disque et résolution d’écran.",
+        "en": "Pinned runtime/browser versions, required fonts, target network/DNS reachability, secret isolation, ample disk space, and configured virtual display resolution."
+      },
+      "tags": [
+        "ch3",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-180",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mettre en place une politique de « Tolérance Zéro aux Échecs Ignorés » sur la branche principale ?",
+        "en": "Why enforce a \"Zero Broken Windows / Green Main\" policy on automated builds?"
+      },
+      "back": {
+        "fr": "Dès qu’une suite tolère « juste 2 ou 3 tests rouges habituels », plus personne ne remarque lorsqu’un 4e véritable bogue s’y ajoute : un échec sur `main` est réparé ou revert immédiatement.",
+        "en": "Once teams normalize \"those 3 tests are always red,\" nobody notices when a 4th real regression breaks; red `main` builds must be fixed or reverted immediately."
+      },
+      "tags": [
+        "ch3",
+        "culture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-181",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment organiser la passation de connaissance (Handover) d’une TAS entre une équipe projet et une équipe MCO/Maintenance ?",
+        "en": "What deliverables ensure smooth handover of a TAS to a long-term Maintenance team?"
+      },
+      "back": {
+        "fr": "Documentation d’architecture gTAA à jour, runbook de triage des pannes CI, scripts d’amorçage environnement, accès coffres secrets, liste des dettes connues et sessions de démonstration enregistrées.",
+        "en": "Up-to-date gTAA architecture docs, CI failure triage runbook, one-command local bootstrap scripts, secret-vault access, known-gaps log, and recorded walkthroughs."
+      },
+      "tags": [
+        "ch3",
+        "handover"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-182",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel indicateur montre qu’une TAS devient réellement « Auto-documentée » pour les parties prenantes ?",
+        "en": "How can a TAS serve as \"Living Documentation\" for product and business stakeholders?"
+      },
+      "back": {
+        "fr": "Les rapports BDD/mots-clés lisibles en langage naturel affichent à jour ce que chaque fonctionnalité fait réellement et prouvent que ces règles viennent d’être vérifiées sur la dernière build.",
+        "en": "Readable BDD/keyword execution reports show up-to-date business behavior alongside live proof that every rule passed on the latest build."
+      },
+      "tags": [
+        "ch3",
+        "living-docs"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-183",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter la perte de traçabilité quand un test est renommé ou déplacé dans le dépôt Git ?",
+        "en": "How do teams preserve historical trend tracking when automated tests are renamed or moved across files?"
+      },
+      "back": {
+        "fr": "Attacher un identifiant immuable (`@id=TC-402`) dans les métadonnées du test plutôt que de dépendre uniquement du chemin de fichier ou titre textuel dans les outils d’historique.",
+        "en": "Attach a stable immutable test ID (`@id=TC-402`) in metadata instead of keying historical analytics purely on file paths or mutable display titles."
+      },
+      "tags": [
+        "ch3",
+        "traceability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-184",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi analyser le « Taux de Réussite au Premier Passage » (First-Pass Yield) plutôt qu’après 3 relances automatiques ?",
+        "en": "Why track First-Pass Yield (before automatic retries) in TAS health reporting?"
+      },
+      "back": {
+        "fr": "Les relances automatiques masquent la dégradation lente de fiabilité : suivre le premier passage révèle immédiatement la montée de flakiness ou d’instabilité infrastructure.",
+        "en": "Silent auto-retries mask creeping instability; tracking First-Pass Yield immediately exposes rising flakiness or infrastructure degradation."
+      },
+      "tags": [
+        "ch3",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-185",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer la rétrocompatibilité des rapports lorsque la TAS évolue vers un nouvel outil ?",
+        "en": "How do organizations preserve reporting continuity during a TAS tool migration?"
+      },
+      "back": {
+        "fr": "Normaliser les sorties des anciens et nouveaux frameworks vers un format d’échange commun (JUnit XML / SARIF / JSON unifié) ingéré par le même tableau de bord central.",
+        "en": "Normalize outputs from both old and new frameworks into a common interchange format (JUnit XML / SARIF / unified JSON) feeding the same central dashboard."
+      },
+      "tags": [
+        "ch3",
+        "reporting",
+        "migration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-186",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier avant de supprimer un test manuel après automatisation complète d’un scénario ?",
+        "en": "What checklist confirms a manual test is truly ready to be retired after automation?"
+      },
+      "back": {
+        "fr": "1) Toutes les assertions clés (y compris négatives) sont couvertes ; 2) Le test automatisé a passé de façon stable sur plusieurs builds ; 3) L’échec volontaire a été prouvé ; 4) Le propriétaire valide le transfert.",
+        "en": "1) All key assertions covered; 2) Stable green runs across multiple builds; 3) Negative failure verified; 4) Test owner signs off on retirement."
+      },
+      "tags": [
+        "ch3",
+        "transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-187",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure la génération automatique d’un « Résumé de Diff de Couverture » sur chaque Pull Request ?",
+        "en": "How does automated PR Coverage / Risk Summary reporting improve team discipline?"
+      },
+      "back": {
+        "fr": "Afficher directement dans la PR les nouveaux fichiers non couverts, les tests ajoutés et l’impact sur la durée CI rend la qualité visible au moment exact de la décision de merge.",
+        "en": "Posting uncovered changed lines, new tests added, and CI runtime delta directly on each PR makes quality visible right at merge time."
+      },
+      "tags": [
+        "ch3",
+        "ci",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-188",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la maintenance des adaptateurs suit-elle l’évolution des API internes (ex. dépréciation de endpoints v1 → v2) ?",
+        "en": "How should TAS adapter maintenance track internal API deprecations (v1 → v2)?"
+      },
+      "back": {
+        "fr": "Marquer les méthodes d’adaptateur v1 `@deprecated`, ouvrir des alertes en revue/compilation et planifier la bascule incrémentale vers l’adaptateur v2 avant la date de retrait.",
+        "en": "Annotate v1 adapter methods `@deprecated`, surface compiler/lint warnings, and migrate callers incrementally before v1 sunset."
+      },
+      "tags": [
+        "ch3",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-189",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi inclure les « Dépendances de la TAS » (bibliothèques npm/Maven/PyPI) dans les scans de vulnérabilités SCA ?",
+        "en": "Why must TAS repositories also undergo SCA dependency vulnerability scanning?"
+      },
+      "back": {
+        "fr": "Les outils de test tournent dans les pipelines CI avec accès aux secrets, réseaux internes et environnements de staging : une dépendance compromise en test menace la chaîne logistique CI/CD.",
+        "en": "Automation runs inside CI with network reachability and staging secrets; compromised test dependencies threaten software supply-chain security."
+      },
+      "tags": [
+        "ch3",
+        "security",
+        "sca"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-190",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le coût réel d’un échec de suite nocturne non trié le matin ?",
+        "en": "What hidden cost arises if nightly automated test failures go untriaged each morning?"
+      },
+      "back": {
+        "fr": "De nouveaux commits continuent de s’empiler sur un environnement déjà cassé ; le lendemain, 20 développeurs ont fusionné du code sur une base non validée, rendant l’isolation du coupable dix fois plus longue.",
+        "en": "Developers keep stacking commits atop an unverified broken build; by noon, 20 merged PRs mask which change caused the failure, multiplying debug time."
+      },
+      "tags": [
+        "ch3",
+        "triage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-191",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle rotation d’équipe aide à maintenir la qualité du triage des échecs automatisés ?",
+        "en": "How does a \"Build Sheriff / Triage Rotation\" improve TAS maintenance culture?"
+      },
+      "back": {
+        "fr": "Une personne tournante par sprint veille chaque matin au premier triage des alertes CI et assure le partage équitable des compétences d’investigation dans toute l’équipe.",
+        "en": "A rotating sprint Build Sheriff triages morning CI alerts promptly and spreads diagnostic ownership evenly rather than overloading one QA engineer."
+      },
+      "tags": [
+        "ch3",
+        "triage",
+        "culture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-192",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réagir lorsque l’infrastructure CI est saine mais que le temps moyen de correction d’un test cassé dépasse plusieurs jours ?",
+        "en": "What bottleneck should a TAE suspect if fixing broken automated tests routinely takes days?"
+      },
+      "back": {
+        "fr": "Absence de reproduction locale facile, traces insuffisantes dans les rapports, données figées difficiles à réinitialiser ou couplage excessif entre modules de la TAS.",
+        "en": "Missing one-command local replay, sparse failure diagnostics, brittle static DB seeds, or excessive coupling across TAS helpers."
+      },
+      "tags": [
+        "ch3",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-193",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est l’impact positif d’un « Catalogue Vivant des Mots-clés et Fixtures » généré automatiquement ?",
+        "en": "Why auto-generate a searchable Catalog of existing Keywords, Fixtures, and Helpers?"
+      },
+      "back": {
+        "fr": "Il empêche les contributeurs de réinventer des fonctions déjà existantes (« LoginAsAdmin », « SeedPaidOrder ») et accélère l’écriture de nouveaux scénarios propres.",
+        "en": "It prevents engineers from reinventing existing `LoginAsAdmin` or `SeedPaidOrder` helpers and speeds up clean test authoring."
+      },
+      "tags": [
+        "ch3",
+        "reuse"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-194",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les données collectées par la TAS aident-elles à optimiser l’effort de test exploratoire manuel ?",
+        "en": "How do TAS execution reports guide human Exploratory Testing charters?"
+      },
+      "back": {
+        "fr": "Les zones où les tests automatisés révèlent le plus de régressions ou de changements récents deviennent des cibles prioritaires d’exploration humaine approfondie.",
+        "en": "Modules showing frequent automated regressions or heavy recent churn signal prime hotspots for focused human exploratory charters."
+      },
+      "tags": [
+        "ch3",
+        "exploratory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-195",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lors de la rétrospective post-release sur la couverture fournie par la TAS ?",
+        "en": "What two questions should a TAS team ask in a Post-Release Retrospective?"
+      },
+      "back": {
+        "fr": "1) Pourquoi les défauts échappés en production n’ont-ils pas été interceptés par la TAS (et à quelle couche ajouter le garde-fou) ? 2) Quels tests ont ralenti l’équipe sans valeur ajoutée ?",
+        "en": "1) Why did escaped prod bugs slip past the TAS (and which pyramid layer fixes the gap)? 2) Which slow/noisy checks slowed delivery without catching risk?"
+      },
+      "tags": [
+        "ch3",
+        "retrospective"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-196",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi conserver des « Tests de Fumée Post-Déploiement en Lecture Seule » distincts des suites destructrices ?",
+        "en": "Why separate non-destructive Read-Only Post-Deploy Smoke checks from state-mutating suites?"
+      },
+      "back": {
+        "fr": "Les vérifications en lecture seule (santé, catalogues, SSO ping, métriques) peuvent tourner en sécurité sur la vraie production après bascule sans polluer ni corrompre les données clients.",
+        "en": "Read-only sanity probes (health, catalog lookup, auth handshake) can run safely on live production right after cutover without mutating real customer records."
+      },
+      "tags": [
+        "ch3",
+        "post-deploy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-197",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment sécuriser le déclenchement des tests lourds (charge, endurance 8 h) dans la planification de déploiement ?",
+        "en": "How should heavy long-running TAS suites (load, 8-hour soak) be scheduled cleanly?"
+      },
+      "back": {
+        "fr": "Les découpler du chemin critique des PR : les exécuter sur fenêtres planifiées nocturnes/hebdomadaires ou sur branche candidate de release dans un environnement isolé miroir.",
+        "en": "Decouple them from PR merge gates—schedule overnight or per release-candidate in an isolated production-mirrored environment."
+      },
+      "tags": [
+        "ch3",
+        "scheduling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-198",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel lien existe entre « Couverture de Risque » et « Prêt pour la Révision du Syllabus CT-TAS » ?",
+        "en": "How did the evolution from CT-TAE (2016) to CT-TAS modernize deployment and maintenance guidance?"
+      },
+      "back": {
+        "fr": "En intégrant pleinement pipelines CI/CD natifs, tests en conteneurs éphémères, shift-left/shift-right, gouvernance multi-équipes et stratégie d’automatisation pilotée par le ROI continu.",
+        "en": "By expanding gTAA engineering into modern CI/CD pipelines, containerized runners, shift-left/shift-right verification, and continuous ROI governance."
+      },
+      "tags": [
+        "ch3",
+        "evolution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-199",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la qualité des messages d’assertion est-elle considérée comme un levier majeur de maintenance TAS ?",
+        "en": "Why are expressive custom assertion messages a high-leverage TAS maintenance practice?"
+      },
+      "back": {
+        "fr": "Un message `Expected order total 120.00 EUR for promo SPRING10, got 150.00 EUR` économise 15 minutes de recherche par rapport à un sec `expected true to be false`.",
+        "en": "An informative diff (`Expected order total 120.00 EUR with promo SPRING10, got 150.00 EUR`) saves 15 minutes of debugging vs. `expected true to equal false`."
+      },
+      "tags": [
+        "ch3",
+        "assertions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttae-200",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "objectiveId": "TAE-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle maxime d’ingénierie conclut efficacement le cycle Déploiement & Maintenance CT-TAE ?",
+        "en": "What engineering maxim best concludes CT-TAE Deployment & Maintenance?"
+      },
+      "back": {
+        "fr": "Une Solution d’Automatisation est un produit logiciel vivant : vérifiée contre les faux positifs et faux négatifs, monitorée par des métriques honnêtes et refactorisée en continu avec le SUT.",
+        "en": "A Test Automation Solution is a living software product—verified against false alarms and blind spots, steered by honest metrics, and continuously refactored alongside the SUT."
+      },
+      "tags": [
+        "ch3",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAE v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
     }
   ]
 }

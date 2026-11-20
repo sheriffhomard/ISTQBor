@@ -3016,6 +3016,3086 @@
       },
       "createdAt": "2026-11-20T00:00:00.000Z",
       "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-101",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans la norme ISO/IEC/IEEE 29119-2, quels processus composent la couche de gestion des tests organisationnelle vs projet ?",
+        "en": "Under ISO/IEC/IEEE 29119-2, how do organizational test processes differ from project test management processes?"
+      },
+      "back": {
+        "fr": "La couche organisationnelle définit politique et stratégie transverses ; la couche gestion de test pilote Planification des tests, Suivi & Contrôle, et Achèvement (Completion) pour un projet ou niveau donné.",
+        "en": "Organizational processes establish cross-enterprise test policy and strategy; test management processes govern Test Planning, Test Monitoring & Control, and Test Completion for a project or test level."
+      },
+      "tags": [
+        "ch1",
+        "iso29119",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-102",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment un Test Manager orchestre-t-il un Master Test Plan (MTP) face à plusieurs Level Test Plans (LTP) ?",
+        "en": "How does a Test Manager coordinate a Master Test Plan (MTP) alongside multiple Level Test Plans (LTPs)?"
+      },
+      "back": {
+        "fr": "Le MTP fixe la gouvernance globale, les interfaces entre niveaux, la gestion des risques transverse et le planning maître ; chaque LTP précise techniques, environnements et critères propres à un niveau (intégration, système, UAT).",
+        "en": "The MTP sets overarching scope, inter-level handoffs, shared risk governance, and master schedule; each LTP details techniques, environments, and entry/exit gates for its specific test level."
+      },
+      "tags": [
+        "ch1",
+        "test-plan",
+        "mtp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-103",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un programme hybride (cœur mainframe en cycle en V + portail web en Scrum), comment synchroniser les campagnes de test ?",
+        "en": "In a hybrid program (waterfall mainframe core + Scrum web portal), how should testing cycles be synchronized?"
+      },
+      "back": {
+        "fr": "Utiliser des mocks/virtualisation de services pour tester le portail web à chaque sprint, puis planifier des jalons d’intégration système de bout en bout calés sur les incréments du socle mainframe.",
+        "en": "Use service virtualization/mocks so the web squad tests continuously each sprint, paired with scheduled end-to-end integration milestones aligned to mainframe drops."
+      },
+      "tags": [
+        "ch1",
+        "hybrid",
+        "sdlc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-104",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand une stratégie « Model-Based » (basée sur un modèle) est-elle particulièrement rentable pour un Test Manager ?",
+        "en": "When is a \"Model-Based\" test strategy especially cost-effective for a Test Manager?"
+      },
+      "back": {
+        "fr": "Pour les systèmes à états ou flux complexes dont les règles évoluent souvent : mettre à jour le modèle formel régénère automatiquement les cas de test et maintient la traçabilité.",
+        "en": "For complex state-heavy or workflow-rich systems whose rules evolve frequently: updating the model automatically regenerates tests and preserves coverage."
+      },
+      "tags": [
+        "ch1",
+        "strategy",
+        "mbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-105",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la limite d’une stratégie purement « conforme aux normes / méthodique » (Standard-Compliant) si elle n’est pas complétée ?",
+        "en": "What limitation affects a purely \"Methodical / Standard-Compliant\" test strategy if used alone?"
+      },
+      "back": {
+        "fr": "Elle applique des check-lists génériques sans tenir compte des spécificités contextuelles ni des risques critiques uniques du produit livré.",
+        "en": "It follows generic checklists uniformly without weighting the product’s unique architectural hazards or business-critical failure modes."
+      },
+      "tags": [
+        "ch1",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-106",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment négocier avec un chef de projet qui veut contourner un critère d’entrée (ex. livraison sans tests unitaires passés) pour « gagner du temps » ?",
+        "en": "How should a Test Manager respond when a PM asks to bypass an entry criterion (e.g., broken unit tests) to \"save time\"?"
+      },
+      "back": {
+        "fr": "Démontrer par les faits que tester un build instable gaspille des jours d’analyse d’incidents et bloque toute l’équipe ; proposer une dérogation formalisée uniquement si le risque est circonscrit et accepté par écrit.",
+        "en": "Show evidence that testing an unstable build wastes days triaging false failures; require a documented waiver with explicit risk sign-off if a partial check is strictly necessary."
+      },
+      "tags": [
+        "ch1",
+        "entry-criteria",
+        "negotiation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-107",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères concrets doivent figurer dans un contrat de « Test Exit Criteria » pour une mise en production bancaire ?",
+        "en": "What concrete items belong in \"Test Exit Criteria\" for a regulated banking release?"
+      },
+      "back": {
+        "fr": "100 % des risques critiques testés, zéro défaut bloquant/critique ouvert, taux de réussite des tests réglementaires vérifié, preuves de performance/sécurité archivées et validation métier UAT.",
+        "en": "100% high-risk coverage executed, zero open Sev-1/Sev-2 defects, regulatory test evidence archived, performance/security SLA compliance, and UAT sign-off."
+      },
+      "tags": [
+        "ch1",
+        "exit-criteria",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-108",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment planifier la gestion des environnements lorsque trois équipes se disputent un unique environnement d’intégration système ?",
+        "en": "How should environment scheduling be managed when three teams compete for one system integration environment?"
+      },
+      "back": {
+        "fr": "Instaurer un calendrier de réservation par créneaux, automatiser les déploiements/réinitialisations, introduire des bouchons pour découpler l’aval et chiffrer le coût d’attente pour justifier un environnement supplémentaire.",
+        "en": "Establish slotted environment booking, automate provisioning/data resets, decouple downstream dependencies with virtualization, and quantify wait-time waste to justify extra capacity."
+      },
+      "tags": [
+        "ch1",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-109",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la gestion des données de test (TDM) doit-elle être planifiée dès le cadrage du projet ?",
+        "en": "Why must Test Data Management (TDM) be planned right from project inception?"
+      },
+      "back": {
+        "fr": "Extraire, anonymiser (RGPD), nettoyer ou générer synthétiquement des jeux cohérents entre bases liées demande souvent plusieurs semaines d’ingénierie et d’autorisations sécurité.",
+        "en": "Extracting, masking (GDPR/PII), subsetting, and synchronizing referentially intact datasets across linked systems often takes weeks of engineering and security approval."
+      },
+      "tags": [
+        "ch1",
+        "tdm",
+        "privacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-110",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test Completion Report » et à qui sert-il après la mise en production ?",
+        "en": "What is a \"Test Completion Report\" and how is it used post-release?"
+      },
+      "back": {
+        "fr": "Bilan formel comparant réalisé vs planifié, écarts de critères de sortie, défauts différés, qualité de la base de testware archivée et recommandations d’amélioration pour les prochains projets.",
+        "en": "Formal closure summary comparing actuals vs plan, exit-criteria variances, deferred defects, archived testware status, and lessons learned for future projects."
+      },
+      "tags": [
+        "ch1",
+        "completion",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-111",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le Test Manager adapte-t-il la gouvernance lors de la bascule d’un projet vers la « Maintenance » post-lancement ?",
+        "en": "How does the Test Manager adjust governance when a system transitions into post-launch Maintenance?"
+      },
+      "back": {
+        "fr": "Archiver la suite de régression de référence, former l’équipe TMA/support, définir les SLA des correctifs d’urgence et calibrer l’analyse d’impact pour les futures évolutions.",
+        "en": "Baseline and hand over the regression suite, onboard maintenance staff, set hotfix testing SLAs, and formalize impact analysis protocols."
+      },
+      "tags": [
+        "ch1",
+        "maintenance",
+        "closure"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-112",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans CTAL-TM v3.0, comment les activités de Test Management s’appliquent-elles dans une équipe Agile sans rôle de « Test Manager » dédié ?",
+        "en": "In CTAL-TM v3.0, how are Test Management activities fulfilled in an Agile team lacking a dedicated \"Test Manager\" title?"
+      },
+      "back": {
+        "fr": "Les responsabilités restent nécessaires (stratégie, risques, métriques, environnements, DoD) mais sont réparties entre Scrum Master, Product Owner, testeurs de squad et Quality Coach transverse.",
+        "en": "Management tasks remain essential (strategy, risk, metrics, environments, DoD) and are distributed across Scrum Master, PO, squad testers, and Quality Coaches."
+      },
+      "tags": [
+        "ch1",
+        "agile",
+        "roles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-113",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la responsabilité du Test Manager concernant les « revues statiques » au niveau du projet ?",
+        "en": "What is the Test Manager’s responsibility regarding project-level static reviews?"
+      },
+      "back": {
+        "fr": "Planifier le budget temps des revues dans le planning projet, définir quels artefacts exigent une revue formelle selon le risque, suivre les métriques d’anomalies et vérifier la clôture des actions.",
+        "en": "Scheduling review effort in the project plan, defining which artifacts require formal reviews by risk, tracking defect yield, and ensuring follow-up closure."
+      },
+      "tags": [
+        "ch1",
+        "reviews",
+        "planning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-114",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi planifier des « tampons » (buffers) réalistes pour les cycles de re-test et correction de bugs ?",
+        "en": "Why must a Test Manager build realistic buffers for defect-fix and re-test cycles?"
+      },
+      "back": {
+        "fr": "Supposer zéro défaut à l’exécution est irréaliste ; chaque anomalie requiert investigation, correction, déploiement et test de confirmation + régression ciblée.",
+        "en": "Assuming a zero-defect run is unrealistic; every discovered bug demands triage, fix, redeploy, confirmation testing, and targeted regression."
+      },
+      "tags": [
+        "ch1",
+        "planning",
+        "scheduling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-115",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment arbitrer entre « Tests en interne » et « Tests par le client / UAT » lorsqu’un progiciel est fortement paramétré ?",
+        "en": "How should testing scope be split between internal QA and customer UAT for a heavily configured COTS package?"
+      },
+      "back": {
+        "fr": "L’équipe interne vérifie paramétrage, intégrations et migrations avant UAT ; le client valide en UAT les processus métier réels bout en bout et l’acceptabilité opérationnelle.",
+        "en": "Internal QA verifies configuration rules, integrations, and data migrations first; customer UAT validates end-to-end business workflows and operational fit."
+      },
+      "tags": [
+        "ch1",
+        "uat",
+        "cots"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-116",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Risk-Based Regression Selection » pour optimiser une campagne contrainte par le temps ?",
+        "en": "What is \"Risk-Based Regression Selection\" when time constraints compress a test cycle?"
+      },
+      "back": {
+        "fr": "Classer la suite de régression en trois paniers (Critique/Smoke, Moyen/Zones touchées, Bas/Exhaustif) afin d’exécuter d’abord les tests à plus forte exposition au risque.",
+        "en": "Tiering the regression suite (Tier 1 critical smoke, Tier 2 impacted areas, Tier 3 broad coverage) so highest-risk checks always execute first."
+      },
+      "tags": [
+        "ch1",
+        "regression",
+        "prioritization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-117",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel danger présente la compression répétée de la durée de test en fin de projet (« compression en accordéon ») ?",
+        "en": "What hazard arises from repeatedly compressing the end-of-project test window when development slips?"
+      },
+      "back": {
+        "fr": "On supprime précisément les tests de régression, sécurité et performance juste quand le code vient d’être modifié en urgence, envoyant des défauts critiques en production.",
+        "en": "Regression, security, and performance tests get cut right after rushed late-stage code edits, shipping critical defects straight to production."
+      },
+      "tags": [
+        "ch1",
+        "scheduling",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-118",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment définir des « Directives de test » (Test Directives) lors du contrôle d’un écart de planning ?",
+        "en": "What are \"Test Directives\" issued during Test Control when project execution deviates from plan?"
+      },
+      "back": {
+        "fr": "Des instructions concrètes ajustant les priorités, le périmètre, l’allocation des ressources ou les critères d’entrée/sortie suite à une alerte du suivi des tests.",
+        "en": "Concrete operational adjustments to priorities, scope, staffing, or entry/exit gates issued in response to test monitoring alerts."
+      },
+      "tags": [
+        "ch1",
+        "test-control"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-119",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est l’impact du choix de « tests à script complet » vs « tests exploratoires encadrés » sur le pilotage du planning ?",
+        "en": "How does choosing scripted testing vs chartered exploratory testing affect schedule management?"
+      },
+      "back": {
+        "fr": "Les scripts offrent prévisibilité horaire et réutilisation automatisable sur fonctions stables ; les sessions exploratoires s’ajustent en durée fixe (time-boxes) sur zones incertaines ou nouvelles.",
+        "en": "Scripted tests offer predictable pacing and automation reuse on stable features; exploratory charters fit fixed time-boxes on volatile or unfamiliar features."
+      },
+      "tags": [
+        "ch1",
+        "strategy",
+        "exploratory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-120",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un projet multi-sites distribué, comment prévenir les décalages de compréhension sur les critères d’acceptation ?",
+        "en": "In a distributed multi-site project, how can a Test Manager prevent misunderstandings over acceptance criteria?"
+      },
+      "back": {
+        "fr": "Tenir des sessions communes enregistrées (Trois Amigos), maintenir un glossaire partagé unique, utiliser des exemples concrets chiffrés et instaurer des revues croisées inter-sites.",
+        "en": "Hold recorded Three Amigos sessions, maintain a single shared domain glossary, anchor specs in concrete numerical examples, and run cross-site peer reviews."
+      },
+      "tags": [
+        "ch1",
+        "distributed-teams"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-121",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le coût réel de la « non-testabilité » d’une nouvelle architecture avant signature du design ?",
+        "en": "How should a Test Manager surface the cost of poor \"testability\" before an architecture design is signed off?"
+      },
+      "back": {
+        "fr": "Chiffrer le surcoût de scripts manuels, d’environnements dédiés et de délais de feedback si aucune API de bouchonnage, journalisation structurée ou injection de dépendance n’est prévue.",
+        "en": "Quantify extra manual effort, environment cost, and feedback delays if stubbing APIs, structured telemetry, and dependency injection are omitted."
+      },
+      "tags": [
+        "ch1",
+        "testability",
+        "architecture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-122",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Shift-Left + Shift-Right » combinée dans une stratégie de Test Management moderne ?",
+        "en": "How do \"Shift-Left\" and \"Shift-Right\" combine in modern CTAL-TM v3.0 Test Management?"
+      },
+      "back": {
+        "fr": "Shift-Left prévient et détecte tôt (revues, BDD, CI) ; Shift-Right observe et vérifie en conditions réelles (canari, monitoring, retours incidents) pour réinjecter ces risques dans les futurs tests.",
+        "en": "Shift-Left prevents and detects early (reviews, BDD, CI); Shift-Right observes live production telemetry (canary, synthetic probes) to feed real failure modes back into tests."
+      },
+      "tags": [
+        "ch1",
+        "shift-left",
+        "shift-right"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-123",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer les tests d’un système contenant des composants tiers « boîte noire » sans accès au code source ?",
+        "en": "How should testing be planned when a system relies on black-box third-party libraries or APIs without source access?"
+      },
+      "back": {
+        "fr": "Tester aux frontières d’intégration (contrats, tolérance aux pannes, timeouts, montées en charge), exiger des preuves/certifications éditeur et prévoir la surveillance en production.",
+        "en": "Focus on boundary integration contracts, fault injection/timeouts, and load resilience; require vendor test/security attestations and production monitoring."
+      },
+      "tags": [
+        "ch1",
+        "third-party",
+        "integration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-124",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue la gestion des connaissances du testware (Testware Management) lors d’un changement de prestataire ou de rotation d’équipe ?",
+        "en": "What role does structured Testware Management play during team turnover or vendor transition?"
+      },
+      "back": {
+        "fr": "Garantir que suites de tests, jeux de données, configurations d’environnement et matrices de risques restent versionnés, lisibles et ré-exécutables sans dépendre de la mémoire orale.",
+        "en": "Ensuring suites, data seeds, environment setups, and risk matrices remain versioned, readable, and runnable without relying on tribal knowledge."
+      },
+      "tags": [
+        "ch1",
+        "testware"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-125",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi planifier des critères de « Suspension » et de « Reprise » des tests (Suspension & Resumption Criteria) ?",
+        "en": "Why define explicit \"Suspension\" and \"Resumption\" criteria in a test plan?"
+      },
+      "back": {
+        "fr": "Définir à froid le seuil objectif (ex. > 30 % de cas bloqués ou crash au login) où l’on stoppe l’exécution inutile et les conditions exactes requises pour reprendre proprement.",
+        "en": "Pre-agreeing on objective thresholds (e.g., login broken or >30% cases blocked) to halt wasteful execution and the exact build checks needed to resume."
+      },
+      "tags": [
+        "ch1",
+        "suspension-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-126",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le Test Manager gère-t-il les dépendances avec des tests matériels ou embarqués lents à approvisionner ?",
+        "en": "How does a Test Manager plan around scarce or slow-to-provision embedded hardware rigs?"
+      },
+      "back": {
+        "fr": "Découpler la logique métier sur simulateurs/émulateurs en CI rapide, réserver les bancs physiques aux tests d’intégration finale et automatiser la file d’exécution nocturne sur banc.",
+        "en": "Run business logic on software simulators/emulators in fast CI, reserve physical hardware-in-the-loop rigs for integration checks, and schedule automated nightly rig queues."
+      },
+      "tags": [
+        "ch1",
+        "embedded",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-127",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Analyse de la base de test » du point de vue du Test Manager ?",
+        "en": "What does evaluating the \"test basis\" mean from a Test Manager’s perspective?"
+      },
+      "back": {
+        "fr": "Vérifier tôt si les exigences, specs d’API ou user stories sont suffisamment complètes, testables et stables pour démarrer la conception et fiabiliser les estimations.",
+        "en": "Checking early whether requirements, API specs, or user stories are complete, testable, and stable enough to support test design and reliable estimates."
+      },
+      "tags": [
+        "ch1",
+        "test-basis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-128",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un modèle Agile à l’échelle (SAFe), à quoi sert l’itération « IP » (Innovation and Planning) pour les activités de test ?",
+        "en": "In SAFe, how should testing teams leverage the \"IP\" (Innovation & Planning) iteration wisely?"
+      },
+      "back": {
+        "fr": "Pour les tests d’intégration système de grande ampleur, le refactoring de dette d’automatisation, la formation et le PI Planning — jamais comme simple tampon de rattrapage pour du code non fini.",
+        "en": "For cross-team system integration demos, test automation refactoring, upskilling, and PI Planning—never as a routine catch-up buffer for unfinished sprint testing."
+      },
+      "tags": [
+        "ch1",
+        "safe",
+        "agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-129",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer une stratégie de tests de « Compatibilité » (navigateurs/OS/terminaux) sans tester chaque combinaison ?",
+        "en": "How should a compatibility test matrix (browsers/OS/devices) be scoped without testing every combination?"
+      },
+      "back": {
+        "fr": "Croiser les données réelles d’analytics utilisateurs (top 80–90 % du trafic), les contraintes réglementaires/accessibilité et des techniques combinatoires (Pairwise) pour réduire les couples.",
+        "en": "Combine real user analytics (covering top 80–90% of traffic), regulatory mandates, and Pairwise combinatorial selection to keep configurations tractable."
+      },
+      "tags": [
+        "ch1",
+        "compatibility",
+        "pairwise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-130",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Clôture des tests » inclut-elle la vérification du nettoyage des environnements et des comptes temporaires ?",
+        "en": "Why does Test Completion include verifying cleanup of temporary test accounts and environments?"
+      },
+      "back": {
+        "fr": "Éviter que des comptes de test privilégiés ou données fictives persistent en pré-production/production (faille de sécurité majeure) et libérer des ressources cloud facturées.",
+        "en": "Preventing privileged test accounts or dummy data from lingering in production/staging (security risk) and reclaiming billed cloud compute."
+      },
+      "tags": [
+        "ch1",
+        "completion",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-131",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le Test Manager intègre-t-il les exigences d’accessibilité (RGAA / WCAG) dès la planification ?",
+        "en": "How should a Test Manager integrate accessibility requirements (WCAG / EN 301 549) from test planning?"
+      },
+      "back": {
+        "fr": "Définir le niveau cible (ex. AA) dans la stratégie et la DoD, équiper l’équipe en analyseurs automatisés + lecteurs d’écran et inclure des critères de sortie dédiés.",
+        "en": "State target level (e.g., WCAG AA) in strategy and DoD, equip teams with automated linters plus screen readers, and include explicit exit checks."
+      },
+      "tags": [
+        "ch1",
+        "accessibility",
+        "planning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-132",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Test Strategy » et « Test Approach » ?",
+        "en": "How does \"Test Strategy\" differ from \"Test Approach\" in practice?"
+      },
+      "back": {
+        "fr": "La stratégie décrit le cadre général (niveaux, types, responsabilités, outils à l’échelle programme/organisation) ; l’approche est l’adaptation concrète et détaillée retenue pour un projet particulier.",
+        "en": "Test Strategy defines the broad overarching rules across programs/org; Test Approach is the tailored implementation chosen for one specific project."
+      },
+      "tags": [
+        "ch1",
+        "strategy",
+        "terminology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-133",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel argument utiliser pour convaincre la direction d’inclure un testeur dès l’étude de faisabilité d’un projet ?",
+        "en": "What rationale convinces management to include a tester during initial project feasibility?"
+      },
+      "back": {
+        "fr": "Un regard testeur identifie tôt les contraintes d’intégration cachées, besoins d’environnements coûteux et règles ambiguës — évitant des dérapages budgétaires à six chiffres en phase d’exécution.",
+        "en": "Early tester insight surfaces hidden integration bottlenecks, costly environment needs, and ambiguous rules—preventing huge rework expenses later."
+      },
+      "tags": [
+        "ch1",
+        "shift-left",
+        "business-case"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-134",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "objectiveId": "TM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer les priorités de test lorsque le projet suit une démarche « MVP » (Minimum Viable Product) ?",
+        "en": "How should testing priorities adapt when a product follows an MVP (Minimum Viable Product) approach?"
+      },
+      "back": {
+        "fr": "Assurer la fiabilité, sécurité et paiement du parcours cœur de valeur dès le MVP tout en différant la couverture des cas marginaux secondaires, sans compromettre la sécurité ni l’intégrité des données.",
+        "en": "Guarantee rock-solid reliability, data integrity, and security on the core value journey while deferring secondary edge features without cutting security corners."
+      },
+      "tags": [
+        "ch1",
+        "mvp",
+        "prioritization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-135",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les quatre grandes phases d’un processus formel de Test Basé sur les Risques (RBT) ?",
+        "en": "What are the four main activities of a formal Risk-Based Testing (RBT) lifecycle?"
+      },
+      "back": {
+        "fr": "1) Identification des risques, 2) Évaluation des risques (vraisemblance × impact), 3) Mitigation des risques (planification/exécution ciblée des tests), 4) Suivi et réévaluation continue des risques.",
+        "en": "1) Risk identification, 2) Risk assessment (likelihood × impact), 3) Risk mitigation (targeted test design/execution), 4) Continuous risk monitoring and reassessment."
+      },
+      "tags": [
+        "ch2",
+        "rbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-136",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « PRISMA » (Product Risk Management) en évaluation des risques produit ?",
+        "en": "What is the \"PRISMA\" method in Product Risk Management?"
+      },
+      "back": {
+        "fr": "Une méthode structurée évaluant séparément les facteurs techniques (complexité, code neuf, changements) pour la vraisemblance et les facteurs métier (fréquence d’usage, perte financière, légal) pour l’impact, sur une matrice à 4 quadrants.",
+        "en": "A structured method scoring technical factors (complexity, churn, newness) for likelihood and business factors (usage frequency, financial/legal harm) for impact onto a 4-quadrant matrix."
+      },
+      "tags": [
+        "ch2",
+        "prisma",
+        "rbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-137",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment associer profondeur des techniques de conception de test et niveau de risque d’un module ?",
+        "en": "How should test design rigor be mapped to module risk level in RBT?"
+      },
+      "back": {
+        "fr": "Risque critique : tests intensifs (BVA 3 valeurs, tables complètes, MC/DC, perf/sécu) + revues formelles ; Risque faible : tests sommaires/check-lists ou tests exploratoires courts.",
+        "en": "High-risk modules: rigorous techniques (3-value BVA, full decision tables, MC/DC, perf/sec) + formal reviews; Low-risk: light checklists or brief exploratory sweeps."
+      },
+      "tags": [
+        "ch2",
+        "rbt",
+        "techniques"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-138",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’analyse de risque initiale faite au mois 1 d’un projet doit-elle être mise à jour régulièrement ?",
+        "en": "Why must an initial month-1 product risk analysis be updated continuously?"
+      },
+      "back": {
+        "fr": "De nouveaux composants deviennent instables, les défauts s’y regroupent, les priorités métier changent et certains risques initiaux diminuent une fois testés et stabilisés.",
+        "en": "Certain modules turn unstable and cluster defects, business priorities shift, and mitigated risks drop once verified."
+      },
+      "tags": [
+        "ch2",
+        "rbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-139",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre technique d’estimation « descendante » (Top-Down) et « ascendante » (Bottom-Up) ?",
+        "en": "How do Top-Down and Bottom-Up test estimation techniques differ?"
+      },
+      "back": {
+        "fr": "Top-Down part d’une enveloppe globale ou d’un ratio historique (ex. 35 % de l’effort dev) découpée par phase ; Bottom-Up additionne les estimations détaillées de chaque tâche/exigence élémentaire (WBS).",
+        "en": "Top-Down allocates a macro budget or historical ratio (e.g., 35% of dev effort) across phases; Bottom-Up sums granular estimates for every WBS task or requirement."
+      },
+      "tags": [
+        "ch2",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-140",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment fonctionne la méthode d’estimation « Wideband Delphi » étape par étape ?",
+        "en": "How does the \"Wideband Delphi\" estimation method operate step by step?"
+      },
+      "back": {
+        "fr": "1) Réunion de cadrage ; 2) Estimations individuelles anonymes ; 3) Partage des écarts sans nom ; 4) Discussion des hypothèses divergentes ; 5) Nouveaux tours jusqu’à convergence d’équipe.",
+        "en": "1) Kickoff alignment; 2) Anonymous individual estimates; 3) Aggregated spread review; 4) Discussion of outlier assumptions; 5) Re-estimation rounds until consensus."
+      },
+      "tags": [
+        "ch2",
+        "wideband-delphi",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-141",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Sur quoi repose la méthode d’estimation « Test Point Analysis (TPA) » ?",
+        "en": "What factors drive \"Test Point Analysis (TPA)\" estimation?"
+      },
+      "back": {
+        "fr": "Calculer l’effort à partir des points de fonction système (taille fonctionnelle), pondérés par l’importance utilisateur, l’intensité d’usage, la complexité d’interface et des facteurs environnementaux.",
+        "en": "Deriving effort from system Function Points weighted by user importance, usage intensity, interfacing complexity, and team/environment productivity factors."
+      },
+      "tags": [
+        "ch2",
+        "tpa",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-142",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’estimation d’un projet d’automatisation doit-elle distinguer effort de mise en place initiale (Setup) et effort de maintenance ?",
+        "en": "Why must automation estimates separate initial framework/script creation from ongoing maintenance?"
+      },
+      "back": {
+        "fr": "Sur la durée de vie d’un produit, la maintenance des scripts (évolution UI/API, données, flakiness) dépasse souvent largement le coût initial de création.",
+        "en": "Over a product’s lifespan, keeping scripts updated against UI/API changes and flaky data frequently exceeds initial creation cost."
+      },
+      "tags": [
+        "ch2",
+        "estimation",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-143",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment utiliser le calcul du Coût de la Qualité (CoQ) pour justifier des revues formelles d’exigences auprès d’un sponsor ?",
+        "en": "How does Cost of Quality (CoQ) justify investing in early requirements reviews to a sponsor?"
+      },
+      "back": {
+        "fr": "Montrer qu’un faible coût de prévention/détection en revue (ex. 1 h de réunion) évite des coûts exponentiels de défaillance interne ou externe en production (règle 1:10:100).",
+        "en": "Demonstrating that modest appraisal/prevention spend in spec review avoids exponentially higher internal rework and external production failure costs."
+      },
+      "tags": [
+        "ch2",
+        "coq",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-144",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la formule du taux de détection des défauts avant mise en production (DDP) si 180 bugs sont trouvés en test et 20 en production ?",
+        "en": "Calculate Defect Detection Percentage (DDP) if 180 defects are found in testing and 20 escape to production."
+      },
+      "back": {
+        "fr": "`DDP = 180 / (180 + 20) × 100 % = 90 %`. Plus ce taux s’approche de 100 %, plus le filet de détection pré-production est efficace.",
+        "en": "`DDP = 180 / (180 + 20) × 100% = 90%`. Closer to 100% indicates stronger pre-release defect capture."
+      },
+      "tags": [
+        "ch2",
+        "ddp",
+        "calculation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-145",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment détecter via les métriques qu’un module souffre de régressions à répétition (« effet château de cartes ») ?",
+        "en": "Which metrics reveal a module suffering recurring regressions (\"house of cards\" instability)?"
+      },
+      "back": {
+        "fr": "Taux élevé de réouverture des défauts (Reopen Rate), densité d’anomalies post-correctif sur le même composant et augmentation des taux de régression échoués.",
+        "en": "Elevated Defect Reopen Rate, repeat post-fix defect clustering in the same module, and rising regression test failure spikes."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "defects"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-146",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le suivi du ratio « Cas bloqués » (Blocked Test Cases) est-il un indicateur d’alerte prioritaire pour le Test Manager ?",
+        "en": "Why is tracking the \"Blocked Test Cases\" ratio an urgent early warning for a Test Manager?"
+      },
+      "back": {
+        "fr": "Des tests bloqués (environnement en panne, défaut amont bloquant, données manquantes) faussent l’avancement apparent et créent un risque aveugle sur les fonctionnalités situées en aval.",
+        "en": "Blocked tests (down environments, showstopper login bugs, missing data) create blind spots where downstream feature risk remains completely unassessed."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-147",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’effet pervers (biais de Goodhart) lors de l’usage de métriques pour piloter les testeurs ?",
+        "en": "How should a Test Manager prevent metric gaming (Goodhart’s Law) among team members?"
+      },
+      "back": {
+        "fr": "Ne jamais relier bonus ou évaluation individuelle à une métrique brute (nombre de bugs ou cas exécutés), utiliser un panier équilibré de métriques et contextualiser qualitativement les chiffres.",
+        "en": "Never tie individual bonuses or evaluations to single raw metrics (bugs logged, cases run); pair balanced metric sets with qualitative context."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "psychology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-148",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel graphique montre le mieux si l’équipe convergera vers la clôture à temps : courbe S d’exécution vs courbe d’ouverture/fermeture des défauts ?",
+        "en": "What does comparing cumulative defect \"Opened vs Closed\" curves reveal about release readiness?"
+      },
+      "back": {
+        "fr": "Tant que les courbes divergent (plus d’ouvertures que de fermetures), le produit est instable ; une convergence proche de l’asymptote indique une stabilisation propice à la sortie.",
+        "en": "Diverging curves (more defects opened than closed) indicate instability; converging curves flattening together signal readiness stabilization."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "charts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-149",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels acteurs doivent idéalement siéger au Comité de Triage des Défauts (CCB / Defect Triage Board) ?",
+        "en": "Who should participate in a Defect Triage / Change Control Board (CCB)?"
+      },
+      "back": {
+        "fr": "Test Manager/Lead, représentant métier (Product Owner), responsable technique développement et, si critique, exploitation/sécurité — pour arbitrer priorité, correctif ou report.",
+        "en": "Test Manager/Lead, Product Owner / business rep, Tech Lead, and Ops/Security when relevant—jointly deciding priority, fix timing, or deferral."
+      },
+      "tags": [
+        "ch2",
+        "defect-triage",
+        "ccb"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-150",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi exiger un champ « Phase d’introduction / injection » et « Cause racine » sur les défauts critiques clôturés ?",
+        "en": "Why require \"Phase Injected\" and \"Root Cause\" fields on closed critical defects?"
+      },
+      "back": {
+        "fr": "Pour mesurer l’efficacité de détection par phase (Phase Containment) et alimenter des actions préventives ciblées (ex. renforcer les revues de spécifications plutôt que la seule exécution finale).",
+        "en": "To measure Phase Containment Effectiveness and target systemic prevention (e.g., strengthening spec reviews rather than merely adding late system tests)."
+      },
+      "tags": [
+        "ch2",
+        "rca",
+        "odc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-151",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre fermer un défaut en statut « Rejeté / Fonctionne selon spécification » et « Doublon » ?",
+        "en": "What distinguishes closing a defect as \"Working as Designed\" vs \"Duplicate\"?"
+      },
+      "back": {
+        "fr": "Doublon renvoie vers un ticket déjà actif traitant la même anomalie ; « Fonctionne selon spec » signale soit une incompréhension du testeur, soit une exigence métier à faire évoluer (Change Request).",
+        "en": "Duplicate links to an existing active defect; \"Working as Designed\" indicates either tester misunderstanding or an underlying spec flaw needing a Change Request."
+      },
+      "tags": [
+        "ch2",
+        "defect-lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-152",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment calculer le « Taux de faux positifs » d’une campagne et pourquoi le surveiller ?",
+        "en": "Why monitor the \"Invalid / False-Positive Defect Rate\" across a test campaign?"
+      },
+      "back": {
+        "fr": "Un taux élevé de bugs rejetés révèle soit des spécifications obsolètes/ambiguës, soit des environnements instables, soit un manque de formation métier des testeurs.",
+        "en": "A high rejected-defect rate signals stale/ambiguous specs, flaky test environments, or tester domain-knowledge gaps."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "defects"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-153",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment présenter un rapport de risque résiduel à un sponsor non technique à J-2 de la mise en production ?",
+        "en": "How should a Test Manager present a residual risk brief to a non-technical sponsor 48 hours before launch?"
+      },
+      "back": {
+        "fr": "Résumer en 1 page : zones validées vertes, zones non testées ou bloquées avec impact métier chiffré, défauts critiques/majeurs ouverts et plans de contournement, puis demander décision signée Go/No-Go.",
+        "en": "Provide a concise 1-page view: verified green areas, untested/blocked gaps with business impact, open high/medium defects with workarounds, and an explicit Go/No-Go sign-off prompt."
+      },
+      "tags": [
+        "ch2",
+        "residual-risk",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-154",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand peut-on légitimement livrer un logiciel tout en conservant des défauts connus ouverts (Known Defects) ?",
+        "en": "When is it legitimate to ship software with known open defects?"
+      },
+      "back": {
+        "fr": "Lorsque les défauts restants sont de faible impact ou disposent d’un contournement documenté accepté par le métier, et que le coût d’un report dépasse le risque résiduel.",
+        "en": "When open defects are low impact or have documented workarounds, business owners formally accept the residual risk, and delaying launch causes greater harm."
+      },
+      "tags": [
+        "ch2",
+        "release-decision",
+        "risk"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-155",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’indicateur « Efficacité d’une revue » (Review Yield) et comment l’interpréter ?",
+        "en": "What is \"Review Yield\" (or Review Effectiveness) and how is it interpreted?"
+      },
+      "back": {
+        "fr": "Pourcentage des défauts totaux d’un artefact détectés durant la revue statique avant les phases aval ; un rendement trop bas incite à améliorer préparation ou check-lists.",
+        "en": "The share of total artifact defects caught during static review prior to downstream phases; low yield points to weak prep or missing checklists."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-156",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment estimer l’effort de test lorsque les exigences arrivent en flux continu (Agile) sans cahier des charges figé ?",
+        "en": "How should test effort be estimated when requirements arrive iteratively without an upfront fixed specification?"
+      },
+      "back": {
+        "fr": "Estimation macro par vélocité historique et taille de release pour le budget annuel, affinée sprint par sprint via Planning Poker incluant explicitement les tâches QA.",
+        "en": "Macro budgeting via historical velocity and release sizing, refined sprint-by-sprint via Planning Poker that explicitly prices testing tasks."
+      },
+      "tags": [
+        "ch2",
+        "estimation",
+        "agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-157",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue la « couverture des risques » par rapport à la simple « couverture des cas planifiés » en reporting exécutif ?",
+        "en": "Why is \"Risk Coverage\" more informative than raw \"Test Case Execution %\" in executive reporting?"
+      },
+      "back": {
+        "fr": "Avoir exécuté 90 % des cas en laissant les 10 % liés aux risques critiques non testés donne une fausse sécurité ; la couverture des risques montre si les menaces majeures ont été vérifiées.",
+        "en": "Running 90% of tests while leaving the 10% covering critical risks untested breeds false confidence; risk coverage directly shows exposure status."
+      },
+      "tags": [
+        "ch2",
+        "rbt",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-158",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le temps moyen de résolution (MTTR) vs temps moyen entre défaillances (MTBF) dans l’évaluation qualité ?",
+        "en": "Contrast Mean Time to Repair (MTTR) and Mean Time Between Failures (MTBF) in quality assessment."
+      },
+      "back": {
+        "fr": "MTBF mesure la fiabilité/fréquence des pannes en fonctionnement ; MTTR mesure la réactivité opérationnelle pour diagnostiquer, corriger et restaurer le service après incident.",
+        "en": "MTBF measures operational reliability uptime between failures; MTTR measures responsiveness to diagnose, fix, and restore service after failure."
+      },
+      "tags": [
+        "ch2",
+        "reliability",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-159",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment chiffrer le « point de rentabilité » (Payback Period) d’un outil de test commercial ?",
+        "en": "How is the \"Payback Period\" of a commercial test tool evaluated?"
+      },
+      "back": {
+        "fr": "Calculer le nombre de cycles/mois nécessaires pour que les économies cumulées (temps manuel économisé, bugs évités) couvrent licences, formation, infrastructure et création de scripts.",
+        "en": "Determining how many releases/months of cumulative savings (manual effort avoided, defects prevented) are needed to recover licensing, training, setup, and maintenance costs."
+      },
+      "tags": [
+        "ch2",
+        "roi",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-160",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans la gestion des défauts, pourquoi ne pas confier la clôture finale d’un bug uniquement au développeur qui l’a corrigé ?",
+        "en": "In defect lifecycle management, why should the developer who wrote a fix not unilaterally mark a defect \"Verified/Closed\"?"
+      },
+      "back": {
+        "fr": "Par biais de confirmation et manque d’environnement d’intégration neutre : un testeur (ou un pipeline indépendant) doit confirmer la correction sur le build cible.",
+        "en": "Due to confirmation bias and local environment differences: an independent tester or CI gate must confirm the fix on the integrated target build."
+      },
+      "tags": [
+        "ch2",
+        "defect-lifecycle",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-161",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la création de rapports de défauts trop vagues (« la page plante parfois ») pour l’efficacité de l’équipe ?",
+        "en": "What cost do vague defect reports (\"screen crashes sometimes\") impose on delivery velocity?"
+      },
+      "back": {
+        "fr": "Allers-retours incessants (« Impossible à reproduire »), perte de temps de diagnostic développeur, retards de correction et frustration entre équipes.",
+        "en": "Endless \"Cannot Reproduce\" loops, wasted developer investigation hours, delayed fixes, and cross-team friction."
+      },
+      "tags": [
+        "ch2",
+        "defect-reports"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-162",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment ajuster le modèle d’estimation lorsque des testeurs juniors remplacent des seniors en cours de projet ?",
+        "en": "How must effort estimates adjust when junior testers replace senior specialists mid-project?"
+      },
+      "back": {
+        "fr": "Revoir à la hausse la durée de conception/exécution, intégrer du temps de mentorat/revue par les pairs et anticiper un besoin accru de check-lists guidées.",
+        "en": "Increase design/execution time buffers, allocate senior mentoring and peer-review capacity, and provide structured checklists."
+      },
+      "tags": [
+        "ch2",
+        "estimation",
+        "staffing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-163",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert l’« Analyse de tendance des défauts par composant » lors du pilotage d’une grande version ?",
+        "en": "How does tracking defect trends by component guide release control?"
+      },
+      "back": {
+        "fr": "Repérer les modules « chauds » concentrant les anomalies afin d’y affecter plus de revues de code, du refactoring ou des tests exploratoires ciblés.",
+        "en": "Highlighting defect-prone hotspot modules where extra code reviews, targeted refactoring, or deep exploratory testing should be concentrated."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "defect-clustering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-164",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Effet d’amortissement » des risques (Risk Burn-down Chart) ?",
+        "en": "What does a \"Risk Burn-down Chart\" visualize for stakeholders?"
+      },
+      "back": {
+        "fr": "La diminution progressive du score de risque produit ouvert au fil des itérations ou semaines de test à mesure que les tests critiques passent et que les défauts sont résolus.",
+        "en": "The progressive reduction of open product risk exposure over sprints or test weeks as high-risk scenarios pass and defects close."
+      },
+      "tags": [
+        "ch2",
+        "rbt",
+        "charts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-165",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi mesurer la « durée moyenne de vie d’un défaut critique » (Defect Aging) par rapport au SLA projet ?",
+        "en": "Why track Critical Defect Aging against project SLA thresholds?"
+      },
+      "back": {
+        "fr": "Éviter que des bugs bloquants ne stagnent en attente de décision ou de dépendance, menaçant la date de sortie par effet boule de neige en fin de cycle.",
+        "en": "Preventing severe defects from stalling in triage or dependency queues and triggering a last-minute release crunch."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "sla"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-166",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’erreur de compter « 100 % des tests automatisés exécutés » comme équivalent à « 100 % de la qualité couverte » ?",
+        "en": "How do you prevent stakeholders from equating \"100% automated tests passing\" with \"100% quality verified\"?"
+      },
+      "back": {
+        "fr": "Compléter le rapport par la couverture des risques non automatisables (UX, exploratoire, adéquation métier, sécurité avancée) et la fraîcheur des assertions automatisées.",
+        "en": "Pair automation pass rates with coverage status of non-automated risks (UX, exploratory charters, business fit, deep security) and suite freshness."
+      },
+      "tags": [
+        "ch2",
+        "reporting",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-167",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle des « métriques de coût de test par défaut trouvé » (Cost per Defect) et sa limite majeure ?",
+        "en": "What is the pitfall of evaluating a test team purely on \"Cost per Defect Found\"?"
+      },
+      "back": {
+        "fr": "Si les développeurs livrent un code très propre (peu de bugs), le coût par défaut grimpe artificiellement alors que l’effort de validation préventif reste indispensable.",
+        "en": "When developers deliver very clean code, cost per defect skyrockets artificially even though thorough validation effort remains vital."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-168",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "objectiveId": "TM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le Test Manager gère-t-il le risque qu’un fournisseur externe livre ses lots avec retard sans sacrifier les tests d’intégration ?",
+        "en": "How should a Test Manager mitigate the risk of late third-party vendor deliveries without gutting integration testing?"
+      },
+      "back": {
+        "fr": "Imposer des jalons intermédiaires contractuels (sandbox, contrats OpenAPI tôt), préparer des tests sur bouchons en avance et prévoir une clause de réception conditionnelle.",
+        "en": "Enforce interim vendor sandbox milestones and early OpenAPI contracts, pre-build tests against mocks, and establish contractual acceptance gates."
+      },
+      "tags": [
+        "ch2",
+        "project-risk",
+        "vendors"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-169",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles quatre dimensions de compétences un Test Manager doit-il cartographier dans son équipe ?",
+        "en": "Which four competency pillars should a Test Manager map in a team skills matrix?"
+      },
+      "back": {
+        "fr": "1) Maîtrise méthodologique du test (techniques, risque) ; 2) Compétences techniques (code, API, CI, perf/sécu) ; 3) Connaissance métier/domaine ; 4) Savoir-être (communication, esprit critique, leadership).",
+        "en": "1) Testing craft (techniques, risk); 2) Technical/tooling skills (coding, APIs, CI, perf/sec); 3) Business/domain knowledge; 4) Soft skills (tact, critical thinking, leadership)."
+      },
+      "tags": [
+        "ch3",
+        "competencies"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-170",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le modèle de leadership situationnel (Hersey-Blanchard) aide-t-il un Test Manager à encadrer des profils variés ?",
+        "en": "How does Situational Leadership help a Test Manager guide diverse team members?"
+      },
+      "back": {
+        "fr": "Adapter son style selon autonomie et compétence sur la tâche : directif/structurant pour un débutant, coaching pour un profil en progression, participatif/délégatif pour un senior expert.",
+        "en": "Adapting management style to task readiness: clear direction for juniors, coaching during skill growth, and collaborative delegation for autonomous seniors."
+      },
+      "tags": [
+        "ch3",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-171",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels leviers de motivation intrinsèque (modèle de Pink : Autonomie, Maîtrise, Sens) fonctionnent le mieux pour fidéliser les testeurs ?",
+        "en": "How do intrinsic motivators (Autonomy, Mastery, Purpose) retain skilled testers?"
+      },
+      "back": {
+        "fr": "Donner de l’autonomie sur le choix des techniques/outils, financer certifications et temps d’apprentissage technique (maîtrise), et relier clairement le test à la protection des utilisateurs finaux (sens).",
+        "en": "Granting autonomy over test design/tooling, funding upskilling and certifications (mastery), and connecting testing to real customer impact (purpose)."
+      },
+      "tags": [
+        "ch3",
+        "motivation",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-172",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment résoudre un conflit récurrent entre un Testeur et un Développeur qui rejette systématiquement les bugs comme « non reproductibles » ?",
+        "en": "How should a Test Manager resolve ongoing friction where a developer keeps rejecting bugs as \"not reproducible\"?"
+      },
+      "back": {
+        "fr": "Faciliter une session conjointe factuelle (logs, traces réseau, versions exactes), standardiser les prérequis de preuve dans le rapport et encourager le pairing précoce sur poste dev.",
+        "en": "Facilitate a factual pairing triage with exact build IDs, logs, and HAR/video captures, align on minimal reproduction standards, and foster early desk-checks."
+      },
+      "tags": [
+        "ch3",
+        "conflict-resolution",
+        "communication"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-173",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans la méthode d’amélioration continue « PDCA » (Plan-Do-Check-Act), comment un Test Manager conduit-il l’évolution d’une pratique ?",
+        "en": "How does a Test Manager apply the \"PDCA\" (Plan-Do-Check-Act) cycle to test process improvement?"
+      },
+      "back": {
+        "fr": "Plan : cibler un goulot (ex. tests lents) et définir métrique cible ; Do : expérimenter sur une squad pilote ; Check : mesurer l’impact réel ; Act : généraliser ou ajuster.",
+        "en": "Plan: target a bottleneck with baseline metrics; Do: pilot a change on one team; Check: measure actual impact; Act: standardize or refine."
+      },
+      "tags": [
+        "ch3",
+        "pdca",
+        "process-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-174",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles aires de processus caractérisent le Niveau 2 (« Managed ») du modèle TMMi ?",
+        "en": "Which process areas define TMMi Maturity Level 2 (\"Managed\")?"
+      },
+      "back": {
+        "fr": "Politique et stratégie de test, Planification des tests, Suivi et contrôle des tests, Conception et exécution des tests, et Environnement de test.",
+        "en": "Test Policy and Strategy, Test Planning, Test Monitoring and Control, Test Design and Execution, and Test Environment."
+      },
+      "tags": [
+        "ch3",
+        "tmmi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-175",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles aires de processus ajoutent les Niveaux 3, 4 et 5 du modèle TMMi au-delà du Niveau 2 ?",
+        "en": "What key capabilities do TMMi Levels 3, 4, and 5 add beyond Level 2?"
+      },
+      "back": {
+        "fr": "Niveau 3 : organisation/formation, intégration SDLC, tests non fonctionnels, revues ; Niveau 4 : mesure quantitative et qualité produit ; Niveau 5 : prévention des défauts et optimisation continue.",
+        "en": "Level 3: test org/training, lifecycle integration, non-functional & peer reviews; Level 4: quantitative test measurement & product quality eval; Level 5: defect prevention & continuous optimization."
+      },
+      "tags": [
+        "ch3",
+        "tmmi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-176",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment utiliser une matrice « TPI Next » (16 domaines clés) lors d’une évaluation d’équipe ?",
+        "en": "How does a Test Manager apply a \"TPI Next\" (16 key areas) assessment to a project team?"
+      },
+      "back": {
+        "fr": "Évaluer chaque domaine (stratégie, métriques, automatisation, environnements, gestion défauts…) sur une échelle Initial/Controlled/Efficient/Optimizing, puis cibler uniquement les domaines à fort ROI métier.",
+        "en": "Assess each area (strategy, metrics, automation, environments, defect mgmt…) across Initial/Controlled/Efficient/Optimizing checkpoints, then prioritize high-ROI upgrades."
+      },
+      "tags": [
+        "ch3",
+        "tpi-next"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-177",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure une amélioration des processus « orientée contenu / problème » (Content-based) vs « orientée modèle » (Model-based) ?",
+        "en": "Compare \"Content-based / Analytical\" vs \"Model-based\" (e.g., TMMi/TPI) process improvement."
+      },
+      "back": {
+        "fr": "Orientée modèle (TMMi/TPI) offre un référentiel éprouvé et des benchmarks externes ; orientée problème (RCA/rétrospectives) réagit plus vite aux douleurs spécifiques immédiates du terrain.",
+        "en": "Model-based (TMMi/TPI) gives proven benchmarks and completeness; problem-based (RCA/retrospectives) targets acute real-world pain points faster."
+      },
+      "tags": [
+        "ch3",
+        "process-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-178",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment prévenir le « burn-out » d’une équipe de test soumise à des fins de sprints ou de releases répétées sous haute pression ?",
+        "en": "How should a Test Manager prevent burnout on a QA team facing repeated high-pressure release crunches?"
+      },
+      "back": {
+        "fr": "Protéger le périmètre et la DoD contre l’effet accordéon, automatiser les régressions fastidieuses, équilibrer les charges entre membres et défendre la récupération après pic critique.",
+        "en": "Push back on late scope creep compressing test windows, automate grueling manual regressions, rotate high-stress duties, and enforce post-release recovery."
+      },
+      "tags": [
+        "ch3",
+        "leadership",
+        "wellbeing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-179",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères guident le choix d’une structure organisationnelle : testeurs centralisés vs intégrés dans les équipes produit ?",
+        "en": "What trade-offs guide centralized QA vs product-embedded testers?"
+      },
+      "back": {
+        "fr": "Centralisé : facilite partage de standards, montée en compétence et indépendance, mais risque l’effet silo ; Intégré : optimise vélocité et collaboration Whole Team, mais demande une Guilde QA pour éviter la dérive.",
+        "en": "Centralized aids standardization, career depth, and independence but risks silos; Embedded maximizes Agile collaboration yet needs a QA Guild to maintain craft standards."
+      },
+      "tags": [
+        "ch3",
+        "organization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-180",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réussir l’intégration (Onboarding) d’un nouveau testeur dans un domaine métier complexe (santé, finance, télécoms) ?",
+        "en": "How should a Test Manager structure onboarding for a new tester in a complex domain (healthcare, finance, telecom)?"
+      },
+      "back": {
+        "fr": "Parcours progressif : glossaire métier, sessions de pair-testing sur cas réels, accès aux environnements bac à sable, mentor dédié et revue constructive des premiers rapports de défauts.",
+        "en": "Structured path: domain glossary, pair-testing sessions on real flows, sandbox environment walkthroughs, assigned buddy/mentor, and supportive feedback on early bug reports."
+      },
+      "tags": [
+        "ch3",
+        "onboarding",
+        "team"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-181",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment adapter sa communication de statut de test selon trois interlocuteurs : Développeur, Product Owner et Directeur SI ?",
+        "en": "How should test status communication be tailored across three audiences: Developers, Product Owner, and CIO?"
+      },
+      "back": {
+        "fr": "Développeur : logs reproductibles et échecs CI précis ; Product Owner : impact sur les user stories, UX et critère de sortie sprint ; DSI : risque résiduel, respect du budget/délai et conformité.",
+        "en": "Developers: reproducible logs and failing CI assertions; PO: story readiness, UX impact, and sprint DoD; CIO: residual business risk, budget/schedule variance, and compliance."
+      },
+      "tags": [
+        "ch3",
+        "stakeholders",
+        "communication"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-182",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la sous-traitance de tests d’acceptation ou exploratoires sans transfert du contexte métier au prestataire ?",
+        "en": "What risk arises from outsourcing exploratory or acceptance testing without transferring business context?"
+      },
+      "back": {
+        "fr": "Le prestataire exécute mécaniquement des scripts obsolètes et manque les écarts fonctionnels subtils qui perturbent les vrais utilisateurs.",
+        "en": "Vendors mechanically check literal steps while missing subtle domain workflows and usability flaws that hurt real customers."
+      },
+      "tags": [
+        "ch3",
+        "outsourcing",
+        "context"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-183",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles clauses qualité essentielles doivent figurer dans un contrat avec un fournisseur de développement logiciel ?",
+        "en": "What essential quality clauses should a Test Manager contribute to an external software development contract?"
+      },
+      "back": {
+        "fr": "Critères d’acceptation mesurables, taux minimal de tests unitaires/statiques livrés, délais garantis de correction des anomalies critiques pendant la garantie et accès transparent aux journaux de test fournisseur.",
+        "en": "Measurable acceptance criteria, minimum delivered unit/static checks, guaranteed SLA turnaround on severe warranty defects, and full visibility into vendor test results."
+      },
+      "tags": [
+        "ch3",
+        "vendor-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-184",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment animer efficacement une équipe de test distribuée sur plusieurs fuseaux horaires (remote / offshore / nearshore) ?",
+        "en": "How can a Test Manager lead a distributed testing team across multiple time zones effectively?"
+      },
+      "back": {
+        "fr": "Définir une fenêtre quotidienne de recouvrement synchrone, privilégier documentation asynchrone claire et vidéos courtes de bug, clarifier qui décide quoi et cultiver la cohésion d’équipe sans « deux classes ».",
+        "en": "Establish shared daily overlap windows, rely on crisp async docs/bug videos, clarify decision ownership, and foster inclusive one-team culture."
+      },
+      "tags": [
+        "ch3",
+        "remote-teams",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-185",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le Test Manager doit-il protéger les activités d’apprentissage et de formation même en période de forte charge ?",
+        "en": "Why must a Test Manager safeguard learning and training time even during busy delivery periods?"
+      },
+      "back": {
+        "fr": "Sans montée continue sur les nouveaux outils (CI, API, sécurité, IA), l’équipe perd en efficacité, accumule de la dette technique manuelle et souffre d’un turnover accru.",
+        "en": "Without continuous upskilling on APIs, CI, security, and modern tools, efficiency stagnates, manual bottlenecks grow, and attrition rises."
+      },
+      "tags": [
+        "ch3",
+        "training",
+        "competencies"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-186",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le retour d’une formation ISTQB ou technique suivie par des membres de l’équipe ?",
+        "en": "How should a Test Manager evaluate the impact of ISTQB or technical training completed by team members?"
+      },
+      "back": {
+        "fr": "Observer l’application concrète sur le terrain (nouvelles techniques utilisées en conception, amélioration du vocabulaire partagé, partage en atelier interne « brown-bag »).",
+        "en": "Track practical workplace adoption—new test design techniques used, clearer shared terminology, and peer brown-bag knowledge-sharing sessions."
+      },
+      "tags": [
+        "ch3",
+        "training",
+        "roi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-187",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le danger du biais d’optimisme (« planning fallacy ») pour un Test Manager et comment le contrer ?",
+        "en": "How does optimism bias (\"planning fallacy\") affect Test Managers and how is it countered?"
+      },
+      "back": {
+        "fr": "Sous-estimer systématiquement aléas d’environnements, re-tests et corrections ; le contrer en s’appuyant sur des données historiques réelles de projets passés (reference class forecasting).",
+        "en": "Underestimating environment outages, rework, and re-test cycles; counter it using empirical historical data from comparable past projects."
+      },
+      "tags": [
+        "ch3",
+        "estimation",
+        "psychology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-188",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment instaurer une amélioration continue après un incident majeur en production (Post-Mortem sans blâme) ?",
+        "en": "How does a Test Manager turn a major production outage into lasting quality improvement via a blameless post-mortem?"
+      },
+      "back": {
+        "fr": "Analyser la chronologie et les failles de détection/processus (pourquoi nos revues, CI et tests n’ont-ils pas intercepté ce cas ?), puis convertir chaque cause racine en action outillée ou test de non-régression.",
+        "en": "Trace timeline and process gaps (\"why did reviews, CI, and tests miss this?\") without blaming individuals, then convert findings into automated regression tests and guardrails."
+      },
+      "tags": [
+        "ch3",
+        "post-mortem",
+        "rca"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-189",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’indicateur « Taux d’utilisation de l’automatisation » et pourquoi surveiller l’adoption réelle par l’équipe ?",
+        "en": "Why track actual team adoption and trust in automated test suites rather than only script count?"
+      },
+      "back": {
+        "fr": "Des centaines de scripts que personne ne lit ou qui sont contournés par des relances aveugles coûtent cher sans protéger la livraison.",
+        "en": "Hundreds of scripts that developers distrust, skip, or blindly rerun add maintenance cost without protecting releases."
+      },
+      "tags": [
+        "ch3",
+        "automation",
+        "adoption"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-190",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment positionner la fonction Test face aux parties prenantes lorsque le métier demande « Pourquoi avons-nous encore des bugs malgré les tests ? »",
+        "en": "How should a Test Manager respond when business stakeholders ask \"Why are bugs still reaching production despite testing?\""
+      },
+      "back": {
+        "fr": "Rappeler honnêtement que le test réduit le risque sans atteindre l’exhaustivité, montrer la valeur des bugs critiques bloqués en amont, puis analyser avec transparence l’écart pour renforcer la prévention.",
+        "en": "Explain candidly that exhaustive testing is impossible, highlight critical bugs already caught pre-release, and collaboratively close the specific gap via RCA."
+      },
+      "tags": [
+        "ch3",
+        "stakeholders",
+        "communication"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-191",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un audit de processus TMMi ou ISO 29119, quelle preuve objective atteste qu’une pratique est réellement institutionnalisée ?",
+        "en": "During a TMMi or ISO 29119 process appraisal, what objective evidence proves a practice is truly institutionalized?"
+      },
+      "back": {
+        "fr": "Pas seulement un document de procédure écrit, mais des artefacts produits régulièrement sur plusieurs projets (plans, matrices de risques, logs de revue, rapports de clôture) et des entretiens cohérents.",
+        "en": "Not merely a written policy binder, but consistent work-product evidence across projects (plans, risk logs, review records, completion reports) corroborated by practitioner interviews."
+      },
+      "tags": [
+        "ch3",
+        "tmmi",
+        "audit"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-192",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles qualités font passer un testeur senior au rôle efficace de « Test Lead / Test Manager » ?",
+        "en": "What mindset shift separates a strong senior tester from an effective Test Lead / Test Manager?"
+      },
+      "back": {
+        "fr": "Passer de l’exécution individuelle brillante à la capacité de prioriser les risques pour le groupe, débloquer les autres, négocier avec les décideurs et faire grandir l’équipe.",
+        "en": "Shifting from personal test execution excellence to empowering teammates, prioritizing portfolio risk, unblocking dependencies, and negotiating with stakeholders."
+      },
+      "tags": [
+        "ch3",
+        "leadership",
+        "career"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-193",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi encourager la rotation ponctuelle des testeurs entre modules ou équipes produit ?",
+        "en": "What benefits come from periodic rotation of testers across modules or product squads?"
+      },
+      "back": {
+        "fr": "Briser le syndrome d’accoutumance (yeux neufs pour détecter des défauts cachés), réduire le facteur d’autobus (bus factor) et diffuser les meilleures pratiques d’automatisation.",
+        "en": "Bringing fresh eyes to break familiarity blindness, lowering single-point-of-failure knowledge risk, and cross-pollinating automation practices."
+      },
+      "tags": [
+        "ch3",
+        "team",
+        "knowledge-sharing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-194",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le Test Manager facilite-t-il l’adoption du « Pairing développeur-testeur » sans heurter les habitudes ?",
+        "en": "How can a Test Manager introduce developer-tester pairing smoothly without cultural pushback?"
+      },
+      "back": {
+        "fr": "Commencer volontairement sur une story complexe avec deux binômes ouverts, limiter les sessions à 30 minutes ciblées sur les cas limites et valoriser les bugs évités avant PR.",
+        "en": "Pilot voluntarily with receptive pairs on one complex story, keep desk-checks focused to 20–30 minutes on edge cases, and celebrate defects prevented before PR."
+      },
+      "tags": [
+        "ch3",
+        "pairing",
+        "change-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-195",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle du Test Manager vis-à-vis de la propriété intellectuelle et de la sécurité des données lors de l’usage d’outils IA par les testeurs ?",
+        "en": "What governance duty does a Test Manager hold regarding IP and data security when testers use external AI tools?"
+      },
+      "back": {
+        "fr": "Interdire la saisie de code source propriétaire, données clients réelles ou vulnérabilités non corrigées dans des LLM publics non approuvés ; fournir des instances d’entreprise cloisonnées.",
+        "en": "Forbid pasting proprietary source code, real customer PII, or unpatched vulnerabilities into unapproved public LLMs; mandate enterprise-approved sandboxed instances."
+      },
+      "tags": [
+        "ch3",
+        "security",
+        "ai-governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-196",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mesurer la satisfaction des parties prenantes internes (développeurs, Product Owners, Ops) envers la fonction Test ?",
+        "en": "How can a Test Manager measure internal stakeholder satisfaction (Devs, POs, Ops) with testing services?"
+      },
+      "back": {
+        "fr": "Via de courtes enquêtes régulières (NPS interne / rétros croisées) évaluant clarté des rapports de bugs, rapidité du feedback CI, utilité des revues et transparence des risques.",
+        "en": "Short periodic pulse surveys or cross-team retros scoring bug-report clarity, CI feedback speed, refinement value, and risk visibility."
+      },
+      "tags": [
+        "ch3",
+        "stakeholders",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-197",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test Advocacy » efficace au sein du comité produit ou architecture ?",
+        "en": "What does effective \"Quality / Test Advocacy\" look like inside product and architecture forums?"
+      },
+      "back": {
+        "fr": "Ne pas agir en censeur bloquant à la fin, mais poser tôt les questions de résilience, d’observabilité, de sécurité et de valeur client pour orienter de meilleures décisions de conception.",
+        "en": "Rather than acting as a late gatekeeping police force, raising resilience, observability, security, and user-value questions early to improve design."
+      },
+      "tags": [
+        "ch3",
+        "advocacy",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-198",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment prioriser la feuille de route d’amélioration d’équipe lorsque 10 problèmes apparaissent en bilan ?",
+        "en": "How should a Test Manager prioritize an improvement roadmap when 10 team pain points surface at once?"
+      },
+      "back": {
+        "fr": "Classer dans une matrice Impact / Effort (Quick Wins d’abord, puis chantiers structurants à fort ROI), en limitant à 2–3 chantiers actifs en parallèle pour aboutir réellement.",
+        "en": "Plot items on an Impact vs. Effort matrix (quick wins first, then high-ROI structural fixes), capping active initiatives at 2–3 so changes actually stick."
+      },
+      "tags": [
+        "ch3",
+        "process-improvement",
+        "prioritization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-199",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure l’intégration de tests de « Chaos Engineering » ou de résilience dans une maturité élevée ?",
+        "en": "What value does introducing controlled Chaos / Resilience experiments bring to mature test teams?"
+      },
+      "back": {
+        "fr": "Vérifier que les mécanismes de bascule, coupe-circuits et alertes réagissent réellement face à la perte d’un nœud ou d’une base avant qu’une vraie panne client ne le révèle.",
+        "en": "Proving circuit breakers, failovers, and alerting actually work under simulated node or DB failures before a real customer outage exposes gaps."
+      },
+      "tags": [
+        "ch3",
+        "chaos-engineering",
+        "resilience"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltm-200",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "objectiveId": "TM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la règle d’or pour déléguer des responsabilités de Test Lead au sein d’une équipe en croissance ?",
+        "en": "What is the golden rule for delegating Test Lead responsibilities across a growing QA team?"
+      },
+      "back": {
+        "fr": "Déléguer à la fois la tâche ET l’autorité de décision dans un périmètre clair avec critères d’escalade définis, tout en restant responsable en dernier ressort du soutien et du résultat.",
+        "en": "Delegate both ownership and decision authority within clear boundaries and escalation triggers while retaining ultimate accountability for coaching and outcomes."
+      },
+      "tags": [
+        "ch3",
+        "delegation",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TM v3.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
     }
   ]
 }

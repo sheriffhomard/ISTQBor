@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CTFL_AT_PART2_FLASHCARDS } from './flashcards_ctfl_at_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CTFL-AT v1.0 (Agile Tester)',
@@ -159,8 +160,8 @@ const RAW_CTFL_AT_CARDS: RawBilingualCard[] = [
     id: 'fc-ctflat-15',
     chapter: 1,
     objectiveId: 'FA-1.1.1',
-    frontFr: 'Que représentent les « 3 C » d’une User Story ?',
-    frontEn: 'What are the "3 Cs" of a User Story?',
+    frontFr: 'En affinage de backlog Agile (CTFL-AT), que représentent les « 3 C » d’une User Story ?',
+    frontEn: 'During Agile backlog refinement (CTFL-AT), what do the "3 Cs" of a User Story stand for?',
     backFr: 'Card (la carte support), Conversation (les discussions d’équipe pour lever les ambiguïtés) et Confirmation (les critères d’acceptation validant la story).',
     backEn: 'Card (the written summary), Conversation (collaborative discussion), and Confirmation (acceptance tests verifying completion).',
     tags: ['ch1', 'user-story'],
@@ -1025,12 +1026,15 @@ const RAW_CTFL_AT_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CTFL_AT_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ctfl-at',
-    versionId: 'ctfl-at-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CTFL_AT_CARDS,
-);
+export const CTFL_AT_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ctfl-at',
+      versionId: 'ctfl-at-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CTFL_AT_CARDS,
+  ),
+  ...CTFL_AT_PART2_FLASHCARDS,
+];

@@ -1071,8 +1071,8 @@
       "objectiveId": "FL2011-2.1.1",
       "languageScope": "bilingual",
       "front": {
-        "fr": "Qu’est-ce que l’analyse d’impact (Impact Analysis) en test de maintenance ?",
-        "en": "What is Impact Analysis in maintenance testing?"
+        "fr": "Selon CTFL 2011, quel rôle joue l’analyse d’impact pour dimensionner la régression lors des tests de maintenance ?",
+        "en": "In CTFL 2011 maintenance testing, how does Impact Analysis scope regression effort?"
       },
       "back": {
         "fr": "Évaluer quelles parties du système existant peuvent être affectées par une modification, migration ou suppression afin de cibler et dimensionner les tests de régression.",
@@ -1585,8 +1585,8 @@
       "objectiveId": "FL2011-4.1.1",
       "languageScope": "bilingual",
       "front": {
-        "fr": "Quel est le principe du Partitionnement en Classes d’Équivalence (EP) ?",
-        "en": "What is the core principle of Equivalence Partitioning (EP)?"
+        "fr": "Dans CTFL 2011 (techniques basées sur les spécifications), quel est le principe du Partitionnement en Classes d’Équivalence (EP) ?",
+        "en": "Under CTFL 2011 specification-based techniques, what is the principle of Equivalence Partitioning (EP)?"
       },
       "back": {
         "fr": "Regrouper les valeurs d’entrée ou de sortie supposées être traitées de manière identique par le système afin de ne tester qu’une valeur représentative par partition valide et invalide.",
@@ -3029,6 +3029,3073 @@
       "isCustom": false,
       "provenance": {
         "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (v2011)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-101",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles causes humaines et contextuelles expliquent l’introduction d’erreurs et de défauts selon CTFL 2011 ?",
+        "en": "Which human and environmental causes lead to software errors and defects in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Pression des délais, complexité du code et des infrastructures, mauvaise communication sur les exigences, technologies nouvelles mal maîtrisées et fatigue humaine.",
+        "en": "Schedule pressure, code and infrastructure complexity, miscommunication of requirements, unfamiliar technologies, and human fatigue."
+      },
+      "tags": [
+        "ch1",
+        "defects",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-102",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les défauts environnementaux (radiations, magnétisme, coupures matérielles) s’articulent-ils avec la chaîne Erreur–Défaut–Défaillance en 2011 ?",
+        "en": "How can environmental conditions trigger failures even without a software bug in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Outre les défauts logiciels, des conditions physiques (variations de tension, champs électromagnétiques, pannes matérielles ou corruption réseau) peuvent modifier le comportement et causer une défaillance.",
+        "en": "Beyond code bugs, environmental hazards—electromagnetic interference, hardware faults, radiation, or power fluctuations—can corrupt execution and cause failures."
+      },
+      "tags": [
+        "ch1",
+        "failures",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-103",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment déterminer « Quelle quantité de tests est suffisante » dans CTFL 2011 ?",
+        "en": "How does CTFL 2011 advise deciding \"How much testing is enough\"?"
+      },
+      "back": {
+        "fr": "En arbitrant selon le niveau de risque technique et métier, les contraintes contractuelles/réglementaires et les limites de temps et de budget — jamais en cherchant l’exhaustivité impossible.",
+        "en": "By balancing technical and business risk exposure, contractual/regulatory requirements, and schedule/budget constraints rather than attempting impossible exhaustive testing."
+      },
+      "tags": [
+        "ch1",
+        "risk",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-104",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le principe « Regroupement des défauts » (Defect Clustering) guide-t-il l’effort de test ?",
+        "en": "How does the \"Defect Clustering\" principle guide test effort allocation in CTFL 2011?"
+      },
+      "back": {
+        "fr": "La majorité des défauts se concentrent dans un petit nombre de modules complexes ou souvent modifiés (loi de Pareto) ; repérer ces zones chaudes permet de cibler des tests plus intensifs.",
+        "en": "Most pre-release defects and production failures cluster in a small subset of complex or frequently changed modules, helping testers focus deep effort there."
+      },
+      "tags": [
+        "ch1",
+        "principles",
+        "pareto"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-105",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Illustrer le principe « Les tests dépendent du contexte » à travers deux domaines contrastés.",
+        "en": "Illustrate the \"Testing is context dependent\" principle across two contrasting domains."
+      },
+      "back": {
+        "fr": "Un logiciel de contrôle aérien critique exige couverture MC/DC, preuves réglementaires et traçabilité stricte, alors qu’un site vitrine e-commerce privilégie rapidité de mise en ligne, ergonomie multi-navigateurs et tests exploratoires.",
+        "en": "Safety-critical avionics demands MC/DC structural coverage and formal audit evidence, whereas an e-commerce site prioritizes fast releases, browser UX, and exploratory testing."
+      },
+      "tags": [
+        "ch1",
+        "principles",
+        "context"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-106",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Oracle de test » et le « Problème de l’oracle » ?",
+        "en": "Define a \"Test Oracle\" in software testing fundamentals."
+      },
+      "back": {
+        "fr": "La source de référence (spécification, ancien système fiable, calcul manuel, loi métier ou expert) permettant de déterminer si le résultat réel obtenu lors d’un test est correct ou en échec.",
+        "en": "The reference source (specification, legacy system, manual calculation, or domain expert) used to decide whether an observed actual test result passed or failed."
+      },
+      "tags": [
+        "ch1",
+        "oracle",
+        "terminology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-107",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguer « Vérification » et « Validation » selon la terminologie historique CTFL 2011.",
+        "en": "Contrast \"Verification\" and \"Validation\" in classical ISTQB 2011 terminology."
+      },
+      "back": {
+        "fr": "Vérification : « Construisons-nous le produit correctement ? » (conformité aux spécifications et règles). Validation : « Construisons-nous le bon produit ? » (adéquation réelle aux besoins et usages des utilisateurs).",
+        "en": "Verification asks \"Are we building the product right?\" (against specs/standards); Validation asks \"Are we building the right product?\" (fit for real user needs)."
+      },
+      "tags": [
+        "ch1",
+        "verification-validation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-108",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels différents objectifs peuvent poursuivre les tests selon le moment du cycle de vie (CTFL 2011) ?",
+        "en": "How do primary test objectives shift across development, acceptance, and maintenance phases in CTFL 2011?"
+      },
+      "back": {
+        "fr": "En développement : provoquer un maximum de défaillances pour corriger tôt. En acceptation : confirmer la conformité et gagner confiance pour la livraison. En maintenance : vérifier l’absence de régressions.",
+        "en": "In development testing: trigger as many failures as possible to fix defects early; in acceptance: confirm expected operation and build release confidence; in maintenance: prevent regressions."
+      },
+      "tags": [
+        "ch1",
+        "objectives",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-109",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Traçabilité bidirectionnelle » entre base de test et cas de test est-elle soulignée dès le chapitre 1 en 2011 ?",
+        "en": "Why is bidirectional traceability between test basis and test artifacts emphasized in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Pour évaluer l’impact exact d’un changement d’exigence sur les tests à modifier, mesurer la couverture réelle des exigences et faciliter l’audit des critères de sortie.",
+        "en": "To assess exact impact when requirements change, measure true requirement coverage, and supply auditable evidence when evaluating exit criteria."
+      },
+      "tags": [
+        "ch1",
+        "traceability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-110",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles obligations du Code d’éthique ISTQB (ACM/IEEE) s’appliquent directement aux testeurs ?",
+        "en": "Which principles of the ISTQB Code of Ethics apply directly to software testers?"
+      },
+      "back": {
+        "fr": "Agir dans l’intérêt du public, préserver la confidentialité des données clients, fournir des évaluations honnêtes et factuelles, éviter les conflits d’intérêts et entretenir ses compétences.",
+        "en": "Act in the public interest, protect client confidentiality, report quality honestly and objectively, avoid conflicts of interest, and pursue lifelong skill development."
+      },
+      "tags": [
+        "ch1",
+        "ethics",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-111",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre la « Cause racine » (Root Cause) d’un défaut et son « Symptôme / Effet » ?",
+        "en": "Distinguish a defect’s \"Root Cause\" from its observable \"Symptom / Effect\"."
+      },
+      "back": {
+        "fr": "Le symptôme est l’échec visible (erreur d’arrondi à l’écran) ; la cause racine est l’origine profonde (spécification ambiguë sur les règles fiscales ou absence de revue) dont la correction empêche d’autres défauts similaires.",
+        "en": "The symptom is the visible failure (wrong rounding on screen); the root cause is the underlying source (ambiguous tax spec or missing review) whose fix prevents recurrence."
+      },
+      "tags": [
+        "ch1",
+        "root-cause"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-112",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi dit-on que le test contribue à la qualité même lorsqu’il ne modifie pas directement le code ?",
+        "en": "How does testing directly improve software quality even though testers do not patch source code?"
+      },
+      "back": {
+        "fr": "En identifiant les défauts avant livraison pour correction, en mesurant objectivement le niveau de qualité atteint et en réduisant le risque de défaillance opérationnelle coûteuse.",
+        "en": "By surfacing defects early for developer fixes, providing objective quality measurements for release decisions, and cutting operational failure risk."
+      },
+      "tags": [
+        "ch1",
+        "quality"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-113",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « test précoce » (Early Testing) appliqué dès les phases amont d’un projet 2011 ?",
+        "en": "How is the \"Early Testing\" principle applied during early specification phases in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Démarrer revues d’exigences, analyses statiques et conception précoce des cas de test dès la rédaction des cahiers des charges afin d’éliminer les défauts avant même le premier compilat.",
+        "en": "Starting requirements reviews, static checks, and early test design while specifications are drafted—catching costly defects before a single line of code is compiled."
+      },
+      "tags": [
+        "ch1",
+        "early-testing",
+        "principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-114",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réconcilier l’objectif de test « prouver que les exigences sont satisfaites » et « trouver des défauts » ?",
+        "en": "How does CTFL 2011 balance \"showing requirements are met\" vs. \"finding defects\"?"
+      },
+      "back": {
+        "fr": "Des tests positifs démontrent que le système remplit ses fonctions attendues, tandis que des tests négatifs, limites et exploratoires poussent activement le système à révéler ses faiblesses cachées.",
+        "en": "Positive tests confirm expected behavior under valid scenarios, while boundary, negative, and exploratory probes actively seek hidden failures."
+      },
+      "tags": [
+        "ch1",
+        "mindset"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-115",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’appelle-t-on « base de test » (Test Basis) dans le processus fondamental 2011 ?",
+        "en": "Define \"Test Basis\" in the CTFL 2011 fundamental test process."
+      },
+      "back": {
+        "fr": "Tout document ou connaissance servant de référence pour déduire les conditions et cas de test (spécifications, exigences, architecture, analyse de risques, code ou manuels utilisateur).",
+        "en": "All artifacts and knowledge sources from which test conditions and test cases are derived (specs, requirements, architecture, risk logs, source code, or user guides)."
+      },
+      "tags": [
+        "ch1",
+        "test-basis",
+        "terminology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-116",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la répétition mécanique de tests identiques sans actualisation (Paradoxe du pesticide) lors des régressions ?",
+        "en": "What danger does the Pesticide Paradox create for static automated regression suites?"
+      },
+      "back": {
+        "fr": "Le logiciel s’immunise progressivement contre ces scénarios figés ; sans ajout de nouveaux cas couvrant les évolutions, défauts récents et données fraîches, de graves bugs passent entre les mailles.",
+        "en": "Software becomes \"immune\" to unchanged scripts; unless refreshed with new data, edge cases, and exploratory probes, new regressions slip past unharmed."
+      },
+      "tags": [
+        "ch1",
+        "pesticide-paradox",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-117",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la psychologie du « Biais de confirmation » rend-elle difficile pour un développeur de tester parfaitement son propre code ?",
+        "en": "Why does Confirmation Bias limit how thoroughly developers can test their own code?"
+      },
+      "back": {
+        "fr": "Ayant conçu la logique sous certaines hypothèses, l’auteur vérifie inconsciemment les scénarios nominaux qui confirment que son code marche plutôt que les cas tordus qui le feraient échouer.",
+        "en": "Having built the implementation on specific mental assumptions, authors naturally design tests confirming intended behavior rather than probing invalid edge cases."
+      },
+      "tags": [
+        "ch1",
+        "psychology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-118",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch1",
+      "objectiveId": "FL2011-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un petit projet Agile manquant de budget pour une équipe QA séparée, comment préserver une dose d’indépendance ?",
+        "en": "How can a small team preserve test independence without a dedicated separate QA department?"
+      },
+      "back": {
+        "fr": "En pratiquant des revues et tests croisés entre pairs (un développeur B teste la story du développeur A), en automatisant ensemble les critères d’acceptation avec le PO et en planifiant des sessions exploratoires dédiées.",
+        "en": "Through peer cross-testing (developer B tests developer A’s work), co-authoring acceptance checks with the PO, and scheduling dedicated exploratory charters."
+      },
+      "tags": [
+        "ch1",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-119",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi le « Modèle en V » se distingue-t-il du « Modèle en cascade » classique sur la place du test ?",
+        "en": "How does the V-Model improve on the classic Waterfall model regarding testing?"
+      },
+      "back": {
+        "fr": "Plutôt que de reléguer le test à une phase unique tardive après codage, le Modèle en V associe explicitement un niveau de test à chaque phase amont de spécification et permet d’anticiper la préparation des tests tôt.",
+        "en": "Instead of treating testing as one late post-coding phase, the V-Model pairs each upstream specification phase with a dedicated test level and promotes early test design."
+      },
+      "tags": [
+        "ch2",
+        "v-model",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-120",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Harnais de test » (Test Harness) et le « Test-First / TDD » cités dans le Test de Composants (2011) ?",
+        "en": "How are Test Harnesses and Test-First / TDD used in Component Testing per CTFL 2011?"
+      },
+      "back": {
+        "fr": "Un harnais fournit pilotes, bouchons et simulations d’environnement pour exécuter un composant isolé ; en Test-First/TDD, le développeur écrit le test unitaire automatisé AVANT d’écrire le code du composant.",
+        "en": "A test harness supplies drivers, stubs, and environment scaffolding to run an isolated unit; in Test-First/TDD, automated unit tests are written BEFORE production code."
+      },
+      "tags": [
+        "ch2",
+        "component-testing",
+        "tdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-121",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles cibles principales vérifie le « Test d’acceptation opérationnelle » (OAT) dans CTFL 2011 ?",
+        "en": "What operational concerns are verified during Operational Acceptance Testing (OAT) in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Sauvegarde et restauration, reprise après sinistre (DRP), procédures d’installation/désinstallation, maintenance, gestion des utilisateurs/droits, vérifications de charge opérationnelle et failles de sécurité d’exploitation.",
+        "en": "Backup/restore, disaster recovery, installation/upgrade runbooks, scheduled maintenance jobs, user administration, operational load, and runtime security checks."
+      },
+      "tags": [
+        "ch2",
+        "oat",
+        "acceptance-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-122",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le test d’« Acceptation contractuelle » vs d’« Acceptation réglementaire » (CTFL 2011) ?",
+        "en": "Distinguish Contract Acceptance Testing from Regulation Acceptance Testing in CTFL 2011."
+      },
+      "back": {
+        "fr": "Contractuelle : vérifier les critères d’acceptation signés dans un contrat de fourniture sur mesure avant paiement final. Réglementaire : démontrer conformité devant autorités gouvernementales, bancaires, médicales ou normes de sécurité.",
+        "en": "Contractual checks satisfy client-signed delivery clauses before final payment; Regulatory checks prove compliance with government, financial, medical, or safety mandates."
+      },
+      "tags": [
+        "ch2",
+        "acceptance-testing",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-123",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts recherchent spécifiquement les « Tests d’intégration » plutôt que les tests de composants ?",
+        "en": "What defect types do Integration Tests specifically uncover beyond Component Testing?"
+      },
+      "back": {
+        "fr": "Incompatibilités d’interfaces et de formats de paramètres, ordres d’appels incorrects, pertes de précision dans les échanges de données, pannes de communication réseau et conflits d’accès concurrent aux ressources partagées.",
+        "en": "Interface mismatches, wrong parameter types/units, broken call sequences, lost precision across boundaries, protocol failures, and shared-resource contention."
+      },
+      "tags": [
+        "ch2",
+        "integration-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-124",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels sont les six attributs de qualité produit de la norme ISO 9126 (historiquement référencée dans CTFL 2011) ?",
+        "en": "What are the six product quality characteristics of ISO 9126 (historically referenced in CTFL 2011)?"
+      },
+      "back": {
+        "fr": "Fonctionnalité (Functionality), Fiabilité (Reliability), Utilisabilité (Usability), Efficience (Efficiency), Maintenabilité (Maintainability) et Portabilité (Portability).",
+        "en": "Functionality, Reliability, Usability, Efficiency, Maintainability, and Portability."
+      },
+      "hint": {
+        "fr": "Remplacée ultérieurement par les 8 caractéristiques d’ISO/IEC 25010.",
+        "en": "Later expanded to 8 characteristics in ISO/IEC 25010."
+      },
+      "tags": [
+        "ch2",
+        "iso9126",
+        "non-functional"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-125",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguer les sous-caractéristiques non fonctionnelles : Test de charge, Test de stress et Test d’endurance (Soak).",
+        "en": "Distinguish Load Testing, Stress Testing, and Endurance (Soak) Testing as non-functional checks."
+      },
+      "back": {
+        "fr": "Charge : vérifier comportement sous volumes attendus normaux et pics prévus. Stress : pousser au-delà des limites maximales pour observer dégradation et reprise. Endurance : maintenir charge réaliste sur longue durée pour repérer fuites mémoire.",
+        "en": "Load verifies normal/peak expected traffic; Stress pushes past design limits to check graceful degradation; Endurance sustains load over hours to expose memory leaks."
+      },
+      "tags": [
+        "ch2",
+        "performance",
+        "non-functional"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-126",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifient les tests de « Portabilité » (Installabilité, Adaptabilité, Coexistence, Remplaçabilité) selon ISO 9126 / CTFL 2011 ?",
+        "en": "What does Portability Testing check under ISO 9126 / CTFL 2011?"
+      },
+      "back": {
+        "fr": "La capacité du logiciel à être transféré d’un environnement matériel ou logiciel à un autre : installation/mise à jour sans accroc, adaptation aux OS/navigateurs et coexistence sans conflit avec d’autres logiciels.",
+        "en": "Transferability across hardware/software environments: clean installability, adaptability across OS/browsers, and peaceful coexistence alongside other installed apps."
+      },
+      "tags": [
+        "ch2",
+        "portability",
+        "non-functional"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-127",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le « Test d’interopérabilité » (Interoperability Testing) classé comme test fonctionnel dans CTFL 2011 ?",
+        "en": "What does Interoperability Testing verify as a functional test type in CTFL 2011?"
+      },
+      "back": {
+        "fr": "L’aptitude du système logiciel à interagir correctement et échanger des données sans ambiguïté avec un ou plusieurs systèmes ou composants partenaires spécifiques.",
+        "en": "The capability of the software product to interact seamlessly and exchange accurate data with one or more specified external systems."
+      },
+      "tags": [
+        "ch2",
+        "interoperability",
+        "functional-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-128",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les tests de « Sécurité » (Security Testing) relevaient-ils explicitement du type fonctionnel dans le schéma 2011 ?",
+        "en": "Why did CTFL 2011 classify Security under Functional testing (ISO 9126), unlike ISO 25010?"
+      },
+      "back": {
+        "fr": "ISO 9126 classait la sécurité comme sous-caractéristique de la « Fonctionnalité » (vérifier mécanismes d’accès/chiffrement), avant qu’ISO 25010 et CTFL ultérieurs n’en fassent une caractéristique non fonctionnelle à part entière.",
+        "en": "ISO 9126 treated Security as a sub-characteristic of Functionality (checking auth/encryption functions) before ISO 25010 elevated Security to its own quality category."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "iso9126"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-129",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « d’intégration par voisinage / épine dorsale » par rapport au Big Bang ?",
+        "en": "Why is Incremental Integration Testing preferred over Big Bang Integration Testing?"
+      },
+      "back": {
+        "fr": "Intégrer progressivement par petits groupes facilite grandement la localisation immédiate de l’interface défaillante, contrairement au Big Bang où des dizaines d’erreurs se masquent mutuellement.",
+        "en": "Incremental assembly immediately isolates faulty interfaces to the newly added component, whereas Big Bang hides dozens of interacting failures at once."
+      },
+      "tags": [
+        "ch2",
+        "integration-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-130",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les tests de régression doivent-ils être maintenus et élagués au fil des versions ?",
+        "en": "Why must regression test suites be actively curated and pruned across releases?"
+      },
+      "back": {
+        "fr": "Ajouter indéfiniment de nouveaux cas sans supprimer les doublons ou tests de fonctions retirées rend la suite ingérable et trop lente pour être exécutée fréquemment.",
+        "en": "Continuously appending cases without removing obsolete or redundant tests bloats execution time until the suite can no longer run on every change."
+      },
+      "tags": [
+        "ch2",
+        "regression-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-131",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défis rendent les « Tests de maintenance » particulièrement difficiles sur les vieux systèmes ?",
+        "en": "Why is Maintenance Testing often challenging on aging legacy systems in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Spécifications inexistantes ou obsolètes, absence de testeurs originaux connaissant le métier, vieux scripts de test introuvables et difficulté à évaluer l’impact exact d’un changement isolé.",
+        "en": "Outdated or missing specs, original domain experts gone, lost regression testware, and poor modularity making change-impact analysis uncertain."
+      },
+      "tags": [
+        "ch2",
+        "maintenance-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-132",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie spécifiquement le test lors du déclencheur de maintenance « Migration » ?",
+        "en": "What specific tests are required under the \"Migration\" trigger of Maintenance Testing?"
+      },
+      "back": {
+        "fr": "Tests opérationnels du nouvel environnement, tests de conversion/migration intégrale des données historiques (intégrité, encodage, volumétrie) et tests de régression des fonctions critiques.",
+        "en": "Operational checks on the new platform, data conversion/migration integrity (completeness, encoding, volumes), and core functional regression."
+      },
+      "tags": [
+        "ch2",
+        "maintenance-testing",
+        "migration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-133",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie spécifiquement le test lors du déclencheur de maintenance « Retrait / Décommissionnement » ?",
+        "en": "What testing occurs under the \"Retirement\" trigger of Maintenance Testing in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Migration ou archivage légal complet des données pour consultation future, vérification des procédures de restauration d’archives et vérification que les systèmes restants tolèrent l’arrêt.",
+        "en": "Testing data migration or long-term archive integrity/retrievability, verifying archive restore procedures, and checking surviving interfaces tolerate shutdown."
+      },
+      "tags": [
+        "ch2",
+        "maintenance-testing",
+        "retirement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-134",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de fumée / Sanity Check » à l’entrée d’un niveau de test ?",
+        "en": "What role does a Smoke Test (Confidence Test) play at the entry of a test level?"
+      },
+      "back": {
+        "fr": "Exécuter un court jeu de parcours de base dès réception d’un nouveau build pour vérifier que l’application démarre et est suffisamment stable avant d’engager l’équipe sur les tests complets.",
+        "en": "Running a quick baseline check on a newly delivered build to verify basic stability before investing full team effort in detailed testing."
+      },
+      "tags": [
+        "ch2",
+        "smoke-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-135",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment se présentent les niveaux de test dans un cycle itératif/Agile par rapport au Modèle en V ?",
+        "en": "How do the four test levels still apply within iterative/Agile lifecycles per CTFL 2011?"
+      },
+      "back": {
+        "fr": "Les mêmes niveaux (composants, intégration, système, acceptation) s’exécutent non plus une seule fois en fin de projet, mais de manière répétée et continue au fil de chaque itération ou incrément.",
+        "en": "All four levels (component, integration, system, acceptance) still exist—simply compressed and executed repeatedly inside every iteration rather than once at project end."
+      },
+      "tags": [
+        "ch2",
+        "iterative",
+        "test-levels"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-136",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch2",
+      "objectiveId": "FL2011-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’analyse d’impact (Impact Analysis) sert-elle aussi à décider si un changement est trop risqué avant même de coder ?",
+        "en": "How can Maintenance Impact Analysis support project decisions even before code is modified?"
+      },
+      "back": {
+        "fr": "Si l’analyse montre qu’une petite retouche exige de re-tester 80 % d’un module fragile critique, l’organisation peut renoncer au changement ou prévoir un budget réaliste dès le départ.",
+        "en": "If impact analysis reveals a tiny change touches 80% of a fragile core module, stakeholders can defer the change or budget proper regression before committing."
+      },
+      "tags": [
+        "ch2",
+        "impact-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-137",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue le « Manager » dans l’organisation d’une revue formelle (CTFL 2011) ?",
+        "en": "What are the Manager’s responsibilities in a CTFL 2011 Formal Review?"
+      },
+      "back": {
+        "fr": "Décider de réaliser la revue, allouer le temps et le budget au planning projet, assigner le personnel et évaluer si les objectifs de la revue ont été atteints — sans généralement assister à la séance.",
+        "en": "Deciding on review execution, allocating schedule time and budget, staffing participants, and checking objectives are met—typically without attending the review meeting."
+      },
+      "tags": [
+        "ch3",
+        "review-roles",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-138",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle et l’attitude attendue de l’« Auteur » lors d’une revue formelle ?",
+        "en": "What is the Author’s role during a Formal Review?"
+      },
+      "back": {
+        "fr": "Fournir le document conforme aux critères d’entrée, clarifier brièvement les intentions si besoin sans se mettre sur la défensive, puis corriger les défauts retenus durant l’étape de Reprise (Rework).",
+        "en": "Delivering an entry-ready work product, clarifying intent objectively without defensiveness, and fixing agreed defects during the Rework phase."
+      },
+      "tags": [
+        "ch3",
+        "review-roles",
+        "author"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-139",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’étape « Préparation individuelle » (avant la réunion) est-elle décisive pour l’efficacité d’une inspection ?",
+        "en": "Why is the Individual Preparation step crucial before holding a formal review meeting?"
+      },
+      "back": {
+        "fr": "C’est durant la lecture calme individuelle que la majorité des défauts sont repérés ; la réunion sert ensuite à consolider la liste, détecter quelques écarts croisés supplémentaires et décider des suites.",
+        "en": "Most defects are uncovered during quiet individual reading beforehand; the meeting consolidates logs, catches cross-perspective issues, and agrees disposition."
+      },
+      "tags": [
+        "ch3",
+        "formal-review",
+        "preparation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-140",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence fondamentale sépare un « Walkthrough » (Revue guidée) d’une « Inspection » dans CTFL 2011 ?",
+        "en": "How does a Walkthrough differ from an Inspection in CTFL 2011 static review types?"
+      },
+      "back": {
+        "fr": "Un Walkthrough est animé et piloté par l’auteur lui-même pour partager la compréhension ou recueillir du feedback informel ; une Inspection est pilotée par un modérateur indépendant formé avec rôles formels, check-lists, critères d’entrée/sortie et métriques.",
+        "en": "A Walkthrough is led by the author to share understanding or gather feedback informally, whereas an Inspection is led by a trained independent moderator using defined roles, checklists, entry/exit gates, and defect metrics."
+      },
+      "tags": [
+        "ch3",
+        "reviews",
+        "walkthrough"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-141",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi une « Revue Technique » (Technical Review) diffère-t-elle d’une « Inspection » (2011) ?",
+        "en": "How does a Technical Review differ from an Inspection in CTFL 2011?"
+      },
+      "back": {
+        "fr": "La revue technique réunit pairs et experts techniques (avec ou sans modérateur externe) pour évaluer choix techniques, conformité aux normes et alternatives, avec moins de métriques formelles qu’une inspection stricte.",
+        "en": "A Technical Review gathers technical peers and experts to evaluate standards compliance and design alternatives—using documented defects yet less rigid metrics than an Inspection."
+      },
+      "tags": [
+        "ch3",
+        "review-types"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-142",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert la « Revue Informelle » (ex. relecture par un collègue) malgré l’absence de processus documenté ?",
+        "en": "What makes an Informal Review (e.g., buddy check / pair programming) valuable despite lacking formal paperwork?"
+      },
+      "back": {
+        "fr": "Elle coûte très peu, s’effectue immédiatement au fil de l’eau sans lourdeur administrative et élimine rapidement fautes évidentes et oublis locaux.",
+        "en": "Minimal overhead and instant turnaround—buddy checks and pair reviews catch obvious oversights cheaply right as work is drafted."
+      },
+      "tags": [
+        "ch3",
+        "review-types"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-143",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifient les « Réviseurs » (Reviewers / Inspectors) et pourquoi varier leurs perspectives ?",
+        "en": "Why assign diverse stakeholder perspectives to Reviewers in a Formal Review?"
+      },
+      "back": {
+        "fr": "Chaque participant adopte un angle distinct (testeur, architecte, métier, sécurité, exploitation), évitant que tout le monde ne relise superficiellement la même chose.",
+        "en": "Each reviewer checks from a distinct viewpoint (tester, architect, domain expert, security, ops), maximizing unique defect coverage instead of duplicating effort."
+      },
+      "tags": [
+        "ch3",
+        "review-roles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-144",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi interdit-on de discuter ou concevoir la solution complète pendant la réunion de revue ?",
+        "en": "Why do review guidelines forbid problem-solving and redesign discussions during a review meeting?"
+      },
+      "back": {
+        "fr": "Débattre de solutions ralentit le rythme, transforme la séance en atelier technique sans fin et empêche de parcourir le reste du document dans le temps imparti.",
+        "en": "Debating fixes stalls meeting pace, derails agenda timeboxes, and prevents covering the remainder of the artifact."
+      },
+      "tags": [
+        "ch3",
+        "formal-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-145",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels indicateurs quantitatifs suit-on généralement lors d’une Inspection (CTFL 2011) ?",
+        "en": "Which quantitative metrics are commonly collected during formal Inspections (CTFL 2011)?"
+      },
+      "back": {
+        "fr": "Nombre de défauts par page ou par heure, vitesse de lecture recommandée (pages/heure), temps de préparation vs réunion et pourcentage de défauts résolus au suivi.",
+        "en": "Defects found per page or hour, recommended inspection rate (pages/hour), preparation vs. meeting effort, and rework resolution rate."
+      },
+      "tags": [
+        "ch3",
+        "inspection",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-146",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une anomalie de flux de données « ur » (Undefined–Referenced) en analyse statique ?",
+        "en": "What does an \"ur\" (Undefined–Referenced) data-flow anomaly mean in static analysis?"
+      },
+      "back": {
+        "fr": "Une variable est lue/référencée (`r`) avant d’avoir reçu une valeur définie (`u`), produisant un comportement imprévisible ou une erreur d’exécution.",
+        "en": "A variable is referenced/read (`r`) while still undefined (`u`) before any assignment—risking unpredictable values or crashes."
+      },
+      "tags": [
+        "ch3",
+        "static-analysis",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-147",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une anomalie de flux de données « dd » ou « du » en analyse statique ?",
+        "en": "What do \"dd\" (Defined–Defined) and \"du\" (Defined–Undefined) data-flow anomalies indicate?"
+      },
+      "back": {
+        "fr": "`dd` : variable affectée deux fois de suite sans jamais avoir été lue entre les deux (affectation inutile ou variable erronée). `du` : variable calculée puis détruite/sortie de portée sans jamais être utilisée.",
+        "en": "`dd`: variable assigned twice consecutively without being read in between (likely wrong variable/typo); `du`: variable assigned then goes out of scope unused."
+      },
+      "tags": [
+        "ch3",
+        "static-analysis",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-148",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le compilateur d’un langage fortement typé est-il lui-même considéré comme un outil d’analyse statique dans CTFL 2011 ?",
+        "en": "Why does CTFL 2011 classify a compiler among static analysis tools?"
+      },
+      "back": {
+        "fr": "Il vérifie syntaxe, cohérence des types, déclarations manquantes et avertissements de code inaccessible sans exécuter le programme.",
+        "en": "It inspects syntax, type consistency, undeclared identifiers, and unreachable code warnings without running the program."
+      },
+      "tags": [
+        "ch3",
+        "static-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-149",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment se calcule la complexité cyclomatique $V(G)$ à partir du graphe de flux de contrôle ?",
+        "en": "How is McCabe Cyclomatic Complexity $V(G)$ calculated from a control-flow graph?"
+      },
+      "back": {
+        "fr": "$V(G) = E - N + 2$ (où $E$ = nombre d’arêtes, $N$ = nombre de nœuds), ou simplement « nombre de nœuds de décision binaires + 1 » pour un sous-programme à entrée/sortie unique.",
+        "en": "$V(G) = E - N + 2$ ($E$ = edges, $N$ = nodes), equivalently \"number of binary decision predicates + 1\" for a single-entry, single-exit routine."
+      },
+      "tags": [
+        "ch3",
+        "cyclomatic-complexity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-150",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch3",
+      "objectiveId": "FL2011-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des check-lists adaptées augmentent-elles nettement l’efficacité des réviseurs en revue ?",
+        "en": "How do tailored checklists boost reviewer effectiveness in static reviews?"
+      },
+      "back": {
+        "fr": "Elles rappellent aux relecteurs les classes d’erreurs fréquentes de chaque type de document (ambiguïtés, cas limites manquants, sécurité, standards), évitant les oublis par lassitude.",
+        "en": "They focus reviewers on high-yield defect patterns specific to each artifact type (ambiguity, missing boundaries, standards, security), preventing fatigue oversights."
+      },
+      "tags": [
+        "ch3",
+        "reviews",
+        "checklists"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-151",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence distingue un « Cas de test de haut niveau » (logique) d’un « Cas de test de bas niveau » (concret) ?",
+        "en": "Contrast a \"High-Level\" (logical) test case vs. a \"Low-Level\" (concrete) test case in CTFL 2011."
+      },
+      "back": {
+        "fr": "Le haut niveau décrit conditions et catégories abstraites sans valeurs exactes (ex. « montant > seuil »), réutilisable si les données changent ; le bas niveau précise valeurs d’entrée concrètes exactes (`150,01 €`) et résultats attendus précis.",
+        "en": "High-level specifies abstract conditions without concrete values (resilient to data shifts); low-level locks down exact concrete input values and expected outputs."
+      },
+      "tags": [
+        "ch4",
+        "test-design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-152",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment appliquer le Partitionnement en Classes d’Équivalence (EP) à des entrées non numériques (listes, chaînes, booléens) ?",
+        "en": "How is Equivalence Partitioning applied to non-numeric inputs (enums, strings, booleans)?"
+      },
+      "back": {
+        "fr": "En regroupant les options traitées identiquement (ex. pays zone UE vs hors-UE, statuts éligibles vs refusés, longueurs de chaîne valides vs vides/trop longues) et en testant un représentant par groupe.",
+        "en": "Group values handled identically (e.g., EU vs. non-EU countries, valid vs. empty/oversized string lengths, enabled vs. disabled flags) and pick one representative each."
+      },
+      "tags": [
+        "ch4",
+        "ep",
+        "black-box"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-153",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Un barème de remise accorde 0 % de 0 à 99 €, 10 % de 100 à 499 € et 20 % à partir de 500 €. Quelles valeurs limites (BVA 2 valeurs) tester ?",
+        "en": "A discount gives 0% for €0–99, 10% for €100–499, and 20% for €500+. What are the 2-value integer BVA test values?"
+      },
+      "back": {
+        "fr": "Chaque frontière et sa voisine immédiate : -1, 0 | 99, 100 | 499, 500 (plus éventuellement la limite max acceptée par le système).",
+        "en": "Each boundary plus immediate neighbor: -1, 0 | 99, 100 | 499, 500 (plus system max limit if defined)."
+      },
+      "tags": [
+        "ch4",
+        "bva",
+        "exercise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-154",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment traiter l’Analyse des Valeurs Limites sur un champ acceptant des nombres décimaux à 2 décimales (ex. 0,01 à 99,99 €) ?",
+        "en": "How do you identify BVA values for a decimal field with 2 decimal places (e.g., 0.01 to 99.99)?"
+      },
+      "back": {
+        "fr": "L’incrément minimal du domaine vaut 0,01 : les valeurs limites exactes à 2 valeurs sont `0.00`, `0.01` et `99.99`, `100.00`.",
+        "en": "The smallest domain increment is 0.01, so the 2-value boundaries are `0.00`, `0.01` and `99.99`, `100.00`."
+      },
+      "tags": [
+        "ch4",
+        "bva",
+        "exercise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-155",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que représente le tiret (`-`, Don’t Care) dans une table de décision réduite et combien de règles booléennes fusionne-t-il ?",
+        "en": "What does a `Don't Care` (`-`) entry mean in a collapsed decision table, and how many boolean rules does each dash merge?"
+      },
+      "back": {
+        "fr": "Il indique que la valeur Vrai ou Faux de cette condition n’affecte pas l’action de la colonne ; chaque tiret sur une condition booléenne multiplie par 2 le nombre de combinaisons brutes fusionnées dans cette règle.",
+        "en": "It indicates that the condition's True/False value has no impact on the rule's actions; each boolean dash doubles the number of raw truth-table combinations merged into that column."
+      },
+      "tags": [
+        "ch4",
+        "decision-tables"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-156",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment calculer le taux de couverture obtenu avec une Table de Décision ?",
+        "en": "How is test coverage measured for Decision Table Testing?"
+      },
+      "back": {
+        "fr": "Pourcentage des règles réalisables (colonnes valides de la table réduite) exercées par au moins un cas de test.",
+        "en": "Percentage of feasible rule columns in the collapsed decision table exercised by at least one test case."
+      },
+      "tags": [
+        "ch4",
+        "decision-tables",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-157",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Table d’états » (State Table) complète-t-elle indispensablement le diagramme d’états pour les tests négatifs ?",
+        "en": "Why is a State Table essential alongside a State Transition Diagram for negative testing?"
+      },
+      "back": {
+        "fr": "Le diagramme ne montre que les transitions valides ; la table d’états (États × Événements) révèle explicitement les cases vides correspondant aux transitions invalides à tester pour éviter des accès illicites.",
+        "en": "A diagram depicts only legal transitions, whereas a State Table (States × Events) exposes every empty/invalid cell so testers can write negative tests confirming illegal inputs are rejected."
+      },
+      "tags": [
+        "ch4",
+        "state-transition",
+        "state-table"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-158",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue une « Condition de garde » (`[solde >= montant]`) sur une transition d’état ?",
+        "en": "What role does a Guard Condition (`[balance >= amount]`) play in a State Transition diagram?"
+      },
+      "back": {
+        "fr": "La transition ne se déclenche à l’arrivée de l’événement que si l’expression booléenne de garde est vraie ; si elle est fausse, le système reste dans l’état courant ou prend une autre transition.",
+        "en": "The transition fires on the triggering event only if the boolean guard evaluates True; otherwise the system stays put or follows an alternate branch."
+      },
+      "tags": [
+        "ch4",
+        "state-transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-159",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Combien de cas de test au minimum faut-il pour couvrir un Cas d’Utilisation (Use Case) complet ?",
+        "en": "How many test cases are minimally required to cover a complete Use Case?"
+      },
+      "back": {
+        "fr": "Au minimum un cas pour le scénario nominal (Main Success Scenario) plus un cas pour chaque flux alternatif et chaque flux d’exception documentés.",
+        "en": "At least one test case for the mainstream success scenario plus one for each documented alternative and exception flow."
+      },
+      "tags": [
+        "ch4",
+        "use-case-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-160",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment calcule-t-on formellement la « Couverture des instructions » et la « Couverture des décisions » (CTFL 2011) ?",
+        "en": "State the formulas for Statement Coverage and Decision Coverage in CTFL 2011."
+      },
+      "back": {
+        "fr": "Instructions = (Instructions exécutées / Total instructions exécutables) × 100 %. Décisions = (Issues de décisions exécutées / Total issues de décisions) × 100 %.",
+        "en": "Statement = (Executed statements / Total executable statements) × 100%. Decision = (Executed decision outcomes / Total decision outcomes) × 100%."
+      },
+      "tags": [
+        "ch4",
+        "white-box",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-161",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Soit : `IF A > 0 THEN X = 1 ELSE X = 2 ENDIF; IF B > 0 THEN Y = 1 ENDIF`. Combien faut-il de tests pour 100 % instructions vs 100 % décisions ?",
+        "en": "Given `IF A > 0 THEN X = 1 ELSE X = 2 ENDIF; IF B > 0 THEN Y = 1 ENDIF`, find minimum tests for 100% statement vs 100% decision coverage."
+      },
+      "back": {
+        "fr": "2 cas suffisent pour 100 % instructions ET 100 % décisions : Cas 1 (`A=1, B=1`) prend THEN et THEN ; Cas 2 (`A=-1, B=-1`) prend ELSE et le saut Faux implicite.",
+        "en": "2 tests suffice for BOTH 100% statement and 100% decision coverage: Test 1 (`A=1, B=1`) hits THEN + THEN; Test 2 (`A=-1, B=-1`) hits ELSE + implicit False."
+      },
+      "tags": [
+        "ch4",
+        "coverage",
+        "exercise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-162",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Combien de tests exige un `SWITCH (code)` à 4 cas + `DEFAULT` pour atteindre 100 % de couverture des décisions ?",
+        "en": "How many test cases are minimally needed to reach 100% Decision Coverage on a 4-branch `SWITCH` + `DEFAULT`?"
+      },
+      "back": {
+        "fr": "5 cas de test (1 pour chacune des 4 valeurs explicites + 1 valeur tombant dans la branche `DEFAULT`).",
+        "en": "5 test cases (one for each explicit `CASE` arm plus one hitting the `DEFAULT` branch)."
+      },
+      "tags": [
+        "ch4",
+        "decision-coverage",
+        "exercise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-163",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Couverture des conditions » et « Couverture des conditions multiples » sur `IF (A && B)` ?",
+        "en": "Contrast Condition Coverage vs. Multiple Condition Coverage on `IF (A && B)`."
+      },
+      "back": {
+        "fr": "Condition Coverage : chaque sous-condition A et B vaut Vrai et Faux au moins une fois (2 tests : TT et FF suffisent !). Multiple Condition : toutes les $2^2 = 4$ combinaisons (TT, TF, FT, FF) sont testées.",
+        "en": "Condition Coverage requires each atomic boolean A and B to be True once and False once (TT & FF suffice!). Multiple Condition Coverage exercises all 4 combinations (TT, TF, FT, FF)."
+      },
+      "tags": [
+        "ch4",
+        "white-box",
+        "condition-coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-164",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi `TT` et `FF` atteignent 100 % de couverture des conditions sur `IF (A || B)` SANS atteindre 100 % de couverture des décisions ?",
+        "en": "Wait—check carefully: for `IF (A && B)`, why do `TF` and `FT` reach 100% Condition Coverage yet FAIL 100% Decision Coverage?"
+      },
+      "back": {
+        "fr": "Avec `TF` (`T && F = Faux`) et `FT` (`F && T = Faux`), A et B ont chacun pris Vrai et Faux (100 % conditions), mais l’issue Vrai du `IF` n’a JAMAIS été prise (seulement 50 % décisions !).",
+        "en": "For `IF (A && B)`, testing `TF` and `FT` makes both A and B True and False (100% Condition Coverage), yet the overall `IF` only ever evaluates False (50% Decision Coverage!)."
+      },
+      "tags": [
+        "ch4",
+        "white-box",
+        "exercise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-165",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la couverture MC/DC (Modified Condition / Decision Coverage) mentionnée pour les systèmes critiques ?",
+        "en": "What does Modified Condition / Decision Coverage (MC/DC) prove in safety-critical white-box testing?"
+      },
+      "back": {
+        "fr": "Que chaque condition atomique individuelle influence indépendamment l’issue globale de la décision (en gardant les autres fixes) tout en nécessitant environ $N + 1$ cas au lieu de $2^N$.",
+        "en": "That every atomic condition independently flips the overall decision outcome while holding other conditions fixed—achieving strong rigor in roughly $N + 1$ tests instead of $2^N$."
+      },
+      "tags": [
+        "ch4",
+        "mcdc",
+        "white-box"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-166",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi 100 % de Couverture des Décisions implique-t-elle toujours 100 % de Couverture des Instructions (hors code mort) ?",
+        "en": "Why does 100% Decision Coverage always guarantee 100% Statement Coverage (excluding unreachable dead code)?"
+      },
+      "back": {
+        "fr": "Prendre toutes les issues Vrai et Faux de chaque décision du graphe de flux force nécessairement le passage par chaque bloc d’instructions atteignable (alors que l’inverse est faux sur un `IF` sans `ELSE`).",
+        "en": "Exercising both True and False outcomes of every control-flow branch forces execution through every reachable statement block—whereas 100% Statement Coverage can miss an implicit `ELSE` branch."
+      },
+      "tags": [
+        "ch4",
+        "white-box",
+        "subsumption"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-167",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la « Taxonomie des défauts » (Defect Taxonomies) renforce-t-elle la technique d’Estimation d’Erreurs (Error Guessing) ?",
+        "en": "How do Defect Taxonomies enhance experience-based Error Guessing?"
+      },
+      "back": {
+        "fr": "Une taxonomie liste méthodiquement les catégories historiques d’erreurs fréquentes du domaine (calculs fiscaux, concurrence, encodage, permissions) pour systématiser l’intuition du testeur.",
+        "en": "They provide structured catalogs of historical root-cause failure modes (currency rounding, race conditions, encoding, auth) so error guessing is systematic rather than random."
+      },
+      "tags": [
+        "ch4",
+        "error-guessing",
+        "experience-based"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-168",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer une session de « Test Exploratoire » grâce à la gestion par sessions (SBTM / Test Charter) ?",
+        "en": "How does a Test Charter structure Exploratory Testing in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Une charte définit la mission ciblée (zone, risques à explorer), la durée bornée (ex. 60–90 min), les outils/données disponibles et est suivie d’un débriefing consignant observations, couvertures et défauts.",
+        "en": "A Test Charter defines mission scope, target risks, a fixed timebox (e.g., 60–90 min), and setup—followed by a debrief logging findings, notes, and follow-up charters."
+      },
+      "tags": [
+        "ch4",
+        "exploratory-testing",
+        "sbtm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-169",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que les « Tests par les attaques » (Attack-Based Testing) en conception basée sur l’expérience ?",
+        "en": "What are software \"Attacks\" as an experience-based technique?"
+      },
+      "back": {
+        "fr": "Utiliser des listes d’attaques ciblées sur interface utilisateur, fichiers ou API (chaînes gigantesques, caractères spéciaux, fichiers manquants, clics rapides) pour forcer le système à planter.",
+        "en": "Systematically launching targeted failure triggers (oversized strings, control chars, missing files, rapid repeats) across UI, files, and APIs to expose weak error handling."
+      },
+      "tags": [
+        "ch4",
+        "experience-based"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-170",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment utiliser le Partitionnement d’Équivalence sur les **sorties** (Output Partitions) d’un système ?",
+        "en": "How does Equivalence Partitioning apply to Output Domains rather than Inputs?"
+      },
+      "back": {
+        "fr": "Identifier toutes les catégories possibles de résultats produits (ex. « Approuvé », « Refusé plafond », « Refusé âge ») et concevoir des cas d’entrée garantissant que chaque type de sortie a été déclenché.",
+        "en": "List every distinct output category (e.g., \"Approved\", \"Rejected: Credit Limit\", \"Rejected: Age\") and design inputs forcing every output partition to occur."
+      },
+      "tags": [
+        "ch4",
+        "ep",
+        "black-box"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-171",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’indication d’une couverture de 100 % des instructions par un outil ne signifie-t-elle PAS que le module est exempt de défauts ?",
+        "en": "Why does 100% Statement Coverage still leave potential defects undetected?"
+      },
+      "back": {
+        "fr": "Elle ne vérifie pas les branches fausses implicites sans `ELSE`, ignore les combinaisons logiques internes, ne repère pas le code/cas exigence oublié et dépend de la qualité des assertions du test.",
+        "en": "It skips implicit false branches lacking `ELSE`, ignores internal boolean combinations, cannot detect missing requirements, and depends entirely on test assertions."
+      },
+      "tags": [
+        "ch4",
+        "statement-coverage",
+        "white-box"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-172",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel lien existe-t-il entre « Conditions de test », « Cas de test » et « Procédures d’exécution » lors de la traçabilité ?",
+        "en": "How do Test Conditions, Test Cases, and Test Procedures relate sequentially during design?"
+      },
+      "back": {
+        "fr": "On extrait des conditions de test depuis la base de test (quoi tester), on les couvre par un ou plusieurs cas de test (entrées + attendus), puis on enchaîne ces cas dans des procédures ordonnées.",
+        "en": "Test Conditions (what to test) are extracted from the test basis, covered by Test Cases (inputs + expected outcomes), and sequenced into executable Test Procedures."
+      },
+      "tags": [
+        "ch4",
+        "test-design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-173",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le modèle de Test basé sur les cas d’utilisation aide-t-il particulièrement à valider les « préconditions et postconditions » ?",
+        "en": "Why is Use Case Testing strong at uncovering missing Precondition and Postcondition checks?"
+      },
+      "back": {
+        "fr": "Chaque cas d’utilisation décrit explicitement l’état requis avant démarrage et l’état garanti en sortie, exposant les trous lorsque deux processus s’enchaînent.",
+        "en": "Each use case explicitly defines required starting states and guaranteed end states, exposing gaps when multi-step business workflows chain together."
+      },
+      "tags": [
+        "ch4",
+        "use-case-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-174",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch4",
+      "objectiveId": "FL2011-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment justifier le mélange de techniques boîte noire et basées sur l’expérience sur une fonctionnalité critique ?",
+        "en": "Why combine formal Black-Box techniques with Experience-Based testing on critical features?"
+      },
+      "back": {
+        "fr": "EP/BVA/Tables assurent une couverture systématique et traçable des règles écrites, tandis que l’exploratoire et l’estimation d’erreurs capturent les scénarios transverses ou implicites oubliés dans les specs.",
+        "en": "Black-box methods systematically cover documented specs and boundaries, while exploratory and error guessing uncover implicit workflows and unstated interactions."
+      },
+      "tags": [
+        "ch4",
+        "technique-selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-175",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguer les « Critères de suspension » et les « Critères de reprise » (Suspension & Resumption Criteria) dans un Plan de Test IEEE 829.",
+        "en": "Contrast \"Suspension Criteria\" and \"Resumption Criteria\" in an IEEE 829 Test Plan."
+      },
+      "back": {
+        "fr": "Suspension : conditions déclenchant l’arrêt temporaire d’une campagne (ex. crash du module login rendant tout test impossible). Reprise : conditions exigées pour redémarrer les tests (livraison correctif + smoke test réussi).",
+        "en": "Suspension criteria specify conditions halting all/part of testing (e.g., broken login blocking execution); Resumption criteria define preconditions to restart (patched build passing smoke checks)."
+      },
+      "tags": [
+        "ch5",
+        "ieee829",
+        "management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-176",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle d’un « Master Test Plan » par rapport aux « Level Test Plans » dans CTFL 2011 ?",
+        "en": "How does a Master Test Plan relate to individual Level Test Plans in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Le Master Test Plan orchestre la stratégie globale, les responsabilités inter-niveaux et la gestion des risques du projet ; chaque Level Test Plan détaille calendrier, critères et ressources d’un niveau précis (ex. Système ou UAT).",
+        "en": "The Master Test Plan coordinates overall project strategy, cross-level scope, and risk governance; Level Test Plans detail concrete schedules, criteria, and resources per test level."
+      },
+      "tags": [
+        "ch5",
+        "test-plan",
+        "ieee829"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-177",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères déterminent l’ordre de priorité d’exécution des tests en cas de calendrier serré (CTFL 2011) ?",
+        "en": "Which factors prioritize test execution order under schedule pressure in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Niveau de risque produit (vraisemblance × impact), visibilité/fréquence d’utilisation par le client, sévérité potentielle des défauts, dépendances entre tests et disponibilité de l’environnement/données.",
+        "en": "Product risk level, customer usage frequency/visibility, potential failure severity, technical test dependencies, and environment/data availability."
+      },
+      "tags": [
+        "ch5",
+        "prioritization",
+        "management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-178",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles deux grandes familles d’estimation d’effort de test étaient opposées dans CTFL 2011 ?",
+        "en": "What two major families of test estimation approaches were contrasted in CTFL 2011?"
+      },
+      "back": {
+        "fr": "L’approche basée sur les métriques (modèles mathématiques, ratios dev/test historiques, courbes d’élimination de défauts) et l’approche basée sur les experts (avis des spécialistes exécutants, WBS, Delphi).",
+        "en": "Metrics-based estimation (historical test-to-dev ratios, defect removal models) and Expert-based estimation (Work Breakdown Structure, Wideband Delphi, SME judgment)."
+      },
+      "tags": [
+        "ch5",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-179",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles métriques de suivi des tests CTFL 2011 recommande-t-il de collecter pendant l’exécution ?",
+        "en": "Which test progress monitoring metrics are recommended during execution in CTFL 2011?"
+      },
+      "back": {
+        "fr": "Nombre/pourcentage de cas préparés et exécutés (réussis, échoués, bloqués), taux de découverte et de résolution des défauts (ouverts/fermés par sévérité), couverture des exigences/risques/code et coût/temps réel consommé.",
+        "en": "Cases prepared vs. executed (pass/fail/blocked), defect arrival vs. closure rates by severity, requirement/risk/code coverage achieved, and planned vs. actual effort."
+      },
+      "tags": [
+        "ch5",
+        "metrics",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-180",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles actions de « Contrôle des tests » le Test Leader peut-il décider si l’exécution prend du retard ?",
+        "en": "What \"Test Control\" corrective actions can a Test Leader take when execution falls behind schedule?"
+      },
+      "back": {
+        "fr": "Reprioriser l’ordre des tests selon les risques les plus élevés, réallouer ressources ou heures supplémentaires, changer les dates d’entrée/livraison ou demander au sponsor d’assouplir un critère de sortie secondaire.",
+        "en": "Reprioritize tests by highest risk, reallocate staff, adjust delivery dates, remove environment blockers, or seek stakeholder sign-off to adjust secondary exit criteria."
+      },
+      "tags": [
+        "ch5",
+        "control",
+        "management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-181",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donner trois exemples concrets de « Risques Projet » vs trois exemples de « Risques Produit » (CTFL 2011).",
+        "en": "Give three examples of Project Risks vs. three examples of Product Risks (CTFL 2011)."
+      },
+      "back": {
+        "fr": "Projet : retard de livraison fournisseur, environnement de test instable, départ d’un testeur clé. Produit : calcul financier erroné, crash sous pic de charge, faille d’accès non autorisé.",
+        "en": "Project: vendor delay, unstable test environment, key tester resignation. Product: miscalculated interest rates, checkout crash under peak load, broken authorization."
+      },
+      "tags": [
+        "ch5",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-182",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre exécuter une campagne de test « en profondeur d’abord » (Depth-First) vs « en largeur d’abord » (Breadth-First) ?",
+        "en": "Contrast \"Depth-First\" vs. \"Breadth-First\" risk-based test execution strategies."
+      },
+      "back": {
+        "fr": "Profondeur d’abord : tester exhaustivement les zones à risque le plus élevé avant toute autre zone. Largeur d’abord : couvrir un échantillon large de toutes les fonctions critiques dès le début pour obtenir vite une vue d’ensemble.",
+        "en": "Depth-First runs exhaustive tests on the single highest-risk area first; Breadth-First samples across all major features early to gauge overall product health."
+      },
+      "tags": [
+        "ch5",
+        "risk-based-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-183",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert le « Journal de test » (Test Log, IEEE 829) pendant l’exécution ?",
+        "en": "What does an IEEE 829 \"Test Log\" record during test execution?"
+      },
+      "back": {
+        "fr": "L’enregistrement chronologique des événements significatifs de la session de test : cas exécutés, identité du testeur, horodatages, versions testées, anomalies survenues et écarts d’environnement.",
+        "en": "A chronological record of relevant execution details: cases run, tester identity, timestamps, build versions, environment anomalies, and incident references."
+      },
+      "tags": [
+        "ch5",
+        "ieee829"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-184",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un rapport d’incident ne se termine-t-il pas toujours par une modification du code logiciel ?",
+        "en": "Why can an Incident Report legitimately close without changing application source code?"
+      },
+      "back": {
+        "fr": "L’investigation peut montrer un doublon, une erreur dans le script ou jeu de données de test, un problème temporaire d’environnement, ou une décision métier acceptant de reporter la correction.",
+        "en": "Investigation may reveal a duplicate report, flawed test data/script, transient environment issue, intended behavior (\"working as designed\"), or deferred fix."
+      },
+      "tags": [
+        "ch5",
+        "incident-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-185",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels éléments de la rubrique « Éléments à tester / Éléments à ne pas tester » d’un Plan de Test protègent contre les malentendus ?",
+        "en": "Why do \"Features to be Tested\" and \"Features Not to be Tested\" sections prevent disputes in a Test Plan?"
+      },
+      "back": {
+        "fr": "Expliciter ce qui est hors périmètre (modules non modifiés, fonctions reportées, navigateurs abandonnés) évite que les parties prenantes croient à tort que tout a été testé.",
+        "en": "Explicitly documenting out-of-scope modules, deferred features, or unsupported browsers prevents stakeholders from falsely assuming unstated coverage."
+      },
+      "tags": [
+        "ch5",
+        "test-plan",
+        "ieee829"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-186",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la Gestion de Configuration garantit-elle la « reproductibilité » d’un test échoué des semaines plus tard ?",
+        "en": "How does Configuration Management preserve reproducibility of a failed test weeks later?"
+      },
+      "back": {
+        "fr": "En liant sous un identifiant de baseline unique la version exacte du binaire applicatif, des scripts de test, des jeux de données initiaux, des stubs et des paramètres système.",
+        "en": "By baselining the exact combination of application build version, test scripts, seed datasets, stubs, and environment configuration under version control."
+      },
+      "tags": [
+        "ch5",
+        "configuration-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-187",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles options d’organisation des équipes de test comparait le chapitre 5 de CTFL 2011 ?",
+        "en": "Which organizational models for test teams were compared in Chapter 5 of CTFL 2011?"
+      },
+      "back": {
+        "fr": "Testeurs intégrés au sein de l’équipe dev, équipe de test dédiée rattachée au chef de projet, groupe/centre de test indépendant transverse dans l’entreprise, ou équipe externe sous-traitée.",
+        "en": "Testers inside dev teams, dedicated test team reporting to the Project Manager, independent internal Test Center, or outsourced external specialists."
+      },
+      "tags": [
+        "ch5",
+        "organization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-188",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le même individu ou comité doit-il s’assurer que les objectifs d’estimation basés sur les métriques utilisent des données de projets comparables ?",
+        "en": "What pitfall threatens metrics-based test estimation if historical project baselines differ too much?"
+      },
+      "back": {
+        "fr": "Appliquer des ratios d’un ancien projet en cycle en V ou d’une technologie différente à un projet Agile ou critique fausse gravement l’estimation sans ajustement contextuel.",
+        "en": "Blindly applying effort ratios from a legacy waterfall project or unrelated tech stack to a new Agile or regulated product severely skews forecasts."
+      },
+      "tags": [
+        "ch5",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-189",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’apporte une réunion de « Triage de défauts » (Defect Review / CCB) réunissant Test, Dev et Produit ?",
+        "en": "What decisions happen in a cross-functional Defect Triage meeting?"
+      },
+      "back": {
+        "fr": "Valider la priorité métier et la sévérité réelle des nouveaux incidents, décider quels défauts bloquent la livraison, lesquels sont reportés à une version ultérieure et attribuer les responsables.",
+        "en": "Confirming valid defects, aligning severity and business priority, deciding release blockers vs. deferred items, and assigning owners."
+      },
+      "tags": [
+        "ch5",
+        "incident-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-190",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch5",
+      "objectiveId": "FL2011-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel lien direct existe entre « Critères de sortie » et « Rapport de synthèse de test » en fin de niveau ?",
+        "en": "How do Exit Criteria directly feed the final IEEE 829 Test Summary Report?"
+      },
+      "back": {
+        "fr": "Le rapport de synthèse confronte chaque critère de sortie planifié aux mesures réelles obtenues, expliquant tout écart et exposant le risque résiduel pour éclairer la décision de passage.",
+        "en": "The summary report evaluates each planned exit criterion against actual test metrics, explaining variances and residual risk so sponsors can decide on release."
+      },
+      "tags": [
+        "ch5",
+        "reporting",
+        "exit-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-191",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi servent les outils de « Comparaison de tests » (Test Comparators) et quelle précaution exigent-ils ?",
+        "en": "What do Test Comparators do, and why must dynamic fields be masked?"
+      },
+      "back": {
+        "fr": "Ils comparent automatiquement fichiers, écrans ou réponses obtenus contre des références attendues ; il faut masquer horodatages, ID générés ou numéros de session pour éviter des milliers de faux échecs.",
+        "en": "They automatically diff actual outputs (files, screens, payloads) against baselines; timestamps, random IDs, and session tokens must be masked to prevent false failures."
+      },
+      "tags": [
+        "ch6",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-192",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Effet de sonde » (Probe Effect) d’un outil de couverture ou d’analyse dynamique ?",
+        "en": "What is the \"Probe Effect\" when using instrumentation-based coverage or dynamic analysis tools?"
+      },
+      "back": {
+        "fr": "Le code de mesure injecté ralentit ou décale légèrement les temps d’exécution ; sur un système temps réel ou multithread, cela peut masquer une race condition ou provoquer un timeout artificiel.",
+        "en": "Added instrumentation overhead alters timing; in real-time or concurrent systems, this can mask race conditions or trigger artificial timeouts absent in production builds."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "probe-effect"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-193",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle jouent les outils de « Préparation de données de test » (Test Data Preparation Tools) ?",
+        "en": "What capabilities do Test Data Preparation Tools provide?"
+      },
+      "back": {
+        "fr": "Extraire des sous-ensembles cohérents depuis des bases existantes, anonymiser/brouiller les données personnelles sensibles et générer massivement des enregistrements synthétiques conformes au schéma.",
+        "en": "Subsetting referentially intact slices from production DBs, masking sensitive PII, and generating large volumes of schema-valid synthetic records."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-194",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment fonctionnent les outils de « Test de performance et de charge » décrits au chapitre 6 ?",
+        "en": "What two core components make up Performance Testing tools per Chapter 6?"
+      },
+      "back": {
+        "fr": "Des générateurs de charge simulant simultanément des centaines/milliers d’utilisateurs virtuels ou transactions, couplés à des moniteurs collectant temps de réponse, débit et ressources CPU/RAM/BDD.",
+        "en": "Load generators simulating hundreds/thousands of concurrent virtual users or requests, paired with monitors recording response times, throughput, and system resources."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "performance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-195",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels apports offrent les outils de « Gestion des exigences » reliés aux outils de « Gestion des tests » ?",
+        "en": "How do Requirements Management tools integrate with Test Management tools?"
+      },
+      "back": {
+        "fr": "Établir la traçabilité directe exigence ↔ condition ↔ cas de test ↔ défaut, identifier immédiatement les exigences non testées et alerter sur les tests impactés après modification.",
+        "en": "Linking requirements directly to test cases and defects to expose uncovered requirements immediately and flag impacted tests whenever requirements change."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "traceability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-196",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’approche « Capture/Playback » brute conduit-elle souvent à l’abandon de l’automatisation (« Shelfware ») ?",
+        "en": "Why does raw Capture/Playback scripting often end up as unused \"shelfware\"?"
+      },
+      "back": {
+        "fr": "Les données sont codées en dur et les scripts cassent au moindre changement d’interface ; le coût de réparation manuelle de dizaines de scripts enregistrés finit par dépasser le coût du test manuel.",
+        "en": "Hardcoded data and rigid UI selectors break on minor layout changes; maintaining dozens of fragile recordings soon costs more than re-running tests manually."
+      },
+      "tags": [
+        "ch6",
+        "automation",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-197",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage structurel apporte l’architecture « Keyword-Driven » par rapport au simple « Data-Driven » ?",
+        "en": "What extra structural benefit does Keyword-Driven automation add over Data-Driven testing?"
+      },
+      "back": {
+        "fr": "En plus de séparer les données, Keyword-Driven abstrait les séquences d’actions en mots-clés métier réutilisables (`CréerCommande`, `ValiderPaiement`), permettant à des testeurs non programmeurs de composer de nouveaux scénarios.",
+        "en": "Beyond externalizing data, Keyword-Driven abstracts technical sequences into reusable domain keywords (`CreateOrder`, `Pay`), enabling non-coders to compose new tests cleanly."
+      },
+      "tags": [
+        "ch6",
+        "automation",
+        "keyword-driven"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-198",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi évaluer la « maturité organisationnelle des processus de test » AVANT d’acheter un outil coûteux ?",
+        "en": "Why must organizations assess test process maturity BEFORE purchasing a major test tool?"
+      },
+      "back": {
+        "fr": "Un outil ne répare pas un processus chaotique ; automatiser le désordre ne fait que produire des échecs plus vite et entraîne l’échec coûteux du déploiement.",
+        "en": "A tool cannot fix chaotic processes; automating disorganized workflows only generates unreliable results faster and leads to costly tool abandonment."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "maturity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-199",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels coûts cachés composent le « Coût total de possession » (TCO) au-delà du prix d’achat d’une licence d’outil ?",
+        "en": "What hidden costs belong in a Test Tool’s Total Cost of Ownership beyond the license fee?"
+      },
+      "back": {
+        "fr": "Adaptation des processus internes, formation initiale et continue, développement de frameworks/adaptateurs, infrastructure dédiée, maintenance continue des scripts et support éditeur annuel.",
+        "en": "Process adaptation, initial and ongoing training, custom framework/harness coding, dedicated servers, continuous script upkeep, and annual support contracts."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "economics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctfl2011-200",
+      "certificationId": "ctfl-2011-legacy",
+      "versionId": "ctfl-v2011",
+      "chapterId": "ctfl-v2011-ch6",
+      "objectiveId": "FL2011-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle valeur conserve l’étude de l’édition historique CTFL 2011 pour les professionnels d’aujourd’hui ?",
+        "en": "What enduring value does understanding the historical CTFL 2011 syllabus hold for modern testers?"
+      },
+      "back": {
+        "fr": "Comprendre la généalogie des concepts fondamentaux (IEEE 829, ISO 9126, processus en 5 étapes, Cas d’utilisation, Modèle en V) encore très présents dans les systèmes hérités, contrats anciens et audits industriels.",
+        "en": "Understanding the roots of IEEE 829, ISO 9126, the 5-step process, Use Case testing, and V-Model terminology still common in legacy enterprises, contracts, and audits."
+      },
+      "tags": [
+        "ch6",
+        "summary",
+        "ctfl-2011"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (Part 2 Expansion)",
         "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
         "author": "ISTQB Academy Editorial Team",
         "lastVerifiedAt": "2026-11-20",

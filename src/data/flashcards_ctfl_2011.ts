@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CTFL_2011_PART2_FLASHCARDS } from './flashcards_ctfl_2011_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CTFL 2011 Historical Edition (v2011)',
@@ -373,8 +374,8 @@ const RAW_CARDS: RawBilingualCard[] = [
     id: 'fc-ctfl2011-036',
     chapter: 2,
     objectiveId: 'FL2011-2.1.1',
-    frontFr: 'Qu’est-ce que l’analyse d’impact (Impact Analysis) en test de maintenance ?',
-    frontEn: 'What is Impact Analysis in maintenance testing?',
+    frontFr: 'Selon CTFL 2011, quel rôle joue l’analyse d’impact pour dimensionner la régression lors des tests de maintenance ?',
+    frontEn: 'In CTFL 2011 maintenance testing, how does Impact Analysis scope regression effort?',
     backFr: 'Évaluer quelles parties du système existant peuvent être affectées par une modification, migration ou suppression afin de cibler et dimensionner les tests de régression.',
     backEn: 'Evaluating which existing system parts may be affected by a change, migration, or retirement in order to scope and target regression testing.',
     tags: ['impact-analysis', 'maintenance-testing'],
@@ -549,8 +550,8 @@ const RAW_CARDS: RawBilingualCard[] = [
     id: 'fc-ctfl2011-053',
     chapter: 4,
     objectiveId: 'FL2011-4.1.1',
-    frontFr: 'Quel est le principe du Partitionnement en Classes d’Équivalence (EP) ?',
-    frontEn: 'What is the core principle of Equivalence Partitioning (EP)?',
+    frontFr: 'Dans CTFL 2011 (techniques basées sur les spécifications), quel est le principe du Partitionnement en Classes d’Équivalence (EP) ?',
+    frontEn: 'Under CTFL 2011 specification-based techniques, what is the principle of Equivalence Partitioning (EP)?',
     backFr: 'Regrouper les valeurs d’entrée ou de sortie supposées être traitées de manière identique par le système afin de ne tester qu’une valeur représentative par partition valide et invalide.',
     backEn: 'Grouping input or output values expected to be processed identically by the system so only one representative value per valid and invalid partition is tested.',
     tags: ['equivalence-partitioning', 'black-box'],
@@ -1039,12 +1040,15 @@ const RAW_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CTFL_2011_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ctfl-2011-legacy',
-    versionId: 'ctfl-v2011',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CARDS
-);
+export const CTFL_2011_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ctfl-2011-legacy',
+      versionId: 'ctfl-v2011',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CARDS,
+  ),
+  ...CTFL_2011_PART2_FLASHCARDS,
+];

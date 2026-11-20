@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CT_SEC_PART2_FLASHCARDS } from './flashcards_ct_sec_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)',
@@ -1019,12 +1020,15 @@ const RAW_CT_SEC_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CT_SEC_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ct-sec',
-    versionId: 'ct-sec-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CT_SEC_CARDS,
-);
+export const CT_SEC_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ct-sec',
+      versionId: 'ct-sec-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CT_SEC_CARDS,
+  ),
+  ...CT_SEC_PART2_FLASHCARDS,
+];

@@ -112,11 +112,17 @@ export default defineConfig(() => {
       rollupOptions: {
         output: {
           manualChunks(id) {
-            if (id.includes('/src/data/flashcards_ctfl_') || id.includes('/src/data/flashcards_ctal_')) {
-              return 'flashcards-core-adv';
+            if (id.includes('/src/data/flashcards_ctel_') || id.includes('/src/data/flashcards_ctfl_2011')) {
+              return 'flashcards-exp-hist';
             }
-            if (id.includes('/src/data/flashcards_ct_') || id.includes('/src/data/flashcards_ctel_')) {
-              return 'flashcards-spec-exp';
+            if (id.includes('/src/data/flashcards_ctfl_') || id.includes('/src/data/extensions_agile')) {
+              return 'flashcards-ctfl';
+            }
+            if (id.includes('/src/data/flashcards_ctal_')) {
+              return 'flashcards-ctal';
+            }
+            if (id.includes('/src/data/flashcards_ct_')) {
+              return 'flashcards-spec';
             }
             return undefined;
           },

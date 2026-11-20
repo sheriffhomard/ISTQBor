@@ -3004,6 +3004,3085 @@
       },
       "createdAt": "2026-11-20T00:00:00.000Z",
       "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-101",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence de modèle entre une architecture cross-platform « Kotlin Multiplatform (KMP) » et Flutter ?",
+        "en": "How do Kotlin Multiplatform (KMP) and Flutter differ in UI rendering and testability?"
+      },
+      "back": {
+        "fr": "KMP partage la logique métier/réseau en Kotlin tout en gardant des UI 100 % natives (SwiftUI/Jetpack Compose), préservant comportement et accessibilité OS ; Flutter dessine toute son UI sur son propre moteur graphique (Skia/Impeller), exigeant une attention particulière aux sémantiques d’accessibilité et sélecteurs.",
+        "en": "KMP shares business/networking logic while keeping native SwiftUI/Compose UIs; Flutter renders custom canvas widgets via Skia/Impeller, requiring explicit semantic labels and driver hooks."
+      },
+      "tags": [
+        "ch1",
+        "architecture",
+        "cross-platform"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-102",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels enjeux introduisent les UI déclaratives modernes (SwiftUI / Jetpack Compose) pour le test automatisé ?",
+        "en": "How do declarative UI frameworks (SwiftUI and Jetpack Compose) change mobile UI testability?"
+      },
+      "back": {
+        "fr": "Elles n’utilisent plus toujours des `resource-id` XML traditionnels ; le testeur doit s’appuyer sur l’arbre sémantique (`Modifier.testTag` / `accessibilityIdentifier`) et les tests de composants Compose/SwiftUI rapides.",
+        "en": "Traditional XML `resource-id` attributes fade away; testers rely on semantic trees (`Modifier.testTag`, `accessibilityIdentifier`) and fast isolated component tests."
+      },
+      "tags": [
+        "ch1",
+        "swiftui",
+        "compose"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-103",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une application distribuée via MDM / MAM en entreprise et quels tests exige-t-elle ?",
+        "en": "What extra testing scenarios arise for Enterprise apps deployed via MDM / MAM?"
+      },
+      "back": {
+        "fr": "Provisionnement par configuration gérée (AppConfig), séparation conteneur pro/perso (Android Work Profile), certificat client VPN/mTLS automatique, effacement sélectif à distance et déploiement hors store public.",
+        "en": "Managed AppConfig provisioning, Android Work Profile container separation, automatic enterprise VPN/mTLS certs, selective remote wipe, and private store signing."
+      },
+      "tags": [
+        "ch1",
+        "enterprise",
+        "mdm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-104",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les « Seuils de mauvais comportement » (Bad Behavior Thresholds) de Google Play Android Vitals influencent-ils les critères de sortie QA ?",
+        "en": "Why do Google Play Android Vitals \"Bad Behavior\" thresholds serve as strict QA release gates?"
+      },
+      "back": {
+        "fr": "Dépasser les seuils globaux ou par modèle (ex. crash utilisateur > 1,09 % ou ANR > 0,47 %) entraîne une pénalité algorithmique réduisant la visibilité sur le Play Store et affichant un avertissement aux acheteurs.",
+        "en": "Exceeding Play Store crash (>1.09%) or ANR (>0.47%) user-perceived thresholds triggers store discovery demotion and public warning banners on affected device models."
+      },
+      "tags": [
+        "ch1",
+        "vitals",
+        "release-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-105",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le test de conformité au cadre ATT (App Tracking Transparency) sur iOS ?",
+        "en": "What must QA verify regarding Apple App Tracking Transparency (ATT)?"
+      },
+      "back": {
+        "fr": "Aucun accès à l’IDFA ni partage d’identifiants publicitaires inter-apps avec des SDK tiers avant consentement explicite ; respect strict du choix « Demander à l’app de ne pas suivre » sans dégradation punitive.",
+        "en": "Zero IDFA reads or cross-app ad-SDK tracking prior to explicit opt-in, and full non-punitive app functionality if the user taps \"Ask App Not to Track.\""
+      },
+      "tags": [
+        "ch1",
+        "privacy",
+        "ios"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-106",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi certains fabricants Android (Xiaomi, Huawei, Samsung) tuent-ils les tâches en arrière-plan plus agressivement que l’Android stock ?",
+        "en": "Why must mobile testers include aggressive-battery OEM devices (e.g., Xiaomi, Samsung, Huawei) when testing background sync?"
+      },
+      "back": {
+        "fr": "Leurs surcouches ajoutent des gestionnaires d’énergie propriétaires qui stoppent alarmes, services ou notifications push dès que l’app est glissée hors du carrousel, causant des bugs absents sur Google Pixel.",
+        "en": "OEM battery savers aggressively kill background services, scheduled jobs, and push receivers when swiped away—causing missed alarms/syncs never seen on stock Pixel devices."
+      },
+      "tags": [
+        "ch1",
+        "oem",
+        "fragmentation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-107",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels cas de test spécifiques créent les téléphones Dual-SIM et eSIM ?",
+        "en": "What mobile testing edge cases emerge on Dual-SIM and eSIM devices?"
+      },
+      "back": {
+        "fr": "Appels entrants sur SIM 2 pendant session data sur SIM 1, bascule automatique de ligne data, formatage d’indicatif pays différent pour l’auto-remplissage SMS OTP et coupure temporaire lors de l’activation eSIM.",
+        "en": "Voice calls arriving on SIM 2 while cellular data runs on SIM 1, dynamic data-SIM switching, international carrier prefixes on SMS OTP, and eSIM provisioning drops."
+      },
+      "tags": [
+        "ch1",
+        "hardware",
+        "sim"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-108",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles contraintes particulières testent les extensions mobiles pour voiture (Apple CarPlay / Android Auto) ?",
+        "en": "What safety and UX constraints govern Apple CarPlay and Android Auto companion testing?"
+      },
+      "back": {
+        "fr": "Gabarits visuels imposés très simples, limite stricte sur le nombre d’éléments de liste/taps pour éviter la distraction du conducteur, commandes vocales et bascule fluide téléphone ↔ écran véhicule.",
+        "en": "Strict distraction-optimized UI templates, hard caps on list depth/tap counts while driving, voice-first fallback, and smooth phone-to-head-unit handoff."
+      },
+      "tags": [
+        "ch1",
+        "automotive"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-109",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi servent les API d’intégrité d’appareil (Google Play Integrity API / Apple App Attest) ?",
+        "en": "What do Google Play Integrity API and Apple App Attest verify for mobile backends?"
+      },
+      "back": {
+        "fr": "À prouver cryptographiquement côté serveur que la requête provient bien du binaire authentique signé par le développeur sur un appareil matériellement non altéré (luttant contre bots, émulateurs et APK patchés).",
+        "en": "They provide cryptographic backend attestation that requests originate from an unmodified official app binary running on a genuine non-tampered device."
+      },
+      "tags": [
+        "ch1",
+        "security",
+        "attestation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-110",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège QA apparaît lors du test d’API d’attestation (Play Integrity / App Attest) en environnement de préproduction ?",
+        "en": "What testing pitfall arises when apps enforce Play Integrity or App Attest checks in QA builds?"
+      },
+      "back": {
+        "fr": "Les builds internes signés en debug ou installés hors Play Store/App Store (sideloading, CI device farms) échouent à l’attestation ; prévoir des jetons sandbox ou environnements dédiés sans désactiver la vérification en release prod.",
+        "en": "Debug/CI-sideloaded builds fail official store attestation checks; QA environments require configured test allowlists without leaving bypasses enabled in production."
+      },
+      "tags": [
+        "ch1",
+        "attestation",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-111",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Localisation vs Internationalisation » sur mobile dépasse-t-elle la simple traduction de texte ?",
+        "en": "Why does Mobile Localization testing go far beyond string translation?"
+      },
+      "back": {
+        "fr": "Expansion de +30–40 % de longueur (allemand/finnois) dans des boutons étroits, règles complexes de pluriels, écriture RTL, calendriers non grégoriens, formats d’adresses/téléphones et captures d’écran localisées des stores.",
+        "en": "Text expansion (+30–40% in German) overflowing small screens, complex plural rules, RTL mirroring, non-Gregorian calendars, local address/phone formats, and localized store assets."
+      },
+      "tags": [
+        "ch1",
+        "i18n",
+        "l10n"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-112",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel défi spécifique pose le changement de langue « par application » (Per-App Language Preferences sur Android 13+ / iOS) ?",
+        "en": "What must QA test for Per-App Language Preferences on modern iOS and Android?"
+      },
+      "back": {
+        "fr": "L’app peut tourner en français alors que l’OS reste en anglais : vérifier cohérence des écrans natifs, WebViews intégrées, sélecteurs système (date/heure) et notifications push envoyées par le serveur.",
+        "en": "An app running in French while OS settings stay in English: verify consistency across native screens, embedded WebViews, system date pickers, and server push alerts."
+      },
+      "tags": [
+        "ch1",
+        "l10n"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-113",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les tablettes (iPadOS / Android grand écran) modifient-elles la stratégie de test par rapport aux smartphones ?",
+        "en": "What unique test cases apply when adapting a smartphone app for iPadOS / Android tablets?"
+      },
+      "back": {
+        "fr": "Disposition maître-détail multi-colonnes, popovers au lieu de modales plein écran, multi-fenêtres (Split View / Slide Over), raccourcis clavier physique/trackpad et absence fréquente de modem cellulaire ou GPS.",
+        "en": "Master-detail split layouts, popovers vs. full-screen sheets, Split View multitasking, external keyboard/trackpad navigation, and Wi-Fi-only models lacking cellular/GPS."
+      },
+      "tags": [
+        "ch1",
+        "tablets"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-114",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles différences clés distinguent les tests de sécurité d’une app PWA vs d’une app native ?",
+        "en": "Contrast security risk priorities between a Mobile PWA and a Native Mobile App."
+      },
+      "back": {
+        "fr": "PWA : XSS, CSP, cache Service Worker exposant données après logout et origine HTTPS. Native : décompilation binaire/secrets, stockage Keychain/Keystore, Deep Links détournés et Certificate Pinning.",
+        "en": "PWAs focus on XSS, CSP, and Service Worker cache leaks after logout; Native apps focus on binary secrets, Keystore/Keychain hygiene, Deep Link hijacking, and TLS pinning."
+      },
+      "tags": [
+        "ch1",
+        "security",
+        "pwa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-115",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Dogfooding » interne pour une application mobile avant lancement ?",
+        "en": "What value does internal \"Dogfooding\" bring before a public mobile release?"
+      },
+      "back": {
+        "fr": "Les collaborateurs utilisent la bêta au quotidien sur leurs propres téléphones et déplacements réels (métro, 4G, batterie usée), révélant frictions d’usage et bugs terrain avant la phase grand public.",
+        "en": "Employees run pre-release builds on personal phones during daily commutes, uncovering real-world radio drops, battery drain, and UX friction before public launch."
+      },
+      "tags": [
+        "ch1",
+        "beta-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-116",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles contraintes particulières impose TestFlight par rapport aux pistes internes Google Play ?",
+        "en": "What distribution constraints distinguish Apple TestFlight from Google Play Internal Testing?"
+      },
+      "back": {
+        "fr": "TestFlight expire les builds après 90 jours, impose une première revue Apple pour les testeurs externes et limite à 10 000 testeurs ; Google Play Internal publie quasi instantanément sans revue jusqu’à 100 testeurs.",
+        "en": "TestFlight builds expire after 90 days and require initial Apple Beta App Review for external testers; Play Internal Testing rolls out in minutes without review."
+      },
+      "tags": [
+        "ch1",
+        "distribution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-117",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’architecture graphique d’un appareil (densités `mdpi`, `xhdpi`, `xxhdpi`, `@2x`, `@3x`) cause-t-elle des défauts visuels ou mémoire ?",
+        "en": "How do mobile pixel-density buckets (`@2x`/`@3x`, `xhdpi`/`xxxhdpi`) cause visual or memory defects?"
+      },
+      "back": {
+        "fr": "Des icônes matricielles manquantes paraissent floues sur écrans Retina, tandis que des images non redimensionnées en RAM (bitmap géant) déclenchent des crashs Out-Of-Memory sur terminaux milieu de gamme.",
+        "en": "Missing high-DPI assets look blurry on dense screens, while decoding oversized uncompressed bitmaps triggers Out-Of-Memory crashes on budget hardware."
+      },
+      "tags": [
+        "ch1",
+        "graphics",
+        "memory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-118",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le test de « Dégradation gracieuse » sur des systèmes d’exploitation proches de leur fin de support ?",
+        "en": "What does Graceful Degradation mean across older supported mobile OS releases?"
+      },
+      "back": {
+        "fr": "Utiliser des effets visuels ou API récentes (ex. widgets interactifs, flous avancés, authentification Passkey) sur OS récents tout en offrant un repli fonctionnel fiable sans crash sur la version minimale supportée.",
+        "en": "Leveraging modern OS capabilities (passkeys, live widgets, blurs) where available while providing clean crash-free fallbacks on the minimum supported OS."
+      },
+      "tags": [
+        "ch1",
+        "os-versions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-119",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un testeur mobile doit-il vérifier les règles d’utilisation de la « Foreground Service » sur Android 14+ ?",
+        "en": "Why must Android 14+ testers verify Foreground Service type declarations and notifications?"
+      },
+      "back": {
+        "fr": "Android exige désormais de déclarer explicitement le type (`location`, `mediaPlayback`, `dataSync`) et impose une justification lors de la revue Play Store ; un oubli lève une exception fatale au démarrage du service.",
+        "en": "Android 14+ throws fatal security exceptions if foreground service types are undeclared in the manifest, and Google Play rejects unjustified background declarations."
+      },
+      "tags": [
+        "ch1",
+        "android",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-120",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels risques apporte l’intégration d’un SDK de paiement tiers ou d’authentification sociale (Apple/Google Sign-In) sur mobile ?",
+        "en": "What store and functional risks accompany third-party social login SDKs on mobile?"
+      },
+      "back": {
+        "fr": "Apple impose « Sign in with Apple » dès qu’un autre bouton de connexion sociale tiers (Google/Facebook) est proposé ; de plus, chaque SDK impose ses propres flux de redirection OAuth/WebView et révocation de compte.",
+        "en": "Apple mandates offering \"Sign in with Apple\" alongside any third-party social login; testers must also check OAuth redirect callbacks and token revocation on account deletion."
+      },
+      "tags": [
+        "ch1",
+        "oauth",
+        "stores"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-121",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle des « Feature Flags / Remote Config » dans une stratégie de qualité mobile ?",
+        "en": "How do Remote Config and Feature Flags strengthen mobile quality and incident recovery?"
+      },
+      "back": {
+        "fr": "Activer ou désactiver instantanément un écran bogué ou un SDK défaillant en production sans attendre 48 h de validation App Store/Play Store et la mise à jour des utilisateurs.",
+        "en": "They allow instant kill-switches for crashing features or faulty third-party SDKs in production without waiting days for Store review and user updates."
+      },
+      "tags": [
+        "ch1",
+        "feature-flags"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-122",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester proprement une application utilisant des Feature Flags pour éviter la dette combinatoire ?",
+        "en": "How should QA prevent combinatorial explosion when testing mobile Feature Flags?"
+      },
+      "back": {
+        "fr": "Tester la configuration par défaut de production, la nouvelle fonctionnalité activée, son état repli (kill-switch activé) ainsi que le comportement lors d’un échec réseau au téléchargement de la configuration distante.",
+        "en": "Verify the default prod config, the newly enabled state, the kill-switch fallback state, and offline startup when remote config fetch fails."
+      },
+      "tags": [
+        "ch1",
+        "feature-flags"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-123",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de charge sur le backend généré par des clients mobiles » (Retry Storm) ?",
+        "en": "What is a mobile-induced \"Retry Storm\", and how do testers check against it?"
+      },
+      "back": {
+        "fr": "Quand des milliers de téléphones retrouvent la 4G simultanément après une panne ou sortie de métro et réessaient en boucle sans backoff exponentiel ni jitter, faisant s’effondrer l’API reprise.",
+        "en": "When thousands of offline phones reconnect together and hammer recovering servers in tight loops unless exponential backoff + jitter and circuit breakers are verified."
+      },
+      "tags": [
+        "ch1",
+        "network",
+        "resilience"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-124",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la collecte de données télémétriques (Analytics / Crash Logs) exige-t-elle aussi des tests de validation ?",
+        "en": "Why must Mobile Analytics and Crash Telemetry events be explicitly verified by QA?"
+      },
+      "back": {
+        "fr": "Des événements mal nommés ou cassés lors d’une refonte rendent aveugles les décisions produit ; de plus, aucun email, mot de passe ou secret ne doit jamais fuiter dans les propriétés ou breadcrumbs Crashlytics.",
+        "en": "Broken event schemas blind product decisions, while accidental logging of emails, tokens, or PII inside analytics or crash breadcrumbs creates severe privacy breaches."
+      },
+      "tags": [
+        "ch1",
+        "telemetry",
+        "privacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-125",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’API Android « Dynamic Feature / Play Asset Delivery » (ou iOS On-Demand Resources) ?",
+        "en": "What scenarios must be tested for Dynamic Feature Modules / On-Demand Resources?"
+      },
+      "back": {
+        "fr": "Téléchargement à la demande d’un module lourd (jeux, cartes, AR), échec réseau ou espace insuffisant en cours de téléchargement, annulation utilisateur et disponibilité hors-ligne ultérieure.",
+        "en": "On-demand module downloads, mid-download network drops, low-storage errors, user cancellation, and offline availability once downloaded."
+      },
+      "tags": [
+        "ch1",
+        "binary-size"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-126",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier qu’une application mobile fonctionne correctement sur des architectures ARM64 vs émulateurs x86_64 ?",
+        "en": "Why do native C/C++ mobile dependencies require testing on real ARM64 devices beyond x86_64 CI emulators?"
+      },
+      "back": {
+        "fr": "Des bibliothèques NDK/native compilées uniquement pour `x86_64` passent les tests sur émulateur CI mais crashent immédiatement (`UnsatisfiedLinkError`) sur de vrais smartphones ARM64 (ou inversement sur Apple Silicon).",
+        "en": "Native C/C++ `.so` libraries missing an `arm64-v8a` slice pass CI on `x86_64` emulators yet crash immediately with `UnsatisfiedLinkError` on real phones."
+      },
+      "tags": [
+        "ch1",
+        "architecture",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-127",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’écosystème Android exige-t-il une attention particulière à la taille des pages mémoire (16 KB Page Size sur Android 15+) ?",
+        "en": "Why must mobile QA check compatibility with Android 15+ 16 KB memory page sizes?"
+      },
+      "back": {
+        "fr": "Les anciens binaires natifs compilés avec un alignement 4 Ko crashent au chargement sur les nouveaux appareils ARM64 configurés en pages mémoire 16 Ko ; tester sur image émulateur 16 KB détecte le problème tôt.",
+        "en": "Native libraries compiled assuming 4 KB ELF alignment fail to load on newer 16 KB page-size Android devices unless verified on 16 KB emulator/device targets."
+      },
+      "tags": [
+        "ch1",
+        "android",
+        "compatibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-128",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel défi pose le test des applications financières ou bancaires face aux « Applications d’accessibilité ou superposition d’écran » (Overlay / Tapjacking) ?",
+        "en": "What security risk do Android Screen Overlays (Tapjacking) create, and how is defense tested?"
+      },
+      "back": {
+        "fr": "Une app malveillante superpose un calque transparent trompant le clic sur « Valider virement » ; tester `filterTouchesWhenObscured` pour que l’app bloque tout appui lorsqu’une fenêtre tierce recouvre l’écran.",
+        "en": "Malicious overlay windows can trick users into tapping hidden confirmation buttons; testers verify `filterTouchesWhenObscured` rejects obscured taps on sensitive actions."
+      },
+      "tags": [
+        "ch1",
+        "security",
+        "android"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-129",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’environnement de « Bac à sable Store » (Sandbox IAP Apple / Test Card Google Play) et ses pièges ?",
+        "en": "What pitfalls exist when testing payments in Apple Sandbox and Google Play Billing environments?"
+      },
+      "back": {
+        "fr": "Les abonnements « mensuels » sont accélérés (ex. renouvellement toutes les 3–5 minutes en sandbox), les comptes sandbox expirent ou restent bloqués, et des délais de propagation réseau diffèrent de la production.",
+        "en": "Sandbox accelerates monthly renewals down to minutes, test accounts occasionally desync or get stuck mid-state, and store receipt endpoints differ from production."
+      },
+      "tags": [
+        "ch1",
+        "iap",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-130",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "objectiveId": "MAT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment arbitrer entre maintenir une ferme interne de terminaux physiques vs louer un Device Cloud ?",
+        "en": "How should a team balance an internal Physical Device Lab vs. a Cloud Device Farm?"
+      },
+      "back": {
+        "fr": "Garder sur place 5 à 15 terminaux représentatifs prioritaires pour tests manuels rapides, capteurs/NFC/BLE et débogage USB ; compléter par un Device Cloud pour couvrir des dizaines de modèles/OS rares en parallèle nocturne.",
+        "en": "Maintain 5–15 core priority phones locally for fast manual debugging, NFC/BLE, and ergonomics, while renting a Cloud Device Farm for broad parallel CI matrix coverage."
+      },
+      "tags": [
+        "ch1",
+        "device-lab",
+        "device-farm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-131",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez « Cold Start », « Warm Start » et « Hot Start » dans les métriques de lancement mobile.",
+        "en": "Distinguish Cold Start, Warm Start, and Hot Start in mobile launch performance testing."
+      },
+      "back": {
+        "fr": "Cold : l’OS crée le processus de zéro (chargement complet binaire/SDK, le plus lent). Warm : processus existant ou état partiel, recréation de l’UI/Activity. Hot : l’app passe simplement de l’arrière-plan au premier plan (quasi instantané).",
+        "en": "Cold: OS launches process from scratch (slowest). Warm: process or partial state exists, UI re-created. Hot: activity/scene merely resumes from background."
+      },
+      "tags": [
+        "ch2",
+        "performance",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-132",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’éligibilité au « Mode Doze / App Standby » sur Android ?",
+        "en": "How can testers simulate Android Doze and App Standby modes during QA?"
+      },
+      "back": {
+        "fr": "Via commandes `adb shell dumpsys deviceidle force-idle` et `am set-standby-bucket` afin de vérifier si synchronisations différées (`WorkManager`), alarmes et notifications FCM haute priorité reprennent sans perte à la sortie de veille.",
+        "en": "Using `adb shell dumpsys deviceidle force-idle` and standby-bucket commands to verify deferred `WorkManager` jobs and high-priority FCM pushes recover cleanly."
+      },
+      "tags": [
+        "ch2",
+        "battery",
+        "android"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-133",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence fonctionnelle entre une notification Push « Visible » et une « Silent / Data Push » en arrière-plan ?",
+        "en": "What edge cases separate Visible Push Alerts from Silent Background Data Pushes?"
+      },
+      "back": {
+        "fr": "Les Silent Pushes (`content-available: 1`) réveillent brièvement l’app sans bannière, mais iOS/Android les ralentissent fortement si la batterie est faible ou en mode Économie d’énergie ou si l’utilisateur a fermé l’app de force.",
+        "en": "Silent pushes wake apps invisibly for background sync, but iOS/Android aggressively throttle or drop them under Low Power mode or after user force-quit."
+      },
+      "tags": [
+        "ch2",
+        "push"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-134",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier côté mobile et serveur pour que les Universal Links (iOS) et App Links (Android) ouvrent directement l’app sans passer par le navigateur ?",
+        "en": "What must be verified for iOS Universal Links and Android App Links verification files?"
+      },
+      "back": {
+        "fr": "Présence valide en HTTPS sans redirection des fichiers `/.well-known/apple-app-site-association` et `assetlinks.json` (empreinte SHA-256 exacte du certificat de signature prod/QA), plus comportement si le domaine bloque temporairement le fetch initial.",
+        "en": "Valid non-redirecting HTTPS `apple-app-site-association` and `assetlinks.json` (matching release signing SHA-256 fingerprints) and fallback behavior if initial OS verification fails."
+      },
+      "tags": [
+        "ch2",
+        "deep-links"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-135",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles failles de sécurité spécifiques guettent les `WebView` mobiles si elles sont mal configurées ?",
+        "en": "What security vulnerabilities must be tested inside embedded Mobile WebViews?"
+      },
+      "back": {
+        "fr": "Navigation vers des URL arbitraires non restreintes (Open Redirect vers `javascript:` ou `file://`), bridges natifs `@JavascriptInterface` exposés à des pages non fiables, et persistance de cookies/cache entre sessions.",
+        "en": "Loading arbitrary untrusted URLs (`javascript:` / `file://`), exposing native `@JavascriptInterface` bridges to third-party pages, and leaking session cookies in WebView caches."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "webview"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-136",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’authentification biométrique ne doit-elle pas reposer sur un simple booléen `if (biometricSuccess)` côté client ?",
+        "en": "Why is a boolean client-side `if (biometricSuccess)` check insecure compared to CryptoObject-bound biometrics?"
+      },
+      "back": {
+        "fr": "Un outil comme Frida peut forcer la fonction de callback à renvoyer `true` sans empreinte valide ; lier le déverrouillage d’une clé matérielle Keystore/Keychain (`CryptoObject`) exige la vraie validation biométrique matérielle.",
+        "en": "Runtime hooking (Frida) trivially flips a boolean callback to `true`; binding biometrics to hardware Keystore/Keychain keys (`CryptoObject`) enforces genuine hardware verification."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "biometrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-137",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester les fuites mémoire (Memory Leaks) courantes sur iOS et Android ?",
+        "en": "What common code patterns cause Mobile Memory Leaks, and how do testers detect them?"
+      },
+      "back": {
+        "fr": "Cycles de rétention de closures Swift (`self` capturé sans `weak`), références statiques à une `Activity`/`Context` Android après rotation ou listeners non désinscrits ; détectés par navigation répétée aller-retour sous Instruments Allocations / LeakCanary.",
+        "en": "Swift strong retain cycles and Android static references to destroyed Activities/Contexts; spotted via repeated screen navigation under Xcode Allocations or LeakCanary."
+      },
+      "tags": [
+        "ch2",
+        "memory",
+        "performance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-138",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester une application mobile sur un réseau purement IPv6 (NAT64/DNS64) ?",
+        "en": "Why must iOS and mobile apps be tested on IPv6-only (NAT64/DNS64) cellular networks?"
+      },
+      "back": {
+        "fr": "De nombreux opérateurs mobiles modernes sont IPv6-only et Apple rejette les apps qui codent des IPv4 littérales en dur (`192.0.2.1`) ou utilisent des API sockets bas niveau incompatibles IPv6.",
+        "en": "Modern mobile carriers operate IPv6-only networks, and Apple rejects apps using hardcoded IPv4 literals or non-IPv6-compatible low-level socket APIs."
+      },
+      "tags": [
+        "ch2",
+        "network",
+        "ipv6"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-139",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie la configuration réseau sécurisée Android (`network_security_config.xml`) et iOS App Transport Security (ATS) ?",
+        "en": "What do Android Network Security Config and iOS App Transport Security (ATS) enforce in release builds?"
+      },
+      "back": {
+        "fr": "Blocage par défaut du trafic HTTP en clair (`cleartextTrafficPermitted=\"false\"`), TLS 1.2/1.3 minimum, aucune confiance aux certificats installés par l’utilisateur en prod et épinglage éventuel.",
+        "en": "Blocking accidental cleartext HTTP calls, enforcing TLS 1.2+, refusing user-installed root CAs in release builds, and configuring pinning safely."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "tls"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-140",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles difficultés particulières posent les paiements 3D Secure 2 (3DS2) / Apple Pay / Google Pay lors des tests mobiles ?",
+        "en": "What edge cases must be tested in mobile checkout flows using Apple Pay, Google Pay, or 3DS2?"
+      },
+      "back": {
+        "fr": "Bascule vers l’app bancaire externe pour valider le 3DS2 puis retour vers l’app marchande (survie d’état si l’app a été suspendue entre-temps !), annulation du sheet système et expiration de panier pendant la confirmation.",
+        "en": "App-switching to a banking app for 3DS2 challenge and returning without losing checkout state, cancelling native payment sheets, and cart timeouts mid-authorization."
+      },
+      "tags": [
+        "ch2",
+        "payments",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-141",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles stratégies de résolution de conflits tester dans une architecture de synchronisation hors-ligne ?",
+        "en": "What conflict resolution outcomes should be tested in Offline-First mobile sync?"
+      },
+      "back": {
+        "fr": "Modification d’un même enregistrement hors-ligne sur deux appareils : vérifier Last-Write-Wins (horodatage serveur fiable), fusion champ par champ / CRDT ou invite utilisateur manuelle sans écrasement silencieux fatal.",
+        "en": "Two devices editing the same record offline: verify deterministic Last-Write-Wins, field-level/CRDT merges, or conflict prompts without silent data corruption."
+      },
+      "tags": [
+        "ch2",
+        "offline",
+        "sync"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-142",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la limite stricte de RAM des extensions iOS (Share Extension / Notification Service Extension ~24–120 Mo) cause-t-elle des crashs cachés ?",
+        "en": "Why do iOS App Extensions (Share Sheets, Notification Service Extensions) frequently crash under tight memory budgets?"
+      },
+      "back": {
+        "fr": "Contrairement à l’app principale disposant de centaines de Mo, une extension iOS est tuée dès ~24 à 120 Mo utilisés ; charger de grandes images ou librairies lourdes dans une Share Extension échoue silencieusement.",
+        "en": "iOS enforces tiny ~24–120 MB RAM caps on extensions; decoding high-res photos or heavy frameworks inside a Share Extension causes silent OS termination."
+      },
+      "tags": [
+        "ch2",
+        "memory",
+        "ios"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-143",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels cas limites tester pour un module Bluetooth Low Energy (BLE) sur téléphone réel ?",
+        "en": "What BLE (Bluetooth Low Energy) scenarios require physical real-device testing?"
+      },
+      "back": {
+        "fr": "Négociation de taille MTU selon modèles Android, restauration d’état iOS CoreBluetooth après kill arrière-plan, interférences RF avec 5+ périphériques proches, et perte de liaison au moment d’une écriture GATT.",
+        "en": "Android vendor MTU negotiation differences, iOS CoreBluetooth state restoration after background eviction, RF noise with multiple nearby sensors, and drops mid-GATT write."
+      },
+      "tags": [
+        "ch2",
+        "ble",
+        "iot"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-144",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier en accessibilité mobile au-delà des lecteurs d’écran VoiceOver / TalkBack ?",
+        "en": "Which OS accessibility settings beyond screen readers must mobile testers check?"
+      },
+      "back": {
+        "fr": "Police dynamique géante (Dynamic Type XXL), Texte en gras (Bold Text), Réduire les animations (Reduce Motion), Contraste accru / Inversion des couleurs et navigation par Contrôle vocal ou Contacteur (Switch Control).",
+        "en": "Max Dynamic Type font scaling, Bold Text, Reduce Motion, Increased Contrast / Smart Invert, and Voice Control / Switch Control navigation."
+      },
+      "tags": [
+        "ch2",
+        "accessibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-145",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel défaut provoque l’oubli du réglage système « Réduire les animations » (Reduce Motion) sur mobile ?",
+        "en": "Why must mobile apps test against the OS \"Reduce Motion\" preference?"
+      },
+      "back": {
+        "fr": "Des transitions parallaxes, zooms violents ou confettis continus déclenchent vertiges/nausées vestibulaires chez certains utilisateurs ; l’app doit remplacer ces effets par des fondus doux.",
+        "en": "Heavy parallax, zooming transitions, or looping animations trigger vestibular discomfort; apps should swap them for gentle cross-dissolves when Reduce Motion is active."
+      },
+      "tags": [
+        "ch2",
+        "accessibility",
+        "animations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-146",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’impact du « Throttling thermique » (Thermal Throttling) sur les performances d’une app ?",
+        "en": "How does Thermal Throttling degrade mobile apps during prolonged GPS, 5G, camera, or AI sessions?"
+      },
+      "back": {
+        "fr": "Après 10–15 minutes d’usage intensif en plein été ou charge rapide, l’OS divise la fréquence CPU/GPU pour refroidir l’appareil ; vérifier que la cadence vidéo, le scan QR ou l’inférence ML locale reste utilisable sans crash.",
+        "en": "Sustained camera, 5G, GPS, or on-device ML heats the SoC and forces OS clock reductions; test long sessions to ensure frame rates and UI stay responsive."
+      },
+      "tags": [
+        "ch2",
+        "performance",
+        "thermal"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-147",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Overdraw » graphique et comment nuit-il à l’autonomie et aux FPS ?",
+        "en": "What is UI Overdraw on mobile, and how do testers spot it?"
+      },
+      "back": {
+        "fr": "Dessiner plusieurs couches opaques empilées au même pixel à chaque frame gaspille GPU et batterie ; l’option développeur « Debug GPU Overdraw » colore en rouge les zones dessinées 4×+.",
+        "en": "Redrawing the same pixel multiple times beneath stacked opaque backgrounds wastes GPU fill-rate and battery—exposed via Android \"Debug GPU Overdraw\" overlays."
+      },
+      "tags": [
+        "ch2",
+        "performance",
+        "graphics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-148",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’expérience d’une application mobile derrière un « Portail captif » Wi-Fi (aéroport, train, hôtel) ?",
+        "en": "How do Captive Wi-Fi portals break mobile apps if not tested explicitly?"
+      },
+      "back": {
+        "fr": "Le Wi-Fi est marqué « connecté », mais chaque requête HTTPS reçoit une redirection HTML 302 ou un certificat SSL d’accueil ; un parseur JSON naïf crashe au lieu d’afficher un état hors-ligne ou d’inviter à valider le portail.",
+        "en": "Wi-Fi reports connected while returning HTML login redirects or captive TLS errors; naive JSON decoders crash instead of surfacing a clean connectivity prompt."
+      },
+      "tags": [
+        "ch2",
+        "network",
+        "edge-cases"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-149",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles données sensibles doivent être supprimées des images prises ou importées avant envoi serveur ?",
+        "en": "Why must QA inspect uploaded mobile photos for EXIF metadata privacy leaks?"
+      },
+      "back": {
+        "fr": "Les photos smartphone embarquent coordonnées GPS exactes de prise de vue, modèle d’appareil et horodatage dans les en-têtes EXIF ; les exposer publiquement (petites annonces, profils) révèle le domicile de l’utilisateur.",
+        "en": "Smartphone photos embed exact GPS coordinates, timestamps, and device models in EXIF headers; failing to strip EXIF before sharing exposes users’ home locations."
+      },
+      "tags": [
+        "ch2",
+        "privacy",
+        "camera"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-150",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’orientation EXIF (Rotation 90°/270°) d’une photo prise à la verticale pose-t-elle souvent problème ?",
+        "en": "Why do portrait mobile camera uploads frequently render sideways without EXIF orientation handling?"
+      },
+      "back": {
+        "fr": "L’appareil enregistre parfois les pixels bruts en paysage avec un tag EXIF `Orientation: 6` ; si le ré-encodeur ou le serveur supprime l’EXIF sans pivoter physiquement l’image, elle s’affiche couchée.",
+        "en": "Phone cameras often store landscape raw pixels plus an EXIF orientation flag; stripping EXIF metadata without baking pixel rotation renders portraits sideways."
+      },
+      "tags": [
+        "ch2",
+        "camera",
+        "bugs"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-151",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que tester sur les retours haptiques (Vibrations) et retours sonores d’une app mobile ?",
+        "en": "What edge cases govern mobile Haptic Feedback and Sound effects?"
+      },
+      "back": {
+        "fr": "Respecter strictement le commutateur physique Silencieux / Ne pas déranger (DND), désactiver l’haptique si l’utilisateur l’a coupée dans les réglages OS et éviter le déclenchement excessif sur défilements rapides.",
+        "en": "Strictly honor hardware Mute / Do-Not-Disturb switches, respect system haptic disable preferences, and avoid firing buzz bursts during fast list scrolling."
+      },
+      "tags": [
+        "ch2",
+        "ux",
+        "hardware"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-152",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts de navigation surviennent dans une app mobile utilisant des onglets multiples (Bottom Tab Bar) ?",
+        "en": "What navigation edge cases must testers probe in multi-tab mobile UIs?"
+      },
+      "back": {
+        "fr": "Conserver ou réinitialiser la pile d’écrans de chaque onglet lors du changement d’onglet, re-taper l’onglet actif pour remonter en haut de liste, et restauration cohérente via Deep Link.",
+        "en": "Per-tab back-stack preservation vs. reset on tab tap, tap-active-tab to scroll-to-top, and coherent tab switching when landing via deep link."
+      },
+      "tags": [
+        "ch2",
+        "navigation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-153",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le geste système « Retour par glissement depuis le bord » (Predictive Back / Swipe-Back) crée-t-il des conflits UI ?",
+        "en": "What gesture conflicts occur with OS edge Swipe-Back / Predictive Back navigation?"
+      },
+      "back": {
+        "fr": "Des cartes interactives, carrousels photo ou menus tiroirs latéraux interceptent le glissement depuis le bord gauche/droit, empêchant l’utilisateur de revenir à l’écran précédent (ou quittant accidentellement un formulaire).",
+        "en": "Horizontal carousels, maps, or drawers intercept screen-edge swipes, blocking back navigation or accidentally discarding unsaved form edits."
+      },
+      "tags": [
+        "ch2",
+        "gestures",
+        "navigation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-154",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester les fonctionnalités de reconnaissance locale sur appareil (On-Device ML : scan carte bancaire, OCR, traduction hors-ligne) ?",
+        "en": "What unique checks apply to On-Device ML/OCR features (ID/card scanning, offline translation)?"
+      },
+      "back": {
+        "fr": "Téléchargement initial et échec de modèle ML, précision sous mauvais éclairage/reflets/cartes abîmées, temps d’inférence sur GPU/NPU d’entrée de gamme et respect de la confidentialité (zéro envoi d’image brute si annoncé hors-ligne).",
+        "en": "First-run model download failures, accuracy under glare/motion/worn cards, inference speed on low-end SoCs, and zero network upload if marketed as offline-private."
+      },
+      "tags": [
+        "ch2",
+        "ml-mobile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-155",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lorsqu’une app mobile utilise un mécanisme « Pull-to-Refresh » pendant qu’un autre appel est déjà actif ?",
+        "en": "What concurrency defects appear in Pull-to-Refresh lists on slow mobile connections?"
+      },
+      "back": {
+        "fr": "Déclencher trois Pull-to-Refresh consécutifs ou quitter l’écran en plein chargement : vérifier l’annulation des anciennes requêtes, l’absence de doublons d’éléments et la disparition garantie du spinner même en cas d’erreur.",
+        "en": "Rapid repeated pull-to-refresh or navigating away mid-load: ensure prior calls cancel/dedupe cleanly, list items don’t duplicate, and spinners dismiss on error."
+      },
+      "tags": [
+        "ch2",
+        "concurrency",
+        "ui"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-156",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’impact d’un « Chargement infini paginé » (Infinite Scroll) sur la mémoire mobile ?",
+        "en": "How should testers probe Infinite Scroll lists for mobile memory and state bugs?"
+      },
+      "back": {
+        "fr": "Faire défiler des centaines d’éléments avec images haute résolution (vérifier recyclage `RecyclerView`/lazy list et plafonnement cache images), perdre la connexion à la page 5 puis réessayer sans perdre sa position de scroll.",
+        "en": "Scroll hundreds of media cards to verify view recycling and image cache eviction, drop network at page 5, retry cleanly, and preserve scroll position on back navigation."
+      },
+      "tags": [
+        "ch2",
+        "memory",
+        "ui"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-157",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la journalisation (`NSLog` / `Log.d`) oubliée dans une build Release mobile ?",
+        "en": "Why must QA inspect device console logs (`logcat` / iOS Console) on Release builds?"
+      },
+      "back": {
+        "fr": "Des `Log.d` laissés actifs divulguent jetons OAuth, requêtes SQL ou PII à toute autre application autorisée ou personne branchant le téléphone en USB, tout en consommant du CPU inutile.",
+        "en": "Leftover debug logs expose OAuth tokens, PII, and API payloads to USB debugging consoles or log readers while wasting CPU/battery."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "logging"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-158",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque « Hijacking d’Intent Android / Custom URL Scheme » (`myapp://callback`) ?",
+        "en": "How can Custom URL Schemes (`myapp://callback`) be hijacked on mobile compared to App Links?"
+      },
+      "back": {
+        "fr": "N’importe quelle app malveillante installée sur le téléphone peut enregistrer le même schéma personnalisé `myapp://` et intercepter un jeton OAuth de retour ; les Universal/App Links vérifiés par domaine empêchent ce vol.",
+        "en": "Any malicious installed app can register the same `myapp://` custom scheme and steal OAuth redirect tokens—unlike domain-verified HTTPS App/Universal Links."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "deep-links"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-159",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier sur les composants Android exportés (`android:exported=\"true\"`) lors des tests de sécurité ?",
+        "en": "What security risk arises from unintended `android:exported=\"true\"` components in `AndroidManifest.xml`?"
+      },
+      "back": {
+        "fr": "Toute Activity, Service ou BroadcastReceiver exporté sans permission dédiée peut être lancé directement par une autre app installée pour contourner l’écran PIN/login ou manipuler des données internes.",
+        "en": "Exported Activities, Services, or ContentProviders lacking custom permission checks can be launched directly by malicious third-party apps to bypass PIN gates or read data."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "android"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-160",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le drapeau Android `android:allowBackup=\"true\"` exige-t-il une vérification spécifique de sécurité ?",
+        "en": "Why is `android:allowBackup=\"true\"` flagged in mobile security audits unless tightly scoped?"
+      },
+      "back": {
+        "fr": "Il autorise l’extraction par `adb backup` ou sauvegarde cloud non chiffrée de fichiers de préférences et bases SQLite locales contenant potentiellement des jetons ou données personnelles sensibles.",
+        "en": "Unless restricted via backup exclusion rules, it allows `adb backup` or cloud sync to extract local SQLite DBs and preference tokens."
+      },
+      "tags": [
+        "ch2",
+        "security",
+        "storage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-161",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’expérience d’un utilisateur qui refuse de créer un compte ou utilise « Invité » puis s’inscrit plus tard ?",
+        "en": "What edge cases arise during \"Guest Checkout / Browse\" → \"Sign Up\" state migration on mobile?"
+      },
+      "back": {
+        "fr": "Conserver le panier local, favoris ou brouillons créés hors compte lors de l’inscription/connexion, fusionner proprement avec un compte existant et gérer l’abandon en plein flux OAuth.",
+        "en": "Preserving local carts, favorites, or drafts seamlessly upon sign-up, merging into existing server accounts cleanly, and surviving OAuth cancellation."
+      },
+      "tags": [
+        "ch2",
+        "state",
+        "ux"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-162",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le test d’une app mobile lorsqu’un utilisateur passe du mode « Split-Screen / Picture-in-Picture » à plein écran ?",
+        "en": "What defects surface when resizing an app between Split-Screen / Picture-in-Picture and Fullscreen?"
+      },
+      "back": {
+        "fr": "Mise en page compacte responsive brisée en demi-largeur, contrôles vidéo PiP inopérants, clavier masquant tout l’espace restant ou perte du flux vidéo à la transition.",
+        "en": "Cramped half-width UI clipping, unresponsive PiP controls, soft keyboards covering the entire split pane, and dropped video playback during transitions."
+      },
+      "tags": [
+        "ch2",
+        "multitasking"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-163",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’injection d’emplacement simulé (Mock Location / GPS Spoofing) et comment la tester sur des apps géolocalisées ?",
+        "en": "Why test GPS Mock Location detection on delivery, rideshare, or location-restricted apps?"
+      },
+      "back": {
+        "fr": "Des applications frauduleuses injectent de fausses coordonnées GPS au niveau développeur Android ; vérifier si l’app sensible détecte le flag `isFromMockProvider` et bloque la fraude sans pénaliser les tests autorisés en QA.",
+        "en": "Users can spoof GPS via developer mock-location apps; verify fraud-sensitive apps detect mocked coordinates while keeping QA sandbox testing feasible."
+      },
+      "tags": [
+        "ch2",
+        "gps",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-164",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la gestion du « Cache disque d’images et vidéos » doit-elle avoir une limite stricte (LRU Cache Limit) ?",
+        "en": "Why must mobile testers verify maximum disk-cache eviction (LRU caps) for media-heavy apps?"
+      },
+      "back": {
+        "fr": "Sans plafond LRU borné (ex. 200 Mo), une app sociale ou e-commerce grossit jusqu’à plusieurs Go dans les réglages stockage, incitant l’utilisateur à la désinstaller.",
+        "en": "Without bounded LRU disk caps, media-heavy apps bloat to several gigabytes in device storage settings, driving users to uninstall."
+      },
+      "tags": [
+        "ch2",
+        "storage",
+        "performance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-165",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’accessibilité du lecteur vidéo et audio intégré sur mobile ?",
+        "en": "What accessibility checks apply to embedded mobile video and audio players?"
+      },
+      "back": {
+        "fr": "Activation fiable des sous-titres codés (CC), audiodescription si requise, contrôle complet via VoiceOver/TalkBack sans auto-masquage trop rapide des boutons Play/Pause, et respect de la pause automatique.",
+        "en": "Reliable closed captions, accessible Play/Pause/Scrub controls under VoiceOver/TalkBack before overlays auto-hide, and audiodescription support."
+      },
+      "tags": [
+        "ch2",
+        "accessibility",
+        "media"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-166",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège survient lors du changement dynamique de thème OS (Clair ↔ Sombre) pendant que l’app est ouverte en arrière-plan ?",
+        "en": "What defects occur when toggling OS Dark Mode dynamically while the app is open or backgrounded?"
+      },
+      "back": {
+        "fr": "Certains écrans mélangent couleurs claires mises en cache et éléments sombres recréés, ou l’Activity redémarre en perdant la saisie en cours ; vérifier le passage fluide sur tous les écrans ouverts.",
+        "en": "Hybrid light/dark mismatched cards, cached light icons on dark surfaces, or lost form inputs when configuration changes reload the UI."
+      },
+      "tags": [
+        "ch2",
+        "dark-mode",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-167",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester la consommation de données cellulaires en arrière-plan (Background Data Usage) ?",
+        "en": "Why inspect background network traffic (Bytes Sent/Received) when a mobile app sits idle?"
+      },
+      "back": {
+        "fr": "Un SDK analytique bavard, un polling fréquent non arrêté en veille ou un pré-chargement vidéo agressif consomme des centaines de Mo en tâche de fond ; vérifier via Network Profiler / OS Data Usage l’absence de trafic superflu.",
+        "en": "Chatty analytics SDKs, unstopped polling loops, or aggressive prefetching drain cellular quotas while backgrounded; profile idle network bytes to confirm zero waste."
+      },
+      "tags": [
+        "ch2",
+        "network",
+        "battery"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-168",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lorsque l’utilisateur sélectionne « Restreindre les données en arrière-plan / Mode Faibles données » dans l’OS ?",
+        "en": "How should mobile apps behave when OS \"Low Data Mode\" / \"Data Saver\" is enabled?"
+      },
+      "back": {
+        "fr": "Désactiver lectures vidéo automatiques, baisser qualité des miniatures, reporter sauvegardes ou téléchargements lourds au Wi-Fi et privilégier des requêtes légères.",
+        "en": "Disable autoplay video, fetch lower-res thumbnails, defer heavy background syncs to Wi-Fi, and keep essential API calls lean."
+      },
+      "tags": [
+        "ch2",
+        "network",
+        "data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-169",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel test permet de détecter des opérations réseau ou disque bloquantes sur le Thread Principal (Main Thread) pendant les builds QA ?",
+        "en": "How does enabling Android `StrictMode` (and Xcode Main Thread Checker) catch hidden responsiveness bugs in QA?"
+      },
+      "back": {
+        "fr": "`StrictMode` lève immédiatement une alerte visuelle/log dès qu’une lecture SQLite/SharedPreferences ou socket s’exécute sur le UI thread, prévenant ainsi les ANR et saccades en production.",
+        "en": "Android `StrictMode` and Xcode Main Thread Checker flag accidental disk I/O or UI violations on the main thread during QA before they cause ANRs in production."
+      },
+      "tags": [
+        "ch2",
+        "anr",
+        "diagnostics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-170",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "objectiveId": "MAT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester le comportement de l’app lorsqu’un utilisateur passe un appel VoIP ou une visioconférence puis reçoit un vrai appel cellulaire GSM ?",
+        "en": "What edge case occurs when an active in-app VoIP/video call gets interrupted by an incoming cellular GSM call?"
+      },
+      "back": {
+        "fr": "Gestion propre de l’audio session (`AVAudioSession` / `AudioFocus`) : mise en attente de la VoIP, libération du micro/haut-parleur pour l’appel GSM, puis reprise audio automatique à la fin de l’appel.",
+        "en": "Audio-session handoff (`AVAudioSession`/`AudioFocus`): pausing VoIP cleanly, yielding mic/speaker to the cellular call, and restoring audio smoothly when the call ends."
+      },
+      "tags": [
+        "ch2",
+        "interrupts",
+        "media"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-171",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment fonctionne l’architecture Appium 2 (WebDriver W3C + Drivers UiAutomator2 / XCUITest) ?",
+        "en": "Explain how Appium 2 executes tests across iOS and Android without altering app source code."
+      },
+      "back": {
+        "fr": "Le script client envoie des commandes HTTP W3C WebDriver au serveur Appium, qui les traduit vers le driver natif de la plateforme (`XCUITest` sur iOS, `UiAutomator2` sur Android) exécuté directement sur le terminal.",
+        "en": "Test scripts send W3C WebDriver HTTP calls to the Appium server, which translates them to native platform drivers (`XCUITest` for iOS, `UiAutomator2` for Android)."
+      },
+      "tags": [
+        "ch3",
+        "appium",
+        "frameworks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-172",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’approche « Boîte Grise » (Espresso, XCUITest, Detox) réduit-elle fortement la flakiness par rapport à Appium ?",
+        "en": "Why do grey-box frameworks (Espresso, XCUITest, Detox) generally suffer less flakiness than black-box Appium?"
+      },
+      "back": {
+        "fr": "Ils observent directement les files d’attente du thread UI, animations et requêtes réseau internes de l’application, attendant automatiquement que l’app soit au repos sans recourir à des `sleep()` fragiles.",
+        "en": "They monitor internal UI threads, animation queues, and network idleness directly, synchronizing steps automatically without fragile `sleep()` timers."
+      },
+      "tags": [
+        "ch3",
+        "frameworks",
+        "flakiness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-173",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel atout distingue des outils déclaratifs modernes comme Maestro pour les tests mobiles ?",
+        "en": "What advantages do modern declarative mobile runners like Maestro offer?"
+      },
+      "back": {
+        "fr": "Scénarios YAML concis lisibles par toute l’équipe, attente intégrée de stabilité UI, exécution rapide sans recompilation complexe et support multiplateforme iOS/Android/React Native/Flutter.",
+        "en": "Concise readable YAML flows, built-in UI settling/tolerance, minimal setup across iOS/Android/Flutter/React Native, and rapid developer iteration."
+      },
+      "tags": [
+        "ch3",
+        "frameworks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-174",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles opérations clés l’utilitaire Apple `xcrun simctl` automatise-t-il sur Simulateur iOS en CI ?",
+        "en": "What testing conditions can Apple’s `xcrun simctl` CLI automate on iOS Simulators?"
+      },
+      "back": {
+        "fr": "Fixer la barre de statut à `9:41` batterie pleine (pour screenshots reproductibles), simuler notifications push, injecter fichiers GPX GPS, accorder/révoquer permissions (`privacy`), changer mode sombre et enregistrer vidéos.",
+        "en": "Overriding status bars to `9:41` full battery for clean snapshots, simulating push payloads, setting GPX locations, pre-granting `privacy` permissions, toggling Dark Mode, and recording video."
+      },
+      "tags": [
+        "ch3",
+        "ios",
+        "cli"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-175",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment simuler de façon déterministe la mort d’une application par manque de mémoire OS via `adb` ?",
+        "en": "How can a tester deterministically simulate an OS background memory kill on Android via `adb`?"
+      },
+      "back": {
+        "fr": "Mettre l’app en arrière-plan (Home), exécuter `adb shell am kill <packageName>` (qui tue le processus comme le ferait le Low Memory Killer en préservant l’état sauvé), puis rouvrir l’app depuis les Récents.",
+        "en": "Background the app, run `adb shell am kill <package>` to evict the process cleanly while keeping saved instance state, and reopen from Recents."
+      },
+      "tags": [
+        "ch3",
+        "adb",
+        "lifecycle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-176",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi est-il plus difficile d’intercepter le trafic HTTPS avec Charles/Proxyman sur Android 7+ qu’auparavant ?",
+        "en": "Why do Charles/mitmproxy HTTPS inspections require special setup on Android 7+ release builds?"
+      },
+      "back": {
+        "fr": "Depuis Android 7, les applications ignorent par défaut les certificats racines installés par l’utilisateur ; l’interception exige un `network_security_config` autorisant les CA utilisateur sur les builds QA/debug (ou un appareil/émulateur rooté).",
+        "en": "Android 7+ ignores user-installed root CAs by default; intercepting HTTPS requires a QA `network_security_config` override (or rooted emulator system store)."
+      },
+      "tags": [
+        "ch3",
+        "proxy",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-177",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre les tests d’exploration automatique (Firebase Robo / Monkey) et les scripts E2E structurés ?",
+        "en": "Contrast Automated App Crawlers (Firebase Robo / Monkey) with scripted mobile E2E tests."
+      },
+      "back": {
+        "fr": "Un crawler explore automatiquement les écrans sans assertions métier pour débusquer crashs imprévus et écrans inaccessibles ; un script E2E vérifie précisément les parcours métier critiques et résultats attendus.",
+        "en": "Crawlers autonomously tap around screens to uncover unhandled crashes and dead ends, while scripted E2E tests assert exact business workflows and data outcomes."
+      },
+      "tags": [
+        "ch3",
+        "crawlers"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-178",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter les faux positifs dans les tests de régression visuelle (Screenshot Diffing) sur mobile ?",
+        "en": "How can QA prevent false positives in Mobile Visual Snapshot Testing?"
+      },
+      "back": {
+        "fr": "Figer la barre d’état système (`9:41`, batterie 100 %, signal plein), désactiver curseurs clignotants/animations, utiliser des données fictives stables et tolérer les micro-écarts de rendu anti-aliasing par GPU.",
+        "en": "Freeze status-bar clocks/icons (`9:41`, 100% battery), disable blinking cursors/animations, seed fixed data, and apply tiny anti-aliasing pixel tolerances."
+      },
+      "tags": [
+        "ch3",
+        "snapshots"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-179",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert Fastlane (`gym`, `match`, `supply`, `deliver`) dans une chaîne CI/CD mobile ?",
+        "en": "How does Fastlane streamline mobile QA build, signing, and store release pipelines?"
+      },
+      "back": {
+        "fr": "À automatiser de manière reproductible la gestion des certificats/profils (`match`), compilation/signature (`gym`/`gradle`), envoi vers TestFlight/Play Console (`pilot`/`supply`) et publication de métadonnées/captures.",
+        "en": "It automates repeatable code-signing (`match`), compilation (`gym`/Gradle), uploading QA builds to TestFlight/Play Console (`pilot`/`supply`), and release metadata."
+      },
+      "tags": [
+        "ch3",
+        "ci-cd",
+        "fastlane"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-180",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la CI doit-elle archiver et téléverser les fichiers de symboles (`dSYM` iOS et `mapping.txt` R8 Android) pour CHAQUE build distribuée ?",
+        "en": "Why must CI upload `dSYM` (iOS) and R8 `mapping.txt` (Android) files for every build sent to QA or stores?"
+      },
+      "back": {
+        "fr": "Sans les symboles exacts correspondant au `versionCode` / UUID du binaire, les rapports Crashlytics/Sentry n’affichent que des adresses hexadécimales ou noms obfusqués (`a.b.c()`) impossibles à déboguer.",
+        "en": "Without exact build-matched symbol files, Crashlytics/Sentry stacktraces remain unreadable hex offsets or obfuscated `a.b.c()` frames."
+      },
+      "tags": [
+        "ch3",
+        "diagnostics",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-181",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Page Object Model / Screen Object » appliqué à l’automatisation mobile multiplateforme ?",
+        "en": "How does the Screen Object Pattern improve cross-platform mobile test suites (iOS + Android)?"
+      },
+      "back": {
+        "fr": "Chaque écran expose des méthodes métier (`login(email, pass)`) masquant les sélecteurs spécifiques iOS (`accessibilityIdentifier`) et Android (`resource-id`) ou légères différences de flux OS.",
+        "en": "Each Screen Object exposes shared business actions (`login()`) while encapsulating platform-specific iOS and Android locators or minor OS navigation differences."
+      },
+      "tags": [
+        "ch3",
+        "patterns",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-182",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester le binaire avec la « signature exacte de Release » (et non pas seulement debug) sur le flux OAuth / Google Sign-In / Maps ?",
+        "en": "Why do Google Sign-In, Maps SDK, and App Links frequently break between Debug and Release builds?"
+      },
+      "back": {
+        "fr": "Ces API sont liées à l’empreinte SHA-1/SHA-256 du certificat de signature ! Google Play App Signing utilise souvent une clé d’upload distincte de la clé de signature finale en production.",
+        "en": "Those SDKs bind to signing certificate SHA-1/SHA-256 fingerprints—and Google Play App Signing swaps upload keys for a separate store deployment key."
+      },
+      "tags": [
+        "ch3",
+        "signing",
+        "integrations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-183",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment diagnostiquer un ANR produit chez un client grâce au fichier `/data/anr/traces.txt` ou Play Console ?",
+        "en": "How do engineers interpret an Android ANR stack dump (`traces.txt` / Play Console)?"
+      },
+      "back": {
+        "fr": "Inspecter en priorité la pile d’appels du thread `main` au moment du gel : elle pointe souvent un appel réseau/BDD synchrone, un verrou `synchronized` bloqué par un thread secondaire ou une boucle de layout coûteuse.",
+        "en": "Inspect the `main` thread stacktrace at the freeze timestamp to spot synchronous disk/network calls, lock contention with worker threads, or infinite layout passes."
+      },
+      "tags": [
+        "ch3",
+        "anr",
+        "diagnostics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-184",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie-t-on dans un journal iOS « Jetsam / Memory Kill » ?",
+        "en": "What does an iOS Jetsam crash log indicate to mobile testers?"
+      },
+      "back": {
+        "fr": "L’app a dépassé la limite RAM autorisée par l’OS iOS (ex. chargement d’images géantes ou fuite mémoire) et a été tuée instantanément par le noyau sans lancer de trace d’exception classique.",
+        "en": "The OS kernel terminated the app for exceeding physical RAM limits—triggered by memory leaks or unresized media rather than a traditional code exception."
+      },
+      "tags": [
+        "ch3",
+        "memory",
+        "ios"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-185",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des téléphones physiques installés en ferme interne finissent-ils parfois par devenir instables lors des runs nocturnes ?",
+        "en": "Why do physical devices in self-hosted racks become flaky over weeks of unattended CI runs?"
+      },
+      "back": {
+        "fr": "Surchauffe en charge constante, gonflement batterie, caches pleins, popups de mise à jour OS imprévus, déconnexion ADB USB ou sessions restées connectées après un crash de runner ; prévoir nettoyage automatisé et surveillance santé.",
+        "en": "Thermal throttling under continuous charging, full storage caches, unexpected OS update modals, flaky USB hubs, and dirty leftover app state between failed jobs."
+      },
+      "tags": [
+        "ch3",
+        "device-lab",
+        "flakiness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-186",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’exigence Apple « Suppression de compte in-app » (Guideline 5.1.1(v)) à vérifier impérativement avant soumission ?",
+        "en": "What must QA verify to pass Apple Guideline 5.1.1(v) (In-App Account Deletion)?"
+      },
+      "back": {
+        "fr": "Si l’app permet de créer un compte, l’utilisateur doit pouvoir initier et finaliser la suppression définitive de son compte directement depuis l’app (pas juste « écrire au support »), avec gestion propre des abonnements actifs.",
+        "en": "Any app supporting account creation must offer a clear in-app account deletion flow (not merely emailing support) and cleanly handle active subscriptions."
+      },
+      "tags": [
+        "ch3",
+        "stores",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-187",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier sur la fiche « Privacy Nutrition Labels » (Apple) et « Data Safety » (Google Play) ?",
+        "en": "What does QA verify regarding Apple Privacy Nutrition Labels and Google Play Data Safety disclosures?"
+      },
+      "back": {
+        "fr": "Recenser TOUS les SDK tiers embarqués (analytics, pubs, crash, paiement) pour vérifier que chaque donnée réellement collectée (ID appareil, localisation, emails) correspond exactement aux déclarations soumises aux stores.",
+        "en": "Audit every embedded SDK (analytics, ads, crash, payments) so collected device IDs, location, and PII match Store privacy declarations 100%."
+      },
+      "tags": [
+        "ch3",
+        "stores",
+        "privacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-188",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’intégration des captures d’écran et de la vidéo automatisées pour les fiches Stores ?",
+        "en": "How can UI automation help generate consistent multi-locale App Store and Play Store assets?"
+      },
+      "back": {
+        "fr": "Scripts Fastlane/Snapshot ou Paparazzi lançant l’app sur les tailles d’écran requises dans chaque langue cible avec des données de démo propres et barre d’état figée à `9:41`, réduisant l’effort manuel.",
+        "en": "Automated snapshot jobs launch clean demo data with `9:41` status bars across every required device ratio and locale, preventing stale or unlocalized store screenshots."
+      },
+      "tags": [
+        "ch3",
+        "stores",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-189",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la bonne pratique d’automatisation pour les champs « OTP SMS ou Email » sur mobile ?",
+        "en": "How should mobile E2E suites handle 2FA / OTP verification without relying on unreliable real SMS gateways?"
+      },
+      "back": {
+        "fr": "Utiliser des comptes test dédiés en environnement QA avec code OTP déterministe ou API interne de boîte de test, tout en gardant un test manuel ou canary limité sur la vraie passerelle SMS en préprod.",
+        "en": "Use isolated QA test accounts with deterministic OTP codes or an inbox test API for CI stability, reserving real carrier SMS checks for targeted pre-release validation."
+      },
+      "tags": [
+        "ch3",
+        "automation",
+        "auth"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-190",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’outil Android `adb shell dumpsys gfxinfo <pkg>` aide-t-il à détecter objectivement les saccades UI (Jank) ?",
+        "en": "How does `adb shell dumpsys gfxinfo` provide objective mobile UI smoothness metrics?"
+      },
+      "back": {
+        "fr": "Il mesure le temps exact de rendu de chaque frame et calcule le pourcentage de « Janky frames » dépassant le budget de 16,6 ms (60 Hz) ou 8,3 ms (120 Hz) sur un scénario automatisé.",
+        "en": "It reports exact per-frame render percentiles and percentage of Janky frames exceeding the 16.6 ms (60 Hz) or 8.3 ms (120 Hz) frame budget during automated runs."
+      },
+      "tags": [
+        "ch3",
+        "performance",
+        "adb"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-191",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les « Tests d’automatisation de mise à jour en place » (Upgrade Automation) s’exécutent-ils en CI ?",
+        "en": "How can teams automate In-Place App Upgrade testing inside mobile CI pipelines?"
+      },
+      "back": {
+        "fr": "Télécharger l’APK/IPA de la version actuellement en production, lancer un test créant session + données locales, installer la nouvelle build par-dessus sans désinstaller (`adb install -r`), puis vérifier migration et session intactes.",
+        "en": "Install the live production binary, run a login/data-creation script, install the candidate build over it (`adb install -r` / no wipe), and assert session and DB survival."
+      },
+      "tags": [
+        "ch3",
+        "upgrade",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-192",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure le « Test de contrat API » (Contract Testing / OpenAPI schema validation) pour les équipes mobiles ?",
+        "en": "Why is API Contract Testing especially valuable for mobile client teams?"
+      },
+      "back": {
+        "fr": "Les anciens binaires mobiles déjà chez les utilisateurs ne peuvent pas être mis à jour instantanément ; les tests de contrat bloquent en CI toute modification backend cassant un champ JSON attendu par les apps en circulation.",
+        "en": "Shipped mobile binaries stay on user phones for months; API contract tests fail backend PRs early whenever a field change would break live mobile versions."
+      },
+      "tags": [
+        "ch3",
+        "api-compat",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-193",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi surveiller la taille de téléchargement (Download Size) et la taille installée automatiquement en CI ?",
+        "en": "Why fail or warn CI PRs when Mobile App Binary Size jumps unexpectedly?"
+      },
+      "back": {
+        "fr": "Un développeur importe parfois une police de 15 Mo, une vidéo non compressée ou un SDK dupliqué ; un budget taille dans la PR bloque ce gonflement avant qu’il n’atteigne le store.",
+        "en": "PR binary-size budgets immediately catch accidental uncompressed media, bloated fonts, or duplicate native libraries before they penalize store install conversion."
+      },
+      "tags": [
+        "ch3",
+        "binary-size",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-194",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’accessibilité automatiquement (Accessibility Scanner Android / Xcode Accessibility Inspector) et quelles sont ses limites ?",
+        "en": "What can automated mobile Accessibility Scanners detect, and what still requires manual VoiceOver/TalkBack review?"
+      },
+      "back": {
+        "fr": "Les outils automatiques repèrent contrastes insuffisants, zones tactiles trop petites et labels manquants ; seul un humain avec VoiceOver/TalkBack juge si l’ordre de lecture et les libellés ont un sens logique réel.",
+        "en": "Scanners automatically flag low contrast, small touch targets, and missing labels; human VoiceOver/TalkBack testing is still needed for logical swipe order and meaningful phrasing."
+      },
+      "tags": [
+        "ch3",
+        "accessibility",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-195",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lors d’une demande de « Révision accélérée / Hotfix » (Expedited App Review) sur App Store ?",
+        "en": "When should teams request an Expedited App Review, and what must QA double-check first?"
+      },
+      "back": {
+        "fr": "Réservé aux correctifs de crash majeur ou faille critique en production (Apple limite les demandes) : vérifier doublement la non-régression, les comptes démo et la justification claire car un rejet annule le gain de temps.",
+        "en": "Reserved for severe prod crashes or security hotfixes: double-check smoke tests, demo credentials, and clear reviewer notes since a rejection wastes critical recovery hours."
+      },
+      "tags": [
+        "ch3",
+        "stores",
+        "hotfix"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-196",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les fichiers de configuration de test (`.gpx`, JSON mocké, profils réseau Network Link Conditioner) rendent-ils reproductibles des bugs terrain ?",
+        "en": "How do GPX route files and Apple Network Link Conditioner improve defect reproduction?"
+      },
+      "back": {
+        "fr": "Ils permettent de rejouer exactement le même trajet GPS (vitesse, perte tunnel) ou la même dégradation réseau (ex. « Very Bad Network » 10 % perte paquets) dans les rapports de défauts pour le développeur.",
+        "en": "They let QA attach deterministic GPX trajectories or exact packet-loss throttling profiles to bug tickets so developers reproduce field failures reliably."
+      },
+      "tags": [
+        "ch3",
+        "diagnostics",
+        "network"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-197",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles bonnes pratiques rendent un rapport de défaut mobile immédiatement exploitable par un développeur iOS ou Android ?",
+        "en": "What specific metadata makes a Mobile Defect Report immediately actionable for developers?"
+      },
+      "back": {
+        "fr": "Numéro exact de build + commit/hash, modèle physique précis + version OS, vidéo courte avec touches affichées, type de réseau actif, captures `logcat`/Console filtrées et lien direct vers l’événement Crashlytics.",
+        "en": "Exact build number + commit, device model + OS build, screen video with visible touches, active network type, filtered `logcat`/Console snippet, and Crashlytics link."
+      },
+      "tags": [
+        "ch3",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-198",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’usage de « Build Flavors / Schemes » séparés (Dev, QA/Staging, Prod) évite-t-il des incidents majeurs ?",
+        "en": "Why must QA and Production mobile builds use distinct Application/Bundle IDs and Flavors?"
+      },
+      "back": {
+        "fr": "Permettre d’installer QA et Prod côte à côte sur un même téléphone sans écraser les données, pointer vers des clés API/Firebase distinctes et afficher un badge visuel « STAGING » empêchant toute confusion.",
+        "en": "Distinct Bundle IDs let testers install Staging alongside Production, isolate analytics/push keys safely, and show clear visual environment badges."
+      },
+      "tags": [
+        "ch3",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-199",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le retour sur investissement (ROI) d’un parc d’appareils ou d’une suite automatisée mobile ?",
+        "en": "How should QA measure ROI on mobile device farms and UI automation suites?"
+      },
+      "back": {
+        "fr": "Temps économisé avant chaque soumission store (réduction du cycle de régression de jours à heures), taux de faux positifs/flakiness maintenu bas, bugs critiques attrapés avant le rollout 1 % et maintien d’un taux Crash-Free > 99,5 %.",
+        "en": "Regression cycle time saved before store submission, low suite flakiness, critical regressions caught prior to 1% rollout, and sustained >99.5% crash-free sessions."
+      },
+      "tags": [
+        "ch3",
+        "metrics",
+        "roi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctmat-200",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "objectiveId": "MAT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle boucle complète relie tests avant publication, déploiement progressif et amélioration continue sur mobile ?",
+        "en": "What continuous feedback loop connects pre-release mobile QA, phased rollouts, and production observability?"
+      },
+      "back": {
+        "fr": "Matrice ciblée + tests automatisés CI + vérifications terrain/stores → rollout progressif 1 %→100 % surveillé par Crashlytics/Vitals et avis utilisateurs → transformation immédiate des incidents terrain en nouveaux cas de régression et mise à jour de la matrice.",
+        "en": "Risk-based device matrix + CI automation + store readiness → 1%→100% phased rollout watched via Crashlytics/Vitals & store reviews → feeding field issues straight back into regression suites."
+      },
+      "tags": [
+        "ch3",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-MAT v1.0 (Part 2 Expansion)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
     }
   ]
 }

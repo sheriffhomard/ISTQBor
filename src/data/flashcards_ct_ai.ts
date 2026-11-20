@@ -1,4 +1,5 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
+import { CT_AI_PART2_FLASHCARDS } from './flashcards_ct_ai_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CT-AI v1.0 (AI Testing)',
@@ -1269,19 +1270,22 @@ const RAW_CT_AI_CARDS: RawCtAiCard[] = [
   },
 ];
 
-export const CT_AI_FLASHCARDS: Flashcard[] = RAW_CT_AI_CARDS.map((raw) => ({
-  id: raw.id,
-  certificationId: 'ct-ai',
-  versionId: 'ct-ai-v1.0',
-  chapterId: `ct-ai-v1.0-ch${raw.chapter}`,
-  objectiveId: raw.objectiveId,
-  languageScope: 'bilingual',
-  front: { fr: raw.frontFr, en: raw.frontEn },
-  back: { fr: raw.backFr, en: raw.backEn },
-  hint: { fr: raw.hintFr, en: raw.hintEn },
-  tags: raw.tags,
-  isCustom: false,
-  provenance: PROVENANCE,
-  createdAt: NOW,
-  updatedAt: NOW,
-}));
+export const CT_AI_FLASHCARDS: Flashcard[] = [
+  ...RAW_CT_AI_CARDS.map((raw): Flashcard => ({
+    id: raw.id,
+    certificationId: 'ct-ai',
+    versionId: 'ct-ai-v1.0',
+    chapterId: `ct-ai-v1.0-ch${raw.chapter}`,
+    objectiveId: raw.objectiveId,
+    languageScope: 'bilingual',
+    front: { fr: raw.frontFr, en: raw.frontEn },
+    back: { fr: raw.backFr, en: raw.backEn },
+    hint: { fr: raw.hintFr, en: raw.hintEn },
+    tags: raw.tags,
+    isCustom: false,
+    provenance: PROVENANCE,
+    createdAt: NOW,
+    updatedAt: NOW,
+  })),
+  ...CT_AI_PART2_FLASHCARDS,
+];

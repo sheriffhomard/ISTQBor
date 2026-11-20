@@ -3419,6 +3419,3043 @@
       },
       "createdAt": "2026-11-20T00:00:00.000Z",
       "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-101",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence distingue l’IA symbolique (systèmes experts / règles) de l’IA sub-symbolique (réseaux de neurones) ?",
+        "en": "Distinguish Symbolic AI (rule-based/expert systems) from Sub-symbolic AI (neural networks)."
+      },
+      "back": {
+        "fr": "L’IA symbolique manipule des symboles et règles logiques lisibles par l’humain (déterministe, explicable). L’IA sub-symbolique apprend des représentations vectorielles distribuées à partir de données massives (plus performante en perception, mais boîte noire).",
+        "en": "Symbolic AI manipulates human-readable symbols and explicit logic rules (traceable, deterministic). Sub-symbolic AI learns distributed numeric representations from data (excels at perception, less interpretable)."
+      },
+      "tags": [
+        "ch1",
+        "symbolic-ai"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-102",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Spécification formelle des exigences » est-elle plus difficile à rédiger pour un modèle perceptif ML que pour un calcul bancaire ?",
+        "en": "Why are exact functional requirements far harder to specify for a perceptive ML component than for a banking calculation?"
+      },
+      "back": {
+        "fr": "On ne peut pas décrire mathématiquement l’ensemble infini de pixels définissant « un piéton la nuit sous la pluie » ; la spécification passe donc par des jeux de données représentatifs et des métriques statistiques acceptables.",
+        "en": "You cannot write closed-form rules defining all pixel patterns of \"a pedestrian in rain at night\"; requirements instead specify representative datasets, boundary contexts, and statistical performance targets."
+      },
+      "tags": [
+        "ch1",
+        "requirements"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-103",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels tests spécifiques exiger lors de l’intégration d’un modèle pré-entraîné Open Source (Hugging Face / Model Zoo) ?",
+        "en": "What verification checks must run before adopting a pre-trained open-source model from a public hub?"
+      },
+      "back": {
+        "fr": "Vérifier licence commerciale compatible, provenance et intégrité des poids (format `safetensors` plutôt que `pickle` vulnérable à l’exécution de code), biais documentés et évaluation sur vos données métier réelles.",
+        "en": "Audit license compatibility, artifact provenance and safe serialization (`safetensors` over executable `pickle` weights), documented biases, and benchmark performance on your own domain data."
+      },
+      "tags": [
+        "ch1",
+        "supply-chain",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-104",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Effet de Compression / Quantification » (FP32 → FP16 / INT8) à vérifier avant déploiement embarqué ?",
+        "en": "Why must quantized or pruned AI models (FP32 → INT8) undergo full re-testing on target edge hardware?"
+      },
+      "back": {
+        "fr": "Réduire la précision numérique économise mémoire et énergie mais peut dégrader les prédictions sur des classes rares ou des cas limites proches des seuils de décision.",
+        "en": "Quantization saves RAM and latency yet can silently flip borderline predictions or disproportionately degrade accuracy on minority classes."
+      },
+      "tags": [
+        "ch1",
+        "quantization",
+        "hardware"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-105",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’intégration entre composants IA probabilistes et règles métier déterministes (Architecture hybride) ?",
+        "en": "How should testers verify hybrid architectures combining probabilistic ML models with deterministic business rules?"
+      },
+      "back": {
+        "fr": "Tester séparément le modèle, les règles déterministes (ex. plafond légal, liste d’exclusion) et surtout les cas où la règle déterministe doit impérativement primer sur une prédiction ML aberrante.",
+        "en": "Test the ML model, deterministic guardrails (e.g., hard legal caps), and especially override precedence ensuring deterministic safety/policy rules always veto absurd model scores."
+      },
+      "tags": [
+        "ch1",
+        "architecture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-106",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque contractuel et technique accompagne le verrouillage sur une version précise d’AIaaS ?",
+        "en": "What regression testing practice protects systems depending on third-party AIaaS APIs?"
+      },
+      "back": {
+        "fr": "Épingler explicitement les versions/snapshots du modèle quand le fournisseur l’autorise et exécuter régulièrement un jeu témoin (« canary benchmark ») pour détecter toute dérive silencieuse d’API externe.",
+        "en": "Pin explicit model snapshot IDs where supported and schedule automated golden-benchmark probes to catch unannounced vendor behavior or latency shifts early."
+      },
+      "tags": [
+        "ch1",
+        "aiaas"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-107",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans le Fine-Tuning d’un modèle de langage ou de vision, qu’est-ce que l’« Oubli Catastrophique » (Catastrophic Forgetting) ?",
+        "en": "What is \"Catastrophic Forgetting\" during fine-tuning or transfer learning?"
+      },
+      "back": {
+        "fr": "En adaptant les poids à une nouvelle tâche spécialisée, le modèle perd brutalement ses compétences générales acquises auparavant (ex. perte de grammaire ou d’instructions de sécurité).",
+        "en": "Updating weights heavily on a narrow downstream dataset erases previously learned general capabilities or safety alignments, demanding broad regression suites post-fine-tuning."
+      },
+      "tags": [
+        "ch1",
+        "transfer-learning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-108",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les normes de gouvernance IA (ISO/IEC 42001, NIST AI RMF) relient-elles gestion des risques et cycle de test ?",
+        "en": "How do AI governance frameworks (ISO/IEC 42001, NIST AI RMF) shape testing responsibilities?"
+      },
+      "back": {
+        "fr": "Elles exigent d’associer chaque risque identifié (biais, dérive, vie privée, sécurité) à des contrôles de test mesurables, à des preuves d’évaluation archivées et à une revue périodique post-déploiement.",
+        "en": "They require mapping each AI risk (fairness, drift, privacy, security) to measurable pre-release test evidence and ongoing post-deployment monitoring."
+      },
+      "tags": [
+        "ch1",
+        "standards"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-109",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un système ML peut-il se dégrader en production même si personne n’a modifié une seule ligne de code ?",
+        "en": "Why can a deployed ML system fail progressively in production even with zero code changes?"
+      },
+      "back": {
+        "fr": "Parce que son comportement dépend aussi du monde extérieur et des données entrantes : tout changement des comportements utilisateurs, capteurs ou contextes économiques provoque une dégradation sans aucune mise à jour logicielle.",
+        "en": "Because ML accuracy depends on live data distributions matching training assumptions; shifting user habits, sensor aging, or market changes degrade performance without touching code."
+      },
+      "tags": [
+        "ch1",
+        "ml-principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-110",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch1",
+      "objectiveId": "AI-1.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Human-in-the-Loop » (HITL) et comment tester son ergonomie décisionnelle ?",
+        "en": "What should testers check in a \"Human-in-the-Loop\" (HITL) AI workflow?"
+      },
+      "back": {
+        "fr": "Vérifier que l’humain reçoit score de confiance, facteurs explicatifs, bouton clair de refus/correction, délai suffisant pour décider sans fatigue et que ses corrections sont journalisées proprement.",
+        "en": "Verify operators receive calibrated confidence scores, clear feature rationales, effortless override controls, realistic review time, and structured feedback capture."
+      },
+      "tags": [
+        "ch1",
+        "hitl"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-111",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Illustrez un cas d’« Effet secondaire involontaire » (Unintended Side Effect) différent du Reward Hacking classique.",
+        "en": "Give an example of an AI Unintended Side Effect during autonomous goal execution."
+      },
+      "back": {
+        "fr": "Un robot de livraison programmé pour optimiser uniquement le temps de trajet traverse des zones fragiles ou coupe le passage à des piétons parce que le coût des collisions mineures n’était pas pénalisé.",
+        "en": "A delivery robot optimizing purely for minimum transit time cuts through fragile flowerbeds or crowds pedestrians because social/environmental disruptions were left out of its penalty function."
+      },
+      "tags": [
+        "ch2",
+        "side-effects"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-112",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre un système IA « Adaptatif hors ligne » (batch retraining) et « Adaptatif en ligne » (online learning) ?",
+        "en": "Contrast Offline Batch-Retrained vs. Online Continuously-Learning adaptive AI systems."
+      },
+      "back": {
+        "fr": "Hors ligne : les nouvelles versions de modèle sont entraînées en laboratoire, testées via portes qualité puis redéployées. En ligne : le modèle ajuste ses poids directement au fil des événements de production, accroissant le risque de dérive ou d’attaque.",
+        "en": "Offline retraining compiles and validates candidate models behind CI quality gates before release; online learning updates weights live per event, amplifying drift and poisoning exposure."
+      },
+      "tags": [
+        "ch2",
+        "adaptability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-113",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une « variable de substitution discriminante » (Proxy Variable) dans un jeu de données ?",
+        "en": "What is a discriminating Proxy Variable in fairness testing?"
+      },
+      "back": {
+        "fr": "Une variable apparemment neutre (code postal, établissement scolaire, prénom, horaires de connexion) fortement corrélée à un attribut protégé supprimé (origine ethnique, genre, âge), perpétuant la discrimination à l’insu des concepteurs.",
+        "en": "A seemingly neutral feature (zip code, school name, browsing hours) strongly correlated with a removed protected attribute (race, gender, age), enabling indirect discrimination."
+      },
+      "tags": [
+        "ch2",
+        "fairness",
+        "bias"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-114",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi ne peut-on pas satisfaire mathématiquement toutes les définitions d’équité simultanément (Théorème d’impossibilité de Kleinberg/Chouldechova) ?",
+        "en": "Why is it often mathematically impossible to satisfy all Fairness definitions simultaneously?"
+      },
+      "back": {
+        "fr": "Lorsque les taux de base réels diffèrent entre groupes démographiques, égaliser simultanément Parité Démographique, Égalité des Taux de Faux Positifs/Négatifs et Calibration des scores devient mathématiquement incompatible — d’où un choix éthique métier explicite à tester.",
+        "en": "When base rates differ across groups, Demographic Parity, Equalized Odds, and Predictive Calibration cannot all hold simultaneously—requiring explicit domain policy selection before testing."
+      },
+      "tags": [
+        "ch2",
+        "fairness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-115",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le biais de mesure (Measurement Bias) dans la collecte des données ?",
+        "en": "What is Measurement Bias in AI systems?"
+      },
+      "back": {
+        "fr": "Déformation systématique provenant d’instruments, capteurs ou règles de saisie inégaux selon les populations (ex. taux d’arrestation utilisés comme proxy de taux de criminalité réelle, ou capteurs optiques moins calibrés sur certaines peaux).",
+        "en": "Systematic distortion introduced by how features or labels are recorded (e.g., using arrest records as a proxy for true crime, or optical sensors poorly calibrated across skin tones)."
+      },
+      "tags": [
+        "ch2",
+        "bias"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-116",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez « Explicabilité Globale » et « Explicabilité Locale » d’un modèle ML.",
+        "en": "Distinguish Global Explainability from Local Explainability."
+      },
+      "back": {
+        "fr": "Globale : comprend quelles variables pèsent le plus sur l’ensemble du comportement du modèle (importance globale des features). Locale : explique pourquoi CE dossier client précis a été refusé aujourd’hui.",
+        "en": "Global explains overall feature importance across the whole model; Local explains why this specific individual loan or medical prediction received its exact score."
+      },
+      "tags": [
+        "ch2",
+        "explainability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-117",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie une « Mauvaise Calibration des Probabilités » (Overconfident AI) et pourquoi affecte-t-elle la Sûreté ?",
+        "en": "Why is poor Probability Calibration (overconfident scores) hazardous for AI Safety?"
+      },
+      "back": {
+        "fr": "Si un modèle annonce 98 % de certitude alors qu’il a tort 35 % du temps sur une zone donnée, les seuils de bascule vers l’opérateur humain ou le repli sûr ne se déclenchent jamais.",
+        "en": "When a model outputs 98% confidence while actually wrong 35% of the time, safety escalation thresholds fail to trigger human takeover or fail-safe fallbacks."
+      },
+      "tags": [
+        "ch2",
+        "safety",
+        "calibration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-118",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que contient généralement une « Fiche Modèle » (Model Card) vérifiée lors des tests de Transparence ?",
+        "en": "What key disclosures should testers verify inside an AI Model Card?"
+      },
+      "back": {
+        "fr": "Usage prévu et usages proscrits, architecture et version, provenance des données d’entraînement/évaluation, scores segmentés par sous-groupes démographiques, limites connues et consignes éthiques.",
+        "en": "Intended uses and out-of-scope warnings, architecture/version, training/eval data origins, disaggregated subgroup metrics, known failure modes, and ethical notes."
+      },
+      "tags": [
+        "ch2",
+        "transparency",
+        "model-cards"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-119",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch2",
+      "objectiveId": "AI-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer la « Robustesse » (Robustness) d’un modèle IA au-delà de sa seule exactitude moyenne ?",
+        "en": "What does Robustness measure in an AI-based system?"
+      },
+      "back": {
+        "fr": "Capacité à maintenir des prédictions stables et sûres face à des entrées bruitées, valeurs manquantes, légers décalages de distribution, pannes partielles de capteurs ou perturbations adversariales.",
+        "en": "Ability to sustain valid, safe performance under noisy inputs, missing fields, mild distribution shifts, partial sensor degradation, and adversarial perturbations."
+      },
+      "tags": [
+        "ch2",
+        "robustness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-120",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez la classification multi-classes et la classification multi-étiquettes (multi-label).",
+        "en": "Contrast Multi-Class classification vs. Multi-Label classification."
+      },
+      "back": {
+        "fr": "Multi-classes : chaque exemple appartient à une seule classe exclusive parmi N (ex. chat / chien / oiseau ; somme Softmax = 1). Multi-étiquettes : un exemple peut cumuler plusieurs étiquettes simultanées (ex. film Action + Comédie ; Sigmoïde par classe).",
+        "en": "Multi-class assigns exactly one mutually exclusive label per item (Softmax); Multi-label allows multiple simultaneous tags per item (independent Sigmoids)."
+      },
+      "tags": [
+        "ch3",
+        "classification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-121",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez deux algorithmes classiques d’apprentissage non supervisé et leur usage concret.",
+        "en": "Name two common Unsupervised Learning techniques and practical use cases."
+      },
+      "back": {
+        "fr": "Clustering (k-means, DBSCAN) pour segmenter des clients ou regrouper des logs d’erreurs ; Réduction de dimensionnalité / détection d’anomalies (PCA, Isolation Forest) pour repérer des fraudes ou compresser des variables.",
+        "en": "Clustering (k-means, DBSCAN) for customer segmentation or crash-log grouping; Dimensionality reduction / Anomaly detection (PCA, Isolation Forest) for fraud spotting."
+      },
+      "tags": [
+        "ch3",
+        "unsupervised"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-122",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En apprentissage par renforcement (RL), quel dilemme illustre « Exploration vs Exploitation » ?",
+        "en": "Explain the \"Exploration vs. Exploitation\" trade-off in Reinforcement Learning."
+      },
+      "back": {
+        "fr": "Exploiter consiste à répéter la meilleure action déjà connue pour sécuriser la récompense immédiate ; explorer consiste à tester de nouvelles actions risquées pour découvrir potentiellement de meilleures stratégies globales.",
+        "en": "Exploitation repeats known high-reward actions; Exploration tries untested actions to discover potentially superior long-term strategies."
+      },
+      "tags": [
+        "ch3",
+        "reinforcement-learning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-123",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste l’apprentissage auto-supervisé (Self-Supervised Learning), moteur des LLM modernes ?",
+        "en": "How does Self-Supervised Learning power modern foundation models and LLMs?"
+      },
+      "back": {
+        "fr": "Il génère automatiquement ses propres cibles à partir de données brutes non annotées (ex. prédire le mot suivant ou des mots masqués dans un texte), permettant d’apprendre sur des milliards de documents sans étiquetage manuel.",
+        "en": "It derives supervisory targets automatically from unlabeled raw structure (predicting masked or next tokens), scaling training across vast corpora without manual annotation."
+      },
+      "tags": [
+        "ch3",
+        "self-supervised",
+        "llm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-124",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Expliquez le compromis Biais-Variance (Bias-Variance Trade-off) en Machine Learning.",
+        "en": "Explain the Bias-Variance Trade-off in ML modeling."
+      },
+      "back": {
+        "fr": "Biais élevé = modèle trop rigide (sous-apprentissage, rate les motifs). Variance élevée = modèle trop sensible aux détails du jeu d’entraînement (surapprentissage, instable sur nouvelles données).",
+        "en": "High Bias means an overly rigid model (underfitting real signal); High Variance means oversensitivity to training noise (overfitting, failing generalization)."
+      },
+      "tags": [
+        "ch3",
+        "bias-variance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-125",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez trois techniques classiques permettant de réduire le surapprentissage (Overfitting).",
+        "en": "Name three standard techniques used to combat Overfitting."
+      },
+      "back": {
+        "fr": "1) Régularisation (L1/L2, Dropout en réseaux de neurones). 2) Arrêt anticipé (Early Stopping) sur perte de validation. 3) Plus de données diversifiées / Data Augmentation et simplification du modèle.",
+        "en": "1) Regularization (L1/L2 penalties, Dropout). 2) Early stopping based on validation loss. 3) More diverse training data / augmentation or reduced model capacity."
+      },
+      "tags": [
+        "ch3",
+        "overfitting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-126",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’apprentissage ensembliste (Ensemble Learning : Random Forest, Gradient Boosting) ?",
+        "en": "Why do Ensemble Methods (Random Forests, XGBoost) often outperform single decision trees?"
+      },
+      "back": {
+        "fr": "Bagging (Random Forest) moyenne de nombreux arbres parallèles pour réduire la variance ; Boosting (XGBoost/LightGBM) entraîne des arbres séquentiels corrigeant les erreurs précédentes pour réduire biais et erreur.",
+        "en": "Bagging (Random Forest) averages parallel trees to cut variance; Boosting (XGBoost) trains sequential trees correcting prior residuals to slash bias and error."
+      },
+      "tags": [
+        "ch3",
+        "ensembles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-127",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi comparer tout nouveau modèle complexe à un modèle de référence simple (« Baseline Model ») ?",
+        "en": "Why must ML evaluation always compare a complex model against a simple Baseline Model?"
+      },
+      "back": {
+        "fr": "Si une régression logistique ou une heuristique simple atteint 89 % à moindre coût et latence, investir dans un Deep Learning coûteux à 90 % peut ne pas être justifié techniquement.",
+        "en": "If a simple logistic regression or rule heuristic achieves 89% cheaply and transparently, a costly black-box DNN scoring 90% may fail cost/explainability ROI."
+      },
+      "tags": [
+        "ch3",
+        "baseline"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-128",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch3",
+      "objectiveId": "AI-3.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Continual Training / MLOps Feedback Loop » à la fin du workflow ML ?",
+        "en": "What role does the MLOps monitoring and retraining loop play after ML deployment?"
+      },
+      "back": {
+        "fr": "Surveiller en continu dérives de données, chutes de précision terrain et latences d’inférence pour déclencher ré-étiquetage, ré-entraînement contrôlé et validation CI/CT avant mise en ligne.",
+        "en": "Continuously watching live input drift, latency, and ground-truth accuracy to trigger curated relabeling, gated retraining, and safe rollout."
+      },
+      "tags": [
+        "ch3",
+        "mlops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-129",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le découpage chronologique (Time-Based Split) remplace-t-il le découpage aléatoire pour les séries temporelles ?",
+        "en": "Why use a chronological Time-Based Split instead of random shuffling on time-series or fraud data?"
+      },
+      "back": {
+        "fr": "Un découpage aléatoire permettrait au modèle d’observer des transactions futures pour prédire le passé (fuite temporelle) ; il faut toujours entraîner sur le passé et tester sur le futur.",
+        "en": "Random shuffling leaks future patterns into training to predict past events; time-series splits must strictly train on earlier windows and evaluate on subsequent ones."
+      },
+      "tags": [
+        "ch4",
+        "splits",
+        "time-series"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-130",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un découpage stratifié (Stratified Split) et quand est-il indispensable ?",
+        "en": "When is Stratified Splitting mandatory when dividing train, validation, and test datasets?"
+      },
+      "back": {
+        "fr": "Sur données déséquilibrées ou multi-classes rares : la stratification conserve exactement la même proportion de chaque classe dans train, validation et test pour éviter qu’une classe disparaisse d’un pli.",
+        "en": "On imbalanced or multi-class datasets, stratified splitting preserves exact class proportions across train, val, and test splits so rare classes stay represented everywhere."
+      },
+      "tags": [
+        "ch4",
+        "stratified-split"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-131",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter une fuite de données lors de l’imputation des valeurs manquantes ou du calcul de moyenne/écart-type (`StandardScaler`) ?",
+        "en": "How can `StandardScaler` or missing-value imputation accidentally cause Data Leakage?"
+      },
+      "back": {
+        "fr": "Si on calcule moyenne, variance ou médiane sur l’ensemble complet avant le découpage train/test, des statistiques du jeu de test fuient dans l’entraînement ; il faut `fit()` uniquement sur train puis `transform()` sur val/test.",
+        "en": "Computing mean/std or medians across the whole dataset before splitting leaks test distribution statistics into training; always `fit()` strictly on train, then `transform()` val/test."
+      },
+      "tags": [
+        "ch4",
+        "data-leakage",
+        "preprocessing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-132",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’encodage « Group Split » (par patient, utilisateur ou session) est-il crucial sur données médicales ou comportementales ?",
+        "en": "Why must datasets with multiple records per patient/user use Group-Aware Splitting?"
+      },
+      "back": {
+        "fr": "Si 5 radios du même patient finissent partagées entre train et test, le modèle reconnaît l’anatomie ou le fond spécifique du patient plutôt que la pathologie, gonflant faussement les scores.",
+        "en": "Splitting photos or sessions of the same patient across train and test lets the model memorize patient identity rather than the underlying condition."
+      },
+      "tags": [
+        "ch4",
+        "group-split",
+        "data-leakage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-133",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles vérifications qualité exécuter sur un jeu de données brut avant tout entraînement (Data Validation Gates) ?",
+        "en": "What automated checks belong in pre-training Data Validation Gates?"
+      },
+      "back": {
+        "fr": "Conformité de schéma/types, taux de valeurs nulles/NaN, plages physiques valides (âge ≥ 0), cardinalité catégorielle attendue, déduplication exacte/proche et absence de fuite d’identifiant cible.",
+        "en": "Schema/type adherence, null/NaN spike checks, domain range bounds (age ≥ 0), expected categorical vocabularies, near-duplicate removal, and leakage columns."
+      },
+      "tags": [
+        "ch4",
+        "data-quality"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-134",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège guette le sur-échantillonnage naïf (SMOTE / duplication) appliqué AVANT le split train/test sur classes déséquilibrées ?",
+        "en": "What fatal flaw happens if SMOTE oversampling is applied BEFORE splitting train and test?"
+      },
+      "back": {
+        "fr": "Des exemples synthétiques quasi identiques générés depuis les mêmes minoritaires se retrouvent des deux côtés (train et test), produisant une fuite de données et un score F1 irréaliste.",
+        "en": "Synthetic minority samples generated near the same points spill across both train and test, causing severe data leakage and wildly optimistic F1 scores."
+      },
+      "tags": [
+        "ch4",
+        "smote",
+        "class-imbalance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-135",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mesurer objectivement la fiabilité d’annotations humaines (Inter-Annotator Agreement) ?",
+        "en": "How do teams measure labeling consistency across multiple human annotators?"
+      },
+      "back": {
+        "fr": "Faire annoter en double un échantillon par plusieurs experts et calculer le coefficient Kappa de Cohen (ou Alpha de Krippendorff) ; un score faible révèle des consignes d’étiquetage ambiguës à corriger.",
+        "en": "Double-annotate a sample across labelers and compute Cohen’s Kappa or Krippendorff’s Alpha; low agreement exposes ambiguous labeling guidelines requiring refinement."
+      },
+      "tags": [
+        "ch4",
+        "labeling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-136",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Corrélation fallacieuse / Raccourci » (Spurious Correlation / Shortcut Learning) dans les données d’entraînement ?",
+        "en": "What is \"Shortcut Learning\" (Spurious Correlation) caused by training datasets?"
+      },
+      "back": {
+        "fr": "Le modèle exploite un artefact accidentel présent dans les exemples positifs (ex. règle graduée sur photo de mélanome, filigrane d’hôpital sur radio COVID) au lieu des véritables caractéristiques visuelles ou sémantiques.",
+        "en": "The model latches onto accidental dataset artifacts (e.g., ruler markings on melanoma photos, hospital watermarks on X-rays) instead of real predictive traits."
+      },
+      "tags": [
+        "ch4",
+        "spurious-correlation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-137",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que documente une « Datasheet for Datasets » (Gebru et al.) ?",
+        "en": "What key provenance information does a \"Datasheet for Datasets\" record?"
+      },
+      "back": {
+        "fr": "Origine et consentement de collecte, composition démographique, méthodes de prétraitement/nettoyage, usages recommandés ou dangereux, politique de mise à jour et contacts responsables.",
+        "en": "Collection origins and consent, subgroup composition, preprocessing/filtering steps, recommended vs. unsafe uses, maintenance cadence, and custodians."
+      },
+      "tags": [
+        "ch4",
+        "datasheets"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-138",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch4",
+      "objectiveId": "AI-4.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Empoisonnement par Porte Dérobée » (Backdoor / Trojan Poisoning) et comment le tester ?",
+        "en": "How does Backdoor Data Poisoning differ from general accuracy degradation poisoning?"
+      },
+      "back": {
+        "fr": "Le modèle reste très performant sur les données propres mais prédit systématiquement une classe cible choisie par l’attaquant dès qu’un petit motif déclencheur (pixel carré, mot rare) apparaît dans l’entrée.",
+        "en": "Clean-data accuracy stays high, yet whenever an attacker embeds a secret trigger pattern (patch or phrase), the model reliably outputs the attacker’s chosen target label."
+      },
+      "tags": [
+        "ch4",
+        "data-poisoning",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-139",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Calculez Précision et Rappel si TP = 80, FP = 20, FN = 40, TN = 860.",
+        "en": "Calculate Precision and Recall given TP = 80, FP = 20, FN = 40, TN = 860."
+      },
+      "back": {
+        "fr": "Précision = 80 / (80 + 20) = 0,80 (80 %). Rappel = 80 / (80 + 40) ≈ 0,667 (66,7 %). Exactitude = 940 / 1000 = 94 %.",
+        "en": "Precision = 80 / (80 + 20) = 0.80 (80%). Recall = 80 / (80 + 40) ≈ 0.667 (66.7%). Accuracy = 940 / 1000 = 94%."
+      },
+      "tags": [
+        "ch5",
+        "calculation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-140",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi préférer la courbe Precision-Recall (PR-AUC) à la courbe ROC-AUC sur classes très déséquilibrées ?",
+        "en": "Why is PR-AUC (Precision-Recall AUC) far more informative than ROC-AUC on heavily imbalanced data (e.g., 0.5% fraud)?"
+      },
+      "back": {
+        "fr": "ROC-AUC inclut le grand nombre de Vrais Négatifs (TN) dans le Taux de Faux Positifs, rendant la courbe optimiste ; PR-AUC ignore TN et révèle immédiatement si de faux positifs submergent les alertes.",
+        "en": "ROC-AUC uses False Positive Rate (`FP/(FP+TN)`), which stays tiny when TN dominates; PR-AUC focuses solely on Precision vs. Recall and exposes false-alarm floods immediately."
+      },
+      "tags": [
+        "ch5",
+        "pr-auc",
+        "class-imbalance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-141",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez Macro-F1, Micro-F1 et Weighted-F1 en classification multi-classes.",
+        "en": "Contrast Macro-F1, Micro-F1, and Weighted-F1 in multi-class evaluation."
+      },
+      "back": {
+        "fr": "Macro-F1 calcule la moyenne simple des F1 de chaque classe (traite à égalité classes rares et fréquentes). Weighted-F1 pondère par support. Micro-F1 agrège globalement TP/FP/FN (dominé par les grosses classes).",
+        "en": "Macro-F1 unweighted-averages per-class F1s (spots rare-class collapse); Weighted-F1 weights by class size; Micro-F1 pools global TP/FP/FN (dominated by major classes)."
+      },
+      "tags": [
+        "ch5",
+        "f1-score",
+        "multiclass"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-142",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure le score F-beta (`F_β`), par exemple `F_2` vs `F_0.5` ?",
+        "en": "When should evaluators choose `F2` or `F0.5` instead of standard `F1`?"
+      },
+      "back": {
+        "fr": "`F2` (β = 2) donne plus de poids au Rappel (ex. détection de tumeur/sécurité où manquer un positif est grave) ; `F0.5` (β = 0,5) privilégie la Précision (ex. modération ou recommandations strictes).",
+        "en": "`F2` (β=2) weights Recall higher when missed detections are critical (medical/safety); `F0.5` (β=0.5) weights Precision higher when false alarms are costly."
+      },
+      "tags": [
+        "ch5",
+        "f-beta"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-143",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure le Coefficient de Corrélation de Matthews (MCC) et pourquoi est-il robuste sur classes déséquilibrées ?",
+        "en": "Why is Matthews Correlation Coefficient (MCC) praised as a balanced binary classification metric?"
+      },
+      "back": {
+        "fr": "MCC (−1 à +1) prend en compte les quatre cellules TP, TN, FP et FN de manière symétrique ; un score proche de +1 n’est obtenu que si le modèle réussit bien sur les deux classes à la fois.",
+        "en": "MCC (−1 to +1) incorporates all four matrix cells symmetrically; reaching high MCC requires strong predictions across both positive and negative classes simultaneously."
+      },
+      "tags": [
+        "ch5",
+        "mcc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-144",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie la perte logarithmique (Log Loss / Cross-Entropy) en plus des étiquettes binaires ?",
+        "en": "What does Log Loss (Cross-Entropy) evaluate that Accuracy and F1 miss?"
+      },
+      "back": {
+        "fr": "Elle évalue la qualité des probabilités prédites : un modèle sûr à 99 % qui se trompe subit une pénalité logarithmique énorme, récompensant les probabilités bien calibrées.",
+        "en": "It evaluates predicted probabilities rather than hard labels, heavily penalizing overconfident wrong guesses and rewarding well-calibrated uncertainty."
+      },
+      "tags": [
+        "ch5",
+        "log-loss",
+        "calibration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-145",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège présente la métrique MAPE (Mean Absolute Percentage Error) en régression lorsque des valeurs réelles approchent 0 ?",
+        "en": "Why does MAPE (Mean Absolute Percentage Error) blow up when target values are zero or near zero?"
+      },
+      "back": {
+        "fr": "Comme MAPE divise `|y - ŷ| / |y|`, dès que la valeur réelle `y` vaut 0 ou est minuscule (ex. ventes nulles d’un article), la division explose vers l’infini et fausse toute la moyenne.",
+        "en": "Because MAPE divides by actual `|y|`, zero or tiny ground-truth targets cause division-by-zero blowups; prefer sMAPE, WAPE, or MAE when targets approach zero."
+      },
+      "tags": [
+        "ch5",
+        "regression-metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-146",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez R² et R² ajusté (Adjusted R²) lors de l’évaluation de modèles de régression.",
+        "en": "Why check Adjusted R² rather than plain R² when adding features to a regression model?"
+      },
+      "back": {
+        "fr": "Le R² brut augmente toujours mécaniquement lorsqu’on ajoute des variables même inutiles ; le R² ajusté pénalise les prédicteurs superflus et n’augmente que si la variable améliore vraiment l’ajustement.",
+        "en": "Plain R² never decreases when extra noise variables are added; Adjusted R² penalizes superfluous features and only rises if new predictors truly add explanatory power."
+      },
+      "tags": [
+        "ch5",
+        "r-squared"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-147",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles métriques évalue-t-on pour la détection d’objets en vision par ordinateur (IoU, mAP) ?",
+        "en": "How do Intersection over Union (IoU) and mAP evaluate object-detection models?"
+      },
+      "back": {
+        "fr": "IoU mesure le recouvrement entre boîte prédite et boîte vérité terrain (`Aire intersection / Aire union`). mAP (mean Average Precision) agrège précision/rappel sur toutes les classes au-dessus d’un seuil IoU donné (ex. mAP@0.5:0.95).",
+        "en": "IoU measures bounding-box overlap (`Intersection / Union`); mAP averages class-wise Precision-Recall area across IoU thresholds (e.g., mAP@0.5:0.95)."
+      },
+      "tags": [
+        "ch5",
+        "vision",
+        "map"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-148",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des métriques purement lexicales (BLEU, ROUGE) sont-elles insuffisantes pour évaluer des LLM / résumés génératifs ?",
+        "en": "Why are n-gram metrics like BLEU and ROUGE inadequate alone for testing generative LLMs?"
+      },
+      "back": {
+        "fr": "Elles comptent le chevauchement exact de mots n-grammes : elles pénalisent une excellente paraphrase synonyme et ne détectent ni contradictions factuelles subtiles ni hallucinations dangereuses.",
+        "en": "They match surface n-grams, penalizing valid paraphrases while failing to detect subtle factual hallucinations or inverted negations."
+      },
+      "tags": [
+        "ch5",
+        "nlp",
+        "llm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-149",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch5",
+      "objectiveId": "AI-5.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Évaluation hors ligne » (métriques ML) et « KPI métier en ligne » ?",
+        "en": "Why can offline ML metric gains (e.g., +2% AUC) fail to translate into online business KPI improvements?"
+      },
+      "back": {
+        "fr": "Un modèle légèrement plus précis hors ligne peut être trop lent (latence faisant fuir l’utilisateur), proposer des articles déjà achetés ou provoquer de l’ennui à long terme — d’où le besoin d’A/B tests.",
+        "en": "Offline AUC gains can fail online due to excessive inference latency, feedback loops, or optimizing clicks instead of user retention—making online A/B evaluation essential."
+      },
+      "tags": [
+        "ch5",
+        "offline-vs-online"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-150",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le problème des « Neurones ReLU Morts » (Dying ReLU) et des gradients évanescents ?",
+        "en": "What are \"Dying ReLUs\" and Vanishing Gradients in deep neural network training?"
+      },
+      "back": {
+        "fr": "Gradients évanescents : les dérivées deviennent quasi nulles dans les couches profondes (ex. sigmoïde), figeant l’apprentissage. Dying ReLU : un neurone reste bloqué sur sorties négatives (gradient = 0) et ne s’active plus jamais.",
+        "en": "Vanishing gradients shrink backward weight updates near zero in deep layers; Dying ReLU happens when a neuron stays permanently negative with zero gradient, becoming dead weight."
+      },
+      "tags": [
+        "ch6",
+        "gradients"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-151",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert la couche de « Dropout » pendant l’entraînement vs pendant l’inférence / test ?",
+        "en": "How does Dropout behave differently during Training versus Inference/Testing?"
+      },
+      "back": {
+        "fr": "À l’entraînement, Dropout désactive aléatoirement un pourcentage de neurones à chaque lot pour empêcher la co-adaptation (surapprentissage). En test/inférence, tous les neurones restent actifs (mode `eval()`) pour des prédictions déterministes !",
+        "en": "During training, Dropout randomly zeroes neurons per batch to curb overfitting; during inference (`model.eval()`), Dropout must be disabled so predictions stay consistent."
+      },
+      "tags": [
+        "ch6",
+        "dropout"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-152",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel bug courant survient si la Normalisation par Lot (`BatchNorm`) ou `model.eval()` est oubliée en phase de test ?",
+        "en": "What subtle failure happens if a PyTorch/Keras network forgets `eval()` mode during testing?"
+      },
+      "back": {
+        "fr": "Dropout reste actif aléatoirement (prédictions non déterministes à chaque appel) et `BatchNorm` utilise les statistiques du mini-lot courant au lieu des moyennes apprises, faussant gravement les prédictions unitaires (`batch=1`).",
+        "en": "Dropout stays stochastic across identical queries and `BatchNorm` computes noisy per-batch stats instead of running averages, breaking `batch=1` inference accuracy."
+      },
+      "tags": [
+        "ch6",
+        "batchnorm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-153",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la couverture des valeurs limites d’activation : « k-Multisection Neuron Coverage » (KMNC) et « Neuron Boundary Coverage » (NBC) ?",
+        "en": "Define k-Multisection Neuron Coverage (KMNC) and Neuron Boundary Coverage (NBC) from DeepGauge."
+      },
+      "back": {
+        "fr": "KMNC divise la plage d’activation observée `[low, high]` de chaque neurone en `k` tranches et vérifie que chaque tranche est visitée. NBC vérifie que les tests explorent aussi les valeurs extrêmes au-delà de `[low, high]` (coins rares).",
+        "en": "KMNC splits each neuron’s training activation range `[low, high]` into `k` buckets and checks coverage per bucket; NBC tracks activations exceeding `[low, high]` corner boundaries."
+      },
+      "tags": [
+        "ch6",
+        "deepgauge",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-154",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure la couverture « Top-k Neuron Coverage » (TKNC) ?",
+        "en": "What does Top-k Neuron Coverage (TKNC) measure across neural network layers?"
+      },
+      "back": {
+        "fr": "La proportion de neurones qui figurent parmi les `k` neurones les plus fortement activés de leur couche sur au moins un cas de test — ciblant les neurones dominants porteurs de décision.",
+        "en": "The fraction of neurons that appear among the top-k highest activators in their layer for at least one test input."
+      },
+      "tags": [
+        "ch6",
+        "tknc",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-155",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Adéquation par Surprise » (Surprise Adequacy — LSA / DSA) en test de réseaux profonds ?",
+        "en": "What is Surprise Adequacy (LSA / DSA) in deep learning testing?"
+      },
+      "back": {
+        "fr": "Mesurer à quel point le vecteur d’activation interne produit par une nouvelle entrée est « surprenant » (éloigné en densité Likelihood LSA ou en distance aux classes voisines DSA) par rapport aux données d’entraînement : aide à repérer entrées atypiques et cas limites.",
+        "en": "Measuring how novel a test input’s internal activation trace looks relative to training traces (Likelihood LSA or Distance DSA), helping select informative edge inputs."
+      },
+      "tags": [
+        "ch6",
+        "surprise-adequacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-156",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi l’outil différentiel guidé par couverture (type DeepXplore) utilise-t-il la couverture de neurones ?",
+        "en": "How do differential fuzzers like DeepXplore combine Neuron Coverage with multi-model testing?"
+      },
+      "back": {
+        "fr": "Ils optimisent conjointement des entrées synthétiques pour maximiser à la fois la couverture de neurones activés et les désaccords entre plusieurs modèles DNN indépendants (tests différentiels sans oracle manuel).",
+        "en": "They jointly optimize synthetic perturbations to boost neuron coverage AND trigger prediction disagreements across multiple independent DNNs (automated differential oracle)."
+      },
+      "tags": [
+        "ch6",
+        "deepxplore",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-157",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des « Tests de Fumée sur une passe avant/arrière » (Unit Tests de tenseurs) doivent-ils accompagner le code de réseau ?",
+        "en": "What structural neural-network bugs do fast unit checks on tensor shapes and one-batch overfitting catch?"
+      },
+      "back": {
+        "fr": "Erreurs silencieuses de dimensions/broadcasting, fonction de perte incompatible avec l’activation finale (`Softmax` double appliquée avec `CrossEntropyLoss`) et gradients à `NaN` — détectables en quelques secondes avant des heures de GPU.",
+        "en": "Silent broadcasting bugs, mismatched loss/final activation (`CrossEntropyLoss` + redundant `Softmax`), and `NaN` gradients—caught in seconds before wasting hours of GPU training."
+      },
+      "tags": [
+        "ch6",
+        "unit-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-158",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch6",
+      "objectiveId": "AI-6.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment se comparent Couverture de Neurones et Surprise Adequacy face aux attaques adversariales ?",
+        "en": "Why do studies often favor Surprise Adequacy or Robustness metrics over simple Neuron Coverage alone?"
+      },
+      "back": {
+        "fr": "On peut atteindre > 95 % de Neuron Coverage facilement avec quelques images triviales ou du bruit sans révéler la fragilité décisionnelle, alors que Surprise Adequacy cible précisément la frontière de décision critique.",
+        "en": "High Neuron Coverage is trivially satisfied by a handful of ordinary inputs without probing decision boundaries, whereas Surprise Adequacy targets ambiguous boundary regions."
+      },
+      "tags": [
+        "ch6",
+        "coverage-limits"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-159",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment construire un « Pseudo-Oracle » quand l’oracle exact est absent ou trop coûteux ?",
+        "en": "What strategies provide practical Pseudo-Oracles when exact AI ground truth is unavailable?"
+      },
+      "back": {
+        "fr": "Relations métamorphiques, comparaison dos-à-dos avec un modèle simple/version précédente, évaluation par panel humain échantillonné ou vérification par invariants métier et contraintes physiques.",
+        "en": "Metamorphic relations, back-to-back comparison against a simpler/prior baseline model, sampled human-panel review, and domain/physical invariant bounds."
+      },
+      "tags": [
+        "ch7",
+        "test-oracle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-160",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez trois causes concrètes de « Train-Serving Skew » rencontrées dans les systèmes IA en production.",
+        "en": "Give three concrete causes of Train-Serving Skew in production AI pipelines."
+      },
+      "back": {
+        "fr": "1) Différence de code de normalisation ou de tokenization entre Python entraînement et Java/C++ prod. 2) Valeurs manquantes gérées différemment (`0` vs `null`). 3) Décalage temporel de jointure de features entre batch historique et temps réel.",
+        "en": "1) Divergent Python research vs. Java/Go prod tokenizers or scalers. 2) Different missing-value handling (`0` vs `null`). 3) Point-in-time feature join mismatches between offline training and online serving."
+      },
+      "tags": [
+        "ch7",
+        "train-serving-skew"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-161",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi faut-il tester l’« Idempotence et la Tolérance aux Pannes » autour du service d’inférence ?",
+        "en": "What API and system-level faults must be tested around an ML inference microservice?"
+      },
+      "back": {
+        "fr": "Dépassement de latence (timeout du modèle déclenchant le fallback déterministe), payloads JSON partiels/hors bornes, saturation mémoire GPU sous rafale (batching) et perte de connexion au Feature Store.",
+        "en": "Model timeouts triggering safe rule fallbacks, malformed/out-of-range API payloads, GPU OOM under burst batching, and Feature Store outages."
+      },
+      "tags": [
+        "ch7",
+        "system-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-162",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment détecter automatiquement un « Data Drift » en production sans attendre les vraies étiquettes retardées ?",
+        "en": "How can production monitors detect Data Drift before delayed ground-truth labels arrive?"
+      },
+      "back": {
+        "fr": "En comparant régulièrement les distributions statistiques des variables d’entrée live à celles de référence (test KS de Kolmogorov-Smirnov, PSI Population Stability Index, divergence KL) et en surveillant le taux de valeurs nulles/inconnues.",
+        "en": "Run statistical distribution tests on live input features vs. training baselines (PSI, Kolmogorov-Smirnov, KL divergence) and alert on surging missing/unknown categories."
+      },
+      "tags": [
+        "ch7",
+        "data-drift",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-163",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Dérive des Prédictions » (Prediction Drift) et que révèle-t-elle ?",
+        "en": "What does monitoring Prediction Drift reveal even without live ground-truth labels?"
+      },
+      "back": {
+        "fr": "Une variation brutale de la proportion des classes prédites (ex. taux de refus crédit passant soudain de 12 % à 48 %) alerte immédiatement sur un pipeline cassé ou une dérive majeure des entrées.",
+        "en": "A sudden jump in predicted class ratios (e.g., loan rejections spiking from 12% to 48%) flags upstream feature breakage or severe covariate shift immediately."
+      },
+      "tags": [
+        "ch7",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-164",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Non-déterminisme stochastique » (aléa matériel/graines) et « Évolution volontaire » d’un système IA ?",
+        "en": "Distinguish runtime stochastic Non-Determinism from intentional model Evolution."
+      },
+      "back": {
+        "fr": "Non-déterminisme : pour une même entrée avec modèle figé, exécutions parallèles GPU ou `temperature > 0` d’un LLM donnent des sorties légèrement différentes. Évolution : les poids/données changent au fil du temps par ré-entraînement.",
+        "en": "Stochastic non-determinism yields varying outputs for identical inputs under a frozen model (LLM `temperature > 0`, GPU atomic non-determinism); evolution shifts outputs because weights/data change over time."
+      },
+      "tags": [
+        "ch7",
+        "non-determinism"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-165",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le « Test de Tranches / Sous-groupes » (Slice-Based Testing) au niveau modèle ?",
+        "en": "Why is Slice-Based Evaluation essential when validating an ML model?"
+      },
+      "back": {
+        "fr": "Un modèle peut obtenir 95 % de précision globale mais tomber à 55 % sur une tranche critique (clients nocturnes, images faible luminosité, dialectes régionaux) : il faut définir des seuils minimums par tranche métier clé.",
+        "en": "Aggregate 95% accuracy can mask 55% failure on a vital slice (low-light images, regional dialects, elderly patients); tests must assert minimum pass thresholds per key slice."
+      },
+      "tags": [
+        "ch7",
+        "slicing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-166",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles vérifications spécifiques appliquer aux systèmes RAG (Retrieval-Augmented Generation) basés sur des LLM ?",
+        "en": "What unique failure modes must testers verify in LLM-based RAG systems?"
+      },
+      "back": {
+        "fr": "Fidélité aux documents sources récupérés (Groundedness / pas d’hallucination hors contexte), pertinence du moteur de recherche vectoriel, citations exactes, permissions ACL documentaires et résistance au Prompt Injection indirect.",
+        "en": "Answer groundedness against retrieved chunks (anti-hallucination), retrieval recall/precision, accurate citations, tenant ACL enforcement, and resistance to indirect prompt injection."
+      },
+      "tags": [
+        "ch7",
+        "llm",
+        "rag"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-167",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch7",
+      "objectiveId": "AI-7.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment valider que les « Critères de Sortie » (Exit Criteria) d’une release IA couvrent produit et exploitation ?",
+        "en": "What dimensions should Exit Criteria cover before releasing an AI-based system?"
+      },
+      "back": {
+        "fr": "Seuils fonctionnels globaux et par tranches, tests d’équité/robustesse réussis, latence/coût GPU sous charge, garde-fous de repli fonctionnels, fiche modèle à jour et sondes de monitoring de dérive actives.",
+        "en": "Overall and sliced accuracy gates, fairness/robustness checks, inference latency/cost SLAs, verified deterministic fallbacks, updated Model Card, and active live drift alerts."
+      },
+      "tags": [
+        "ch7",
+        "exit-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-168",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Expliquez le principe du « Test Contrefactuel d’Équité » (Counterfactual Fairness Testing).",
+        "en": "How does Counterfactual Fairness Testing uncover hidden bias?"
+      },
+      "back": {
+        "fr": "On clone un profil réel et on ne modifie qu’un attribut sensible ou proxy (ex. prénom féminin ↔ masculin, adresse quartier A ↔ quartier B) tout en gardant revenu et historique identiques : un changement significatif de score révèle un biais.",
+        "en": "Clone real inputs while swapping only a protected attribute or proxy (e.g., gendered name or neighborhood) with identical qualifications; significant score shifts expose unfair bias."
+      },
+      "tags": [
+        "ch8",
+        "fairness",
+        "counterfactual"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-169",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Parité Démographique (Demographic Parity) et Égalité des Chances (Equal Opportunity).",
+        "en": "Contrast Demographic Parity and Equal Opportunity in fairness testing."
+      },
+      "back": {
+        "fr": "Parité Démographique exige le même taux de prédictions positives entre groupes quel que soit le taux réel. Égalité des Chances exige le même Taux de Vrais Positifs (Rappel) parmi les personnes réellement qualifiées de chaque groupe.",
+        "en": "Demographic Parity requires equal positive prediction rates across groups overall; Equal Opportunity requires equal True Positive Rates (Recall) among qualified members across groups."
+      },
+      "tags": [
+        "ch8",
+        "fairness-metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-170",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel test vérifie la « Stabilité des Explications » (Explanation Fidelity / Stability) générées par LIME ou SHAP ?",
+        "en": "Why must testers test the Stability and Fidelity of LIME/SHAP explanations themselves?"
+      },
+      "back": {
+        "fr": "Deux entrées quasi identiques ne devraient pas produire des explications LIME contradictoires (LIME étant stochastique par perturbation), et les facteurs affichés doivent refléter fidèlement le changement réel de score si on les masque.",
+        "en": "Nearly identical inputs should not yield wildly contradictory LIME rationales, and perturbing the top highlighted features must genuinely alter the model’s output."
+      },
+      "tags": [
+        "ch8",
+        "explainability",
+        "shap"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-171",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester la « Compréhensibilité Humaine » des explications IA selon le public cible ?",
+        "en": "Why test AI explanations differently for ML engineers vs. end users / regulators?"
+      },
+      "back": {
+        "fr": "Un vecteur de valeurs SHAP brutes aide un data scientist à déboguer mais est incompréhensible pour un candidat refusé ; les tests d’utilisabilité vérifient des recours actionnables clairs (« revenu insuffisant vs dette »).",
+        "en": "Raw SHAP feature weights help engineers debug yet confuse loan applicants; usability checks ensure end users get clear, actionable explanations."
+      },
+      "tags": [
+        "ch8",
+        "explainability",
+        "ux"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-172",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier lors des tests de « Contrôle de l’Autonomie et Prise en Main Humaine » (Takeover Time) ?",
+        "en": "What human-handover metrics must be tested on semi-autonomous AI systems (e.g., ADAS / clinical triage)?"
+      },
+      "back": {
+        "fr": "Préavis suffisant avant la sortie de l’ODD, clarté multisensorielle de l’alerte (visuelle + sonore), maintien temporaire d’état sûr pendant que l’humain reprend les commandes et vérification du transfert effectif.",
+        "en": "Adequate warning lead-time prior to ODD exit, unmistakable multimodal alerts, holding a safe trajectory while the operator engages, and clean control transfer confirmation."
+      },
+      "tags": [
+        "ch8",
+        "autonomy",
+        "safety"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-173",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester les garde-fous contre l’« Injection de Prompt » (Prompt Injection) et le « Jailbreaking » sur un LLM ?",
+        "en": "How do testers evaluate security/robustness against Prompt Injection and Jailbreaking in LLMs?"
+      },
+      "back": {
+        "fr": "Soumettre requêtes directes (« ignore les instructions précédentes… ») et injections indirectes cachées dans pages web/documents RAG tentant d’exfiltrer prompt système, outils API ou données d’autres utilisateurs.",
+        "en": "Probing direct overrides and indirect injections hidden inside retrieved RAG docs/emails attempting to leak system prompts, invoke unauthorized tools, or bypass safety policies."
+      },
+      "tags": [
+        "ch8",
+        "llm",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-174",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque par « Inversion de Modèle / Inférence d’Appartenance » (Privacy Leakage Testing) ?",
+        "en": "What privacy risks do Membership Inference and Training-Data Extraction tests uncover?"
+      },
+      "back": {
+        "fr": "Vérifier si un attaquant interrogeant l’API peut déterminer qu’un individu précis figurait dans le jeu d’entraînement (Membership Inference) ou faire régurgiter au modèle des PII/secrets mémorisés.",
+        "en": "Testing whether adversaries can infer if a specific person’s record was in the training set or coax memorized PII/secrets verbatim out of a generative model."
+      },
+      "tags": [
+        "ch8",
+        "privacy",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-175",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch8",
+      "objectiveId": "AI-8.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi combiner « Test du Jeu Témoin (Golden Set) » et « Borne de Dérive » avant toute mise à jour d’un système auto-apprenant ?",
+        "en": "How do Golden Regression Gates and Drift Bounds protect continuously updating AI models?"
+      },
+      "back": {
+        "fr": "Si un ré-entraînement automatique sur les 24 dernières heures dégrade le Golden Set de > 1 % ou déplace les seuils de sous-groupes hors norme, la promotion automatique est bloquée avec alerte immédiate.",
+        "en": "If automated daily retraining drops Golden Set F1 by >1% or breaches subgroup fairness bounds, promotion aborts automatically and preserves the prior production weights."
+      },
+      "tags": [
+        "ch8",
+        "self-learning",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-176",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’attaque itérative PGD (Projected Gradient Descent) renforce-t-elle le test adversarial par rapport à FGSM ?",
+        "en": "How does PGD (Projected Gradient Descent) improve upon single-step FGSM in adversarial robustness testing?"
+      },
+      "back": {
+        "fr": "Contrairement à FGSM (un seul grand pas), PGD effectue plusieurs petits pas de gradient itératifs projetés dans une boule de perturbation maximale ε, trouvant des failles adversariales nettement plus difficiles à défendre.",
+        "en": "Unlike single-step FGSM, PGD takes multiple smaller gradient steps projected inside an ε-ball, uncovering deeper adversarial vulnerabilities."
+      },
+      "tags": [
+        "ch9",
+        "adversarial",
+        "pgd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-177",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez une relation métamorphique pertinente pour tester un modèle de recommandation ou de scoring de crédit.",
+        "en": "Give a practical Metamorphic Relation for testing a credit-scoring or recommendation ML model."
+      },
+      "back": {
+        "fr": "Monotonie économique : augmenter uniquement le revenu vérifié ou réduire la dette d’un demandeur (toutes choses égales par ailleurs) ne doit jamais diminuer sa probabilité d’acceptation crédit.",
+        "en": "Economic monotonicity: strictly increasing verified income or reducing debt while holding all other fields constant must never lower credit approval probability."
+      },
+      "tags": [
+        "ch9",
+        "metamorphic-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-178",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consistent les « Tests d’Invariance et Tests Directionnels » (CheckList Behavioral Testing pour NLP/ML) ?",
+        "en": "Explain Minimum Functionality (MFT), Invariance (INV), and Directional Expectation (DIR) behavioral tests for NLP/ML."
+      },
+      "back": {
+        "fr": "MFT : cas unitaires simples vérifiant des compétences de base (négation). INV : modifier un nom propre/synonyme ne doit pas changer la prédiction. DIR : ajouter « I loved the service » doit augmenter (non baisser) le score positif.",
+        "en": "MFT checks basic capabilities (negation); INV expects unchanged predictions under neutral swaps (names/synonyms); DIR expects predictable score shifts (adding praise raises sentiment)."
+      },
+      "tags": [
+        "ch9",
+        "checklist",
+        "metamorphic-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-179",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment conduire rigoureusement une campagne d’« A/B Testing » sur deux modèles en production sans fausser la statistique ?",
+        "en": "What statistical discipline avoids false conclusions in production AI A/B Testing?"
+      },
+      "back": {
+        "fr": "Randomisation stricte par utilisateur (pas par requête), taille d’échantillon calculée à l’avance pour la puissance statistique, vérification de l’effet de nouveauté et test A/A préalable pour valider le splitter.",
+        "en": "Consistent user-level randomization (not per-request), pre-computed sample size for statistical power, guarding against novelty effects, and validating split balance via an A/A test."
+      },
+      "tags": [
+        "ch9",
+        "ab-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-180",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la limite principale du « Shadow Testing » (Dark Launch) sur des systèmes interactifs ?",
+        "en": "What limitation affects Shadow Testing on interactive multi-turn or recommender AI systems?"
+      },
+      "back": {
+        "fr": "Comme l’utilisateur ne voit pas et ne réagit pas aux suggestions du modèle B en ombre (clics, achats), le Shadow Testing mesure bien latence, erreurs techniques et divergence de scores mais pas l’impact comportemental réel.",
+        "en": "Because users never see or react to the shadow model’s suggestions, Shadow Testing proves latency, crashes, and prediction parity—yet cannot measure real user behavioral feedback."
+      },
+      "tags": [
+        "ch9",
+        "shadow-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-181",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment appliquer les « Tests Dos-à-Dos » (Back-to-Back) pour détecter les régressions lors de la compression ou ré-implémentation d’un modèle ?",
+        "en": "How does Back-to-Back testing verify model export (e.g., PyTorch → ONNX / TensorRT) or quantization?"
+      },
+      "back": {
+        "fr": "Envoyer le même corpus de 10 000 entrées au modèle Python original et au runtime ONNX/INT8 compilé et vérifier que désaccords de classes et écarts de logits restent sous une tolérance définie.",
+        "en": "Feed 10,000 samples through both the original PyTorch model and the exported ONNX/INT8 runtime, verifying class disagreement and logit delta stay within strict tolerance."
+      },
+      "tags": [
+        "ch9",
+        "back-to-back",
+        "onnx"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-182",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez un exemple de paramètre de test combinatoire (Pairwise) pour tester un système de conduite assistée par vision.",
+        "en": "Give a Pairwise combinatorial parameter matrix for testing an AI camera perception system."
+      },
+      "back": {
+        "fr": "Paramètres : Météo (sec, pluie, brouillard), Luminosité (midi, crépuscule, nuit), Vitesse (30, 80, 120 km/h), Occlusion partielle (aucune, boue, contre-jour), Type obstacle (piéton, vélo, cône) — couverts par paires en ~15–20 scénarios.",
+        "en": "Factors: Weather (clear, rain, fog) × Lighting (noon, dusk, night) × Speed (30, 80, 120 km/h) × Occlusion (none, mud, glare) × Target (pedestrian, bike, cone) compressed into ~15–20 pairwise runs."
+      },
+      "tags": [
+        "ch9",
+        "pairwise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-183",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment organiser des « Chartes de Test Exploratoire IA » (Red Teaming / Adversarial Exploration) ?",
+        "en": "How do testers structure AI Red Teaming and Exploratory Testing charters?"
+      },
+      "back": {
+        "fr": "Missions limitées dans le temps ciblant un risque précis (ex. 60 min : inciter le chatbot médical à prescrire sans vérification, ou tester formulations argotiques/fautes de frappe extrêmes) avec journalisation des prompts exacts.",
+        "en": "Time-boxed charters targeting specific risk themes (e.g., 60 min probing slang/typos, jailbreak personas, or medical misinformation boundaries) while logging reproducible prompts and seed configs."
+      },
+      "tags": [
+        "ch9",
+        "exploratory",
+        "red-teaming"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-184",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « LLM-as-a-Judge » pour évaluer des réponses libres et quelles précautions prendre ?",
+        "en": "What precautions are needed when using \"LLM-as-a-Judge\" to automate evaluation of open-ended AI outputs?"
+      },
+      "back": {
+        "fr": "Utile pour noter à grande échelle pertinence et ton selon une grille précise, mais sujet à des biais de position (préfère la 1re option), de longueur (préfère les réponses longues) et de complaisance — à calibrer contre un jeu annoté humain.",
+        "en": "Helpful for scaling rubric scoring, yet prone to position bias, verbosity bias, and self-preference—always calibrate judge prompts against human-scored golden benchmarks."
+      },
+      "tags": [
+        "ch9",
+        "llm-eval"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-185",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch9",
+      "objectiveId": "AI-9.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’« Évaluation différentielle entre tranches temporelles » complète-t-elle les métriques statistiques globales ?",
+        "en": "Why pair static benchmark evaluation with continuous Slice & Temporal differential checks?"
+      },
+      "back": {
+        "fr": "Les métriques moyennes masquent les régressions sur nouveaux événements récents ou anciennes catégories rares ; comparer par cohorte temporelle et segment détecte vite les pertes ciblées.",
+        "en": "Aggregate benchmarks hide localized drops on recent trends or rare historical segments; comparing model versions across time windows and slices catches silent regressions early."
+      },
+      "tags": [
+        "ch9",
+        "technique-selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-186",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le versionnement conjoint Code + Données + Modèle + Environnement (ex. Git + DVC + MLflow) est-il indispensable ?",
+        "en": "Why must AI test infrastructure version Code, Data, Model Weights, and Runtime Environment together (e.g., Git + DVC + MLflow)?"
+      },
+      "back": {
+        "fr": "Contrairement au logiciel classique, modifier les poids ou une tranche du corpus change tout le résultat ; sans lignage complet, impossible de reproduire un incident client ou un audit de conformité 6 mois plus tard.",
+        "en": "Outputs depend equally on code, weights, datasets, and CUDA/library versions; unified lineage ensures any failure or audit metric can be reproduced months later."
+      },
+      "tags": [
+        "ch10",
+        "lineage",
+        "dvc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-187",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Randomisation de Domaine » (Domain Randomization) pour réduire l’écart Sim-to-Real ?",
+        "en": "How does Domain Randomization in virtual simulators narrow the Sim-to-Real gap?"
+      },
+      "back": {
+        "fr": "En variant aléatoirement éclairages, textures, bruit de capteur, pluies et géométries dans le simulateur, le modèle apprend des caractéristiques invariantes qui transfèrent mieux vers le monde physique réel.",
+        "en": "Varying textures, lighting, sensor noise, weather, and friction widely across simulation runs forces models to learn domain-invariant features that transfer better to reality."
+      },
+      "tags": [
+        "ch10",
+        "sim-to-real"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-188",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer des « Tests Hiérarchisés SIL / HIL » (Software / Hardware-in-the-Loop) pour l’IA embarquée ?",
+        "en": "Compare Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HIL) environments in AI testing."
+      },
+      "back": {
+        "fr": "SIL exécute le modèle compilé dans un simulateur pur sur serveur CI (millions de km virtuels rapides). HIL branche le vrai calculateur/NPU embarqué avec signaux capteurs simulés en temps réel pour vérifier latence, mémoire et pilotes réels.",
+        "en": "SIL runs software inside cloud simulators for massive fast coverage; HIL connects real embedded ECUs/NPUs to real-time simulated sensor signals to verify real hardware timing and memory."
+      },
+      "tags": [
+        "ch10",
+        "sil-hil"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-189",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels coûts et contraintes d’infrastructure pose la « Gestion des environnements GPU » en CI/CD ?",
+        "en": "How do teams keep AI CI/CD test environments fast and cost-effective despite heavy GPU requirements?"
+      },
+      "back": {
+        "fr": "Séparer les tests unitaires/contrats CPU rapides en PR (avec petits modèles factices) des évaluations complètes sur GPU éphémères à la demande ou déclenchées uniquement lorsque code/données/poids du modèle changent.",
+        "en": "Run fast CPU unit/pipeline checks with tiny dummy models on every PR, and trigger on-demand GPU evaluation suites only when model code, data, or weights change."
+      },
+      "tags": [
+        "ch10",
+        "ci-cd",
+        "gpu"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-190",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier qu’un jeu de « Données Synthétiques » ne trahit pas la qualité des tests ?",
+        "en": "How should testers validate the quality of Synthetic Test Data before relying on it?"
+      },
+      "back": {
+        "fr": "Vérifier la fidélité statistique face à un échantillon réel (distributions marginales/corrélations), contrôler l’absence de mémorisation exacte (protection privée) et évaluer sur des cas réels terrain en dernier ressort.",
+        "en": "Check distributional fidelity against real holdout samples, verify zero exact memorization/privacy leaks, and still require final validation on genuine real-world data."
+      },
+      "tags": [
+        "ch10",
+        "synthetic-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-191",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch10",
+      "objectiveId": "AI-10.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’enregistrement « Replay / Shadow Traffic Logs » pose-t-il des défis RGPD dans les environnements de test ?",
+        "en": "What privacy safeguards are needed when replaying production traffic logs into AI test environments?"
+      },
+      "back": {
+        "fr": "Les logs de requêtes réelles contiennent souvent données personnelles (visages, voix, textes libres) ; ils doivent passer par détection/suppression PII, pseudonymisation et politiques strictes de rétention avant tout accès QA.",
+        "en": "Production inference logs often carry faces, audio, or free-text PII; automated PII redaction, anonymization, and strict retention controls must precede QA environment access."
+      },
+      "tags": [
+        "ch10",
+        "privacy",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-192",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’IA améliore-t-elle la « Génération de Données de Test Réalistes » par rapport au simple `Faker` aléatoire ?",
+        "en": "How does AI-assisted Test Data Generation improve on basic random/Faker generators?"
+      },
+      "back": {
+        "fr": "Elle préserve les corrélations complexes inter-colonnes et formats contextuels métier (ex. cohérence code postal / ville / tranche d’âge / historique médical) tout en synthétisant des cas limites plausibles.",
+        "en": "It preserves realistic cross-column correlations and domain semantics (e.g., consistent zip codes, demographics, and transaction rhythms) while synthesizing plausible edge scenarios."
+      },
+      "tags": [
+        "ch11",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-193",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la recherche par apprentissage par renforcement ou modèles d’exploration aide-t-elle à tester des applications mobiles/web ?",
+        "en": "How do AI-driven Autonomous UI Crawlers / RL Agents explore web and mobile apps?"
+      },
+      "back": {
+        "fr": "Ils parcourent dynamiquement écrans, formulaires et états sans scripts préalables pour détecter crashs, erreurs JS/HTTP 500, boucles bloquées et régressions visuelles sur des chemins imprévus.",
+        "en": "They autonomously explore screens, forms, and navigation states without pre-written scripts to uncover crashes, console/HTTP 500 errors, dead-ends, and layout defects."
+      },
+      "tags": [
+        "ch11",
+        "autonomous-crawling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-194",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la bonne pratique d’audit des « Localisateurs Auto-Réparés » (Self-Healing Audit Workflow) ?",
+        "en": "What mandatory review workflow makes Self-Healing Locators safe in CI/CD?"
+      },
+      "back": {
+        "fr": "Ne jamais laisser l’outil auto-réparer silencieusement à perpétuité : chaque réparation doit créer un rapport diff / PR suggérée soumise à validation humaine rapide pour confirmer qu’il s’agit du bon contrôle.",
+        "en": "Never allow silent unreviewed healing indefinitely: surface every healed selector in an audit report or suggested PR diff for rapid human verification."
+      },
+      "tags": [
+        "ch11",
+        "self-healing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-195",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’IA aide-t-elle à détecter et classer automatiquement les tests instables (Flaky Test Detection) ?",
+        "en": "How can ML classification help teams tackle Flaky Tests in massive CI suites?"
+      },
+      "back": {
+        "fr": "En analysant séquences de logs historiques, patterns temporels, durées variables et taux d’alternance pass/fail sans diff produit afin de distinguer automatiquement instabilité infra d’une vraie régression code.",
+        "en": "By learning patterns across historical run logs, timing variance, and pass/fail flip rates on identical commits to distinguish flaky noise from genuine code regressions."
+      },
+      "tags": [
+        "ch11",
+        "flaky"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-196",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel biais de confidentialité et sécurité guette l’usage d’assistants IA externes (LLM cloud) lors du test logiciel ?",
+        "en": "What data-security risk arises when testers paste requirements, logs, or code into public external LLM tools?"
+      },
+      "back": {
+        "fr": "Risque de fuite de propriété intellectuelle, données personnelles clients contenues dans les traces, clés API ou secrets d’architecture dans des journaux fournisseurs ou modèles ré-entraînés.",
+        "en": "Exposing proprietary source code, internal architecture specs, secrets, or customer PII from crash logs to third-party cloud providers or future model training."
+      },
+      "tags": [
+        "ch11",
+        "security",
+        "privacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-197",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la génération automatique de tests unitaires par LLM sur du code déjà écrit présente-t-elle le risque d’« Oracle Circulaire » ?",
+        "en": "What is the \"Circular Oracle\" risk when generating unit tests solely by reading existing implementation code with an LLM?"
+      },
+      "back": {
+        "fr": "Le LLM écrit des assertions confirmant fidèlement ce que le code FAIT déjà — y compris ses bogues existants — au lieu de vérifier ce que la spécification métier EXIGE.",
+        "en": "The LLM asserts what the buggy implementation currently does rather than what business requirements demand, locking in defects as \"expected behavior.\""
+      },
+      "tags": [
+        "ch11",
+        "llm-risks",
+        "oracle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-198",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’IA visuelle gère-t-elle les zones dynamiques légitimes (horodatages, graphiques boursiers, publicités) en régression visuelle ?",
+        "en": "How do AI Visual Testing engines handle dynamic regions (clocks, live charts, personalized banners) without false positives?"
+      },
+      "back": {
+        "fr": "Par segmentation sémantique de mise en page (« Layout Match » / « Content Ignore Regions ») qui vérifie alignement et structure des blocs même lorsque valeurs numériques ou textes dynamiques changent.",
+        "en": "Through semantic layout matching and smart ignore regions that verify alignment and box structure even when live numbers, timestamps, or banners change."
+      },
+      "tags": [
+        "ch11",
+        "visual-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-199",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères vérifier avant d’adopter un outil de test propulsé par l’IA dans l’entreprise ?",
+        "en": "What due-diligence criteria should guide adopting an AI-powered testing tool?"
+      },
+      "back": {
+        "fr": "Transparence et explicabilité des décisions de l’outil, taux mesuré de faux positifs/négatifs sur un pilote réel, confidentialité des données/code, contrôle humain conservé et intégration CI standard.",
+        "en": "Decision explainability, measured false-positive/false-negative rates on a real pilot, data privacy guarantees, human-in-the-loop override control, and open CI integration."
+      },
+      "tags": [
+        "ch11",
+        "tool-selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctai-200",
+      "certificationId": "ct-ai",
+      "versionId": "ct-ai-v1.0",
+      "chapterId": "ct-ai-v1.0-ch11",
+      "objectiveId": "AI-11.2.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle double compétence résume le mieux l’expertise du spécialiste ISTQB CT-AI ?",
+        "en": "What dual mastery best defines the ISTQB CT-AI Specialist?"
+      },
+      "back": {
+        "fr": "1) Savoir tester rigoureusement les systèmes basés sur l’IA (données, métriques, biais, dérive, robustesse adversariale, sûreté, oracles métamorphiques) ; 2) Savoir exploiter l’IA de façon critique et maîtrisée pour optimiser les activités de test.",
+        "en": "1) Rigorously testing AI-based systems (data quality, metrics, fairness, drift, adversarial robustness, safety, metamorphic oracles); 2) Responsibly leveraging AI to augment testing workflows."
+      },
+      "tags": [
+        "ch11",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-AI v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
     }
   ]
 }

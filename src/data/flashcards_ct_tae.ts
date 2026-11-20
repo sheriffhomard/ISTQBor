@@ -1,5 +1,6 @@
 import type { Flashcard, ProvenanceMetadata } from '../types/domain';
 import { buildBilingualDeck, type RawBilingualCard } from './flashcardFactory';
+import { CT_TAE_PART2_FLASHCARDS } from './flashcards_ct_tae_part2';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Flashcards — CT-TAE v1.0 (Test Automation Engineer, 2016 Archive)',
@@ -1019,12 +1020,15 @@ const RAW_CT_TAE_CARDS: RawBilingualCard[] = [
   },
 ];
 
-export const CT_TAE_FLASHCARDS: Flashcard[] = buildBilingualDeck(
-  {
-    certificationId: 'ct-tae-legacy',
-    versionId: 'ct-tae-v1.0',
-    provenance: PROVENANCE,
-    timestamp: NOW,
-  },
-  RAW_CT_TAE_CARDS,
-);
+export const CT_TAE_FLASHCARDS: Flashcard[] = [
+  ...buildBilingualDeck(
+    {
+      certificationId: 'ct-tae-legacy',
+      versionId: 'ct-tae-v1.0',
+      provenance: PROVENANCE,
+      timestamp: NOW,
+    },
+    RAW_CT_TAE_CARDS,
+  ),
+  ...CT_TAE_PART2_FLASHCARDS,
+];

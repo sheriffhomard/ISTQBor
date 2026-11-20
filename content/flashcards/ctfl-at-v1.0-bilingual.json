@@ -430,8 +430,8 @@
       "objectiveId": "FA-1.1.1",
       "languageScope": "bilingual",
       "front": {
-        "fr": "Que représentent les « 3 C » d’une User Story ?",
-        "en": "What are the \"3 Cs\" of a User Story?"
+        "fr": "En affinage de backlog Agile (CTFL-AT), que représentent les « 3 C » d’une User Story ?",
+        "en": "During Agile backlog refinement (CTFL-AT), what do the \"3 Cs\" of a User Story stand for?"
       },
       "back": {
         "fr": "Card (la carte support), Conversation (les discussions d’équipe pour lever les ambiguïtés) et Confirmation (les critères d’acceptation validant la story).",
@@ -2995,6 +2995,3062 @@
       "isCustom": false,
       "provenance": {
         "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 (Agile Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-101",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les douze principes du Manifeste Agile influencent-ils le rythme des tests ?",
+        "en": "How do the twelve Agile Manifesto principles shape testing cadence?"
+      },
+      "back": {
+        "fr": "Ils privilégient des livraisons fréquentes de logiciel opérationnel (de quelques semaines à quelques jours), obligeant à intégrer et automatiser les tests en continu à chaque itération.",
+        "en": "They favor frequent delivery of working software (every few weeks or days), requiring continuous testing and automation inside every iteration."
+      },
+      "tags": [
+        "ch1",
+        "manifesto"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-102",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel principe Agile souligne que « la simplicité — l’art de maximiser la quantité de travail qu’on ne fait pas — est essentielle » pour le testeur ?",
+        "en": "How does the Agile principle of \"simplicity — maximizing the amount of work not done\" apply to Agile testing?"
+      },
+      "back": {
+        "fr": "Éviter les plans de test bureaucratiques redondants et la sur-documentation ; privilégier les artefacts légers, vivants et directement utiles (check-lists, exemples BDD).",
+        "en": "Avoiding bloated bureaucratic test plans and redundant reports; favoring lightweight, living artifacts such as checklists and executable BDD examples."
+      },
+      "tags": [
+        "ch1",
+        "simplicity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-103",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En Scrum, que risque-t-il d’arriver si une équipe pratique un mini-cycle en cascade (« mini-waterfall ») à l’intérieur d’un sprint de 2 semaines ?",
+        "en": "In Scrum, what happens when a team runs a \"mini-waterfall\" inside a two-week sprint?"
+      },
+      "back": {
+        "fr": "Le développement termine au jour 8, les testeurs sont noyés les 2 derniers jours, les bugs ne sont pas corrigés avant la fin du sprint et les stories ne respectent plus la Definition of Done.",
+        "en": "Coding finishes on day 8, testers get swamped in the final two days, defects remain unfixed at sprint review, and stories miss the Definition of Done."
+      },
+      "tags": [
+        "ch1",
+        "scrum",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-104",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment découper une User Story verticalement (« vertical slicing ») pour faciliter le test dès le début du sprint ?",
+        "en": "How does \"vertical slicing\" of a User Story help testing start early in a sprint?"
+      },
+      "back": {
+        "fr": "Au lieu de livrer toute la couche BDD puis API puis UI, chaque petit incrément traverse toute la pile et devient démontrable et testable dès les premiers jours.",
+        "en": "Instead of finishing DB, then API, then UI layers separately, each thin slice spans end-to-end layers so it is testable and demoable within days."
+      },
+      "tags": [
+        "ch1",
+        "vertical-slicing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-105",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle contribution spécifique le testeur apporte-t-il durant le « Backlog Refinement » (affinage du backlog) ?",
+        "en": "What unique value does a tester bring during Backlog Refinement sessions?"
+      },
+      "back": {
+        "fr": "Identifier les scénarios d’exception oubliés, poser les questions « et si ? », clarifier les exigences non fonctionnelles et vérifier que la story est testable avant le sprint.",
+        "en": "Surfacing overlooked edge cases, asking \"what if?\" failure questions, clarifying non-functional rules, and verifying story testability before sprint kickoff."
+      },
+      "tags": [
+        "ch1",
+        "refinement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-106",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle du testeur lors du « Daily Stand-up » (mêlée quotidienne) en Agile ?",
+        "en": "What is the tester’s focus during an Agile Daily Stand-up?"
+      },
+      "back": {
+        "fr": "Signaler les blocages d’environnement ou de données, coordonner le pairing sur les stories en cours et ajuster avec les développeurs la priorité des correctifs pour finir les stories ouvertes.",
+        "en": "Flagging environment or test-data blockers, coordinating pairing on active stories, and aligning with developers on bug fixes needed to close in-flight work."
+      },
+      "tags": [
+        "ch1",
+        "daily-standup"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-107",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’équipe Agile vise-t-elle un flux continu « Stop starting, start finishing » sur le tableau Kanban/Scrum ?",
+        "en": "Why do Agile teams enforce \"Stop starting, start finishing\" on their Scrum/Kanban board?"
+      },
+      "back": {
+        "fr": "Limiter le travail en cours (WIP) évite d’accumuler dix stories « prêtes à tester » le dernier jour et encourage les développeurs à aider au test ou au déblocage avant de prendre un nouveau ticket.",
+        "en": "Limiting Work-in-Progress (WIP) prevents ten stories piling up in \"Ready for Test\" at sprint end and prompts devs to assist with testing before starting new items."
+      },
+      "tags": [
+        "ch1",
+        "kanban",
+        "wip"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-108",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le testeur contribue-t-il à la « Sprint Review » (démonstration au Product Owner et aux clients) ?",
+        "en": "How does the tester contribute to the Sprint Review demo?"
+      },
+      "back": {
+        "fr": "Vérifier la qualité de l’incrément avant la démo, préparer des jeux de données réalistes, exposer les limites connues ou risques résiduels et noter les retours utilisateurs pour de futurs tests.",
+        "en": "Validating increment readiness beforehand, preparing realistic demo data, transparently noting any known caveats/risks, and capturing user feedback as future test ideas."
+      },
+      "tags": [
+        "ch1",
+        "sprint-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-109",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles questions qualité poser lors d’une « Rétrospective de sprint » pour améliorer le processus ?",
+        "en": "Which quality questions should be raised during a Sprint Retrospective?"
+      },
+      "back": {
+        "fr": "Quels bugs auraient pu être évités avant le code ? Nos tests automatisés ont-ils été fiables ou lents ? Combien de temps les tickets ont-ils attendu en file de test ?",
+        "en": "Which bugs could have been prevented before coding? Were automated checks trustworthy or flaky? How long did stories wait in the testing queue?"
+      },
+      "tags": [
+        "ch1",
+        "retrospective"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-110",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre la vision Agile « Kanban » et « Scrum » sur la planification des campagnes de test ?",
+        "en": "How do Kanban and Scrum differ regarding testing cadence and planning?"
+      },
+      "back": {
+        "fr": "Scrum cadence les livrables et critères d’achèvement par itérations fixes (sprints) ; Kanban régule un flux continu par limites WIP et mise en production à la demande.",
+        "en": "Scrum batches work and exit checks into fixed-length sprints; Kanban governs a continuous flow via WIP limits and on-demand releases."
+      },
+      "tags": [
+        "ch1",
+        "kanban",
+        "scrum"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-111",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez quatre pratiques d’Extreme Programming (XP) qui renforcent directement la qualité logicielle.",
+        "en": "Name four Extreme Programming (XP) practices that directly bolster software quality."
+      },
+      "back": {
+        "fr": "Test-Driven Development (TDD), programmation en binôme (Pair Programming), intégration continue, remaniement permanent (Refactoring) et propriété collective du code.",
+        "en": "Test-Driven Development (TDD), Pair Programming, Continuous Integration, Continuous Refactoring, and Collective Code Ownership."
+      },
+      "tags": [
+        "ch1",
+        "xp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-112",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Mob Testing » (ou Ensemble Testing) dans une équipe Whole Team ?",
+        "en": "What is \"Mob Testing\" (Ensemble Testing) in a Whole-Team setting?"
+      },
+      "back": {
+        "fr": "Toute l’équipe (dev, test, PO, UX) explore ou automatise ensemble un scénario complexe sur un écran partagé, alignant instantanément compréhension métier et découverte de bugs.",
+        "en": "The entire cross-functional group (devs, testers, PO, UX) explores or automates a risky workflow together on one shared screen, surfacing bugs and insights instantly."
+      },
+      "tags": [
+        "ch1",
+        "whole-team",
+        "collaboration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-113",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste le « Developer-Tester Pairing » sur un poste de travail avant ouverture de Pull Request ?",
+        "en": "What happens during \"Developer-Tester Pairing\" before opening a Pull Request?"
+      },
+      "back": {
+        "fr": "Avant même de fusionner le code, testeur et développeur passent en revue les cas limites sur le poste local, prévenant des allers-retours de tickets de défaut.",
+        "en": "Prior to merging code, tester and developer walk through edge cases together on the local build, preventing multi-day defect ticket ping-pong."
+      },
+      "tags": [
+        "ch1",
+        "pairing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-114",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une « Spike Story » (ou Tech Spike) et pourquoi un testeur doit-il parfois s’y associer ?",
+        "en": "What is a \"Spike Story\" and why should a tester sometimes participate in it?"
+      },
+      "back": {
+        "fr": "Une tâche d’exploration chronométrée visant à lever une incertitude technique ou fonctionnelle ; le testeur y évalue la testabilité, les outils d’automatisation ou les contraintes de sécurité dès l’étude.",
+        "en": "A time-boxed research task to resolve technical or domain uncertainty; testers assess testability, automation feasibility, and security constraints upfront."
+      },
+      "tags": [
+        "ch1",
+        "spike"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-115",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer l’engagement qualité lorsque le Product Owner demande une modification urgente en milieu de sprint ?",
+        "en": "How should quality commitment be handled if the Product Owner requests a mid-sprint scope change?"
+      },
+      "back": {
+        "fr": "Évaluer l’impact sur l’effort de test et de régression, puis négocier soit le retrait d’une story équivalente, soit l’ajustement du périmètre afin de ne jamais sacrifier la DoD.",
+        "en": "Assess testing and regression impact, then negotiate swapping out equivalent scope rather than silently cutting Definition of Done quality checks."
+      },
+      "tags": [
+        "ch1",
+        "scope-change"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-116",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que risque une équipe Agile si les développeurs considèrent que « trouver les bugs est uniquement le travail du testeur » ?",
+        "en": "What fails when developers treat finding bugs as \"strictly the tester’s job\"?"
+      },
+      "back": {
+        "fr": "Multiplication des défauts triviaux livrés en test, surcharge du goulot d’étranglement QA, tensions interpersonnelles et échec du modèle Whole Team.",
+        "en": "Trivial bugs flood QA, creating testing bottlenecks, adversarial friction, and a breakdown of Whole-Team quality ownership."
+      },
+      "tags": [
+        "ch1",
+        "whole-team",
+        "culture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-117",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Definition of Ready » (DoR) protège-t-elle l’efficacité des tests dans le sprint ?",
+        "en": "Why does a clear \"Definition of Ready\" (DoR) protect testing effectiveness in a sprint?"
+      },
+      "back": {
+        "fr": "Elle garantit qu’aucune story n’entre en sprint sans critères d’acceptation vérifiables, maquettes/contrats d’API clairs ni données ou dépendances disponibles.",
+        "en": "It prevents stories from entering a sprint without verifiable acceptance criteria, UI/API contracts, or identified test data and dependencies."
+      },
+      "tags": [
+        "ch1",
+        "dor"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-118",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez cinq éléments typiques d’une « Definition of Done » (DoD) rigoureuse pour une User Story Agile.",
+        "en": "List five typical items in a rigorous Agile \"Definition of Done\" (DoD) for a User Story."
+      },
+      "back": {
+        "fr": "Revue de code effectuée, tests unitaires passés, critères d’acceptation validés, suite de régression CI verte, analyse sécurité/accessibilité sans alerte bloquante.",
+        "en": "Code reviewed, unit tests green, acceptance criteria verified, CI regression suite passing, and security/accessibility checks clear of blockers."
+      },
+      "tags": [
+        "ch1",
+        "dod"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-119",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« esprit de croissance » et la sécurité psychologique dans une équipe Agile ?",
+        "en": "Why does psychological safety matter for Agile testing effectiveness?"
+      },
+      "back": {
+        "fr": "Il permet aux développeurs et testeurs de signaler tôt les zones fragiles ou défauts complexes sans crainte de blâme, accélérant la transparence sur le vrai niveau de risque.",
+        "en": "It enables testers and developers to expose fragile areas or defects early without blame, ensuring honest visibility into real product risk."
+      },
+      "tags": [
+        "ch1",
+        "psychology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-120",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un contexte Agile multi-équipes (ex. SAFe, LeSS, Scrum@Scale), quel défi spécifique concerne les tests ?",
+        "en": "In scaled Agile frameworks (e.g., SAFe, LeSS, Nexus), what testing challenge becomes critical?"
+      },
+      "back": {
+        "fr": "La coordination des tests d’intégration de bout en bout entre équipes indépendantes, la gestion des environnements partagés et la gouvernance des dépendances inter-équipes.",
+        "en": "Coordinating end-to-end integration across autonomous teams, sharing test environments, and managing cross-team API/dependency contracts."
+      },
+      "tags": [
+        "ch1",
+        "scaled-agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-121",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la valeur des revues rapides de code (Pull Requests) par des pairs comparée aux revues formelles longues ?",
+        "en": "What makes lightweight Pull Request reviews effective in Agile compared to heavy formal inspections?"
+      },
+      "back": {
+        "fr": "Elles fournissent un retour en quelques heures sur de petits diffs compréhensibles, maintenant le rythme d’intégration continue tout en prévenant régressions et problèmes de style.",
+        "en": "They deliver feedback within hours on small, focused diffs, sustaining CI flow while catching bugs, missing tests, and style flaws early."
+      },
+      "tags": [
+        "ch1",
+        "code-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-122",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les testeurs Agile doivent-ils éviter de rédiger des cas de test détaillés pas à pas des semaines avant le développement ?",
+        "en": "Why should Agile testers avoid writing exhaustive step-by-step test scripts weeks before coding?"
+      },
+      "back": {
+        "fr": "Les détails d’interface et de flux évoluent souvent durant les conversations de sprint ; des scripts prématurés créent du gaspillage et une lourde maintenance.",
+        "en": "UI flows and details evolve during sprint conversations; premature detailed scripts generate high rework and waste."
+      },
+      "tags": [
+        "ch1",
+        "lean",
+        "test-design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-123",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi l’empathie client aide-t-elle le testeur Agile au-delà de la simple vérification des critères d’acceptation ?",
+        "en": "How does customer empathy help an Agile tester beyond mechanically checking acceptance criteria?"
+      },
+      "back": {
+        "fr": "Elle l’amène à tester les scénarios réels d’usage sous contrainte (réseau lent, clavier seul, interruption utilisateur) qui font la différence entre code conforme et produit aimé.",
+        "en": "It drives testing real-world usage under friction (slow network, keyboard-only navigation, workflow interruptions) beyond literal checklist compliance."
+      },
+      "tags": [
+        "ch1",
+        "mindset"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-124",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Cross-functional team » (équipe pluridisciplinaire) en Agile concernant les compétences de test ?",
+        "en": "What does a \"cross-functional team\" imply for testing capabilities in Agile?"
+      },
+      "back": {
+        "fr": "L’équipe possède collectivement toutes les compétences requises pour concevoir, coder, tester et livrer un incrément fini sans dépendre systématiquement d’un service QA externe.",
+        "en": "The team collectively holds all skills needed to design, build, test, and ship a finished increment without handing off to an external QA gate."
+      },
+      "tags": [
+        "ch1",
+        "cross-functional"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-125",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle des « Critères d’acceptation » (Acceptance Criteria) vis-à-vis de la portée d’une User Story ?",
+        "en": "What boundary role do Acceptance Criteria play for a User Story?"
+      },
+      "back": {
+        "fr": "Ils délimitent précisément ce qui est inclus ou exclu dans la story, servent de base directe aux tests fonctionnels et empêchent l’inflation silencieuse du périmètre (scope creep).",
+        "en": "They draw clear boundaries on what is in and out of scope, form the direct test basis, and prevent silent scope creep."
+      },
+      "tags": [
+        "ch1",
+        "acceptance-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-126",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concilier feedback rapide en sprint et exigences d’audit réglementaire dans une entreprise régulée ?",
+        "en": "How can fast sprint feedback coexist with regulatory audit trails in a regulated Agile enterprise?"
+      },
+      "back": {
+        "fr": "En automatisant la génération de preuves (journaux CI, liens commit-ticket-test, rapports d’exécution versionnés) directement dans la pipeline plutôt qu’en rédigeant des dossiers Word manuels.",
+        "en": "By automating audit evidence capture (CI logs, commit-story-test traceability, archived test reports) inside the pipeline instead of manual Word binders."
+      },
+      "tags": [
+        "ch1",
+        "compliance",
+        "agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-127",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’appelle-t-on le « Testeur en T » (T-shaped tester) dans une équipe Agile ?",
+        "en": "What is a \"T-shaped tester\" in an Agile delivery team?"
+      },
+      "back": {
+        "fr": "Un spécialiste possédant une expertise profonde du test (conception, risque, automatisation/exploratoire) tout en comprenant développement, Ops, produit et UX pour aider toute l’équipe.",
+        "en": "A specialist with deep testing mastery (risk, test design, exploratory/automation) paired with broad fluency in coding, Ops, product, and UX."
+      },
+      "tags": [
+        "ch1",
+        "skills"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-128",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’approche « Fail Fast » est-elle valorisée par les équipes Agile ?",
+        "en": "Why is a \"Fail Fast\" mindset valued by Agile teams?"
+      },
+      "back": {
+        "fr": "Découvrir une hypothèse erronée ou un bug d’architecture en quelques minutes/jours coûte infiniment moins cher et libère l’équipe pour pivoter rapidement.",
+        "en": "Exposing flawed assumptions or architectural bugs within minutes or days costs far less and lets the team pivot immediately."
+      },
+      "tags": [
+        "ch1",
+        "feedback"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-129",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment répartir les efforts entre la « stabilisation / hardening » et la qualité intégrée au sprint ?",
+        "en": "How should Agile teams treat dedicated \"hardening sprints\" versus built-in sprint quality?"
+      },
+      "back": {
+        "fr": "Les sprints de durcissement signalent souvent une dette technique accumulée ; l’objectif Agile est de livrer un incrément potentiellement déployable à chaque sprint sans phase tampon récurrente.",
+        "en": "Recurring hardening sprints usually indicate accumulated quality debt; Agile aims for a shippable increment every sprint without needing a late cleanup phase."
+      },
+      "tags": [
+        "ch1",
+        "hardening-sprint",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-130",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch1",
+      "objectiveId": "FA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel comportement du Product Owner favorise le plus la qualité dans une équipe Scrum ?",
+        "en": "Which Product Owner behavior contributes most to product quality in Scrum?"
+      },
+      "back": {
+        "fr": "Être disponible régulièrement pour clarifier les règles métier, participer aux démos intermédiaires sur poste dev et prioriser la réduction de la dette technique et des défauts critiques.",
+        "en": "Staying accessible to clarify business rules, reviewing early builds incrementally, and prioritizing critical defect fixes and technical debt alongside new features."
+      },
+      "tags": [
+        "ch1",
+        "product-owner"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-131",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gère-t-on typiquement un bug trouvé sur une story en cours de développement dans le même sprint ?",
+        "en": "How is a defect found on an in-progress story within the current sprint normally handled?"
+      },
+      "back": {
+        "fr": "Souvent corrigé immédiatement via échange direct ou tâche liée à la story sans créer un workflow lourd de triage, la story ne pouvant être marquée « Done » qu’une fois corrigée.",
+        "en": "Typically fixed immediately through direct collaboration or a story subtask without heavy triage ceremony, as the story cannot become \"Done\" while broken."
+      },
+      "tags": [
+        "ch2",
+        "defect-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-132",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment traiter un défaut découvert dans une fonctionnalité ancienne (hors périmètre du sprint courant) ?",
+        "en": "How should a defect discovered in an older feature outside the current sprint scope be handled?"
+      },
+      "back": {
+        "fr": "L’enregistrer dans le backlog produit/défauts, évaluer sa sévérité/urgence avec le Product Owner : soit traitement immédiat s’il est critique, soit priorisation dans un sprint futur.",
+        "en": "Log it in the backlog and triage severity/impact with the Product Owner: fix immediately as an urgent interruption if critical, or prioritize it for an upcoming sprint."
+      },
+      "tags": [
+        "ch2",
+        "defect-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-133",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie la stratégie « Zero-Bug Policy » parfois adoptée en Agile et quand est-elle viable ?",
+        "en": "What does an Agile \"Zero-Bug Policy\" mean and when is it viable?"
+      },
+      "back": {
+        "fr": "Chaque nouveau bug est soit corrigé immédiatement avant de prendre de nouvelles fonctionnalités, soit explicitement clos comme non pertinent (« Won’t Fix »), évitant un backlog fantôme de 500 vieux bugs.",
+        "en": "Every incoming bug is either fixed immediately before building new features or explicitly closed as Won’t Fix, avoiding a rotting 500-bug backlog."
+      },
+      "tags": [
+        "ch2",
+        "defect-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-134",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels risques pose l’absence totale de documentation écrite des tests dans un projet Agile complexe ?",
+        "en": "What risks arise from having zero written test documentation in a complex Agile product?"
+      },
+      "back": {
+        "fr": "Oubli de règles métier critiques lors de l’arrivée de nouveaux membres, impossibilité d’auditer la conformité et perte de mémoire sur les scénarios de régression.",
+        "en": "Loss of critical business edge-case memory during team turnover, failure to pass compliance audits, and blind spots in regression coverage."
+      },
+      "tags": [
+        "ch2",
+        "documentation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-135",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « documentation vivante » (Living Documentation) en Agile ?",
+        "en": "What is \"Living Documentation\" in Agile engineering?"
+      },
+      "back": {
+        "fr": "Des spécifications exécutables (ex. fichiers Gherkin/BDD, tests d’API OpenAPI vérifiés en CI) toujours synchronisées avec le comportement réel du code en production.",
+        "en": "Executable specifications (e.g., Gherkin/BDD scenarios, CI-verified OpenAPI contract tests) that always stay synchronized with production code behavior."
+      },
+      "tags": [
+        "ch2",
+        "living-documentation",
+        "bdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-136",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment préserver un regard indépendant lorsque le testeur est pleinement intégré à la squad Scrum ?",
+        "en": "How is an independent quality perspective preserved when a tester is embedded inside a Scrum squad?"
+      },
+      "back": {
+        "fr": "En combinant échanges réguliers au sein d’une communauté de pratique QA, revues croisées avec un testeur d’une autre squad, et tests utilisateurs/acceptation externes.",
+        "en": "Through QA communities of practice, cross-squad peer test reviews, and independent user/stakeholder acceptance sessions."
+      },
+      "tags": [
+        "ch2",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-137",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment un graphique « Burndown » vs « Burnup » de release renseigne-t-il sur la progression des tests ?",
+        "en": "How do Release Burndown and Burnup charts reflect testing and delivery status?"
+      },
+      "back": {
+        "fr": "Le Burndown montre le travail restant face au temps (n’incluant une story qu’une fois testée et « Done ») ; le Burnup distingue clairement le travail accompli d’éventuels ajouts de périmètre.",
+        "en": "Burndown tracks remaining work (crediting stories only once tested and Done); Burnup separates completed work from scope changes on the target line."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "charts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-138",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que révèle un « Diagramme de Flux Cumulé » (Cumulative Flow Diagram — CFD) quand la bande « En Test / QA » s’élargit continuellement ?",
+        "en": "What does a Cumulative Flow Diagram (CFD) reveal when the \"In Testing\" band keeps widening?"
+      },
+      "back": {
+        "fr": "Un goulot d’étranglement croissant sur l’activité de test (les développements arrivent plus vite qu’ils ne sont testés/corrigés), allongeant le temps de cycle.",
+        "en": "A growing testing bottleneck (development finishes faster than testing/fixing clears items), inflating overall cycle time."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "cfd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-139",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « vélocité » d’une équipe Scrum ne doit-elle jamais être utilisée pour comparer deux équipes ou évaluer des individus ?",
+        "en": "Why must Scrum team velocity never be used to compare two teams or evaluate individuals?"
+      },
+      "back": {
+        "fr": "Les story points sont relatifs et propres au contexte de chaque équipe ; comparer les chiffres incite à gonfler artificiellement les estimations au détriment de la qualité.",
+        "en": "Story points are relative and team-specific; comparing velocity across teams incentivizes point inflation and harms quality transparency."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "velocity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-140",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« automatisation des déploiements » et le « Trunk-Based Development » dans un pipeline CI/CD Agile ?",
+        "en": "How do Trunk-Based Development and automated deployment pipelines support Agile testing?"
+      },
+      "back": {
+        "fr": "Les développeurs intègrent de petits commits fréquents sur la branche principale, vérifiés automatiquement par des suites rapides et protégés par des Feature Flags en cas d’inachèvement.",
+        "en": "Developers merge small frequent commits to the main branch, gated by fast automated test suites and decoupled from release via Feature Flags."
+      },
+      "tags": [
+        "ch2",
+        "ci",
+        "trunk-based"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-141",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel défi spécifique les « Feature Flags » (bascule de fonctionnalités) posent-ils aux testeurs Agile ?",
+        "en": "What specific testing challenge do \"Feature Flags\" introduce for Agile testers?"
+      },
+      "back": {
+        "fr": "L’explosion combinatoire des états activés/désactivés : il faut vérifier les comportements clé-ON, clé-OFF et la propreté du retrait d’anciens drapeaux.",
+        "en": "Combinatorial state explosion: teams must verify behavior with flags ON, flags OFF, and safe cleanup when retired flags are removed."
+      },
+      "tags": [
+        "ch2",
+        "feature-flags"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-142",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’échec d’un test dans le pipeline CI doit-il déclencher une réaction immédiate (« Stop the line ») ?",
+        "en": "Why should a broken CI pipeline check trigger an immediate \"Stop the line\" response?"
+      },
+      "back": {
+        "fr": "Laisser le pipeline rouge masque de nouvelles régressions, habitue l’équipe à ignorer les alertes et rend le diagnostic ultérieur beaucoup plus coûteux.",
+        "en": "Ignoring a red pipeline hides fresh regressions, desensitizes the team to failures, and makes root-cause diagnosis vastly harder later."
+      },
+      "tags": [
+        "ch2",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-143",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de contrat » (Contract Testing, ex. Pact) dans une architecture Agile à microservices ?",
+        "en": "What is \"Consumer-Driven Contract Testing\" (e.g., Pact) in an Agile microservices team?"
+      },
+      "back": {
+        "fr": "Vérifier indépendamment que producteur et consommateur d’API respectent un schéma/contrat convenu, sans avoir besoin de déployer tout l’écosystème pour chaque test.",
+        "en": "Verifying independently that API providers and consumers honor an agreed message contract without standing up an entire end-to-end environment."
+      },
+      "tags": [
+        "ch2",
+        "contract-testing",
+        "microservices"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-144",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’effet « Cône de glace » (Ice Cream Cone anti-pattern) en automatisation Agile ?",
+        "en": "How does an Agile team avoid the \"Ice Cream Cone\" automation anti-pattern?"
+      },
+      "back": {
+        "fr": "En inversant le déséquilibre (trop de tests UI fragiles lents et peu de tests unitaires/API) pour revenir vers la Pyramide des Tests avec forte base unitaire rapide.",
+        "en": "By reversing an inverted pyramid (heavy brittle UI suites and scarce unit tests) back toward fast, isolated unit and API coverage."
+      },
+      "tags": [
+        "ch2",
+        "test-pyramid",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-145",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« échappement de défauts » (Defect Escape Rate) et pourquoi cette métrique est-elle précieuse en Agile ?",
+        "en": "What is \"Defect Escape Rate\" and why is it valuable for Agile teams?"
+      },
+      "back": {
+        "fr": "La proportion de défauts découverts en production par rapport au total trouvé pendant le sprint ; elle aide à cibler les trous de couverture ou de revues en rétrospective.",
+        "en": "The share of defects discovered in production versus caught during sprints; it pinpoints test/review gaps for retrospective action."
+      },
+      "tags": [
+        "ch2",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-146",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le « déploiement canari » (Canary Release) complète-t-il les tests de sprint sans remplacer les tests pré-production ?",
+        "en": "How do \"Canary Releases\" complement sprint testing without replacing pre-production checks?"
+      },
+      "back": {
+        "fr": "En exposant d’abord une nouvelle version à 1–5 % du trafic réel tout en surveillant erreurs et latence avant généralisation, mais uniquement après validation fonctionnelle/sécurité en pré-prod.",
+        "en": "By routing 1–5% of live traffic to a new version while monitoring error/latency telemetry before full rollout—after pre-prod quality gates pass."
+      },
+      "tags": [
+        "ch2",
+        "canary",
+        "shift-right"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-147",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Green Build » au-delà de la simple compilation réussie ?",
+        "en": "What does a healthy \"Green Build\" signify beyond successful code compilation?"
+      },
+      "back": {
+        "fr": "Code compilé, analyse statique conforme, tests unitaires, tests d’intégration et vérifications critiques de fumée passés sans alerte ni test mis en quarantaine ignoré.",
+        "en": "Clean compilation, passing static checks, unit tests, integration tests, and smoke gates with no hidden disabled/ignored failures."
+      },
+      "tags": [
+        "ch2",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-148",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’exécution de tests UI lents ne doit-elle pas bloquer chaque commit développeur dans une CI rapide ?",
+        "en": "Why should slow end-to-end UI tests not block rapid per-commit CI feedback?"
+      },
+      "back": {
+        "fr": "Pour conserver un feedback commit < 5–10 min (unitaires + API rapides), tout en planifiant les suites UI plus longues en étape post-fusion ou nocturne.",
+        "en": "To keep commit feedback under 5–10 minutes (fast unit/API checks) while running heavier E2E UI suites asynchronously post-merge or nightly."
+      },
+      "tags": [
+        "ch2",
+        "ci",
+        "pipeline"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-149",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« automatisation de la configuration des environnements » (IaC) apporte aux tests Agile ?",
+        "en": "What benefit does automated environment provisioning (IaC) bring to Agile testing?"
+      },
+      "back": {
+        "fr": "Fournir des environnements iso-prod jetables pour chaque branche ou test d’acceptation, supprimant les conflits entre testeurs sur une unique recette partagée.",
+        "en": "Spinning up clean, production-like disposable environments per branch or test run, eliminating bottlenecks on one shared staging server."
+      },
+      "tags": [
+        "ch2",
+        "environments",
+        "iac"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-150",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans un sprint, comment planifier les activités liées à la « dette de test » (scripts cassés, données obsolètes) ?",
+        "en": "Within an Agile sprint, how should test debt work (broken scripts, stale fixtures) be planned?"
+      },
+      "back": {
+        "fr": "L’intégrer explicitement dans la charge de sprint (ou via règle boy-scout à chaque story) plutôt que de la repousser indéfiniment hors backlog.",
+        "en": "Explicitly allocate sprint capacity (or apply the boy-scout rule on every story) rather than deferring maintenance out of sight indefinitely."
+      },
+      "tags": [
+        "ch2",
+        "technical-debt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-151",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Livraison Continue » (Continuous Delivery) et « Déploiement Continu » (Continuous Deployment) ?",
+        "en": "What distinguishes Continuous Delivery from Continuous Deployment?"
+      },
+      "back": {
+        "fr": "En Livraison Continue, chaque build validé est prêt à partir en production sur décision humaine ; en Déploiement Continu, tout build passant la batterie automatisée est mis en production automatiquement.",
+        "en": "In Continuous Delivery, every passing build is releasable upon manual trigger; in Continuous Deployment, every passing build automatically ships to production."
+      },
+      "tags": [
+        "ch2",
+        "cd",
+        "devops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-152",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue le testeur dans l’« automatisation des données de test » en intégration continue ?",
+        "en": "What role does the tester play in test-data automation for Continuous Integration?"
+      },
+      "back": {
+        "fr": "Définir des fabriques de données isolées, anonymisées et déterministes (builders/fixtures) pour que les tests tournent en parallèle sans se corrompre mutuellement.",
+        "en": "Designing isolated, anonymized, deterministic data factories/fixtures so parallel test suites never collide or pollute shared state."
+      },
+      "tags": [
+        "ch2",
+        "test-data",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-153",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le statut global de test d’un sprint auprès du Product Owner sans rapport de 20 pages ?",
+        "en": "How should overall sprint test status be communicated to the Product Owner without a 20-page report?"
+      },
+      "back": {
+        "fr": "Via le tableau de bord sprint (stories Done vs en cours, résultats CI, sessions exploratoires réalisées, risques ouverts et bugs critiques résiduels).",
+        "en": "Via the sprint board and live metrics: stories Done vs in-flight, CI pass state, exploratory charters run, open risks, and critical residual defects."
+      },
+      "tags": [
+        "ch2",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-154",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de fumée » (Smoke Test) dans le cycle de vie d’un build Agile ?",
+        "en": "What role does a \"Smoke Test\" play in an Agile build lifecycle?"
+      },
+      "back": {
+        "fr": "Une courte batterie critique vérifiant après déploiement que l’application démarre et que les parcours vitaux répondent avant d’investir dans des tests approfondis.",
+        "en": "A brief critical check right after deployment confirming the build starts and core paths respond before deeper testing proceeds."
+      },
+      "tags": [
+        "ch2",
+        "smoke-test"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-155",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment ajuster la portée des tests de régression lorsqu’une modification n’affecte qu’un seul module isolé ?",
+        "en": "How can regression scope be optimized in Agile when a change touches only one isolated module?"
+      },
+      "back": {
+        "fr": "Exécuter les tests unitaires/API ciblés immédiatement sur les zones impactées (analyse d’impact) tout en conservant la suite complète sur le pipeline nocturne ou pré-release.",
+        "en": "Run targeted unit/API checks on impacted modules right away via impact analysis while keeping the full regression suite on merge/nightly gates."
+      },
+      "tags": [
+        "ch2",
+        "regression",
+        "impact-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-156",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le « Lead Time » et le « Cycle Time » intéressent-ils autant le testeur Agile que le Scrum Master ?",
+        "en": "Why do \"Lead Time\" and \"Cycle Time\" matter as much to Agile testers as to Scrum Masters?"
+      },
+      "back": {
+        "fr": "Un Cycle Time long révèle souvent des retards dus à des tests tardifs, des environnements instables ou des allers-retours fréquents de défauts.",
+        "en": "Rising Cycle Time frequently pinpoints delays from late testing, unstable environments, or repeated defect reopen loops."
+      },
+      "tags": [
+        "ch2",
+        "metrics",
+        "lean"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-157",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle bonne pratique adopter lorsqu’un test automatisé devient sporadiquement rouge (« flaky ») dans la CI ?",
+        "en": "What best practice applies when an automated test turns flaky in Agile CI?"
+      },
+      "back": {
+        "fr": "Corriger immédiatement la cause racine (attente asynchrone, fuite d’état, dépendance horloge) ou le placer brièvement en quarantaine tracée avec ticket prioritaire — jamais l’ignorer.",
+        "en": "Fix the root cause immediately (async race, shared state, clock dependency) or quarantine briefly under a high-priority ticket—never silently ignore red builds."
+      },
+      "tags": [
+        "ch2",
+        "flaky-tests",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-158",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le testeur soutient-il la gestion des versions (Release Management) lorsque l’équipe déploie plusieurs fois par semaine ?",
+        "en": "How do testers support Release Management when teams ship multiple times per week?"
+      },
+      "back": {
+        "fr": "En automatisant les critères de la Definition of Done, en sécurisant le rollback/feature toggle et en vérifiant les alertes de télémétrie juste après déploiement.",
+        "en": "By automating DoD checks, verifying rollback or feature-flag safety switches, and checking post-deploy telemetry alerts."
+      },
+      "tags": [
+        "ch2",
+        "release-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-159",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie un « Test d’acceptation alpha/bêta » ou « User Testing continu » en livraison Agile ?",
+        "en": "What value does continuous user feedback / beta cohorts add in Agile product delivery?"
+      },
+      "back": {
+        "fr": "Valider l’adéquation réelle au marché, l’ergonomie et les cas d’usage imprévus auprès d’un groupe restreint d’utilisateurs pilotes avant ouverture générale.",
+        "en": "Validating true market fit, usability, and unanticipated workflows with a small early-adopter cohort before general availability."
+      },
+      "tags": [
+        "ch2",
+        "uat",
+        "beta"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-160",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter que les tests de performance ou de sécurité soient repoussés à « la fin du trimestre » en Agile ?",
+        "en": "How can Agile teams prevent performance and security tests from slipping to \"end of quarter\"?"
+      },
+      "back": {
+        "fr": "En intégrant seuils de latence, budgets de requêtes et scanners de vulnérabilités/dépendances (SAST/SCA) dans les critères d’acceptation et la CI dès chaque sprint.",
+        "en": "By baking latency budgets, query thresholds, and automated SAST/SCA vulnerability scans into sprint acceptance criteria and CI gates."
+      },
+      "tags": [
+        "ch2",
+        "non-functional",
+        "shift-left"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-161",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle du « Test de non-régression visuel » dans une équipe produisant une interface web Agile ?",
+        "en": "What role does automated visual regression testing play in an Agile frontend team?"
+      },
+      "back": {
+        "fr": "Comparer automatiquement des captures de composants/pages pour repérer chevauchements CSS, décalages responsive ou polices cassées difficiles à asserter par DOM seul.",
+        "en": "Automatically diffing UI screenshots across builds to catch CSS overlaps, broken responsive layouts, or styling regressions missed by DOM assertions."
+      },
+      "tags": [
+        "ch2",
+        "visual-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-162",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le ratio couverture de code unitaire (ex. 80 %) ne prouve-t-il pas à lui seul la qualité d’une User Story ?",
+        "en": "Why does an 80% unit code coverage metric alone fail to prove a User Story works?"
+      },
+      "back": {
+        "fr": "Des tests unitaires avec assertions faibles ou sans validation de l’intégration réelle entre services/UI peuvent exécuter 80 % des lignes tout en laissant passer des défauts métier majeurs.",
+        "en": "Unit tests with weak assertions or mocked-out boundaries can hit 80% line coverage while missing critical integration and business-rule failures."
+      },
+      "tags": [
+        "ch2",
+        "coverage",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-163",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que désigne l’expression « Testability by Design » lors de la conception technique d’une story ?",
+        "en": "What does \"Testability by Design\" mean during technical story design?"
+      },
+      "back": {
+        "fr": "Prévoir dès le code des identifiants stables (`data-testid`), des journaux structurés, l’injection de dépendances (pour mocks/horloge) et des API de réinitialisation de test.",
+        "en": "Building stable selectors (`data-testid`), structured logs, dependency injection (for clocks/gateways), and clean test-reset hooks right into code."
+      },
+      "tags": [
+        "ch2",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-164",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste le « Shift-Right » ou test en production contrôlé pour une équipe Agile ?",
+        "en": "What does controlled \"Shift-Right\" testing in production look like for an Agile team?"
+      },
+      "back": {
+        "fr": "Tests synthétiques périodiques, déploiement bleu/vert, bascules de trafic progressives et surveillance en temps réel des taux d’erreur/SLO après mise en ligne.",
+        "en": "Scheduled synthetic probes, blue/green swaps, progressive traffic shifting, and live error/SLO monitoring right after release."
+      },
+      "tags": [
+        "ch2",
+        "shift-right"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-165",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch2",
+      "objectiveId": "FA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment adapter la gestion de configuration des tests lorsque le code et les scripts d’automatisation cohabitent dans le même dépôt Git ?",
+        "en": "How does storing test automation in the same Git repository as application code help configuration management?"
+      },
+      "back": {
+        "fr": "Chaque branche et chaque commit contient exactement la version des tests correspondant au code produit, facilitant revues de PR atomiques et retours arrière cohérents.",
+        "en": "Every branch and commit pairs exact test updates with matching app code, enabling atomic PR reviews and clean synchronized rollbacks."
+      },
+      "tags": [
+        "ch2",
+        "git",
+        "configuration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-166",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez un exemple concret d’un scénario Gherkin (BDD) bien rédigé en `Given / When / Then`.",
+        "en": "Give a concrete example of a well-written BDD Gherkin scenario using `Given / When / Then`."
+      },
+      "back": {
+        "fr": "`Given` un client avec 150 € dans son panier / `When` il applique le code PROMO10 / `Then` le total passe à 135 € — centré sur l’intention métier, sans clics techniques.",
+        "en": "`Given` a customer has €150 in their cart / `When` they apply code PROMO10 / `Then` the total becomes €135 — declarative business behavior without brittle UI clicks."
+      },
+      "tags": [
+        "ch3",
+        "bdd",
+        "gherkin"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-167",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle erreur classique transforme un scénario BDD en script de test fragile et difficile à maintenir ?",
+        "en": "What classic mistake turns a BDD scenario into a brittle, hard-to-maintain test script?"
+      },
+      "back": {
+        "fr": "Écrire des scénarios impératifs remplis de détails IHM (« Quand je clique sur #btn-submit et tape dans input_2 ») au lieu de décrire l’intention métier déclarative.",
+        "en": "Writing imperative UI scripts (\"When I click #btn-submit and type into field_2\") instead of declarative domain actions."
+      },
+      "tags": [
+        "ch3",
+        "bdd",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-168",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert `Scenario Outline` + `Examples` dans Cucumber/Gherkin pour tester les valeurs limites ?",
+        "en": "How do `Scenario Outline` and `Examples` tables in Cucumber/Gherkin help boundary testing?"
+      },
+      "back": {
+        "fr": "Paramétrer un même modèle comportemental sur plusieurs lignes de données (bornes valides/invalides) sans dupliquer le texte du scénario.",
+        "en": "Driving one behavior template across multiple rows of boundary/partition inputs without duplicating scenario steps."
+      },
+      "tags": [
+        "ch3",
+        "bdd",
+        "bva"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-169",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert le mot-clé `Background` en Gherkin (BDD) et quel piège éviter lors de son usage ?",
+        "en": "What does the Gherkin `Background` keyword do in BDD, and what anti-pattern should be avoided?"
+      },
+      "back": {
+        "fr": "`Background` factorise des préconditions `Given` communes à tous les scénarios d’un fichier `.feature` ; il faut le garder très court (2–3 étapes métier) sans cacher d’étapes techniques lourdes qui brouillent la lecture.",
+        "en": "`Background` factors shared `Given` setup steps across scenarios in a feature file; keep it brief and business-focused so hidden heavy setup does not obscure scenario intent."
+      },
+      "tags": [
+        "ch3",
+        "bdd",
+        "gherkin"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-170",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi l’ATDD complète-t-il le TDD dans la boucle de développement Agile (double boucle) ?",
+        "en": "How does ATDD complement TDD in the Agile \"double-loop\" workflow?"
+      },
+      "back": {
+        "fr": "La boucle externe ATDD valide que l’on construit le bon comportement métier (test d’acceptation) ; les boucles internes TDD vérifient que chaque composant est bien construit techniquement.",
+        "en": "The outer ATDD loop confirms we build the right business behavior (acceptance test); inner TDD loops confirm each unit is built cleanly."
+      },
+      "tags": [
+        "ch3",
+        "atdd",
+        "tdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-171",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans les Quadrants de Test Agile, donnez deux exemples concrets appartenant au Quadrant 1 (Q1).",
+        "en": "In the Agile Testing Quadrants, give two concrete examples belonging to Quadrant 1 (Q1)."
+      },
+      "back": {
+        "fr": "Tests unitaires (TDD) et tests d’intégration de composants — automatisés, orientés technologie, soutenant l’équipe de développement.",
+        "en": "Unit tests (TDD) and component integration tests — automated, technology-facing tests supporting the build team."
+      },
+      "tags": [
+        "ch3",
+        "quadrants"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-172",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez deux exemples concrets appartenant au Quadrant 2 (Q2) des Quadrants Agile.",
+        "en": "Give two concrete examples belonging to Quadrant 2 (Q2) of the Agile Testing Quadrants."
+      },
+      "back": {
+        "fr": "Tests fonctionnels automatisés issus d’exemples BDD/ATDD, tests de story et prototypes/maquettes validés — orientés métier, soutenant l’équipe.",
+        "en": "Automated functional acceptance tests (BDD/ATDD), story tests, and UI prototypes/wireframes — business-facing tests guiding development."
+      },
+      "tags": [
+        "ch3",
+        "quadrants"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-173",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez deux exemples concrets appartenant au Quadrant 3 (Q3) des Quadrants Agile.",
+        "en": "Give two concrete examples belonging to Quadrant 3 (Q3) of the Agile Testing Quadrants."
+      },
+      "back": {
+        "fr": "Tests exploratoires en sessions, tests d’utilisabilité sur utilisateurs réels et tests d’acceptation utilisateur (UAT) — orientés métier, critique du produit (souvent manuels).",
+        "en": "Exploratory testing sessions, usability testing with real users, and User Acceptance Testing (UAT) — business-facing product critique (mostly manual)."
+      },
+      "tags": [
+        "ch3",
+        "quadrants"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-174",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez deux exemples concrets appartenant au Quadrant 4 (Q4) des Quadrants Agile.",
+        "en": "Give two concrete examples belonging to Quadrant 4 (Q4) of the Agile Testing Quadrants."
+      },
+      "back": {
+        "fr": "Tests de charge/performance, tests d’intrusion/vulnérabilité OWASP, tests de reprise après panne et tests de compatibilité — orientés technologie, critique du produit (outillés).",
+        "en": "Load/performance tests, OWASP security/penetration scans, failover resilience, and \"-ilities\" checks — technology-facing product critique (tool-assisted)."
+      },
+      "tags": [
+        "ch3",
+        "quadrants"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-175",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’équipe Agile utilise-t-elle le « Planning Poker » pour inclure l’effort de test dans l’estimation d’une story ?",
+        "en": "How does an Agile team use Planning Poker to include testing effort in a story estimate?"
+      },
+      "back": {
+        "fr": "Les testeurs votent avec le reste de l’équipe en incluant conception, préparation de données, automatisation et exploration dans la complexité globale ; les écarts de vote déclenchent une discussion immédiate.",
+        "en": "Testers vote alongside developers, factoring test design, data setup, automation, and exploration into total story complexity; divergent cards spark instant discussion."
+      },
+      "tags": [
+        "ch3",
+        "planning-poker",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-176",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment conduire une analyse rapide des risques qualité en sprint lors du « Sprint Planning » ?",
+        "en": "How is lightweight quality risk analysis performed during Sprint Planning?"
+      },
+      "back": {
+        "fr": "En quelques minutes par story : demander où un échec ferait le plus mal aux utilisateurs (impact) et où la complexité/nouveauté technique est maximale (probabilité), puis adapter l’effort de test.",
+        "en": "Spend a few minutes per story rating user impact of failure and technical complexity/change likelihood, then scale testing depth accordingly."
+      },
+      "tags": [
+        "ch3",
+        "risk-based-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-177",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste le « Pair Exploratory Testing » (test exploratoire en binôme) en Agile ?",
+        "en": "How does Pair Exploratory Testing (driver + navigator) uncover deeper Agile defects?"
+      },
+      "back": {
+        "fr": "Un pilote exécute l’exploration au clavier pendant qu’un navigateur observe, suggère des pistes d’attaque, note les écarts et questionne les hypothèses en temps réel.",
+        "en": "One driver interacts with the system while a navigator observes behavior, proposes edge attacks, logs findings, and challenges implicit assumptions live."
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "pairing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-178",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert la technique des « Tours » (Test Tours, ex. Guidebook Tour, Saboteur Tour, Supermodel Tour) en test exploratoire ?",
+        "en": "How are \"Testing Tours\" (e.g., Guidebook, Saboteur, Supermodel tours) used in exploratory testing?"
+      },
+      "back": {
+        "fr": "Donner un angle d’attaque ludique et ciblé à chaque session exploratoire : par ex. suivre fidèlement le manuel (Guidebook), couper ressources/réseau (Saboteur) ou inspecter uniquement l’UI (Supermodel).",
+        "en": "Giving each exploratory session a focused theme: following docs literally (Guidebook), starving resources/network (Saboteur), or inspecting visual layout alone (Supermodel)."
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "tours"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-179",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment rédiger une charte de session exploratoire concise en suivant le modèle « Explore [cible] With [ressources] To discover [informations] » ?",
+        "en": "How is an exploratory charter structured using \"Explore [target] With [resources] To discover [info]\"?"
+      },
+      "back": {
+        "fr": "Exemple : « Explorer le tunnel de paiement mobile Avec carte expirée et réseau 3G lent Pour découvrir d’éventuels doubles débits ou blocages de session. »",
+        "en": "Example: \"Explore mobile checkout With expired cards and throttled 3G To discover duplicate charges or stuck session states.\""
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "charter"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-180",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans Session-Based Test Management (SBTM), que représentent les trois proportions « TBS » (Test Design/Execution, Bug Investigation, Setup/Admin) ?",
+        "en": "In Session-Based Test Management (SBTM), what do the \"TBS\" metrics track?"
+      },
+      "back": {
+        "fr": "La répartition du temps de session entre Test réel (conception/exécution), investigation/rapport de Bugs, et Setup/configuration environnement — révélant les pertes de temps outillage.",
+        "en": "The split of session time across actual Testing, Bug investigation/reporting, and Setup/administration—exposing environment friction."
+      },
+      "tags": [
+        "ch3",
+        "sbtm",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-181",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie l’heuristique « FEW HICCUPPS » pour juger s’il y a un problème sans spécification écrite complète ?",
+        "en": "How does an oracle heuristic like \"FEW HICCUPPS\" help Agile testers spot defects without exhaustive specs?"
+      },
+      "back": {
+        "fr": "Comparer le système à l’expérience attendue : cohérence avec Familiarité, Explicabilité, Monde réel, Historique, Image, Comparaison avec produits concurrents, Utilisateur, But et Standards.",
+        "en": "Evaluating consistency against Familiarity, Explainability, World, History, Image, Comparable products, Claims, Users, Purpose, and Statutes/Standards."
+      },
+      "tags": [
+        "ch3",
+        "oracles",
+        "exploratory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-182",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’heuristique « CRUD » (Create, Read, Update, Delete) utilisée en conception rapide de tests Agile ?",
+        "en": "How does the \"CRUD\" checklist help rapid test design in Agile sprints?"
+      },
+      "back": {
+        "fr": "S’assurer systématiquement pour toute entité métier qu’on a testé création, lecture/recherche, modification (et concurrence), suppression (et dépendances/orphelins).",
+        "en": "Ensuring every domain entity is verified across Creation, Reading/searching, Updating (including concurrent edits), and Deletion (plus orphan/permission checks)."
+      },
+      "tags": [
+        "ch3",
+        "heuristics",
+        "crud"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-183",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment appliquer l’heuristique « Zero – One – Many » (ZOM) à un test Agile ?",
+        "en": "How do you apply the \"Zero – One – Many\" heuristic in Agile testing?"
+      },
+      "back": {
+        "fr": "Tester systématiquement une liste ou collection vide (0 élément : état vide UI), avec exactement 1 élément (singulier/pluriel, pagination), puis avec un grand volume (Many : pagination, performance).",
+        "en": "Testing empty lists (0 items: empty state), single item (1 item: singular UI/boundary), and large collections (Many: pagination, layout overflow, performance)."
+      },
+      "tags": [
+        "ch3",
+        "heuristics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-184",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste le « Mind Mapping » comme technique légère de conception de tests en Agile ?",
+        "en": "How does \"Mind Mapping\" serve as a lightweight test design technique in Agile?"
+      },
+      "back": {
+        "fr": "Cartographier visuellement en branches les parcours, données, risques et types de tests d’une fonctionnalité en quelques minutes, servant à la fois de check-list d’équipe et de support de suivi.",
+        "en": "Visually branching flows, inputs, risks, and test types of a feature in minutes, acting as both a collaborative checklist and coverage tracker."
+      },
+      "tags": [
+        "ch3",
+        "mind-mapping"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-185",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’appelle-t-on « Soap Opera Testing » en test exploratoire Agile ?",
+        "en": "What are \"Soap Opera Tests\" in Agile exploratory testing?"
+      },
+      "back": {
+        "fr": "Des scénarios hyper-condensés enchaînant coup sur coup un maximum d’événements extrêmes et réalistes (annulation, changement de devise, coupure réseau, ré-authentification) dans un seul flux de bout en bout.",
+        "en": "Condensed, high-drama end-to-end scenarios cramming multiple rare twists (cancellations, currency swaps, network drops, re-auth) into a single continuous session."
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "soap-opera"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-186",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment utiliser les techniques classiques (EP, BVA, tables de décision) sans lourdeur dans un sprint de deux semaines ?",
+        "en": "How are classic black-box techniques (EP, BVA, decision tables) applied cleanly inside a two-week sprint?"
+      },
+      "back": {
+        "fr": "En les utilisant directement pendant les ateliers Trois Amigos pour choisir les lignes d’exemples BDD (`Scenario Outline`), assurant une couverture rigoureuse dès le départ.",
+        "en": "By applying them right inside Three Amigos refinement to pick concise BDD `Scenario Outline` example rows before coding starts."
+      },
+      "tags": [
+        "ch3",
+        "ep",
+        "bva",
+        "bdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-187",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure l’enregistrement automatique des journaux, vidéos ou captures lors de l’échec d’un test automatisé en CI ?",
+        "en": "What benefit comes from automatically capturing screenshots, traces, and logs on CI test failures?"
+      },
+      "back": {
+        "fr": "Permettre aux développeurs et testeurs de diagnostiquer la cause d’échec en quelques secondes sans devoir reproduire péniblement l’incident localement.",
+        "en": "Enabling devs and testers to diagnose failure root causes within seconds without wasting hours trying to reproduce locally."
+      },
+      "tags": [
+        "ch3",
+        "tools",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-188",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« approche par mots-clés » (Keyword-Driven) ou le patron « Screenplay » dans l’automatisation Agile ?",
+        "en": "How do Keyword-Driven or Screenplay patterns keep Agile UI/API test suites maintainable?"
+      },
+      "back": {
+        "fr": "Ils découpent les actions métier réutilisables (« SeConnecter », « ValiderPanier ») des détails techniques d’implémentation, permettant au testeur d’assembler des flux lisibles.",
+        "en": "They encapsulate reusable domain tasks (\"Login\", \"Checkout\") away from low-level driver calls, letting testers compose readable, maintainable flows."
+      },
+      "tags": [
+        "ch3",
+        "automation",
+        "patterns"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-189",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle jouent les outils d’analyse statique intégrés (ESLint, SonarQube, TypeScript strict) dans une équipe Agile ?",
+        "en": "What role do integrated static analyzers (ESLint, SonarQube, strict TypeScript) play in an Agile team?"
+      },
+      "back": {
+        "fr": "Détecter automatiquement failles de sécurité, code mort, dettes de complexité et erreurs de types avant même que le testeur ne touche la fonctionnalité.",
+        "en": "Catching security smells, dead code, complexity debt, and type bugs automatically before any tester even exercises the feature."
+      },
+      "tags": [
+        "ch3",
+        "static-analysis",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-190",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « virtualisation de services » ou les « doubles de test » (Mocks / Stubs / WireMock) dans une équipe Agile ?",
+        "en": "How do service virtualization and test doubles (Mocks/Stubs/WireMock) unblock Agile sprints?"
+      },
+      "back": {
+        "fr": "Ils simulent une API partenaire indisponible, lente ou facturée à l’appel, permettant de tester erreurs réseau, timeouts et cas limites dès le sprint.",
+        "en": "They simulate unavailable, slow, or metered partner APIs so teams can test timeouts, 500 errors, and edge payloads inside the sprint."
+      },
+      "tags": [
+        "ch3",
+        "mocking",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-191",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment choisir les outils de gestion de tâches/tests (ex. Jira, Linear, GitHub Issues, wiki) pour une équipe Agile ?",
+        "en": "What criteria guide choosing Agile task and test management tools (e.g., Jira, Linear, GitHub Issues, wikis)?"
+      },
+      "back": {
+        "fr": "Privilégier transparence partagée sur le même outil que les développeurs, intégration native avec Git/CI, friction minimale de saisie et traçabilité légère.",
+        "en": "Shared visibility in the same tool devs use, native Git/CI integration, minimal entry friction, and lightweight traceability."
+      },
+      "tags": [
+        "ch3",
+        "tools",
+        "alm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-192",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert la technique « Example Mapping » (Matt Wynne) avant de rédiger des scénarios BDD ?",
+        "en": "How does \"Example Mapping\" help teams before writing BDD scenarios?"
+      },
+      "back": {
+        "fr": "Atelier visuel de 25 min avec post-its (jaune=story, bleu=règles, vert=exemples concrets, rouge=questions ouvertes) pour exposer rapidement si une story est prête ou encore trop floue.",
+        "en": "A 25-minute structured card workshop (yellow=story, blue=rules, green=examples, red=open questions) that quickly reveals whether a story is clear or under-specified."
+      },
+      "tags": [
+        "ch3",
+        "example-mapping",
+        "bdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-193",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans quelle situation privilégier des tests exploratoires purs plutôt que l’automatisation d’une fonctionnalité Agile ?",
+        "en": "When should Agile teams favor human exploratory testing over test automation?"
+      },
+      "back": {
+        "fr": "Pour évaluer l’ergonomie/expérience utilisateur, explorer une nouvelle fonctionnalité instable/prototype, ou investiguer des comportements émergents imprévus.",
+        "en": "When evaluating UX feel, probing a brand-new unstable prototype, or hunting unanticipated emergent interactions."
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-194",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Mutation Testing » dans les pratiques d’ingénierie Agile avancées ?",
+        "en": "What is \"Mutation Testing\" in advanced Agile engineering?"
+      },
+      "back": {
+        "fr": "Injecter automatiquement de petits défauts artificiels (« mutants », ex. changer `>` en `>=`) dans le code pour vérifier si la suite de tests unitaires échoue vraiment et détecte le défaut.",
+        "en": "Automatically seeding tiny artificial bugs (\"mutants\", e.g., flipping `>` to `>=`) to verify whether the unit test suite actually fails and catches them."
+      },
+      "tags": [
+        "ch3",
+        "mutation-testing",
+        "tdd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-195",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester efficacement l’accessibilité (a11y) dès les sprints Agile sans attendre un audit final ?",
+        "en": "How can accessibility (a11y) be tested continuously inside Agile sprints instead of a late audit?"
+      },
+      "back": {
+        "fr": "Combiner linters/axe-core automatisés en CI sur les composants UI et vérifications manuelles rapides de navigation clavier et lecteur d’écran à chaque story front.",
+        "en": "Pair automated CI checks (axe-core/linters) on UI components with fast manual keyboard-tab and screen-reader sanity checks per frontend story."
+      },
+      "tags": [
+        "ch3",
+        "accessibility",
+        "agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-196",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure l’usage de générateurs de données synthétiques ou « Faker » dans les tests Agile ?",
+        "en": "What advantage do synthetic data generators / \"Faker\" libraries bring to Agile tests?"
+      },
+      "back": {
+        "fr": "Produire rapidement des données variées réalistes (noms accentués, formats internationaux, longueurs limites) sans exposer de vraies données clients sensibles (RGPD).",
+        "en": "Generating diverse realistic edge inputs (accents, locales, long strings) rapidly without touching sensitive production customer PII."
+      },
+      "tags": [
+        "ch3",
+        "test-data",
+        "privacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-197",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« exécution parallèle » des tests automatisés et quel prérequis impose-t-elle ?",
+        "en": "What is parallel test execution and what design prerequisite does it demand?"
+      },
+      "back": {
+        "fr": "Lancer les suites sur plusieurs workers simultanés pour réduire le temps de CI ; cela exige des tests strictement isolés ne partageant ni lignes de base mutables ni fichiers globaux.",
+        "en": "Distributing suites across concurrent workers to slash CI duration; requires strict test isolation with zero shared mutable DB rows or global state."
+      },
+      "tags": [
+        "ch3",
+        "parallel-execution",
+        "ci"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-198",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mesurer la couverture des tests exploratoires en Agile sans compter de faux « cas de test » ?",
+        "en": "How can exploratory test coverage be tracked in Agile without fabricating artificial test-case counts?"
+      },
+      "back": {
+        "fr": "En associant chaque session SBTM aux stories, risques ou zones du mind map explorés, avec le statut de confiance/risque restant et le débriefing PO.",
+        "en": "By mapping each SBTM session to covered stories, risks, or mind-map branches alongside confidence ratings and PO debrief outcomes."
+      },
+      "tags": [
+        "ch3",
+        "exploratory",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-199",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que faut-il vérifier avant d’intégrer un nouvel outil open-source d’automatisation dans une équipe Agile ?",
+        "en": "What should be evaluated before adopting an open-source automation tool in an Agile team?"
+      },
+      "back": {
+        "fr": "Activité de la communauté, compatibilité avec la pile applicative (langage des devs), vitesse d’exécution, stabilité des sélecteurs et courbe d’apprentissage pour toute l’équipe.",
+        "en": "Community health, alignment with the team’s main tech stack/language, execution speed, selector reliability, and learning curve across the squad."
+      },
+      "tags": [
+        "ch3",
+        "tools",
+        "selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctflat-200",
+      "certificationId": "ctfl-at",
+      "versionId": "ctfl-at-v1.0",
+      "chapterId": "ctfl-at-v1.0-ch3",
+      "objectiveId": "FA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’état d’esprit « qualité = responsabilité collective » transforme-t-il les outils de test en outils d’équipe plutôt qu’en outils réservés aux QA ?",
+        "en": "Why does shared quality ownership turn testing tools into whole-team assets rather than QA-only silos?"
+      },
+      "back": {
+        "fr": "Quand développeurs, testeurs et PO utilisent les mêmes suites BDD, linters et tableaux CI dans le même dépôt, chacun peut diagnostiquer, enrichir et maintenir les garde-fous qualité.",
+        "en": "When devs, testers, and POs share BDD specs, linters, and CI suites in the same repository, everyone can diagnose, extend, and maintain quality safeguards."
+      },
+      "tags": [
+        "ch3",
+        "whole-team",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTFL-AT v1.0 Applied Series II",
         "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
         "author": "ISTQB Academy Editorial Team",
         "lastVerifiedAt": "2026-11-20",
