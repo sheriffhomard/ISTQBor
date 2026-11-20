@@ -1,4 +1,4 @@
-import type { Flashcard, Lesson, ProvenanceMetadata, Question } from '../types/domain';
+import type { Lesson, ProvenanceMetadata, Question } from '../types/domain';
 
 const PROVENANCE: ProvenanceMetadata = {
   source: 'ISTQB Academy Original Curriculum — Agile Tester Starter Pack',
@@ -7,8 +7,6 @@ const PROVENANCE: ProvenanceMetadata = {
   lastVerifiedAt: '2026-11-19',
   status: 'published',
 };
-
-const NOW = '2026-11-19T00:00:00.000Z';
 
 export const AGILE_LESSONS: Lesson[] = [
   {
@@ -54,44 +52,7 @@ export const AGILE_LESSONS: Lesson[] = [
   },
 ];
 
-export const AGILE_FLASHCARDS: Flashcard[] = [
-  {
-    id: 'fc-ctflat-01',
-    certificationId: 'ctfl-at',
-    versionId: 'ctfl-at-v1.0',
-    chapterId: 'ctfl-at-v1.0-ch1',
-    objectiveId: 'FA-1.1.1',
-    languageScope: 'bilingual',
-    front: { fr: 'Quelles sont les 4 valeurs du Manifeste Agile ?', en: 'What are the 4 values of the Agile Manifesto?' },
-    back: {
-      fr: '1) Individus et interactions 2) Logiciel fonctionnel 3) Collaboration avec les clients 4) Adaptation au changement.',
-      en: '1) Individuals & interactions 2) Working software 3) Customer collaboration 4) Responding to change.',
-    },
-    tags: ['agile', 'manifesto'],
-    isCustom: false,
-    provenance: PROVENANCE,
-    createdAt: NOW,
-    updatedAt: NOW,
-  },
-  {
-    id: 'fc-ctflat-02',
-    certificationId: 'ctfl-at',
-    versionId: 'ctfl-at-v1.0',
-    chapterId: 'ctfl-at-v1.0-ch2',
-    objectiveId: 'FA-2.1.1',
-    languageScope: 'bilingual',
-    front: { fr: 'Quel rôle joue l’intégration continue (CI) pour les testeurs Agile ?', en: 'What role does Continuous Integration (CI) play for Agile testers?' },
-    back: {
-      fr: 'Elle automatise compilation et suites rapides à chaque commit, détectant immédiatement les régressions et libérant du temps pour les tests exploratoires.',
-      en: 'It automates builds and fast checks per commit, catching regressions immediately and freeing testers for exploratory charters.',
-    },
-    tags: ['agile', 'ci'],
-    isCustom: false,
-    provenance: PROVENANCE,
-    createdAt: NOW,
-    updatedAt: NOW,
-  },
-];
+export { CTFL_AT_FLASHCARDS as AGILE_FLASHCARDS } from './flashcards_ctfl_at';
 
 export const AGILE_QUESTIONS: Question[] = [
   {

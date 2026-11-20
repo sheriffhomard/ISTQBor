@@ -1,5 +1,13 @@
 # Journal des modifications — ISTQB Academy
 
+## [1.0.2] — 100 Flashcards bilingues FR/EN pour chaque certification (1 300 au total)
+
+### Ajouts
+- **Couverture complète de flashcards bilingues (13 × 100 = 1 300 cartes originales)** :
+  - `CTFL` (`ctfl-v4.0`), `CTFL-AT` (`ctfl-at-v1.0`), `CTAL-TM` (`ctal-tm-v3.0`), `CTAL-TA` (`ctal-ta-v3.1.2`), `CTAL-TTA` (`ctal-tta-v4.0`), `CT-TAS` (`ct-tas-v1.0`), `CT-TAE` historique (`ct-tae-v1.0`), `CT-AI` (`ct-ai-v1.0`), `CT-PT` (`ct-pt-v1.0`), `CT-SEC` (`ct-sec-v1.0`), `CT-MAT` (`ct-mat-v1.0`), `CTEL-TM` (`ctel-tm-v1.0`) et `CTFL 2011` (`ctfl-v2011`).
+  - Syllabi complets (chapitres, sections et objectifs pédagogiques bilingues) reliés aux niveaux Foundation, Advanced, Specialist, Expert et éditions historiques dans IndexedDB et exportés dans `content/flashcards/*.json`.
+  - Découpage des bundles de données flashcards (`vite.config.ts`) et validation intégrale par Zod + tests d’intégration (`1 300` cartes, `0` doublon, intégrité référentielle complète).
+
 ## [1.0.1] — Pack Flashcards CT-AI (Testing with Artificial Intelligence)
 
 ### Ajouts

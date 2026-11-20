@@ -1,0 +1,3010 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-ctpt-001",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels sont les trois piliers de l’Efficacité de Performance selon ISO/IEC 25010 ?",
+        "en": "What are the three sub-characteristics of Performance Efficiency in ISO/IEC 25010?"
+      },
+      "back": {
+        "fr": "1) Comportement temporel (Time Behaviour : temps de réponse, débit). 2) Utilisation des ressources (Resource Utilization : CPU, mémoire, I/O, réseau). 3) Capacité (Capacity : limites maximales soutenables).",
+        "en": "1) Time Behaviour (response times, latency, throughput). 2) Resource Utilization (CPU, RAM, disk, network). 3) Capacity (maximum supported users/data limits)."
+      },
+      "tags": [
+        "ch1",
+        "iso25010"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-002",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence distingue le « Test de Charge » (Load) du « Test de Stress » (Stress) ?",
+        "en": "How does Load Testing differ from Stress Testing?"
+      },
+      "back": {
+        "fr": "Le test de charge évalue le comportement sous charge normale et pic prévu dans les SLA ; le test de stress pousse la charge au-delà des limites prévues pour identifier point de rupture et mode de dégradation.",
+        "en": "Load testing evaluates behavior under expected normal and peak traffic; Stress testing pushes beyond design limits to expose breaking points and failure modes."
+      },
+      "tags": [
+        "ch1",
+        "test-types"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-003",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel objectif spécifique poursuit un « Test d’Endurance » (Endurance / Soak Test) ?",
+        "en": "What defects does an Endurance (Soak) Test specifically uncover?"
+      },
+      "back": {
+        "fr": "Maintenir une charge soutenue durant de longues heures ou jours pour révéler fuites mémoire, saturation de pools de connexions, croissance incontrôlée de journaux ou dégradation de performances dans le temps.",
+        "en": "Sustaining realistic load over many hours or days to expose memory leaks, connection-pool exhaustion, disk-log bloat, and gradual throughput degradation."
+      },
+      "tags": [
+        "ch1",
+        "soak-test"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-004",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste un « Test de Pointe » (Spike Testing) ?",
+        "en": "What does Spike Testing evaluate?"
+      },
+      "back": {
+        "fr": "La réaction d’un système à une hausse brutale et massive du trafic en quelques secondes suivie d’une décrue rapide (ex. ouverture billetterie, notification push, Black Friday) et son retour à la normale.",
+        "en": "How a system absorbs sudden extreme traffic surges within seconds followed by rapid drop-offs (e.g., ticket drops, flash sales) and whether it recovers cleanly."
+      },
+      "tags": [
+        "ch1",
+        "spike-test"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-005",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie un « Test de Scalabilité » (Scalability Testing) ?",
+        "en": "What does Scalability Testing measure?"
+      },
+      "back": {
+        "fr": "La capacité du système à absorber davantage de charge lorsque l’on ajoute des ressources matérielles/cloud (Scale-Up ou Scale-Out) de manière proportionnelle ou prévisible.",
+        "en": "Whether system throughput or capacity increases proportionally when computing resources are added vertically (Scale-Up) or horizontally (Scale-Out)."
+      },
+      "tags": [
+        "ch1",
+        "scalability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-006",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez « Volume Testing » et « Load Testing ».",
+        "en": "Distinguish Volume Testing from Load Testing."
+      },
+      "back": {
+        "fr": "Load Testing fait varier la charge concurrente d’utilisateurs/requêtes dans le temps ; Volume Testing évalue le comportement lorsque la base de données ou fichiers atteignent des volumes de données massifs (millions de lignes).",
+        "en": "Load Testing varies concurrent user/request traffic; Volume Testing verifies system speed and stability when processing huge stored data volumes (millions of records)."
+      },
+      "tags": [
+        "ch1",
+        "volume"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-007",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez « Temps de réponse » (Response Time) vs « Latence réseau » vs « Temps de traitement serveur ».",
+        "en": "Distinguish End-to-End Response Time, Network Latency, and Server Processing Time."
+      },
+      "back": {
+        "fr": "Temps de réponse complet = temps d’envoi réseau + attente file + traitement serveur/BDD + retour réseau + rendu client éventuel ; la latence réseau est le seul temps de transit aller-retour des paquets.",
+        "en": "Response time covers client send + network transit + server queue/processing + return + client rendering; network latency is solely packet round-trip transit time."
+      },
+      "tags": [
+        "ch1",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-008",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez le « Débit » (Throughput) en tests de performance.",
+        "en": "Define Throughput in performance testing."
+      },
+      "back": {
+        "fr": "Le nombre d’unités de travail traitées par unité de temps : requêtes/seconde (RPS), transactions/seconde (TPS), octets/seconde ou messages/minute.",
+        "en": "The rate of completed work units per unit time: requests per second (RPS), transactions per second (TPS), bytes/s, or jobs/minute."
+      },
+      "tags": [
+        "ch1",
+        "throughput"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-009",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’énonce la Loi de Little (Little’s Law) fondamentale en modélisation de charge ?",
+        "en": "State Little’s Law and explain how performance engineers use it."
+      },
+      "back": {
+        "fr": "L = λ × W : le nombre moyen d’utilisateurs/requêtes actifs dans le système (Concurrency L) égale le taux d’arrivée/débit (λ) multiplié par le temps de séjour moyen (W, incluant think time).",
+        "en": "L = λ × W: average concurrent items in system (L) equals arrival/throughput rate (λ) times average residence time (W, including pacing/think time)."
+      },
+      "tags": [
+        "ch1",
+        "littles-law"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-010",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi confond-on souvent « Utilisateurs simultanés » (Concurrent Users) et « Utilisateurs connectés totaux » ?",
+        "en": "Why must specs distinguish Active Concurrent Users vs. Simultaneous Requesting Users vs. Total Registered Users?"
+      },
+      "back": {
+        "fr": "10 000 employés connectés à un intranet avec un think time de 60 s n’émettent qu’une fraction de requêtes exactement au même instant ; confondre les deux fausse d’un facteur 10 le dimensionnement.",
+        "en": "10,000 logged-in users pausing between clicks generate far fewer simultaneous HTTP hits per second than 10,000 firing at once; mixing them skews sizing by 10x+."
+      },
+      "tags": [
+        "ch1",
+        "concurrency"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-011",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie l’effet « Point d’inflexion / Genou de saturation » (Knee Point) sur une courbe Charge vs Temps de réponse ?",
+        "en": "What does the \"Knee Point\" represent on a Load vs. Response Time curve?"
+      },
+      "back": {
+        "fr": "Le seuil de charge au-delà duquel une ressource critique atteint la saturation (~70–85 %) : les files d’attente explosent et le temps de réponse grimpe brutalement de façon non linéaire.",
+        "en": "The load threshold where a key resource saturates: queuing explodes, response times shoot upward sharply, and throughput plateaus or drops."
+      },
+      "tags": [
+        "ch1",
+        "saturation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-012",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre Performance technique côté serveur (API/Backend) et Performance perçue côté client (Web Vitals / UI) ?",
+        "en": "Contrast Backend Server Performance with Client-Side Perceived Performance."
+      },
+      "back": {
+        "fr": "Une API peut répondre en 40 ms mais l’utilisateur attendre 4 secondes si le navigateur télécharge 8 Mo de JS ou bloque sur le rendu DOM (LCP, INP, CLS).",
+        "en": "An API may reply in 40 ms while the browser stalls 4 seconds parsing 8 MB of JS and blocking layout rendering (LCP, INP, CLS)."
+      },
+      "tags": [
+        "ch1",
+        "frontend-perf"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-013",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un SLA (Service Level Agreement) de performance et quels éléments précis doit-il fixer ?",
+        "en": "What precise clauses must a measurable Performance SLA / SLO define?"
+      },
+      "back": {
+        "fr": "Volume/débit cible exact (TPS/utilisateurs), percentiles de latence par transaction (ex. p95 < 400 ms, p99 < 900 ms), taux d’erreur maximal (< 0,1 %) et limites d’utilisation des ressources.",
+        "en": "Exact target workload (TPS/users), per-transaction latency percentiles (e.g., p95 < 400 ms, p99 < 900 ms), error budget (<0.1%), and resource ceilings."
+      },
+      "tags": [
+        "ch1",
+        "sla"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-014",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des tests de performance exécutés uniquement la veille de la mise en production échouent-ils souvent stratégiquement ?",
+        "en": "Why do late-stage pre-release-only performance tests frequently fail projects?"
+      },
+      "back": {
+        "fr": "Les défauts de performance proviennent souvent d’architecture, de modèle de données ou d’appels synchrones profonds nécessitant semaines de refonte impossibles la veille du lancement.",
+        "en": "Performance flaws often stem from architecture, DB schemas, or synchronous locking requiring weeks of rework impossible on release eve."
+      },
+      "tags": [
+        "ch1",
+        "shift-left"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-015",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez des risques métier majeurs liés à une mauvaise performance applicative.",
+        "en": "Name major business risks caused by poor application performance."
+      },
+      "back": {
+        "fr": "Abandon immédiat des paniers e-commerce, perte de productivité interne, explosion des coûts cloud (auto-scaling inefficace), indisponibilité totale et pénalités de SLA contractuels.",
+        "en": "E-commerce cart abandonment, lost employee productivity, runaway cloud auto-scaling bills, downtime outages, and contractual SLA penalties."
+      },
+      "tags": [
+        "ch1",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-016",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre Performance Testing et Performance Engineering ?",
+        "en": "How does Performance Engineering extend beyond Performance Testing?"
+      },
+      "back": {
+        "fr": "Performance Testing mesure et évalue si le système satisfait ses objectifs ; Performance Engineering collabore dès la conception (profilage, architecture, tuning continu en CI) pour construire la performance.",
+        "en": "Performance Testing measures whether targets are met; Performance Engineering integrates profiling, capacity modeling, and CI benchmarks throughout design and coding."
+      },
+      "tags": [
+        "ch1",
+        "engineering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-017",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quel niveau tester la performance en priorité : Composant/Unitaire, API ou IHM complète ?",
+        "en": "How do performance tests complement each other across Component, API, and E2E UI levels?"
+      },
+      "back": {
+        "fr": "Composant/Microbenchmark : isoler algorithmes critiques en CI. API/Service : injecter la majorité de la charge transactionnelle sans coût navigateur. E2E/Browser : mesurer temps de rendu client sous charge serveur.",
+        "en": "Component microbenchmarks isolate hot algorithms in CI; API load tests generate massive server load cheaply; lightweight E2E browsers measure real UI rendering under load."
+      },
+      "tags": [
+        "ch1",
+        "levels"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-018",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de Baseline / Référence » (Baseline / Benchmark Test) ?",
+        "en": "What is a Performance Baseline (Benchmark) Test?"
+      },
+      "back": {
+        "fr": "Exécuter une petite charge stable (ex. 1 utilisateur ou charge nominale faible) avant toute montée ou après chaque build afin de comparer latences et ressources sur des bases identiques.",
+        "en": "Running a clean low-load or single-user baseline per build to establish clean reference latencies and detect early regressions."
+      },
+      "tags": [
+        "ch1",
+        "baseline"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-019",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Dégradation gracieuse » (Graceful Degradation) lors d’un test de stress ?",
+        "en": "What does \"Graceful Degradation\" look like under extreme Stress Testing?"
+      },
+      "back": {
+        "fr": "Plutôt que planter brutalement ou corrompre les données, le système rejette proprement l’excès (HTTP 429/503), désactive les fonctions secondaires (recommandations) et préserve les transactions vitales.",
+        "en": "Instead of crashing or corrupting data, the system sheds excess traffic cleanly (HTTP 429/503), disables non-essential features, and protects core transactions."
+      },
+      "tags": [
+        "ch1",
+        "stress"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-020",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’état de « Warm-up » (préchauffage) des caches et JIT est-il critique avant de mesurer ?",
+        "en": "Why is a Warm-Up phase critical before collecting steady-state performance metrics?"
+      },
+      "back": {
+        "fr": "Les premières requêtes subissent compilation JIT, remplissage de caches, pools de connexions et connexions TLS froides, ce qui fausserait artificiellement les mesures en régime établi.",
+        "en": "Initial requests pay cold-start JIT compilation, cache misses, and pool initialization penalties that distort steady-state measurements if included."
+      },
+      "tags": [
+        "ch1",
+        "warmup"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-021",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Think Time » (temps de réflexion) et pourquoi l’omettre fausse un test réaliste ?",
+        "en": "What is \"Think Time\", and why does omitting it distort realistic load simulations?"
+      },
+      "back": {
+        "fr": "La pause réaliste d’un humain lisant ou saisissant entre deux clics. Sans think time, 100 utilisateurs virtuels mitraillent le serveur comme 3 000 utilisateurs humains réels.",
+        "en": "Realistic human pause time reading or typing between requests. Zero think time turns 100 virtual users into the request storm of thousands of real humans."
+      },
+      "tags": [
+        "ch1",
+        "think-time"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-022",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Think Time » et « Pacing » ?",
+        "en": "How does \"Think Time\" differ from \"Pacing\"?"
+      },
+      "back": {
+        "fr": "Think Time est la pause entre deux étapes à l’intérieur d’une même itération utilisateur ; Pacing fixe l’intervalle total entre le début d’une itération et le début de la suivante pour garantir un débit constant (TPS).",
+        "en": "Think Time is pause time between actions within one journey; Pacing controls the interval between consecutive journey iterations to maintain exact target TPS."
+      },
+      "tags": [
+        "ch1",
+        "pacing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-023",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les applications mobiles introduisent-elles des contraintes de performance propres par rapport au web fixe ?",
+        "en": "What unique performance constraints apply to mobile apps vs. desktop web?"
+      },
+      "back": {
+        "fr": "Latence/pertes de paquets cellulaires variables (3G/4G/5G), consommation batterie/CPU thermique (throttling), mémoire limitée et impact de la taille du payload sur les forfaits.",
+        "en": "Variable cellular latency/packet loss, battery drain and thermal CPU throttling, tight RAM caps, and payload cost over metered networks."
+      },
+      "tags": [
+        "ch1",
+        "mobile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-024",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "objectiveId": "PT-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue le test de performance dans les architectures cloud « Serverless / Auto-scaling » ?",
+        "en": "What specific risks must performance testing verify in Cloud Auto-Scaling / Serverless architectures?"
+      },
+      "back": {
+        "fr": "Délais de démarrage à froid (Cold Starts), vitesse réelle de déclenchement des politiques d’auto-scaling sous spike, limites de quotas cloud et explosion des coûts sous trafic.",
+        "en": "Serverless cold-start spikes, auto-scaler reaction lag during sudden surges, cloud account quota caps, and runaway billing under load."
+      },
+      "tags": [
+        "ch1",
+        "cloud"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-025",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles trois familles de métriques doit-on collecter simultanément durant un tir de performance ?",
+        "en": "Which three telemetry layers must be collected together during a performance test run?"
+      },
+      "back": {
+        "fr": "1) Métriques côté client/injecteur (latence, TPS, erreurs HTTP). 2) Métriques système/infra (CPU, RAM, I/O disque, réseau, GC). 3) Métriques applicatives APM / BDD (requêtes SQL lentes, verrous, threads).",
+        "en": "1) Load-generator client metrics (latency, TPS, HTTP errors). 2) OS/infra metrics (CPU, RAM, disk I/O, network, GC). 3) APM/DB metrics (slow SQL, lock waits, thread pools)."
+      },
+      "tags": [
+        "ch2",
+        "telemetry"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-026",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Profil Opérationnel » (Operational Profile) et comment le construire ?",
+        "en": "What is an Operational Profile, and how do you build an accurate one?"
+      },
+      "back": {
+        "fr": "La répartition pondérée des transactions métier réelles selon la production (analytics, logs d’accès, interviews métier pour un nouveau système) incluant heures de pointe et mix d’actions.",
+        "en": "A weighted distribution of real production business transactions derived from analytics/logs (or business forecasts for new systems), reflecting peak mixes."
+      },
+      "tags": [
+        "ch2",
+        "workload"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-027",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi est-il essentiel d’inclure dans le profil les transactions en écriture et pas uniquement la lecture ?",
+        "en": "Why must a realistic workload mix include write/update operations alongside read queries?"
+      },
+      "back": {
+        "fr": "Les lectures seules profitent des caches ; les écritures déclenchent verrous BDD, mises à jour d’index, invalidations de cache et files asynchrones qui saturent différemment le système.",
+        "en": "Read-only mixes hit caches cleanly; writes trigger DB row locks, index rebuilds, cache invalidations, and write-ahead log contention."
+      },
+      "tags": [
+        "ch2",
+        "workload"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-028",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment modéliser une courbe de montée en charge (Ramp-Up) et pourquoi éviter de lancer tous les utilisateurs à t=0 ?",
+        "en": "Why use a gradual Ramp-Up profile instead of launching all virtual users simultaneously at t=0?"
+      },
+      "back": {
+        "fr": "Lancer tout à t=0 crée un choc artificiel de connexion (login storm) irréaliste ; une montée progressive par paliers permet d’observer à quel niveau exact de charge apparaissent les premiers ralentissements.",
+        "en": "Instant all-at-once spikes cause an artificial login storm; gradual stepped ramp-ups reveal the exact load threshold where degradation begins."
+      },
+      "tags": [
+        "ch2",
+        "ramp-up"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-029",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre un modèle de charge « Ouvert » (Open Model : taux d’arrivée RPS) et « Fermé » (Closed Model : VUsers) ?",
+        "en": "Compare Open Workload Models (arrival rate) vs. Closed Workload Models (fixed virtual users)."
+      },
+      "back": {
+        "fr": "Fermé : N utilisateurs bouclent après réponse ; si le serveur ralentit, les arrivées ralentissent (site intranet borné). Ouvert : X nouvelles requêtes arrivent chaque seconde indépendamment de la lenteur serveur (API publique/e-commerce).",
+        "en": "Closed: fixed N users wait for responses before looping, throttling naturally when slow. Open: constant arrival rate X/sec keeps hitting even when slow—matching public web/APIs."
+      },
+      "tags": [
+        "ch2",
+        "open-closed"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-030",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que faut-il mesurer concernant les processus d’arrière-plan (Background Load : batchs, sauvegardes, indexation) ?",
+        "en": "Why account for background jobs (backups, batch ETL, indexing) during performance tests?"
+      },
+      "back": {
+        "fr": "En production, ces traitements partagent disque, réseau et tables BDD avec les utilisateurs ; les ignorer en test donne des résultats trop optimistes.",
+        "en": "In production, batch jobs and backups contend for disk I/O, CPU, and DB locks alongside user traffic; omitting them yields overly optimistic results."
+      },
+      "tags": [
+        "ch2",
+        "background-load"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-031",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sources exploitables permettent d’estimer la charge d’un système tout neuf sans historique de production ?",
+        "en": "How can an engineer model workload for a brand-new system lacking production logs?"
+      },
+      "back": {
+        "fr": "Prévisions marketing/contrats clients, systèmes hérités remplacés, benchmarks sectoriels comparables, ateliers Product Owner et marges de croissance à 1–3 ans.",
+        "en": "Business growth forecasts, legacy system logs being replaced, comparable industry benchmarks, PO workshops, and 1–3 year capacity projections."
+      },
+      "tags": [
+        "ch2",
+        "workload"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-032",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’instrumentation des agents ne doit-elle pas perturber elle-même les performances mesurées (« Effet observateur ») ?",
+        "en": "What is the \"Observer Effect\" in performance monitoring, and how do you minimize it?"
+      },
+      "back": {
+        "fr": "Un niveau de log `DEBUG` intensif ou un profileur pas-à-pas consomme 20–50 % de CPU/I-O et ralentit artificiellement le SUT ; on utilise l’échantillonnage APM léger et des logs `INFO/WARN`.",
+        "en": "Verbose `DEBUG` logging or heavy bytecode instrumentation can consume 20–50% CPU/disk I/O, skewing timings; use low-overhead sampling profilers and production-level logging."
+      },
+      "tags": [
+        "ch2",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-033",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« État initial de la base de données » (Data Volume Realism) dans un environnement de test ?",
+        "en": "Why does database table size heavily distort performance measurements if undersized in QA?"
+      },
+      "back": {
+        "fr": "Une requête sans index (`Full Table Scan`) répond en 3 ms sur 500 lignes de test mais met 12 secondes sur les 20 millions de lignes de production.",
+        "en": "An unindexed `Full Table Scan` finishes in 3 ms on 500 QA rows yet stalls for 12 seconds on 20 million production rows."
+      },
+      "tags": [
+        "ch2",
+        "data-volume"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-034",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels indicateurs clés surveiller pour la gestion mémoire JVM / .NET / Node.js ?",
+        "en": "Which runtime memory metrics matter most for managed runtimes (JVM, .NET, Node.js)?"
+      },
+      "back": {
+        "fr": "Occupation du tas (Heap) après GC complet, fréquence et durée des pauses Garbage Collection (Stop-The-World), taux d’allocation et croissance de mémoire native hors tas.",
+        "en": "Post-GC live heap baseline, Stop-The-World GC pause frequency/duration, allocation rate, and off-heap/native RSS memory growth."
+      },
+      "tags": [
+        "ch2",
+        "gc",
+        "memory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-035",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi mesurer la latence au niveau des « Transactions métier » composées plutôt que chaque appel HTTP isolé seulement ?",
+        "en": "Why measure end-to-end \"Business Transactions\" in addition to raw individual HTTP requests?"
+      },
+      "back": {
+        "fr": "Un écran de paiement peut déclencher 12 appels API parallèles et séquentiels ; seul le groupement transactionnel reflète le temps d’attente réel perçu par l’utilisateur.",
+        "en": "A single checkout step may fire 12 sequential/parallel API calls; grouping them as one business transaction reflects true user waiting time."
+      },
+      "tags": [
+        "ch2",
+        "transactions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-036",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment modéliser la variabilité des temps de réflexion (Randomisation) dans un scénario de charge ?",
+        "en": "Why randomize Think Times (e.g., uniform or Gaussian/log-normal) instead of using a constant delay?"
+      },
+      "back": {
+        "fr": "Un délai fixe synchronise tous les utilisateurs virtuels en « vagues » artificielles frappant le serveur simultanément ; la randomisation reflète l’arrivée aléatoire réelle.",
+        "en": "Fixed delays lock virtual users into artificial lockstep waves hitting the server simultaneously; randomized distributions model realistic Poisson-like arrivals."
+      },
+      "tags": [
+        "ch2",
+        "think-time"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-037",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Corrélation d’horloge » (NTP Sync) entre injecteurs, serveurs d’app et base de données ?",
+        "en": "Why is NTP clock synchronization mandatory across load generators, app servers, and databases?"
+      },
+      "back": {
+        "fr": "Un décalage ne serait-ce que de 30 secondes rend impossible l’alignement précis d’un pic CPU base de données avec un pic de latence observé sur l’injecteur.",
+        "en": "Even a 30-second clock skew prevents correlating a DB CPU/lock spike precisely with a client-side latency spike."
+      },
+      "tags": [
+        "ch2",
+        "ntp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-038",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure la méthode RED (Rate, Errors, Duration) et la méthode USE (Utilization, Saturation, Errors) ?",
+        "en": "Contrast the RED and USE performance monitoring frameworks."
+      },
+      "back": {
+        "fr": "RED (services/API) : Rate (débit), Errors (taux d’erreur), Duration (distribution de latence). USE (ressources matérielles/infra) : Utilization (% occupé), Saturation (longueur file d’attente), Errors (erreurs matérielles).",
+        "en": "RED (services): Rate, Errors, Duration (latency). USE (infra resources): Utilization (% busy), Saturation (queue depth), Errors."
+      },
+      "tags": [
+        "ch2",
+        "monitoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-039",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment estimer le nombre d’injecteurs (Load Generators) nécessaires avant un gros tir ?",
+        "en": "How should an engineer size Load Generator capacity before a major test?"
+      },
+      "back": {
+        "fr": "Exécuter un pré-test d’étalonnage mesurant CPU, RAM et bande passante réseau d’un injecteur par tranche de 500 VUsers/RPS, puis garder une marge > 30 % pour éviter qu’un injecteur saturé ne fausse les latences.",
+        "en": "Benchmark CPU, RAM, and NIC usage per 500 VUsers/RPS on one generator, then keep generator utilization <70% so overloaded injectors never distort response times."
+      },
+      "tags": [
+        "ch2",
+        "sizing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-040",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’injection de charge basée sur protocole HTTP est-elle plus scalable que des milliers de vrais navigateurs ?",
+        "en": "Why do protocol-level load scripts scale far higher than real browser-based load generation?"
+      },
+      "back": {
+        "fr": "Un navigateur complet consomme ~200–500 Mo de RAM et beaucoup de CPU pour JS/rendu ; un thread protocole HTTP simule un utilisateur pour quelques kilo-octets.",
+        "en": "Full browsers consume ~200–500 MB RAM and heavy CPU for DOM/JS; protocol-level HTTP threads simulate thousands of users per machine on minimal RAM."
+      },
+      "tags": [
+        "ch2",
+        "protocol"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-041",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment simuler le réalisme d’un réseau mobile ou géographiquement distribué lors d’un test en datacenter ?",
+        "en": "How can datacenter load tests simulate realistic WAN latency and mobile packet loss?"
+      },
+      "back": {
+        "fr": "Déployer des injecteurs dans des régions cloud géographiques cibles et/ou utiliser l’émulation réseau (traffic shaping : bande passante bridée, RTT, gigue, perte de paquets).",
+        "en": "Place generators in target cloud regions and/or apply network emulation (bandwidth throttling, RTT latency, jitter, packet loss)."
+      },
+      "tags": [
+        "ch2",
+        "network"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-042",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le phénomène de « Cache Hit Ratio » et pourquoi des données de test répétitives faussent-elles la mesure ?",
+        "en": "Why does reusing a single search term or user ID artificially inflate the Cache Hit Ratio?"
+      },
+      "back": {
+        "fr": "Si 1 000 utilisateurs virtuels cherchent tous le même article `#42`, la requête reste 100 % en cache RAM/CDN au lieu de solliciter la base de données comme un trafic réel diversifié.",
+        "en": "If 1,000 VUsers all query product `#42`, 100% of hits stay in Redis/CDN cache rather than hitting DB queries like diverse real traffic."
+      },
+      "tags": [
+        "ch2",
+        "caching",
+        "data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-043",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles métriques base de données sont critiques lors d’un test de charge ?",
+        "en": "Which database metrics are essential to track under load?"
+      },
+      "back": {
+        "fr": "Temps d’exécution moyen/p95 des requêtes, verrous (locks/deadlocks), saturation du pool de connexions, taux de hit buffer/cache, IOPS disque et retard de réplication.",
+        "en": "Query execution p95/mean, row/table lock waits and deadlocks, connection-pool saturation, buffer cache hit ratio, disk IOPS, and replica lag."
+      },
+      "tags": [
+        "ch2",
+        "database"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-044",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Effet de seuil / Escalier » dans un profil de charge par paliers (Step Load Test) ?",
+        "en": "What advantage does a Step-Load Profile offer for capacity planning?"
+      },
+      "back": {
+        "fr": "Augmenter la charge par paliers plats successifs (ex. 100 → 200 → 300 → 400 VUsers tenus 10 min chacun) révèle précisément à quel palier le système décroche de ses SLA.",
+        "en": "Holding steady load plateaus (e.g., 100 → 200 → 300 → 400 VUsers for 10 min each) pinpoints the exact capacity ceiling where SLAs break."
+      },
+      "tags": [
+        "ch2",
+        "step-load"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-045",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le taux de « Réutilisation de connexions TCP / Keep-Alive » dans l’injecteur doit-il refléter les clients réels ?",
+        "en": "Why must connection reuse (HTTP Keep-Alive / TLS session resumption) match real clients?"
+      },
+      "back": {
+        "fr": "Ouvrir une nouvelle poignée de main TCP+TLS à chaque requête multiplie la charge CPU du load balancer, tandis qu’une seule connexion réutilisée à l’infini ignore le coût de nouvelles sessions.",
+        "en": "Forcing fresh TCP+TLS handshakes on every hit overloads TLS terminators, whereas infinite reuse underestimates real client connection churn."
+      },
+      "tags": [
+        "ch2",
+        "http"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-046",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment traiter la descente de charge (Ramp-Down) en fin de test ?",
+        "en": "Why include a graceful Ramp-Down phase at the end of a load test?"
+      },
+      "back": {
+        "fr": "Permettre aux transactions en cours de s’achever proprement (éviter de compter des annulations brutales comme erreurs serveur) et vérifier que CPU, mémoire et connexions reviennent à la normale.",
+        "en": "To let in-flight transactions finish cleanly without false errors and confirm memory, thread pools, and DB connections drain back to baseline."
+      },
+      "tags": [
+        "ch2",
+        "ramp-down"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-047",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel paramètre de charge varie souvent en production selon l’heure ou la saisonnalité ?",
+        "en": "Why model both Daily Peak Mixes and Seasonal Peak Events in workload planning?"
+      },
+      "back": {
+        "fr": "Un trafic matinal d’ouverture de session (authentifications massives) sollicite des services très différents d’un pic de clôture comptable ou d’une campagne promotionnelle.",
+        "en": "Morning login surges stress auth/token stores differently than month-end batch reports or promotional checkout surges."
+      },
+      "tags": [
+        "ch2",
+        "seasonality"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-048",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "objectiveId": "PT-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie-t-on par « Validation d’égalité d’environnement » (Environment Scaling Factor) quand la QA est plus petite que la Prod ?",
+        "en": "What risk arises when scaling performance predictions linearly from a half-sized QA environment to Production?"
+      },
+      "back": {
+        "fr": "La performance ne scale presque jamais linéairement : contention de verrous partagés, latence réseau entre nœuds et tailles de caches créent des goulots non linéaires ; il vaut mieux tester sur un environnement iso-prod pour la certification finale.",
+        "en": "Performance rarely scales linearly due to shared DB lock contention, cluster chatter, and cache ratios—requiring production-equivalent sizing for final certification."
+      },
+      "tags": [
+        "ch2",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-049",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Corrélation dynamique » (Dynamic Correlation) lors du scripting de charge ?",
+        "en": "What is \"Dynamic Correlation\" in performance test scripting?"
+      },
+      "back": {
+        "fr": "Extraire automatiquement depuis une réponse serveur des valeurs dynamiques générées à l’exécution (ID de session, jeton CSRF, JWT, ID commande) pour les réinjecter dans les requêtes suivantes au lieu de rejouer des valeurs périmées enregistrées.",
+        "en": "Extracting runtime-generated values (session IDs, CSRF tokens, JWTs, order IDs) from server responses and substituting them into subsequent requests instead of replaying stale recorded tokens."
+      },
+      "tags": [
+        "ch3",
+        "correlation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-050",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez « Paramétrage » (Parameterization) et « Corrélation » (Correlation).",
+        "en": "Distinguish Parameterization from Correlation in load scripts."
+      },
+      "back": {
+        "fr": "Paramétrage : alimenter le script depuis un jeu de données externe (utilisateurs distincts, mots-clés de recherche, articles). Corrélation : capturer dynamiquement une valeur générée par le serveur durant la session pour la réutiliser.",
+        "en": "Parameterization injects varied input values from external datasets (unique logins, search queries); Correlation captures dynamic server-generated outputs mid-run for reuse."
+      },
+      "tags": [
+        "ch3",
+        "scripting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-051",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi ajouter systématiquement des assertions fonctionnelles de contenu dans un script de charge ?",
+        "en": "Why must performance scripts validate response content rather than relying solely on HTTP 200 status codes?"
+      },
+      "back": {
+        "fr": "Sous forte charge, un serveur saturé peut renvoyer un HTTP 200 contenant une page HTML d’erreur ou un JSON vide ; sans assertion de contenu, l’outil compterait à tort une transaction réussie.",
+        "en": "Under heavy load, failing apps often return HTTP 200 wrapping an error HTML page or empty JSON; without body assertions, tools misreport failures as fast passes."
+      },
+      "tags": [
+        "ch3",
+        "assertions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-052",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels préparatifs vérifier avant de lancer un grand tir de performance (Pre-Flight Checklist) ?",
+        "en": "What belongs on a Performance Test Pre-Flight Checklist?"
+      },
+      "back": {
+        "fr": "Version SUT exacte déployée, données BDD restaurées à un état propre connu, caches réinitialisés si besoin, services tiers bouchonnés/autorisés, monitoring APM actif et équipes infra prévenues.",
+        "en": "Verified SUT build, clean baseline DB snapshot restored, caches set consistently, third-party stubs verified, APM/telemetry recording, and ops teams notified."
+      },
+      "tags": [
+        "ch3",
+        "execution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-053",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Tir à sec / Validation de script » (Shakeout / Dry Run) ?",
+        "en": "What is the purpose of a Shakeout (Dry Run) before full-load execution?"
+      },
+      "back": {
+        "fr": "Exécuter le scénario complet avec 1 à 5 utilisateurs pendant quelques minutes pour vérifier corrélation, données, logs, absence d’erreurs fonctionnelles et remontée effective des métriques APM.",
+        "en": "Running the full scenario with 1–5 VUsers for a few minutes to verify script correlation, test data consumption, clean zero-error passes, and active APM telemetry."
+      },
+      "tags": [
+        "ch3",
+        "shakeout"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-054",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi éviter d’exécuter des tirs de charge massifs contre des systèmes partenaires externes non avertis ?",
+        "en": "Why must external third-party APIs usually be stubbed or virtualized during load tests?"
+      },
+      "back": {
+        "fr": "Risque de déclencher des protections anti-DDoS, blocage d’IP, facturation à l’appel, pollution de partenaires réels et résultats biaisés par les limites de débit externes.",
+        "en": "Live third parties trigger anti-DDoS blocks, rate limits, usage fees, or upstream data pollution—plus their throttling obscures your own SUT’s limits."
+      },
+      "tags": [
+        "ch3",
+        "virtualization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-055",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment garantir que les données consommées par les utilisateurs virtuels (ex. création de commandes, comptes uniques) ne s’épuisent pas en plein tir ?",
+        "en": "How do engineers prevent test data exhaustion during multi-hour load runs?"
+      },
+      "back": {
+        "fr": "Pré-générer un pool dimensionné avec marge (TPS × durée × 1,5), utiliser des générateurs d’identifiants uniques (UUID/compteur atomique) ou recycler proprement les comptes consommés.",
+        "en": "Pre-seed datasets sized beyond (TPS × duration × 1.5), generate unique identifiers dynamically, or safely recycle clean records."
+      },
+      "tags": [
+        "ch3",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-056",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi faut-il restaurer la base de données dans le même état initial entre deux tirs comparatifs ?",
+        "en": "Why restore a consistent DB baseline snapshot between comparative performance runs?"
+      },
+      "back": {
+        "fr": "Sinon chaque tir suivant tourne sur des tables plus volumineuses ou fragmentées et des caches différents, rendant impossible toute comparaison avant/après d’une optimisation.",
+        "en": "Otherwise subsequent runs hit bloated tables, altered query plans, and skewed caches—invalidating before/after optimization comparisons."
+      },
+      "tags": [
+        "ch3",
+        "repeatability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-057",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel facteur réseau matériel peut brider silencieusement la génération de charge sur le réseau d’entreprise ?",
+        "en": "What local network bottleneck can silently cap performance tests inside an office LAN?"
+      },
+      "back": {
+        "fr": "Un pare-feu stateful saturant sa table de sessions NAT, un proxy d’entreprise ou un lien VPN partagé entre injecteur et serveur cible.",
+        "en": "Exhausted stateful firewall NAT tables, corporate proxy inspection, or congested VPN tunnels sitting between generators and the SUT."
+      },
+      "tags": [
+        "ch3",
+        "network"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-058",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment planifier la durée minimale d’un palier de mesure en charge nominale ?",
+        "en": "How long should a steady-state load plateau run to yield statistically trustworthy metrics?"
+      },
+      "back": {
+        "fr": "Généralement au moins 20 à 60 minutes en régime établi (après warm-up), assez long pour capturer plusieurs cycles de Garbage Collection, vidages de caches et tâches périodiques.",
+        "en": "Typically at least 20–60 minutes in steady state (post warm-up), long enough to span multiple GC cycles, cache expirations, and periodic jobs."
+      },
+      "tags": [
+        "ch3",
+        "duration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-059",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles erreurs de scripting faussent le plus fréquemment les temps de réponse mesurés ?",
+        "en": "Which scripting mistakes commonly distort measured response times?"
+      },
+      "back": {
+        "fr": "Inclure les temps de Think Time à l’intérieur d’un bloc `Transaction Start/End`, oublier de télécharger les ressources statiques/XHR parallèles ou désactiver la gestion des cookies.",
+        "en": "Wrapping Think Time inside measured transaction timers, skipping parallel browser XHR/asset calls, or failing to clear/manage cookies per iteration."
+      },
+      "tags": [
+        "ch3",
+        "scripting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-060",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les étapes du processus complet d’ingénierie de test de performance ?",
+        "en": "Outline the main activities of the ISTQB Performance Test Process."
+      },
+      "back": {
+        "fr": "1) Planification (objectifs, risques, SLA). 2) Analyse/Conception (profils opérationnels, métriques, environnements). 3) Implémentation (données, scripts, validation). 4) Exécution (baseline, paliers, monitoring). 5) Analyse des résultats & Reporting.",
+        "en": "1) Planning (goals, risks, SLAs). 2) Analysis & Design (workload models, telemetry, environments). 3) Implementation (data, scripts, shakeout). 4) Execution (baseline, load runs). 5) Analysis & Reporting."
+      },
+      "tags": [
+        "ch3",
+        "process"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-061",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi exécuter les tests de performance automatisés en mode « Non-GUI / CLI » plutôt qu’avec l’interface graphique de l’outil (ex. JMeter GUI) ?",
+        "en": "Why must load runs always execute in Non-GUI / CLI mode rather than an interactive tool GUI (e.g., JMeter GUI)?"
+      },
+      "back": {
+        "fr": "L’interface graphique consomme énormément de mémoire et de CPU pour tracer graphiques et arbres de résultats en temps réel, provoquant saturation ou plantage de l’injecteur.",
+        "en": "Interactive GUIs waste huge RAM/CPU rendering live trees and charts, starving load threads and often crashing the generator mid-run."
+      },
+      "tags": [
+        "ch3",
+        "execution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-062",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment intégrer des tests de performance légers dans un pipeline CI/CD continu ?",
+        "en": "How can performance testing integrate continuously into CI/CD pipelines?"
+      },
+      "back": {
+        "fr": "Exécuter à chaque build/merge de courts tests API de 3–5 minutes (k6/Gatling) sur des endpoints critiques avec seuils de régression automatiques (ex. p95 <= +10 % vs baseline) et réserver les gros tirs nocturnes.",
+        "en": "Run short 3–5 minute API benchmarks (k6/Gatling) on staging per commit with automated p95 regression gates, reserving full multi-hour soak/stress sweeps nightly."
+      },
+      "tags": [
+        "ch3",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-063",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier si le taux de réussite des requêtes reste de 100 % mais que le temps d’exécution totale de l’itération explose ?",
+        "en": "What does 100% HTTP pass rate paired with surging transaction duration typically indicate?"
+      },
+      "back": {
+        "fr": "Une file d’attente saturée (threads serveur, connexions BDD ou verrouillage) ralentit chaque utilisateur sans déclencher d’erreur HTTP ni timeout immédiat.",
+        "en": "Resource queuing (exhausted worker threads, DB connections, or row locks) is stalling requests without yet crossing hard HTTP timeout errors."
+      },
+      "tags": [
+        "ch3",
+        "queuing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-064",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir un test de performance sur un système asynchrone piloté par événements (Kafka / RabbitMQ / Batch) ?",
+        "en": "How do you design performance tests for asynchronous event-driven pipelines (Kafka / RabbitMQ)?"
+      },
+      "back": {
+        "fr": "Injecter des messages au débit cible (Producer TPS), mesurer le retard de consommation (Consumer Lag), le débit de traitement bout en bout (horodatage émission → persistance finale) et l’absence d’accumulation dans les files Dead-Letter.",
+        "en": "Publish events at target producer TPS, measure consumer group lag, end-to-end event processing latency (emit timestamp to sink commit), and monitor Dead-Letter Queues."
+      },
+      "tags": [
+        "ch3",
+        "async"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-065",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi valider séparément la performance d’un Load Balancer ou WAF devant les serveurs applicatifs ?",
+        "en": "Why include Load Balancers, API Gateways, and WAFs inside the performance test path?"
+      },
+      "back": {
+        "fr": "Tester directement une IP applicative contourne terminaison TLS, règles WAF coûteuses en regex, rate limiting et algorithmes de répartition (sticky sessions), manquant des goulots critiques.",
+        "en": "Hitting backend IPs directly skips TLS termination, expensive WAF regex rules, API gateway throttling, and sticky-session skew."
+      },
+      "tags": [
+        "ch3",
+        "architecture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-066",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles précautions de sécurité appliquer lors de tests de performance en environnement partagé ou préprod ?",
+        "en": "What security safeguards apply when running performance tests on staging or pre-production?"
+      },
+      "back": {
+        "fr": "Autorisation écrite préalable, fenêtres de tir validées, masquage de données personnelles, isolement des emails/SMS sortants (pour ne pas spammer de vrais clients) et nettoyage post-tir.",
+        "en": "Written authorization, scheduled run windows, anonymized test data, sandboxed outbound email/SMS sinks (never spamming real users), and post-run cleanup."
+      },
+      "tags": [
+        "ch3",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-067",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment simuler le comportement d’utilisateurs « abandonnant » une page lente au bout de X secondes ?",
+        "en": "How should load scripts treat real-world user abandonment and request timeouts?"
+      },
+      "back": {
+        "fr": "Configurer des timeouts réalistes (ex. 10–30 s) et journaliser les requêtes expirées en échec : laisser un injecteur attendre 5 minutes fausse l’expérience utilisateur réelle.",
+        "en": "Configure realistic client timeouts (e.g., 10–30 s) and log expirations as SLA failures—letting threads hang for 5 minutes misrepresents real user abandonment."
+      },
+      "tags": [
+        "ch3",
+        "timeouts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-068",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Effet Thundering Herd » (troupeau rugissant) lors d’un test de reprise ou d’expiration de cache ?",
+        "en": "What is the \"Thundering Herd\" problem in cache or retry performance testing?"
+      },
+      "back": {
+        "fr": "Lorsqu’une clé de cache très populaire expire ou qu’un serveur redémarre, des milliers de clients déclenchent exactement au même instant la même requête coûteuse en base de données.",
+        "en": "When a hot cache entry expires or a service restarts, thousands of clients simultaneously stampede the database with identical expensive queries or synchronized retries."
+      },
+      "tags": [
+        "ch3",
+        "caching"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-069",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage procure le protocole gRPC ou WebSocket en test de charge par rapport au HTTP REST classique ?",
+        "en": "What special considerations apply when scripting WebSocket or gRPC load tests?"
+      },
+      "back": {
+        "fr": "Connexions persistantes bidirectionnelles de longue durée nécessitant de tester limites de descripteurs de fichiers (`ulimit`), heartbeats, reconnexions après coupure et équilibrage L4 vs L7.",
+        "en": "Long-lived persistent connections require validating file-descriptor (`ulimit`) ceilings, heartbeat overhead, reconnect storms, and L4 vs. L7 load balancing."
+      },
+      "tags": [
+        "ch3",
+        "websockets",
+        "grpc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-070",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi documenter chaque changement de configuration entre deux tirs successifs (Single-Variable Change) ?",
+        "en": "Why enforce a \"Change One Variable at a Time\" discipline between tuning test runs?"
+      },
+      "back": {
+        "fr": "Modifier simultanément taille du pool BDD, index SQL et paramètres JVM rend impossible d’identifier quel réglage a réellement résolu ou aggravé le goulot.",
+        "en": "Changing DB pool size, SQL indexes, and JVM flags simultaneously makes it impossible to isolate which tuning knob helped or hurt."
+      },
+      "tags": [
+        "ch3",
+        "tuning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-071",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier l’impact du Garbage Collector ou des redémarrages de pods sur les percentiles hauts (p99) ?",
+        "en": "How should test scheduling probe periodic maintenance impacts like GC or autoscaler pod churn?"
+      },
+      "back": {
+        "fr": "Exécuter suffisamment longtemps pour observer plusieurs cycles complets et superposer les journaux de GC/événements Kubernetes sur la timeline p99 des transactions.",
+        "en": "Run long enough to capture multiple full cycles and overlay JVM GC logs or Kubernetes pod-eviction events directly onto the p99 latency timeline."
+      },
+      "tags": [
+        "ch3",
+        "percentiles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-072",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Injecter depuis le même sous-réseau que le serveur » vs depuis l’extérieur et quand choisir chacun ?",
+        "en": "Compare internal LAN load injection vs. external WAN load injection."
+      },
+      "back": {
+        "fr": "Interne : isole la capacité pure de l’architecture serveur/BDD sans aléas internet. Externe : mesure l’expérience réelle incluant DNS, CDN, pare-feu et transit réseau.",
+        "en": "Internal LAN injection isolates server/DB capacity cleanly; external WAN injection validates true user experience across DNS, CDN, firewalls, and transit."
+      },
+      "tags": [
+        "ch3",
+        "topology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-073",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi prévoir une procédure d’arrêt d’urgence (Abort Criteria) lors d’un tir sur environnement partagé ?",
+        "en": "What belongs in Performance Test Abort Criteria?"
+      },
+      "back": {
+        "fr": "Seuil d’erreurs HTTP 5xx > 10 %, saturation disque > 95 %, alerte sur systèmes adjacents partagés ou bascule involontaire vers un service tiers réel.",
+        "en": "HTTP 5xx rate exceeding 10%, disk saturation >95%, collateral impact on shared staging neighbors, or accidental hits to live external endpoints."
+      },
+      "tags": [
+        "ch3",
+        "abort"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-074",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "objectiveId": "PT-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Production Replay / Shadow Traffic » en test de performance ?",
+        "en": "What is Shadow Traffic (Traffic Mirroring) in performance validation?"
+      },
+      "back": {
+        "fr": "Dupliquer en temps réel de façon asynchrone le trafic réel de production vers un cluster candidat (sans renvoyer sa réponse aux vrais clients) pour tester l’exact mix opérationnel à l’échelle.",
+        "en": "Asynchronously mirroring live production HTTP traffic onto a candidate environment (discarding responses) to test exact real-world workload mixes at scale."
+      },
+      "tags": [
+        "ch3",
+        "shadow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-075",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi analyser les percentiles (p90, p95, p99) plutôt que la seule moyenne des temps de réponse ?",
+        "en": "Why must performance analysis inspect percentiles (p90, p95, p99) rather than averages alone?"
+      },
+      "back": {
+        "fr": "La moyenne est écrasée par la majorité rapide ; un p95 de 2,5 s avec moyenne à 180 ms signifie qu’un utilisateur sur vingt subit un ralentissement sévère invisible dans la moyenne.",
+        "en": "Averages hide long-tail latency: a 180 ms mean can mask a 2.5 s p95 where 1 in 20 user actions experiences painful stalls."
+      },
+      "tags": [
+        "ch4",
+        "percentiles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-076",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Goulot d’étranglement » (Bottleneck) et comment le repérer en corrélant deux courbes ?",
+        "en": "How do you identify a system Bottleneck by correlating Throughput and Response Time curves?"
+      },
+      "back": {
+        "fr": "À mesure que les VUsers augmentent, si le débit (TPS) cesse de croître (plafonnement) tandis que le temps de réponse s’envole et que les erreurs apparaissent, la ressource qui atteint ~100 % au même instant est le goulot.",
+        "en": "As VUsers increase, when Throughput plateaus (or drops) while Response Time climbs steeply, whichever resource hits saturation at that inflection point is the bottleneck."
+      },
+      "tags": [
+        "ch4",
+        "bottleneck"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-077",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie un serveur applicatif dont le CPU reste bas (< 20 %) alors que le temps de réponse explose sous charge ?",
+        "en": "What usually causes server CPU to stay low (<20%) while transaction latency skyrockets under load?"
+      },
+      "back": {
+        "fr": "Saturation externe ou blocage de threads : pool de connexions BDD épuisé, verrous SQL/applicatifs (contention), appels synchrones vers une API tierce lente ou pool de threads HTTP trop petit.",
+        "en": "Thread starvation or downstream blocking: exhausted DB connection pools, SQL/mutex lock contention, tiny HTTP worker pools, or slow synchronous external API calls."
+      },
+      "tags": [
+        "ch4",
+        "diagnosis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-078",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel symptôme distingue une fuite mémoire (Memory Leak) d’une simple forte utilisation normale du tas ?",
+        "en": "How do you distinguish a true Memory Leak from normal high cache/heap usage?"
+      },
+      "back": {
+        "fr": "En utilisation normale, la mémoire forme un motif en « dents de scie » revenant au même plancher après chaque Garbage Collection complet ; une fuite montre un plancher post-GC montant continuellement en escalier jusqu’à OOM.",
+        "en": "Healthy memory shows a stable sawtooth returning to the same baseline after Full GC; a leak shows a steadily climbing post-GC baseline ending in OutOfMemory crashes."
+      },
+      "tags": [
+        "ch4",
+        "memory-leak"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-079",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Thrashing » (écroulement par pagination ou GC continu) ?",
+        "en": "What is \"Thrashing\" in memory/GC or virtual-memory analysis?"
+      },
+      "back": {
+        "fr": "Le système manque de RAM libre : l’OS passe son temps à swapper sur disque ou le Garbage Collector tourne en boucle à 95 % du CPU sans libérer d’espace ni avancer le travail utile.",
+        "en": "Memory starvation where the OS spends most cycles swapping to disk—or the GC runs nonstop >90% CPU—completing almost zero useful work."
+      },
+      "tags": [
+        "ch4",
+        "thrashing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-080",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment diagnostiquer un problème « N+1 Queries » dans les traces APM/SQL ?",
+        "en": "How does an \"N+1 Query\" bottleneck appear in APM and database traces?"
+      },
+      "back": {
+        "fr": "Pour afficher une liste de 50 commandes, le backend exécute 1 requête initiale puis 50 requêtes séquentielles unitaires supplémentaires, multipliant latence réseau et charge BDD.",
+        "en": "Rendering a 50-item list triggers 1 initial query plus 50 sequential per-item SQL queries, exploding DB round-trips and latency."
+      },
+      "tags": [
+        "ch4",
+        "sql",
+        "n-plus-1"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-081",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un « Point de synchronisation / Verrou exclusif » (Mutex/Row Lock) détruit-il la scalabilité horizontale ?",
+        "en": "Why does exclusive lock contention destroy horizontal or multi-core scalability (Amdahl’s Law)?"
+      },
+      "back": {
+        "fr": "Toutes les requêtes concurrentes doivent attendre en file indienne sur la même ressource sérialisée (ex. mise à jour d’une ligne compteur globale), annulant tout gain d’ajout de cœurs ou de serveurs.",
+        "en": "Concurrent requests serialize behind one shared lock (e.g., updating a single global counter row), nullifying additional CPU cores or app servers (Amdahl’s Law)."
+      },
+      "tags": [
+        "ch4",
+        "locks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-082",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert un « Flame Graph » lors de l’analyse d’un goulot CPU ?",
+        "en": "How does a Flame Graph help isolate CPU bottlenecks?"
+      },
+      "back": {
+        "fr": "Il agrège des milliers d’échantillons de piles d’appels (stack traces) : la largeur de chaque barre représente exactement la proportion de temps CPU passée dans chaque fonction et ses enfants.",
+        "en": "It aggregates thousands of stack samples where box width corresponds directly to total CPU time spent inside each function and its callees."
+      },
+      "tags": [
+        "ch4",
+        "flame-graph"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-083",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie une distribution bimodale des temps de réponse (deux pics distincts dans l’histogramme) ?",
+        "en": "What does a bimodal response-time distribution (two distinct histogram peaks) indicate?"
+      },
+      "back": {
+        "fr": "Souvent un partage entre requêtes servies rapidement par un cache (pic à 15 ms) et requêtes tombant en échec de cache (cache miss) recalculées en base (pic à 600 ms), ou deux nœuds hétérogènes dans le cluster.",
+        "en": "Often fast cache hits (e.g., 15 ms peak) vs. slow cache misses hitting the DB (600 ms peak)—or one degraded node in a load-balanced pool."
+      },
+      "tags": [
+        "ch4",
+        "distribution"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-084",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi vérifier l’usage CPU par cœur et non uniquement la moyenne CPU globale d’une machine à 16 cœurs ?",
+        "en": "Why check per-core CPU utilization instead of machine-wide average CPU on a 16-core server?"
+      },
+      "back": {
+        "fr": "Un processus mono-thread (ex. Node.js non clustérisé ou verrou unique) sature 1 cœur à 100 % pendant que les 15 autres dorment : la moyenne affiche 6 % alors que l’app est totalement bloquée !",
+        "en": "A single-threaded event loop or serialized bottleneck pins 1 core at 100% while 15 cores sit idle—reporting ~6% machine average while completely saturated!"
+      },
+      "tags": [
+        "ch4",
+        "cpu"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-085",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment repérer une saturation de la bande passante réseau (Network Saturation) ?",
+        "en": "How can an engineer verify whether network bandwidth or NIC limits are the bottleneck?"
+      },
+      "back": {
+        "fr": "Comparer le débit réseau octets/s (Tx/Rx) à la capacité nominale de l’interface, surveiller retransmissions TCP, files de paquets jetés et compresser ou réduire les payloads JSON/images.",
+        "en": "Compare Rx/Tx Mbps against NIC/cloud-egress limits, inspect TCP retransmits/packet drops, and check oversized uncompressed payloads."
+      },
+      "tags": [
+        "ch4",
+        "network"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-086",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que révèle un « Thread Dump » (capture d’état des threads) pris au moment d’un ralentissement ?",
+        "en": "What diagnostics can be read from a Thread Dump captured during a load slowdown?"
+      },
+      "back": {
+        "fr": "Combien de threads sont `BLOCKED` sur un même verrou, `WAITING` sur le pool BDD ou bloqués dans une même méthode réseau, pointant la ligne exacte responsable.",
+        "en": "Counts of threads `BLOCKED` on a mutex, `WAITING` on DB/socket I/O, or stuck at one exact stack frame—pinpointing the precise bottleneck line."
+      },
+      "tags": [
+        "ch4",
+        "thread-dump"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-087",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les I/O disque (Disque lent / Saturation IOPS) affectent-ils une application web apparemment en RAM ?",
+        "en": "How can disk I/O saturation cripple an apparently RAM-resident application?"
+      },
+      "back": {
+        "fr": "Écritures synchrones de journaux applicatifs non bufferisés, journaux de transactions BDD (WAL/redo logs) ou pagination SWAP bloquent les threads applicatifs en attente `iowait`.",
+        "en": "Unbuffered synchronous log writes, DB write-ahead log (WAL) flushes, or OS swapping stall worker threads in `iowait`."
+      },
+      "tags": [
+        "ch4",
+        "disk-io"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-088",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi est-il important de corriger un premier goulot puis de RE-TESTER avant de déclarer le système conforme ?",
+        "en": "Why must you re-run load tests after fixing the primary bottleneck?"
+      },
+      "back": {
+        "fr": "Éliminer le premier goulot (ex. ajout d’un index SQL) permet au trafic d’atteindre plus profondément le système, révélant souvent le goulot suivant jusque-là masqué (effet domino).",
+        "en": "Removing the first bottleneck lets higher traffic reach downstream tiers, frequently exposing a previously masked secondary bottleneck."
+      },
+      "tags": [
+        "ch4",
+        "iterative-tuning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-089",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle erreur d’interprétation survient si l’on regarde uniquement les courbes agrégées sur tout le test (incluant montée et descente) ?",
+        "en": "Why separate Steady-State metrics from Ramp-Up and Ramp-Down when analyzing results?"
+      },
+      "back": {
+        "fr": "Mélanger le démarrage à faible charge avec le palier de pic dilue artificiellement les valeurs p95/TPS et masque le comportement réel sous charge cible.",
+        "en": "Aggregating low-load ramp phases with the peak plateau dilutes TPS and percentile measurements, hiding true peak behavior."
+      },
+      "tags": [
+        "ch4",
+        "steady-state"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-090",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que doit vérifier l’analyste lorsqu’un « taux d’erreur » grimpe brutalement à 50 % au-delà de 300 utilisateurs ?",
+        "en": "How should an analyst investigate errors jumping sharply past 300 concurrent users?"
+      },
+      "back": {
+        "fr": "Classifier les codes (401 expiration jeton ? 429 rate-limit ? 502 Bad Gateway ? 504 Timeout ? `Connection Refused` ?) et les corréler aux journaux exacts serveur/load-balancer à l’instant T.",
+        "en": "Break down error codes (401 expired auth? 429 rate limit? 502/504 proxy timeout? TCP connection reset?) and correlate exact timestamps with server/LB logs."
+      },
+      "tags": [
+        "ch4",
+        "errors"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-091",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment repérer un « Goulot côté injecteur » plutôt que côté système testé ?",
+        "en": "How do you spot when the Load Generator itself became the bottleneck rather than the SUT?"
+      },
+      "back": {
+        "fr": "CPU/RAM injecteur > 85–90 %, erreurs locales de ports éphémères épuisés, latences montant sur l’injecteur tandis que CPU/BDD serveur restent confortables et qu’ajouter un deuxième injecteur double le débit.",
+        "en": "Generator CPU/RAM >85%, ephemeral port exhaustion on the injector, or surging client timings while SUT CPU/DB stay calm—and adding a second generator doubles TPS."
+      },
+      "tags": [
+        "ch4",
+        "injector"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-092",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Analyse de régression de performance » entre deux versions (Release N-1 vs N) ?",
+        "en": "How is a Release-over-Release Performance Regression Comparison performed?"
+      },
+      "back": {
+        "fr": "Comparer à profil de charge, jeu de données et environnement strictement identiques les deltas sur p50/p95/p99, débit max, consommation CPU/RAM par transaction et taux d’erreur.",
+        "en": "Under identical workload, data, and hardware, compare deltas across p50/p95/p99 latency, max TPS, CPU/RAM per transaction, and error rates."
+      },
+      "tags": [
+        "ch4",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-093",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel paramètre d’infrastructure explique souvent des erreurs `Cannot assign requested address` ou épuisement de sockets sur Linux ?",
+        "en": "What causes ephemeral port exhaustion (`TIME_WAIT`) under massive short-lived HTTP connections?"
+      },
+      "back": {
+        "fr": "Sans HTTP Keep-Alive, des milliers de connexions fermées par seconde saturent la plage de ports éphémères en état `TIME_WAIT` pendant 60 s, bloquant de nouvelles connexions sortantes.",
+        "en": "Without Keep-Alive connection pooling, rapid short-lived sockets fill the ephemeral port range in `TIME_WAIT` state, blocking new outbound connections."
+      },
+      "tags": [
+        "ch4",
+        "tcp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-094",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment présenter efficacement les résultats de performance dans un Rapport Exécutif vs un Rapport Technique ?",
+        "en": "How should Performance Test Reports differ for Executives vs. Engineering Teams?"
+      },
+      "back": {
+        "fr": "Exécutif : verdict clair face aux SLA/SLO, capacité maximale validée (utilisateurs/TPS), risques résiduels et recommandation Go/No-Go. Technique : graphiques corrélés, requêtes lentes, flame graphs et pistes d’optimisation.",
+        "en": "Executive: crisp SLA pass/fail verdict, validated max capacity, business risks, and Go/No-Go guidance. Engineering: correlated charts, slow SQL, flame graphs, and tuning leads."
+      },
+      "tags": [
+        "ch4",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-095",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifier sur les courbes « Débit envoyé vs Débit reçu / traité » en système de files d’attente ?",
+        "en": "What does a diverging Arrival Rate vs. Completion Rate curve reveal in queued systems?"
+      },
+      "back": {
+        "fr": "Si les arrivées dépassent durablement les complétions, la profondeur de file croît linéairement sans borne jusqu’à saturation mémoire ou dépassement des SLA d’attente.",
+        "en": "Whenever arrival rate exceeds completion rate sustainably, queue depth grows unboundedly until memory exhaustion or SLA breaches hit."
+      },
+      "tags": [
+        "ch4",
+        "queues"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-096",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’analyse des « Transactions les plus lentes » doit-elle aussi regarder leur fréquence d’appel ?",
+        "en": "Why weight slow transactions by call frequency when prioritizing performance fixes?"
+      },
+      "back": {
+        "fr": "Gagner 50 ms sur une API appelée 2 000 fois/seconde libère beaucoup plus de capacité et améliore bien plus l’expérience globale que gagner 2 s sur un export mensuel appelé 3 fois par jour.",
+        "en": "Shaving 50 ms off an API called 2,000 times/sec reclaims massive capacity and UX value compared to speeding up a rare 3-times/day admin export."
+      },
+      "tags": [
+        "ch4",
+        "prioritization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-097",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Heap Dump » et quand l’analyser ?",
+        "en": "When and why does a performance engineer analyze a Heap Dump?"
+      },
+      "back": {
+        "fr": "Après avoir observé une fuite ou surconsommation mémoire sur la courbe GC, le Heap Dump capture tous les objets vivants en RAM pour identifier exactement quelles classes et références retiennent la mémoire.",
+        "en": "When GC trends show a memory leak or bloat, a Heap Dump snapshots live RAM objects to reveal exact classes and retention chains holding memory."
+      },
+      "tags": [
+        "ch4",
+        "heap-dump"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-098",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel indicateur clé lie l’efficacité de performance aux coûts financiers Cloud (FinOps) ?",
+        "en": "How do performance metrics connect directly to Cloud FinOps costs?"
+      },
+      "back": {
+        "fr": "Calculer le « Coût CPU/RAM par 1 000 transactions » : une régression augmentant de 40 % le CPU par requête augmente d’autant la facture d’auto-scaling en production.",
+        "en": "Tracking \"Compute/Cloud Cost per 1,000 Transactions\": a 40% CPU regression per request directly inflates production auto-scaling spend by 40%."
+      },
+      "tags": [
+        "ch4",
+        "finops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-099",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier si les mécanismes de limitation de débit (Rate Limiting) et disjoncteurs (Circuit Breakers) protègent correctement le système ?",
+        "en": "How do you verify Rate Limiters and Circuit Breakers during stress tests?"
+      },
+      "back": {
+        "fr": "Vérifier qu’un trafic excessif reçoit bien HTTP 429 avec `Retry-After` sans bloquer les autres clients légitimes, et qu’un partenaire en panne ouvre vite le disjoncteur au lieu d’accumuler les threads en attente.",
+        "en": "Confirm excessive callers receive fast HTTP 429s without starving healthy users, and degraded downstreams trip circuit breakers fast instead of exhausting worker pools."
+      },
+      "tags": [
+        "ch4",
+        "resilience"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctpt-100",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "objectiveId": "PT-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle règle d’or résume la démarche CT-PT face à tout problème de performance ?",
+        "en": "What golden rule summarizes the CT-PT discipline for performance troubleshooting?"
+      },
+      "back": {
+        "fr": "Ne jamais deviner ni optimiser à l’aveugle : modéliser un profil réaliste, mesurer avec précision sur les trois couches (client, OS, APM/BDD), corréler la preuve du goulot, corriger une cause à la fois et re-valider.",
+        "en": "Never guess or optimize blindly: model realistic workloads, measure across client/OS/APM layers, prove the bottleneck via correlation, fix one change at a time, and re-verify."
+      },
+      "tags": [
+        "ch4",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-PT v1.0 (Performance Testing)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}

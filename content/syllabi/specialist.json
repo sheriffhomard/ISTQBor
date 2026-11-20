@@ -1,0 +1,836 @@
+{
+  "chapters": [
+    {
+      "id": "ct-tas-v1.0-ch1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Introduction et objectifs de l’automatisation",
+        "en": "Introduction and Objectives for Test Automation"
+      },
+      "summary": {
+        "fr": "Finalité, bénéfices, facteurs de succès et contexte stratégique de l’automatisation.",
+        "en": "Purpose, benefits, success factors, and strategic context of test automation."
+      },
+      "recommendedMinutes": 60
+    },
+    {
+      "id": "ct-tas-v1.0-ch2",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Préparation et approche stratégique d’automatisation",
+        "en": "Preparing for Test Automation"
+      },
+      "summary": {
+        "fr": "Évaluation du contexte, architecture applicative, testabilité, sélection d’outils et preuve de concept (PoC).",
+        "en": "Context assessment, SUT testability, tool evaluation, and Proof of Concept (PoC)."
+      },
+      "recommendedMinutes": 80
+    },
+    {
+      "id": "ct-tas-v1.0-ch3",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Architecture générique d’automatisation (gTAA)",
+        "en": "Generic Test Automation Architecture (gTAA)"
+      },
+      "summary": {
+        "fr": "Couches génération, définition, exécution et adaptation, patterns de conception et gestion des données.",
+        "en": "Generation, definition, execution, and adaptation layers, design patterns, and test data management."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-tas-v1.0-ch4",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "Risques de déploiement, CI/CD et maintenance",
+        "en": "Deployment Risks, CI/CD, and Maintenance"
+      },
+      "summary": {
+        "fr": "Intégration aux pipelines DevOps, gestion des tests instables (flaky), journalisation et dette technique.",
+        "en": "CI/CD integration, flaky-test triage, reporting, and long-term maintenance control."
+      },
+      "recommendedMinutes": 80
+    },
+    {
+      "id": "ct-tas-v1.0-ch5",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "order": 5,
+      "code": "5",
+      "title": {
+        "fr": "Métriques, ROI et amélioration continue",
+        "en": "Verification, Metrics, ROI, and Improvement"
+      },
+      "summary": {
+        "fr": "Indicateurs de valeur, calcul du retour sur investissement, coûts cachés et optimisation continue du patrimoine automatisé.",
+        "en": "Value metrics, ROI calculation, hidden costs, and continuous optimization of automated suites."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-tae-v1.0-ch1",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Concepts et périmètre gTAA (2016)",
+        "en": "Concepts and gTAA Scope (2016)"
+      },
+      "summary": {
+        "fr": "Fondamentaux historiques de l’ingénierie d’automatisation de tests et objectifs du TAE.",
+        "en": "Historical 2016 Test Automation Engineer objectives and automation scope."
+      },
+      "recommendedMinutes": 60
+    },
+    {
+      "id": "ct-tae-v1.0-ch2",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Conception de la solution d’automatisation (TAA)",
+        "en": "Designing the Test Automation Architecture (TAA)"
+      },
+      "summary": {
+        "fr": "Architecture en 4 couches gTAA, interfaces API/GUI, adaptateurs et modèles de données.",
+        "en": "Four-layer gTAA blueprint, API/GUI adapters, and data abstraction."
+      },
+      "recommendedMinutes": 85
+    },
+    {
+      "id": "ct-tae-v1.0-ch3",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Déploiement, rapports et transition",
+        "en": "Deployment, Reporting, and Transition"
+      },
+      "summary": {
+        "fr": "Pilotes, migration depuis les tests manuels, collecte de métriques et vérification de la TAS.",
+        "en": "Pilot execution, manual-to-automated transition, logging, and TAS self-verification."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-pt-v1.0-ch1",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Concepts fondamentaux de performance",
+        "en": "Basic Concepts of Performance Testing"
+      },
+      "summary": {
+        "fr": "Types de tests (charge, stress, pointe, endurance/soak, scalabilité) et métriques clés.",
+        "en": "Performance test types (load, stress, spike, soak, scalability) and core metrics."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ct-pt-v1.0-ch2",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Mesures, sources et profils de charge",
+        "en": "Performance Measurement & Workload Modeling"
+      },
+      "summary": {
+        "fr": "Collecte système/application/réseau, profils opérationnels, temps de réflexion et courbe de montée en charge.",
+        "en": "System/app/network telemetry, operational profiles, think times, and ramp-up patterns."
+      },
+      "recommendedMinutes": 85
+    },
+    {
+      "id": "ct-pt-v1.0-ch3",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Planification, conception et exécution",
+        "en": "Planning, Designing, and Executing Performance Tests"
+      },
+      "summary": {
+        "fr": "Environnements représentatifs, injecteurs, jeux de données massifs, corrélation dynamique et exécution.",
+        "en": "Production-like environments, load generators, massive datasets, dynamic correlation, and runs."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-pt-v1.0-ch4",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "Analyse des résultats et goulots d’étranglement",
+        "en": "Analyzing Results & Identifying Bottlenecks"
+      },
+      "summary": {
+        "fr": "Percentiles (p95/p99), saturation CPU/mémoire/I-O/BDD, diagnostic de goulots et reporting.",
+        "en": "Percentiles (p95/p99), CPU/memory/IO/DB saturation, bottleneck isolation, and reporting."
+      },
+      "recommendedMinutes": 85
+    },
+    {
+      "id": "ct-sec-v1.0-ch1",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Fondamentaux et politiques de sécurité",
+        "en": "Basis of Security Testing & Policies"
+      },
+      "summary": {
+        "fr": "Triade CIA, risques, modélisation des menaces (STRIDE), conformité et objectifs du test de sécurité.",
+        "en": "CIA triad, security risks, threat modeling (STRIDE), compliance, and security test objectives."
+      },
+      "recommendedMinutes": 80
+    },
+    {
+      "id": "ct-sec-v1.0-ch2",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Processus, mécanismes techniques et tests applicatifs",
+        "en": "Security Test Process & Technical Mechanisms"
+      },
+      "summary": {
+        "fr": "Authentification, autorisation, chiffrement, OWASP Top 10, SAST, DAST, IAST et fuzzing.",
+        "en": "Authentication, authorization, cryptography, OWASP Top 10, SAST, DAST, IAST, and fuzzing."
+      },
+      "recommendedMinutes": 95
+    },
+    {
+      "id": "ct-sec-v1.0-ch3",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Tests d’intrusion, facteur humain et outils",
+        "en": "Penetration Testing, Human Factors & Tools"
+      },
+      "summary": {
+        "fr": "Phases du pentest, ingénierie sociale, durcissement d’infrastructure et gouvernance des outils.",
+        "en": "Penetration test phases, social engineering, infrastructure hardening, and security tool governance."
+      },
+      "recommendedMinutes": 85
+    },
+    {
+      "id": "ct-mat-v1.0-ch1",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Écosystème mobile et stratégie multi-terminaux",
+        "en": "Mobile World & Device Strategy"
+      },
+      "summary": {
+        "fr": "Modèles économiques, fragmentation OS/matériel, typologie d’apps (native, web, hybride) et matrice de terminaux.",
+        "en": "Business models, OS/hardware fragmentation, app types (native, web, hybrid), and device labs."
+      },
+      "recommendedMinutes": 70
+    },
+    {
+      "id": "ct-mat-v1.0-ch2",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Tests spécifiques aux terminaux et capteurs",
+        "en": "Device, Sensor & Non-Functional Mobile Testing"
+      },
+      "summary": {
+        "fr": "Connectivité variable, batterie/thermique, interruptions (appels, notifications), GPS, biométrie et gestes.",
+        "en": "Variable networks, battery/thermal budgets, interrupts, GPS, biometrics, and touch gestures."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ct-mat-v1.0-ch3",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Automatisation mobile et distribution sur stores",
+        "en": "Mobile Automation & Store Release Readiness"
+      },
+      "summary": {
+        "fr": "Émulateurs vs terminaux réels/cloud, Appium/XCUITest/Espresso, soumission App Store / Play Store.",
+        "en": "Emulators vs real/cloud devices, Appium/XCUITest/Espresso, and App Store / Play Store reviews."
+      },
+      "recommendedMinutes": 80
+    }
+  ],
+  "sections": [
+    {
+      "id": "ct-tas-v1.0-s1.1",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "versionId": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Objectifs stratégiques",
+        "en": "Strategic Objectives"
+      }
+    },
+    {
+      "id": "ct-tas-v1.0-s2.1",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "versionId": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Testabilité et PoC",
+        "en": "Testability and PoC"
+      }
+    },
+    {
+      "id": "ct-tas-v1.0-s3.1",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "versionId": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Couches gTAA",
+        "en": "gTAA Layers"
+      }
+    },
+    {
+      "id": "ct-tas-v1.0-s4.1",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "versionId": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "order": 1,
+      "code": "4.1",
+      "title": {
+        "fr": "CI/CD et maintenance",
+        "en": "CI/CD and Maintenance"
+      }
+    },
+    {
+      "id": "ct-tas-v1.0-s5.1",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "versionId": "ct-tas-v1.0",
+      "certificationId": "ct-tas",
+      "order": 1,
+      "code": "5.1",
+      "title": {
+        "fr": "Métriques et ROI",
+        "en": "Metrics and ROI"
+      }
+    },
+    {
+      "id": "ct-tae-v1.0-s1.1",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "versionId": "ct-tae-v1.0",
+      "certificationId": "ct-tae-legacy",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Fondamentaux TAE",
+        "en": "TAE Fundamentals"
+      }
+    },
+    {
+      "id": "ct-tae-v1.0-s2.1",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "versionId": "ct-tae-v1.0",
+      "certificationId": "ct-tae-legacy",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Architecture gTAA",
+        "en": "gTAA Blueprint"
+      }
+    },
+    {
+      "id": "ct-tae-v1.0-s3.1",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "versionId": "ct-tae-v1.0",
+      "certificationId": "ct-tae-legacy",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Déploiement et rapports",
+        "en": "Deployment & Reporting"
+      }
+    },
+    {
+      "id": "ct-pt-v1.0-s1.1",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "versionId": "ct-pt-v1.0",
+      "certificationId": "ct-pt",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Principes et typologie",
+        "en": "Principles & Test Types"
+      }
+    },
+    {
+      "id": "ct-pt-v1.0-s2.1",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "versionId": "ct-pt-v1.0",
+      "certificationId": "ct-pt",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Modélisation de charge",
+        "en": "Workload Modeling"
+      }
+    },
+    {
+      "id": "ct-pt-v1.0-s3.1",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "versionId": "ct-pt-v1.0",
+      "certificationId": "ct-pt",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Exécution et scripting",
+        "en": "Execution & Scripting"
+      }
+    },
+    {
+      "id": "ct-pt-v1.0-s4.1",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "versionId": "ct-pt-v1.0",
+      "certificationId": "ct-pt",
+      "order": 1,
+      "code": "4.1",
+      "title": {
+        "fr": "Analyse des goulots",
+        "en": "Bottleneck Analysis"
+      }
+    },
+    {
+      "id": "ct-sec-v1.0-s1.1",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "versionId": "ct-sec-v1.0",
+      "certificationId": "ct-sec",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Risques et menaces",
+        "en": "Risks & Threat Modeling"
+      }
+    },
+    {
+      "id": "ct-sec-v1.0-s2.1",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "versionId": "ct-sec-v1.0",
+      "certificationId": "ct-sec",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Tests techniques et OWASP",
+        "en": "Technical Checks & OWASP"
+      }
+    },
+    {
+      "id": "ct-sec-v1.0-s3.1",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "versionId": "ct-sec-v1.0",
+      "certificationId": "ct-sec",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Pentest et facteur humain",
+        "en": "Pentest & Human Factors"
+      }
+    },
+    {
+      "id": "ct-mat-v1.0-s1.1",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "versionId": "ct-mat-v1.0",
+      "certificationId": "ct-mat",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Fragmentation et types d’apps",
+        "en": "Fragmentation & App Types"
+      }
+    },
+    {
+      "id": "ct-mat-v1.0-s2.1",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "versionId": "ct-mat-v1.0",
+      "certificationId": "ct-mat",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Capteurs et contraintes mobiles",
+        "en": "Sensors & Mobile Constraints"
+      }
+    },
+    {
+      "id": "ct-mat-v1.0-s3.1",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "versionId": "ct-mat-v1.0",
+      "certificationId": "ct-mat",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Automatisation et stores",
+        "en": "Automation & App Stores"
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "TAS-1.1.1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "sectionId": "ct-tas-v1.0-s1.1",
+      "code": "TAS-1.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Objectifs et valeur de l’automatisation",
+        "en": "Automation goals and strategic value"
+      },
+      "description": {
+        "fr": "Aligner la stratégie d’automatisation sur les objectifs produit, la vélocité et le risque.",
+        "en": "Align automation strategy with business value, release speed, and product risk."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAS v1.0"
+    },
+    {
+      "id": "TAS-2.1.1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "sectionId": "ct-tas-v1.0-s2.1",
+      "code": "TAS-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Testabilité, outillage et PoC",
+        "en": "SUT testability, tooling, and PoC"
+      },
+      "description": {
+        "fr": "Évaluer observabilité/contrôlabilité et valider les choix d’outils par preuve de concept.",
+        "en": "Assess observability/controllability and validate tool choices through a PoC."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAS v1.0"
+    },
+    {
+      "id": "TAS-3.1.1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "sectionId": "ct-tas-v1.0-s3.1",
+      "code": "TAS-3.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Architecture gTAA et patrons de conception",
+        "en": "gTAA layers and design patterns"
+      },
+      "description": {
+        "fr": "Structurer séparation des couches, Page Objects, Screenplay et données découplées.",
+        "en": "Architect layered gTAA, Page Object / Screenplay patterns, and decoupled test data."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAS v1.0"
+    },
+    {
+      "id": "TAS-4.1.1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "sectionId": "ct-tas-v1.0-s4.1",
+      "code": "TAS-4.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Intégration CI/CD et maîtrise des tests instables",
+        "en": "CI/CD pipelines and flaky test governance"
+      },
+      "description": {
+        "fr": "Ordonnancer les suites par étape pipeline et éliminer les instabilités.",
+        "en": "Orchestrate pipeline gates and eliminate flaky test root causes."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAS v1.0"
+    },
+    {
+      "id": "TAS-5.1.1",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "sectionId": "ct-tas-v1.0-s5.1",
+      "code": "TAS-5.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Métriques, ROI et pérennité",
+        "en": "Automation metrics, ROI, and sustainability"
+      },
+      "description": {
+        "fr": "Mesurer retour sur investissement, taux de maintenance et efficacité de détection.",
+        "en": "Measure ROI, maintenance ratio, and regression defect detection effectiveness."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAS v1.0"
+    },
+    {
+      "id": "TAE-1.1.1",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch1",
+      "sectionId": "ct-tae-v1.0-s1.1",
+      "code": "TAE-1.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Objectifs et périmètre TAE (2016)",
+        "en": "TAE objectives and scope (2016)"
+      },
+      "description": {
+        "fr": "Comprendre la mission de l’ingénieur en automatisation et ses limites historiques.",
+        "en": "Understand TAE automation scope, benefits, and organizational prerequisites."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAE v1.0 (Historical)"
+    },
+    {
+      "id": "TAE-2.1.1",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch2",
+      "sectionId": "ct-tae-v1.0-s2.1",
+      "code": "TAE-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Architecture gTAA à 4 couches",
+        "en": "4-layer gTAA architecture"
+      },
+      "description": {
+        "fr": "Concevoir génération, définition, exécution et adaptation indépendantes du SUT.",
+        "en": "Design generation, definition, execution, and adaptation decoupled from the SUT."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAE v1.0 (Historical)"
+    },
+    {
+      "id": "TAE-3.1.1",
+      "certificationId": "ct-tae-legacy",
+      "versionId": "ct-tae-v1.0",
+      "chapterId": "ct-tae-v1.0-ch3",
+      "sectionId": "ct-tae-v1.0-s3.1",
+      "code": "TAE-3.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Déploiement, rapports et vérification de la TAS",
+        "en": "TAS deployment, reporting, and verification"
+      },
+      "description": {
+        "fr": "Tester la solution d’automatisation elle-même, journaliser et piloter la transition.",
+        "en": "Verify the TAS itself, collect execution logs, and manage manual-to-automated transition."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-TAE v1.0 (Historical)"
+    },
+    {
+      "id": "PT-1.1.1",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch1",
+      "sectionId": "ct-pt-v1.0-s1.1",
+      "code": "PT-1.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Typologie et principes des tests de performance",
+        "en": "Performance test types and principles"
+      },
+      "description": {
+        "fr": "Distinguer charge, stress, pointe, endurance (soak) et scalabilité.",
+        "en": "Distinguish load, stress, spike, endurance (soak), and scalability tests."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-PT v1.0"
+    },
+    {
+      "id": "PT-2.1.1",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch2",
+      "sectionId": "ct-pt-v1.0-s2.1",
+      "code": "PT-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Mesures et modélisation de profils de charge",
+        "en": "Metrics and operational workload modeling"
+      },
+      "description": {
+        "fr": "Construire un profil de charge fidèle (utilisateurs concurrents, TPS, think time).",
+        "en": "Build accurate operational profiles (concurrent users, TPS, think time, pacing)."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-PT v1.0"
+    },
+    {
+      "id": "PT-3.1.1",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch3",
+      "sectionId": "ct-pt-v1.0-s3.1",
+      "code": "PT-3.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Scripting, corrélation et exécution de campagnes",
+        "en": "Scripting, correlation, and campaign execution"
+      },
+      "description": {
+        "fr": "Gérer jetons dynamiques, calibration des injecteurs et montée en charge.",
+        "en": "Handle dynamic session correlation, generator sizing, and ramp-up execution."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-PT v1.0"
+    },
+    {
+      "id": "PT-4.1.1",
+      "certificationId": "ct-pt",
+      "versionId": "ct-pt-v1.0",
+      "chapterId": "ct-pt-v1.0-ch4",
+      "sectionId": "ct-pt-v1.0-s4.1",
+      "code": "PT-4.1.1",
+      "kLevel": "K4",
+      "title": {
+        "fr": "Analyse des percentiles et diagnostic des goulots",
+        "en": "Percentile analysis and bottleneck diagnosis"
+      },
+      "description": {
+        "fr": "Corréler temps de réponse p95/p99, débit, CPU, mémoire, GC et verrous BDD.",
+        "en": "Correlate p95/p99 latency, throughput, CPU, memory, GC pauses, and DB locks."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-PT v1.0"
+    },
+    {
+      "id": "SEC-1.1.1",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "sectionId": "ct-sec-v1.0-s1.1",
+      "code": "SEC-1.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Principes de sécurité, CIA et modélisation des menaces",
+        "en": "Security fundamentals, CIA, and threat modeling"
+      },
+      "description": {
+        "fr": "Évaluer risques de sécurité, surface d’attaque et menaces STRIDE/DREAD.",
+        "en": "Assess security risks, attack surfaces, and STRIDE/DREAD threat models."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-SEC v1.0"
+    },
+    {
+      "id": "SEC-2.1.1",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "sectionId": "ct-sec-v1.0-s2.1",
+      "code": "SEC-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Vérification des mécanismes et failles OWASP",
+        "en": "Testing security controls and OWASP vulnerabilities"
+      },
+      "description": {
+        "fr": "Tester authentification, contrôle d’accès, chiffrement, injections, XSS, CSRF et SAST/DAST.",
+        "en": "Verify auth, access control, crypto, injections, XSS, CSRF, and SAST/DAST checks."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-SEC v1.0"
+    },
+    {
+      "id": "SEC-3.1.1",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "sectionId": "ct-sec-v1.0-s3.1",
+      "code": "SEC-3.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Tests d’intrusion, ingénierie sociale et outillage",
+        "en": "Penetration testing, human factors, and tooling"
+      },
+      "description": {
+        "fr": "Encadrer légalement les pentests, sensibiliser au phishing et durcir le cycle SDLC.",
+        "en": "Scope authorized pentests, evaluate social engineering resilience, and harden SDLC."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-SEC v1.0"
+    },
+    {
+      "id": "MAT-1.1.1",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch1",
+      "sectionId": "ct-mat-v1.0-s1.1",
+      "code": "MAT-1.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Fragmentation mobile et typologie applicative",
+        "en": "Mobile fragmentation and application types"
+      },
+      "description": {
+        "fr": "Comparer apps natives, web et hybrides, et bâtir une stratégie de sélection de terminaux.",
+        "en": "Compare native, mobile-web, and hybrid apps, and define device-coverage matrices."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-MAT v1.0"
+    },
+    {
+      "id": "MAT-2.1.1",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch2",
+      "sectionId": "ct-mat-v1.0-s2.1",
+      "code": "MAT-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tests capteurs, réseau, batterie et interruptions",
+        "en": "Testing sensors, networks, battery, and interrupts"
+      },
+      "description": {
+        "fr": "Tester bascules 4G/5G/Wi-Fi, mode hors-ligne, permissions OS, GPS, rotation et appels entrants.",
+        "en": "Test 4G/5G/Wi-Fi handovers, offline sync, OS permissions, GPS, orientation, and interrupts."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-MAT v1.0"
+    },
+    {
+      "id": "MAT-3.1.1",
+      "certificationId": "ct-mat",
+      "versionId": "ct-mat-v1.0",
+      "chapterId": "ct-mat-v1.0-ch3",
+      "sectionId": "ct-mat-v1.0-s3.1",
+      "code": "MAT-3.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Laboratoires mobiles, automatisation et stores",
+        "en": "Mobile test labs, automation, and store readiness"
+      },
+      "description": {
+        "fr": "Choisir entre émulateurs, terminaux physiques et cloud farms, et valider les exigences App Store / Play Store.",
+        "en": "Balance emulators, real devices, and cloud farms, and verify App Store / Play Store compliance."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CT-MAT v1.0"
+    }
+  ]
+}

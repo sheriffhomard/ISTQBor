@@ -147,4 +147,40 @@ describe('IndexedDB Persistence, Seeding & Atomic Backup Transactions', () => {
       expect(card.back.en.length).toBeGreaterThan(10);
     }
   });
+
+  it('seeds 100 original bilingual flashcards for every one of the 13 certifications (1,300 total)', async () => {
+    const allCerts = await testDb.certifications.toArray();
+    const allVersions = await testDb.syllabusVersions.toArray();
+    const allChapters = await testDb.chapters.toArray();
+    const allObjectives = await testDb.learningObjectives.toArray();
+    const allCards = await testDb.flashcards.toArray();
+
+    expect(allCerts).toHaveLength(13);
+    expect(allCards).toHaveLength(1300);
+
+    const versionSet = new Set(allVersions.map((v) => v.id));
+    const chapterSet = new Set(allChapters.map((c) => c.id));
+    const objectiveSet = new Set(allObjectives.map((o) => o.id));
+    const seenIds = new Set<string>();
+    const countsByCert = new Map<string, number>();
+
+    for (const card of allCards) {
+      expect(seenIds.has(card.id)).toBe(false);
+      seenIds.add(card.id);
+      expect(card.languageScope).toBe('bilingual');
+      expect(versionSet.has(card.versionId)).toBe(true);
+      expect(chapterSet.has(card.chapterId)).toBe(true);
+      expect(objectiveSet.has(card.objectiveId)).toBe(true);
+      expect(card.front.fr.trim().length).toBeGreaterThan(4);
+      expect(card.front.en.trim().length).toBeGreaterThan(4);
+      expect(card.back.fr.trim().length).toBeGreaterThan(6);
+      expect(card.back.en.trim().length).toBeGreaterThan(6);
+      countsByCert.set(card.certificationId, (countsByCert.get(card.certificationId) ?? 0) + 1);
+    }
+
+    for (const cert of allCerts) {
+      expect(countsByCert.get(cert.id)).toBe(100);
+    }
+  });
 });
+

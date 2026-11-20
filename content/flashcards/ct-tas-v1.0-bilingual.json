@@ -1,0 +1,3013 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-cttas-001",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le véritable objectif stratégique de l’automatisation des tests selon CT-TAS ?",
+        "en": "What is the primary strategic goal of test automation in CT-TAS?"
+      },
+      "back": {
+        "fr": "Accélérer les retours qualité, fiabiliser les vérifications répétitives et libérer la capacité humaine pour les tests exploratoires et l’analyse des risques, plutôt que « tout automatiser ».",
+        "en": "Delivering faster quality feedback, reliable repeatable verification, and freeing human testers for exploratory and risk analysis—rather than blindly automating 100% of manual cases."
+      },
+      "tags": [
+        "ch1",
+        "objectives"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-002",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez quatre bénéfices majeurs d’une automatisation bien gouvernée.",
+        "en": "Name four major benefits of well-governed test automation."
+      },
+      "back": {
+        "fr": "1) Exécution rapide et fréquente de régressions en CI. 2) Cohérence déterministe sans erreur de fatigue humaine. 3) Capacité à exécuter des tests impossibles manuellement (charge, combinatoire massive). 4) Raccourcissement des cycles de livraison.",
+        "en": "1) Rapid, frequent CI regression execution. 2) Deterministic consistency free from fatigue. 3) Enabling tests infeasible manually (high concurrency, massive datasets). 4) Shorter release lead times."
+      },
+      "tags": [
+        "ch1",
+        "benefits"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-003",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les limites fondamentales de l’automatisation des tests ?",
+        "en": "What are the inherent limitations of test automation?"
+      },
+      "back": {
+        "fr": "Les scripts ne vérifient que les assertions programmées, ne remplacent pas le jugement ergonomique/exploratoire humain, coûtent cher sur des interfaces instables et demandent une maintenance continue.",
+        "en": "Scripts check only pre-coded assertions, lack human exploratory/usability intuition, fail expensively on unstable UIs, and require continuous maintenance."
+      },
+      "tags": [
+        "ch1",
+        "limitations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-004",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez une Test Automation Strategy (TAStrategy) d’une Test Automation Architecture (TAA) et Solution (TAS).",
+        "en": "Distinguish Test Automation Strategy from Test Automation Architecture (TAA) and Solution (TAS)."
+      },
+      "back": {
+        "fr": "La Stratégie définit le « pourquoi, quoi, quand, combien » aligné sur les objectifs métier ; la TAA définit la structure technique logique en couches ; la TAS est l’implémentation logicielle concrète déployée.",
+        "en": "Strategy defines \"why, what, when, and budget\" aligned with business goals; TAA defines the layered technical blueprint; TAS is the concrete implemented automation software."
+      },
+      "tags": [
+        "ch1",
+        "terminology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-005",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’objectif de « 100 % d’automatisation » est-il un anti-pattern stratégique ?",
+        "en": "Why is targeting \"100% test automation\" a strategic anti-pattern?"
+      },
+      "back": {
+        "fr": "Certains tests (ergonomie visuelle subjective, cas rares exécutés une seule fois, matériels physiques complexes) coûtent beaucoup plus cher à automatiser et maintenir qu’à exécuter manuellement.",
+        "en": "Many checks (subjective UX, one-off migrations, complex hardware interactions) cost far more to automate and maintain than to verify manually."
+      },
+      "tags": [
+        "ch1",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-006",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères rendent un cas de test particulièrement rentable à automatiser ?",
+        "en": "Which characteristics make a test case an ideal candidate for automation?"
+      },
+      "back": {
+        "fr": "Exécution fréquente (régression/smoke), stabilité fonctionnelle raisonnable, criticité métier élevée, forte combinatoire de données et vérification objective claire.",
+        "en": "Frequent execution (regression/smoke), reasonable stability, high business risk, data-driven repetition, and unambiguous objective pass/fail oracles."
+      },
+      "tags": [
+        "ch1",
+        "candidates"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-007",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels tests vaut-il généralement mieux NE PAS automatiser en priorité ?",
+        "en": "Which tests are usually poor candidates for upfront automation?"
+      },
+      "back": {
+        "fr": "Fonctionnalités prototypées changeant chaque jour, vérifications ad hoc exécutées une seule fois, tests requérant un jugement esthétique humain ou dépendant d’actions physiques non scriptables.",
+        "en": "Volatile prototypes changing daily, one-time migration checks, tests relying on subjective human aesthetics, or unscriptable physical hardware actions."
+      },
+      "tags": [
+        "ch1",
+        "candidates"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-008",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la stratégie d’automatisation s’aligne-t-elle sur la Pyramide des Tests ?",
+        "en": "How should a Test Automation Strategy reflect the Test Automation Pyramid?"
+      },
+      "back": {
+        "fr": "Investir massivement dans des tests unitaires et API rapides et déterministes à la base et au centre, tout en gardant un nombre restreint de tests E2E IHM ciblant les parcours critiques.",
+        "en": "Invest heavily in fast, deterministic unit and API checks at the lower layers while keeping a lean suite of critical end-to-end GUI journeys at the top."
+      },
+      "tags": [
+        "ch1",
+        "pyramid"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-009",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel facteur organisationnel détermine le plus souvent le succès durable d’une stratégie TAS ?",
+        "en": "Which organizational factor most strongly governs long-term test automation success?"
+      },
+      "back": {
+        "fr": "Traiter l’automatisation comme un véritable projet d’ingénierie logicielle doté de compétences dédiées, de temps de maintenance alloué et d’un soutien managérial continu.",
+        "en": "Treating automation as genuine software engineering—staffed with skilled engineers, explicit maintenance capacity, and sustained leadership sponsorship."
+      },
+      "tags": [
+        "ch1",
+        "success-factors"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-010",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les cycles de vie SDLC (Agile/DevOps vs V-Model) influencent-ils la stratégie d’automatisation ?",
+        "en": "How do SDLC models (Agile/DevOps vs. V-Model) shape the automation strategy?"
+      },
+      "back": {
+        "fr": "En Agile/DevOps, l’automatisation est continue en sprint (TDD/BDD/API) et intégrée en qualité gate CI ; en séquentiel, elle se concentre souvent sur la régression inter-versions et la charge.",
+        "en": "Agile/DevOps embeds automation inside sprints (TDD/BDD/API) and CI quality gates; sequential models often focus automation on inter-release regression and system load."
+      },
+      "tags": [
+        "ch1",
+        "sdlc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-011",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’automatisation ne remplace-t-elle pas les tests manuels d’acceptation ou exploratoires ?",
+        "en": "Why must automation coexist with exploratory and human testing rather than replace it?"
+      },
+      "back": {
+        "fr": "L’automatisation excelle à confirmer ce que l’on connaît déjà (régression) ; l’humain excelle à découvrir des défaillances inattendues, ambiguïtés métier et défauts d’expérience utilisateur.",
+        "en": "Automation excels at confirming known behaviors (regression); humans excel at discovering unforeseen failures, domain inconsistencies, and UX friction."
+      },
+      "tags": [
+        "ch1",
+        "exploratory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-012",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre automatiser l’exécution des tests et automatiser d’autres tâches de test ?",
+        "en": "What test tasks beyond script execution can be strategically automated?"
+      },
+      "back": {
+        "fr": "Génération combinatoire de cas, création/masquage de jeux de données, provisionnement d’environnements (IaC), analyse statique, gestion des anomalies et collecte de rapports CI.",
+        "en": "Combinatorial test generation, synthetic test-data masking/seeding, IaC environment provisioning, static code checks, and automated CI quality reporting."
+      },
+      "tags": [
+        "ch1",
+        "scope"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-013",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que risque une entreprise qui automatise ses anciens tests manuels ligne par ligne sans repenser leur conception ?",
+        "en": "What goes wrong when teams convert legacy manual test scripts 1-to-1 into automated scripts?"
+      },
+      "back": {
+        "fr": "On obtient des tests E2E géants, lents, redondants et très fragiles qui auraient dû être décomposés en tests unitaires/API et en petits cas atomiques.",
+        "en": "It yields bloated, slow, redundant, brittle E2E scripts instead of refactoring checks down into lean atomic unit/API and targeted UI tests."
+      },
+      "tags": [
+        "ch1",
+        "refactoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-014",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment définir des objectifs mesurables (SMART) pour une stratégie d’automatisation ?",
+        "en": "How should strategic automation objectives be formulated?"
+      },
+      "back": {
+        "fr": "En cibles métier mesurables : ex. « ramener la durée de régression pré-release de 5 jours à 2 heures en CI d’ici 6 mois avec < 2 % de faux échecs ».",
+        "en": "As measurable outcome targets: e.g., \"cut pre-release regression cycle from 5 days to 2 hours in CI within 6 months with <2% flaky failure rate.\""
+      },
+      "tags": [
+        "ch1",
+        "goals"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-015",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« automatisation décalée à gauche » (Shift-Left Automation) ?",
+        "en": "What does Shift-Left Automation mean strategically?"
+      },
+      "back": {
+        "fr": "Déplacer l’effort d’automatisation dès l’écriture du code et des critères d’acceptation (tests unitaires, contrat API, BDD en PR) plutôt qu’après livraison en environnement QA.",
+        "en": "Moving automation earlier into PR gates—unit, component, API contract, and BDD checks—rather than waiting for post-build QA staging."
+      },
+      "tags": [
+        "ch1",
+        "shift-left"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-016",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’apporte l’automatisation en production (Shift-Right : tests synthétiques / canaris) ?",
+        "en": "How does Shift-Right automation (synthetic checks / canary verification) extend a TAS strategy?"
+      },
+      "back": {
+        "fr": "Vérifier automatiquement en continu la disponibilité des parcours critiques et métriques réelles après déploiement progressif pour déclencher un rollback immédiat si besoin.",
+        "en": "Continuously probing critical journeys and business telemetry after progressive canary rollouts to trigger instant automated rollbacks on anomalies."
+      },
+      "tags": [
+        "ch1",
+        "shift-right"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-017",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la gouvernance multi-équipes d’une stratégie TAS doit-elle éviter à la fois le chaos total et la rigidité absolue ?",
+        "en": "Why must enterprise TAS governance balance standardization with team autonomy?"
+      },
+      "back": {
+        "fr": "Trop de chaos duplique les frameworks et compétences ; trop de rigidité impose un outil unique inadapté à des piles technologiques variées (mobile vs API backend).",
+        "en": "Unchecked fragmentation duplicates frameworks and skills; overly rigid mandates force one mismatched tool onto diverse stacks (mobile vs. backend APIs)."
+      },
+      "tags": [
+        "ch1",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-018",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch1",
+      "objectiveId": "TAS-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le lien entre la Stratégie d’Automatisation et la Politique Qualité de l’entreprise ?",
+        "en": "How does the Test Automation Strategy align with the corporate Quality Policy?"
+      },
+      "back": {
+        "fr": "La stratégie d’automatisation concrétise les engagements de délai, conformité, sécurité et coût de qualité inscrits dans la politique globale de test.",
+        "en": "It translates corporate quality commitments—release cadence, regulatory compliance, security, and cost targets—into actionable automation standards."
+      },
+      "tags": [
+        "ch1",
+        "policy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-019",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles deux propriétés techniques majeures déterminent la Testabilité d’un Système Sous Test (SUT) ?",
+        "en": "What two fundamental technical properties govern a SUT’s Testability?"
+      },
+      "back": {
+        "fr": "L’Observabilité (capacité à inspecter états internes, logs, réponses API et bases de données) et la Contrôlabilité (capacité à piloter entrées, états initiaux, horloge et dépendances).",
+        "en": "Observability (ability to inspect internal states, logs, APIs, and DB state) and Controllability (ability to drive inputs, seed initial state, mock clocks, and isolate dependencies)."
+      },
+      "tags": [
+        "ch2",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-020",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez trois améliorations concrètes demandées aux développeurs pour rendre une IHM web ou mobile testable.",
+        "en": "Name three concrete testability hooks developers can add to web or mobile UIs."
+      },
+      "back": {
+        "fr": "Attributs dédiés stables (`data-testid` / `accessibilityIdentifier`), désactivation des animations en mode test et API REST de préparation/nettoyage rapide des comptes.",
+        "en": "Dedicated stable selectors (`data-testid` / `accessibilityIdentifier`), flags to disable animations in test builds, and fast API endpoints to seed/reset test state."
+      },
+      "tags": [
+        "ch2",
+        "testability",
+        "ui"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-021",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels aspects du contexte SUT évaluer avant de concevoir une solution d’automatisation ?",
+        "en": "Which SUT context factors must be assessed before building a TAS?"
+      },
+      "back": {
+        "fr": "Interfaces disponibles (API, CLI, GUI, protocoles), fréquence de changement, contraintes de sécurité/données, architectures distribuées et maturité des environnements.",
+        "en": "Exposed interfaces (API, CLI, GUI), UI/schema volatility, security/data privacy rules, distributed dependencies, and environment stability."
+      },
+      "tags": [
+        "ch2",
+        "context"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-022",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères techniques et économiques comparer lors du choix d’un outil d’automatisation ?",
+        "en": "Which technical and economic criteria drive test automation tool selection?"
+      },
+      "back": {
+        "fr": "Support complet des technologies du SUT, intégration CI/CD et reporting, coût total TCO (licences + infra + formation), communauté/pérennité et compétences de l’équipe.",
+        "en": "Compatibility with SUT tech stack, CI/CD and ALM integration, Total Cost of Ownership (licenses, runners, training), ecosystem maturity, and existing team skills."
+      },
+      "tags": [
+        "ch2",
+        "tool-selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-023",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi réaliser une Preuve de Concept (PoC) avant d’adopter un outil ou framework ?",
+        "en": "Why run a focused Proof of Concept (PoC) before committing to an automation tool?"
+      },
+      "back": {
+        "fr": "Valider sur des cas réels et complexes du SUT (authentification SSO, tableaux dynamiques, shadow DOM, intégration CI) que l’outil fonctionne sans blocage caché.",
+        "en": "To verify on real, tricky SUT scenarios (SSO login, dynamic tables, Shadow DOM, CI execution) that the tool works without hidden showstoppers."
+      },
+      "tags": [
+        "ch2",
+        "poc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-024",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle erreur classique fausse les résultats d’un PoC d’automatisation ?",
+        "en": "What common mistake invalidates an automation Proof of Concept (PoC)?"
+      },
+      "back": {
+        "fr": "Ne tester l’outil que sur l’écran de connexion simple (« happy path ») ou sur une app de démo éditeur au lieu d’affronter les contrôles complexes et contraintes CI réelles du projet.",
+        "en": "Testing the tool only on a trivial login page or vendor demo app instead of confronting the project’s toughest UI widgets, auth flows, and CI constraints."
+      },
+      "tags": [
+        "ch2",
+        "poc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-025",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer les coûts cachés d’un outil « Open Source / Gratuit » vs « Commercial » ?",
+        "en": "Compare hidden TCO factors between Open-Source and Commercial automation tools."
+      },
+      "back": {
+        "fr": "Open Source : zéro licence mais coût d’intégration, plugins, tableaux de bord maison et support interne. Commercial : licences/nœuds récurrents et risque de verrouillage éditeur (vendor lock-in).",
+        "en": "Open-source avoids license fees but requires engineering effort for reporting, orchestration, and upkeep; commercial tools charge recurring runner/seat fees and risk vendor lock-in."
+      },
+      "tags": [
+        "ch2",
+        "tco"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-026",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles compétences doivent être réunies au sein d’une équipe d’automatisation ?",
+        "en": "What skill blend should be built in a test automation team?"
+      },
+      "back": {
+        "fr": "Ingénierie logicielle propre (patterns, Git, refactoring), conception de test rigoureuse (oracles, limites, risques), maîtrise CI/CD/conteneurs et connaissance du domaine métier.",
+        "en": "Clean software engineering (patterns, Git, refactoring), strong test design (oracles, boundaries, risk), CI/CD & container ops, and domain knowledge."
+      },
+      "tags": [
+        "ch2",
+        "skills"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-027",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi un Projet Pilote (Pilot Project) diffère-t-il d’un PoC ?",
+        "en": "How does a Pilot Project differ from a Proof of Concept (PoC)?"
+      },
+      "back": {
+        "fr": "Le PoC prouve la faisabilité technique d’un outil sur quelques cas ; le Pilote déploie l’outil et les processus réels sur un périmètre applicatif complet pour mesurer productivité, formation et intégration avant généralisation.",
+        "en": "A PoC validates technical feasibility on a few tricky checks; a Pilot rolls out tools and workflows on a real project slice to measure productivity, training, and CI fit before scaling."
+      },
+      "tags": [
+        "ch2",
+        "pilot"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-028",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment préparer une stratégie de gestion des données de test (TDM) pour l’automatisation parallèle ?",
+        "en": "How must Test Data Management be designed to support parallel automated execution?"
+      },
+      "back": {
+        "fr": "Chaque test crée ou réserve ses propres données isolées (factory API, préfixes uniques, bases éphémères) afin qu’aucun test parallèle ne modifie les enregistrements d’un autre.",
+        "en": "Each test dynamically creates or claims isolated data (API factories, unique IDs, ephemeral schemas) so concurrent workers never collide on shared records."
+      },
+      "tags": [
+        "ch2",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-029",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel impact a l’utilisation d’interfaces tierces externes (paiement, SMS, ERP) sur la préparation TAS ?",
+        "en": "How do external third-party dependencies (payment gateways, SMS, ERPs) impact TAS preparation?"
+      },
+      "back": {
+        "fr": "Elles génèrent lenteurs, quotas, coûts et instabilités imprévisibles ; il faut planifier simulateurs, bouchons ou virtualisation de services pour la quasi-totalité des suites automatisées.",
+        "en": "They introduce latency, rate limits, costs, and external flakiness—requiring sandbox doubles or service virtualization for fast reliable automation."
+      },
+      "tags": [
+        "ch2",
+        "dependencies"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-030",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi évaluer la « compatibilité linguistique et technologique » avec l’équipe de développement ?",
+        "en": "Why should the automation stack’s programming language match or align closely with the developers’ stack?"
+      },
+      "back": {
+        "fr": "Cela facilite revues de code croisées, réutilisation des modèles de types/DTO, contribution des développeurs aux tests et partage des infrastructures CI existantes.",
+        "en": "Matching stacks encourages developer collaboration, PR reviews, shared DTO types, and seamless reuse of existing CI build tooling."
+      },
+      "tags": [
+        "ch2",
+        "tech-stack"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-031",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Automatisation sans code / Low-code » et dans quel contexte convient-elle ?",
+        "en": "Where do Low-Code/Codeless automation tools fit—and where do they fall short?"
+      },
+      "back": {
+        "fr": "Utiles pour permettre à des profils métier d’automatiser des flux simples rapidement, mais souvent limitées pour logique complexe, versionning Git fin, réutilisation modulaire et débogage CI.",
+        "en": "Useful for quick simple flows by non-coders, but often restrictive for complex conditional logic, clean Git branching, modular refactoring, and deep CI debugging."
+      },
+      "tags": [
+        "ch2",
+        "low-code"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-032",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la sécurité des environnements de test affecte-t-elle la préparation de la TAS ?",
+        "en": "What security requirements must be addressed when preparing automated test infrastructure?"
+      },
+      "back": {
+        "fr": "Gestion sécurisée des secrets/jetons en coffre CI (jamais en clair dans Git), accès réseau restreints (VPN/pare-feu) et données strictement anonymisées.",
+        "en": "Storing test credentials in CI secret vaults (never hardcoded in Git), firewall/runner network allowlisting, and strictly anonymized datasets."
+      },
+      "tags": [
+        "ch2",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-033",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Contrôlabilité temporelle » (Clock Injection) et pourquoi est-elle précieuse en test ?",
+        "en": "Why is Clock Injection (controllable system time) valuable for test automation?"
+      },
+      "back": {
+        "fr": "Elle permet de tester instantanément expirations de sessions, facturations mensuelles ou années bissextiles sans attendre réellement plusieurs jours ou mois.",
+        "en": "It enables instant verification of token expirations, monthly billing runs, or leap-day logic without waiting real wall-clock days."
+      },
+      "tags": [
+        "ch2",
+        "controllability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-034",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le niveau de « Testabilité » des systèmes embarqués ou temps réel ?",
+        "en": "What testability challenges arise when preparing automation for embedded or real-time systems?"
+      },
+      "back": {
+        "fr": "Accès limité aux bus matériels (CAN/SPI), contraintes temps réel strictes et besoin de bancs HIL (Hardware-in-the-Loop) ou simulateurs matériels.",
+        "en": "Restricted hardware bus access (CAN/SPI), strict timing sensitivity, and reliance on Hardware-in-the-Loop (HIL) rigs or virtualized hardware simulators."
+      },
+      "tags": [
+        "ch2",
+        "embedded"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-035",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que doit contenir le rapport de décision à l’issue du PoC d’automatisation ?",
+        "en": "What should a PoC Decision Report deliver to stakeholders?"
+      },
+      "back": {
+        "fr": "Matrice de notation face aux critères pondérés, blocages techniques observés et contournements, estimation réaliste TCO/maintenance et recommandation Go/No-Go argumentée.",
+        "en": "Weighted scorecard against requirements, technical hurdles encountered and workarounds, realistic TCO/maintenance forecast, and clear Go/No-Go guidance."
+      },
+      "tags": [
+        "ch2",
+        "poc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-036",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi planifier dès le départ l’infrastructure d’exécution parallèle (Grids / Containers / Cloud Farms) ?",
+        "en": "Why plan parallel execution infrastructure (Grids / Containers / Device Farms) early?"
+      },
+      "back": {
+        "fr": "Une suite qui grossit à 500+ tests devient inutilisable en feedback CI si elle tourne séquentiellement pendant 4 heures sur une seule machine.",
+        "en": "As a suite scales to hundreds of checks, sequential runs taking hours destroy CI feedback loops unless sharded across parallel workers."
+      },
+      "tags": [
+        "ch2",
+        "infrastructure"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-037",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle des « Critères d’Acceptation d’Automatisation » (Automation Readiness Criteria) ?",
+        "en": "What do \"Automation Readiness Criteria\" verify before automating a feature test?"
+      },
+      "back": {
+        "fr": "Critères d’acceptation stabilisés, sélecteurs/API exposés, environnement disponible, données définies et absence de blocage fonctionnel majeur.",
+        "en": "Stable acceptance criteria, exposed selectors/API hooks, stable environment, defined test data, and core manual smoke functionality working."
+      },
+      "tags": [
+        "ch2",
+        "readiness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-038",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch2",
+      "objectiveId": "TAS-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer la transition progressive d’une équipe QA manuelle vers l’automatisation ?",
+        "en": "How should a strategist transition a manual QA team toward test automation?"
+      },
+      "back": {
+        "fr": "Formation guidée et binômage avec des développeurs/SDET, début sur des tâches lisibles (ex. BDD/Data-Driven ou revue de sélecteurs), sans exiger d’architecture complexe dès le jour 1.",
+        "en": "Structured mentoring and developer/SDET pairing, starting with clear data-driven or BDD tasks before progressing to framework engineering."
+      },
+      "tags": [
+        "ch2",
+        "team-transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-039",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les quatre couches majeures de l’Architecture Générique d’Automatisation des Tests (gTAA) ISTQB ?",
+        "en": "Name the four core layers of the ISTQB Generic Test Automation Architecture (gTAA)."
+      },
+      "back": {
+        "fr": "1) Couche Génération de Tests (Test Generation). 2) Couche Définition de Tests (Test Definition). 3) Couche Exécution de Tests (Test Execution). 4) Couche Adaptation de Tests (Test Adaptation).",
+        "en": "1) Test Generation layer. 2) Test Definition layer. 3) Test Execution layer. 4) Test Adaptation layer."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-040",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle de la couche « Test Generation » dans la gTAA ?",
+        "en": "What is the responsibility of the Test Generation layer in gTAA?"
+      },
+      "back": {
+        "fr": "Supporter la conception manuelle assistée ou la dérivation automatique de cas de test à partir de modèles, spécifications, tables de décision ou combinaisons de données.",
+        "en": "Supporting assisted manual design or automated derivation of test cases from models, specifications, decision tables, or combinatorial datasets."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-041",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que gère la couche « Test Definition » dans la gTAA ?",
+        "en": "What does the Test Definition layer manage in gTAA?"
+      },
+      "back": {
+        "fr": "Spécifier et stocker les cas de test, procédures, données de test, mots-clés et suites abstraits de haut niveau indépendamment des détails techniques du SUT.",
+        "en": "Specifying and storing test cases, procedures, test data, keywords, and high-level test libraries decoupled from low-level SUT technical details."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-042",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la mission de la couche « Test Execution » dans la gTAA ?",
+        "en": "What does the Test Execution layer perform in gTAA?"
+      },
+      "back": {
+        "fr": "Interpréter/exécuter les définitions de test, orchestrer préconditions et nettoyages, comparer résultats réels et attendus (oracles) et produire journaux et rapports.",
+        "en": "Executing test definitions, orchestrating setup/teardown, comparing actual vs. expected outcomes, and producing logs and execution reports."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-043",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle clé joue la couche « Test Adaptation » dans la gTAA ?",
+        "en": "Why is the Test Adaptation layer crucial in gTAA?"
+      },
+      "back": {
+        "fr": "Elle encapsule les adaptateurs techniques (GUI Selenium/Playwright, API REST/gRPC, BDD/SQL, protocoles embarqués) traduisant les actions abstraites vers les interfaces concrètes du SUT.",
+        "en": "It encapsulates technology-specific adapters (Playwright/Selenium GUI, REST/gRPC API, DB/CLI drivers) translating abstract steps into concrete SUT interactions."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-044",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’isolation entre Définition et Adaptation dans gTAA protège-t-elle la rentabilité ?",
+        "en": "How does decoupling Test Definition from Test Adaptation protect automation ROI?"
+      },
+      "back": {
+        "fr": "Si le SUT change de framework UI ou passe d’une API REST à gRPC, seule la couche d’Adaptation est modifiée sans réécrire les centaines de scénarios métier.",
+        "en": "When the SUT swaps UI frameworks or migrates protocols, only the Adaptation layer updates while hundreds of business test definitions stay intact."
+      },
+      "tags": [
+        "ch3",
+        "gtaa",
+        "decoupling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-045",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels composants transverses soutiennent les 4 couches gTAA (hors couches principales) ?",
+        "en": "Which supporting components interface with the gTAA layers?"
+      },
+      "back": {
+        "fr": "Gestion de configuration et versioning, gestion de projet/ALM, contrôleurs d’exécution/reporting et accès direct aux interfaces du SUT.",
+        "en": "Configuration management, project/ALM test management, reporting/orchestration controllers, and SUT interface connectors."
+      },
+      "tags": [
+        "ch3",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-046",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez le patron « Page Object Model (POM) » et le patron « Screenplay / Journey Pattern ».",
+        "en": "Contrast the Page Object Model (POM) vs. the Screenplay Pattern."
+      },
+      "back": {
+        "fr": "POM modélise chaque page/écran comme une classe d’éléments et d’actions ; Screenplay applique SOLID autour d’Acteurs, Tâches et Questions composables, évitant des Page Objects obèses.",
+        "en": "POM models pages as classes holding locators and actions; Screenplay applies SOLID composition using Actors, Abilities, Tasks, and Questions, preventing bloated page classes."
+      },
+      "tags": [
+        "ch3",
+        "patterns"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-047",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre approche impérative et approche déclarative dans la couche Définition ?",
+        "en": "Contrast Imperative vs. Declarative test definitions."
+      },
+      "back": {
+        "fr": "Impérative : détaille chaque clic/saisie pas à pas. Déclarative : exprime l’intention métier de haut niveau (« Créer commande valide ») masquant les détails techniques.",
+        "en": "Imperative specifies low-level clicks and fields step-by-step; Declarative states high-level business intent (\"Submit valid order\"), hiding UI mechanics."
+      },
+      "tags": [
+        "ch3",
+        "abstraction"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-048",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer une architecture hybride combinant API et IHM dans un même test E2E ?",
+        "en": "Why combine API and GUI layers inside an end-to-end automation architecture?"
+      },
+      "back": {
+        "fr": "Utiliser les adaptateurs API pour préparer rapidement les données (création compte, panier, connexion via jeton) et réserver le navigateur IHM à la seule interaction critique vérifiée.",
+        "en": "Use API adapters for rapid setup/teardown (seeding users, injecting auth tokens) and reserve browser UI steps purely for the critical UI journey under verification."
+      },
+      "tags": [
+        "ch3",
+        "hybrid-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-049",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels avantages offre le patron « Test Data Builder / Object Mother » dans l’architecture TAS ?",
+        "en": "What benefit do Test Data Builder and Object Mother patterns bring to a TAS?"
+      },
+      "back": {
+        "fr": "Créer des objets métier valides avec des valeurs par défaut sensées tout en ne surchargeant que les attributs pertinents pour le test courant, rendant le code lisible et maintenable.",
+        "en": "Constructing valid domain payloads with sensible defaults while overriding only fields relevant to the specific test, maximizing readability and resilience to schema tweaks."
+      },
+      "tags": [
+        "ch3",
+        "patterns",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-050",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir les assertions (Test Oracles) dans la TAS pour faciliter le débogage ?",
+        "en": "How should assertions and failure diagnostics be designed inside a TAS?"
+      },
+      "back": {
+        "fr": "Assertions précises avec messages explicites contextuels, soft assertions lorsque plusieurs champs indépendants sont vérifiés, et capture automatique de logs/screenshots/traces réseau à l’échec.",
+        "en": "Focused contextual assertion messages, soft assertions for independent multi-field checks, and automatic capture of screenshots, DOM, and network traces on failure."
+      },
+      "tags": [
+        "ch3",
+        "oracles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-051",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi éviter tout état global mutable partagé entre tests dans l’architecture d’exécution ?",
+        "en": "Why must the TAS execution layer forbid shared mutable state across tests?"
+      },
+      "back": {
+        "fr": "Le partage d’état crée des dépendances d’ordre d’exécution cachées : un test isolé passe mais échoue lorsqu’il tourne en parallèle ou après un autre test.",
+        "en": "Shared mutable state introduces hidden order dependencies: tests pass solo yet fail unpredictably under parallelization or reordered runs."
+      },
+      "tags": [
+        "ch3",
+        "isolation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-052",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer la configuration multi-environnements (Dev, Staging, Preprod) dans la TAS ?",
+        "en": "How should multi-environment configs (Dev, Staging, Preprod) be architected in a TAS?"
+      },
+      "back": {
+        "fr": "Externaliser URL, timeouts, identifiants et feature flags dans des fichiers de configuration par profil et variables d’environnement injectées au lancement, jamais codés en dur dans les tests.",
+        "en": "Externalize base URLs, timeouts, credentials, and feature flags via profile configs and environment variables injected at runtime—never hardcoded in scripts."
+      },
+      "tags": [
+        "ch3",
+        "config"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-053",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Architecture dirigée par les modèles » (Model-Based Testing Architecture) dans gTAA ?",
+        "en": "How does Model-Based Testing integrate into the gTAA layers?"
+      },
+      "back": {
+        "fr": "Le modèle comportemental abstrait alimente la couche Génération qui produit des cas abstraits dans Définition ; des adaptateurs traduisent ensuite chaque transition vers le SUT.",
+        "en": "Abstract behavioral models drive the Generation layer to emit abstract cases into Definition, while Adaptation maps abstract steps onto concrete SUT interfaces."
+      },
+      "tags": [
+        "ch3",
+        "mbt",
+        "gtaa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-054",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel principe SOLID s’applique directement à la conception des classes d’adaptation et de helpers TAS ?",
+        "en": "How does the Single Responsibility Principle (SRP) apply to TAS framework classes?"
+      },
+      "back": {
+        "fr": "Une classe ne doit avoir qu’une raison de changer : séparer localisation IHM, appels API, construction de données, logique d’assertion et configuration.",
+        "en": "Keep locators/UI drivers, API clients, data builders, assertion helpers, and configuration loaders in separate focused modules with one reason to change."
+      },
+      "tags": [
+        "ch3",
+        "solid"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-055",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer les mécanismes d’attente et de synchronisation dans la couche Adaptation ?",
+        "en": "How should synchronization and waiting be implemented in the Adaptation layer?"
+      },
+      "back": {
+        "fr": "Centraliser des attentes intelligentes (polling conditionnel sur état DOM/API/réseau avec timeout configurable) à l’intérieur des adaptateurs, en bannissant `Thread.sleep()` des tests.",
+        "en": "Encapsulate smart condition-based polling (DOM state, network idle, API readiness with configurable timeouts) inside adapters—never scattering fixed `sleep()` calls in tests."
+      },
+      "tags": [
+        "ch3",
+        "synchronization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-056",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la journalisation structurée à double niveau dans la TAS ?",
+        "en": "Why implement two-tier structured logging (business + technical) in a TAS?"
+      },
+      "back": {
+        "fr": "Un niveau lisible métier pour le reporting aux parties prenantes (« Étape : Paiement validé ») et un niveau technique détaillé (requêtes HTTP, stacks, timings) pour le débogage rapide.",
+        "en": "Business-readable step logs for stakeholder reporting alongside detailed technical traces (HTTP payloads, stack traces, timings) for rapid failure triage."
+      },
+      "tags": [
+        "ch3",
+        "logging"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-057",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier la compatibilité de la TAS avec des versions multiples ou parallèles du SUT ?",
+        "en": "How should TAS versioning align with SUT release branches?"
+      },
+      "back": {
+        "fr": "Héberger idéalement les tests dans le même dépôt (monorepo) ou épingler les branches/tags TAS exactement sur les branches du SUT pour que code et tests restent synchrones.",
+        "en": "Ideally co-locate tests in the SUT repo (or tightly version-tag TAS branches to match SUT releases) so tests evolve atomically alongside feature code."
+      },
+      "tags": [
+        "ch3",
+        "versioning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-058",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « tester la TAS elle-même » ?",
+        "en": "What does \"testing the TAS itself\" mean before trusting its results?"
+      },
+      "back": {
+        "fr": "Vérifier via des tests unitaires et d’injection de défauts volontaires que la TAS échoue bien lorsqu’un défaut est injecté dans le SUT (pas de faux verts silencieux) et produit des rapports fiables.",
+        "en": "Running unit checks and deliberate fault-injection checks against the SUT to verify the TAS genuinely catches failures (no silent false greens) and logs accurately."
+      },
+      "tags": [
+        "ch3",
+        "tas-verification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-059",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment concevoir une stratégie d’adaptateurs pour une application multi-plateformes (Web + iOS + Android) ?",
+        "en": "How does gTAA support cross-platform automation across Web, iOS, and Android?"
+      },
+      "back": {
+        "fr": "Partager la même couche Définition métier (mots-clés ou scénarios Gherkin) tout en branchant dynamiquement l’adaptateur cible (Web Playwright, Mobile Appium) via injection de dépendances.",
+        "en": "Sharing a single business Test Definition layer while injecting platform-specific Adaptation drivers (Web vs. iOS vs. Android) at runtime."
+      },
+      "tags": [
+        "ch3",
+        "cross-platform"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-060",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Abstraction d’Oracle » pour comparer des sorties complexes (PDF, images, JSON dynamiques) ?",
+        "en": "How should a TAS architect handle complex oracles (PDFs, visual diffs, dynamic JSON)?"
+      },
+      "back": {
+        "fr": "Masquer/normaliser champs variables (horodatages, UUID générés) avant comparaison structurelle ou utiliser des seuils de tolérance visuelle maîtrisés dans des utilitaires dédiés.",
+        "en": "Normalizing/ignoring volatile fields (timestamps, random UUIDs) before structural diffing, or using controlled perceptual thresholds in dedicated oracle helpers."
+      },
+      "tags": [
+        "ch3",
+        "oracles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-061",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi éviter d’hériter en cascades profondes (`BaseTest -> AuthTest -> AdminTest`) dans la TAS ?",
+        "en": "Why prefer composition over deep inheritance hierarchies in TAS test suites?"
+      },
+      "back": {
+        "fr": "L’héritage profond couple rigidement les tests et complique les préconditions ; la composition par fixtures modulaires ou helpers est bien plus lisible et flexible.",
+        "en": "Deep inheritance locks tests into rigid coupling and murky setup order; modular fixtures and composition keep dependencies explicit and clean."
+      },
+      "tags": [
+        "ch3",
+        "architecture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-062",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch3",
+      "objectiveId": "TAS-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle jouent les mécanismes de nettoyage (`teardown` / `afterEach`) résilients dans l’architecture TAS ?",
+        "en": "Why must cleanup hooks (`teardown`) be resilient even when tests fail mid-execution?"
+      },
+      "back": {
+        "fr": "Un test qui échoue ne doit pas laisser données verrouillées, fichiers temporaires ou sessions ouvertes qui feraient échouer les tests suivants en cascade.",
+        "en": "Tests failing midway must still reliably roll back locks, sessions, and temp records inside guaranteed cleanup hooks so subsequent tests stay unpolluted."
+      },
+      "tags": [
+        "ch3",
+        "teardown"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-063",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels risques techniques menacent le déploiement d’une TAS en production d’équipe ?",
+        "en": "What key risks threaten deploying a Test Automation Solution across teams?"
+      },
+      "back": {
+        "fr": "Sous-estimation de la maintenance, tests instables (flaky) détruisant la confiance, lenteur excessive en CI, dépendance à une seule personne (« bus factor ») et divergence environnementale.",
+        "en": "Underestimated maintenance burden, flaky suites eroding CI trust, slow pipeline feedback, single-engineer dependency (\"bus factor\"), and environment drift."
+      },
+      "tags": [
+        "ch4",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-064",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer les suites automatisées par étapes (Stages) dans un pipeline CI/CD ?",
+        "en": "How should automated test suites be tiered across CI/CD pipeline stages?"
+      },
+      "back": {
+        "fr": "Commit/PR (< 5–10 min) : lint, unitaires, contrat API. Merge/Staging : intégration complète et parcours E2E critiques. Nuit/Pré-release : régression étendue, charge, sécurité DAST et compatibilité multi-navigateurs.",
+        "en": "PR/Commit (<5–10 min): lint, unit, contract checks. Merge/Staging: integration and critical E2E smoke. Nightly/Pre-release: full regression, load, DAST security, and browser matrix."
+      },
+      "tags": [
+        "ch4",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-065",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Flaky Test » (test instable) et quelles en sont les causes principales ?",
+        "en": "What is a \"Flaky Test\", and what are its leading root causes?"
+      },
+      "back": {
+        "fr": "Un test qui alterne Succès et Échec sans changement de code du SUT : conditions de course asynchrones, `sleep` arbitraires, état partagé entre tests, horloge/fuseau ou réseaux externes instables.",
+        "en": "A test returning pass and fail unpredictably on unchanged code: async race conditions, arbitrary `sleep`s, shared mutable data, clock/timezone edge bugs, or flaky third-party networks."
+      },
+      "tags": [
+        "ch4",
+        "flaky"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-066",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la pratique systématique du « Retry on Fail » (relance automatique) masque-t-elle un vrai problème ?",
+        "en": "Why is blindly relying on automatic \"Retry on Fail\" dangerous for a CI pipeline?"
+      },
+      "back": {
+        "fr": "Elle cache les bugs intermittents réels du SUT (concurrence, fuites) et l’accumulation de dette technique dans la TAS tout en allongeant les temps de build.",
+        "en": "It hides genuine intermittent SUT race bugs as well as decaying test quality while inflating pipeline duration."
+      },
+      "tags": [
+        "ch4",
+        "flaky",
+        "retry"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-067",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la bonne politique de gouvernance face à un test détecté comme flaky ?",
+        "en": "What is a healthy governance policy for handling newly detected flaky tests?"
+      },
+      "back": {
+        "fr": "Le placer temporairement en quarantaine non bloquante avec ticket priorisé et date limite (SLA) pour soit corriger la cause racine, soit le supprimer/descendre de niveau.",
+        "en": "Move it to a tracked quarantine suite with an assigned remediation ticket and SLA—either fix the root cause promptly or demote/remove it."
+      },
+      "tags": [
+        "ch4",
+        "quarantine"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-068",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’effet « Cimetière de scripts » (abandon d’une TAS après 6 à 12 mois) ?",
+        "en": "How can teams avoid the \"Shelfware / Automation Graveyard\" phenomenon?"
+      },
+      "back": {
+        "fr": "Maintenir un code de test propre par revues de PR, intégrer la maintenance dans la Definition of Done, élager régulièrement les tests à faible valeur et surveiller le taux de flakiness.",
+        "en": "Enforce PR code reviews on test code, include automation updates in the Definition of Done, prune low-value checks, and track flakiness."
+      },
+      "tags": [
+        "ch4",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-069",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment appliquer la règle « Test Pruning » (élagage) sur une suite de non-régression vieillissante ?",
+        "en": "When and why should a TAS strategist prune or retire automated tests?"
+      },
+      "back": {
+        "fr": "Lorsque la fonctionnalité est retirée, que le test double inutilement une couverture unitaire/API plus fiable, ou que son coût de maintenance dépasse largement le risque couvert.",
+        "en": "When features retire, when an E2E test duplicates faster unit/API checks, or when maintenance cost far exceeds the mitigated risk."
+      },
+      "tags": [
+        "ch4",
+        "pruning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-070",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel impact a une bonne gestion de logs/artefacts CI (traces Playwright, vidéos, HAR) sur le coût de maintenance ?",
+        "en": "How do rich CI failure artifacts (traces, videos, HAR logs) reduce maintenance cost?"
+      },
+      "back": {
+        "fr": "Les ingénieurs diagnostiquent en 2 minutes si l’échec vient d’un vrai bug produit, d’un sélecteur obsolète ou d’un timeout environnement sans devoir tout rejouer en local.",
+        "en": "Engineers diagnose in minutes whether a failure is a product defect, stale locator, or environment blip without wasting hours reproducing locally."
+      },
+      "tags": [
+        "ch4",
+        "diagnostics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-071",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer les changements planifiés du SUT qui cassent volontairement les sélecteurs ou contrats API ?",
+        "en": "How should SUT changes affecting test selectors or API contracts be coordinated?"
+      },
+      "back": {
+        "fr": "Inclure la mise à jour des tests automatisés dans la même Pull Request que la modification du code produit afin que la branche principale reste toujours verte.",
+        "en": "Update affected test adapters and contracts within the same Pull Request as the SUT change so the main branch never turns red."
+      },
+      "tags": [
+        "ch4",
+        "workflow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-072",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Analyse d’Impact de Test » (Test Impact Analysis — TIA) dans un pipeline CI ?",
+        "en": "What is Test Impact Analysis (TIA) in CI/CD pipelines?"
+      },
+      "back": {
+        "fr": "Sélectionner dynamiquement sur chaque commit uniquement le sous-ensemble de tests impactés par les fichiers modifiés, accélérant le retour tout en conservant la suite complète périodique.",
+        "en": "Dynamically running on each commit only the subset of automated tests mapped to changed code modules, cutting feedback latency while preserving periodic full sweeps."
+      },
+      "tags": [
+        "ch4",
+        "ci-cd",
+        "tia"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-073",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la « dérive d’environnement » (Environment Drift) en automatisation ?",
+        "en": "How does Environment Drift break automated test suites?"
+      },
+      "back": {
+        "fr": "Versions d’OS, navigateurs, certificats, variables ou schémas BDD divergeant entre poste local, CI et production ; solution : conteneurisation Docker et Infrastructure-as-Code.",
+        "en": "Diverging browser versions, OS packages, secrets, or DB schemas across dev/CI/staging cause false failures; solved with Dockerized runners and IaC."
+      },
+      "tags": [
+        "ch4",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-074",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment sécuriser le déploiement continu de la TAS lorsque plusieurs équipes contribuent au même dépôt ?",
+        "en": "How do multiple squads collaborate safely on a shared automation codebase?"
+      },
+      "back": {
+        "fr": "Linters et formatage automatiques, code owners par couche d’adaptation partagée, tests unitaires des helpers critiques et documentation vivante des mots-clés existants.",
+        "en": "Automated linters, CODEOWNERS reviews on shared adapters, unit tests on core framework helpers, and a searchable catalogue of reusable steps."
+      },
+      "tags": [
+        "ch4",
+        "collaboration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-075",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réagir à un « faux positif » (False Positive) vs un « faux négatif » (False Negative) dans la TAS ?",
+        "en": "Distinguish a False Positive from a False Negative in test automation—and which is worse?"
+      },
+      "back": {
+        "fr": "Faux positif : le test échoue alors que le SUT est correct (érode la confiance dans la CI). Faux négatif : le test passe vert malgré un vrai bogue du SUT (laisse fuir des défauts en production — encore plus dangereux).",
+        "en": "False positive: test fails on healthy SUT (erodes CI trust). False negative: test passes green despite a real SUT bug (ships production defects—even more dangerous)."
+      },
+      "tags": [
+        "ch4",
+        "reliability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-076",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des assertions trop faibles (`expect(status).toBeDefined()`) engendrent-elles des faux négatifs ?",
+        "en": "How do weak or missing assertions create dangerous False Negatives?"
+      },
+      "back": {
+        "fr": "Le script parcourt les écrans sans planter et passe au vert même si les calculs sont faux, des données disparaissent ou un message d’erreur s’affiche discrètement.",
+        "en": "The script clicks through pages without throwing errors and reports green even when calculations fail or silent errors appear."
+      },
+      "tags": [
+        "ch4",
+        "assertions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-077",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle jouent les tests d’auto-réparation par IA (Self-Healing Locators) et quelle prudence adopter ?",
+        "en": "What benefit and risk come with AI Self-Healing Locators in UI automation?"
+      },
+      "back": {
+        "fr": "Bénéfice : résister à un renommage CSS mineur en basculant sur un attribut alternatif. Prudence : risque de cliquer sur un mauvais bouton proche et de masquer un vrai défaut d’interface si non validé.",
+        "en": "Benefit: surviving minor CSS renames via fallback attributes. Risk: silently clicking the wrong adjacent control and masking real UI regressions unless flagged for review."
+      },
+      "tags": [
+        "ch4",
+        "self-healing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-078",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la conteneurisation des nœuds d’exécution (ex. Kubernetes / Playwright Docker) facilite-t-elle la maintenance ?",
+        "en": "How do containerized test runners (Docker/Kubernetes) simplify TAS maintenance?"
+      },
+      "back": {
+        "fr": "Images immuables épinglant exactement navigateurs, bibliothèques et polices, démarrage propre à chaque build sans pollution résiduelle et mise à l’échelle automatique.",
+        "en": "Immutable images pin exact browser and runtime versions, guarantee clean state per job, and autoscale effortlessly."
+      },
+      "tags": [
+        "ch4",
+        "containers"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-079",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter le phénomène de « duplication de scripts » entre équipes ?",
+        "en": "How can organizations prevent duplicate automation utilities across squads?"
+      },
+      "back": {
+        "fr": "Publier les adaptateurs, constructeurs de données et clients API communs sous forme de paquets versionnés internes (npm/Maven/PyPI) maintenus par une communauté interne.",
+        "en": "Package shared adapters, API clients, and data builders as versioned internal libraries governed by an inner-source QA community."
+      },
+      "tags": [
+        "ch4",
+        "reuse"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-080",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la gestion des données synthétiques en CI doit-elle inclure le nettoyage ou des schémas éphémères ?",
+        "en": "Why must CI data provisioning prevent unbounded database growth?"
+      },
+      "back": {
+        "fr": "Sans purge ou bases éphémères, les tables gonflent au fil des milliers d’exécutions, ralentissant requêtes et recherches jusqu’à provoquer des timeouts en chaîne.",
+        "en": "Without resets or ephemeral databases, thousands of CI runs bloat test tables, slowing queries until cascade timeouts break suites."
+      },
+      "tags": [
+        "ch4",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-081",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel indicateur technique révèle qu’une architecture TAS souffre de couplage excessif ?",
+        "en": "What symptom reveals excessive architectural coupling in a TAS?"
+      },
+      "back": {
+        "fr": "Une modification mineure d’un champ ou bouton du SUT oblige à éditer des dizaines de fichiers de tests différents au lieu d’un seul adaptateur.",
+        "en": "A minor single-button or payload tweak in the SUT forces edits across dozens of separate test files instead of one adapter module."
+      },
+      "tags": [
+        "ch4",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-082",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch4",
+      "objectiveId": "TAS-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réagir si la suite CI dépasse le seuil de tolérance de durée (ex. > 15 min sur PR) ?",
+        "en": "What architectural actions fix a PR automation suite exceeding acceptable wait times (e.g., >15 min)?"
+      },
+      "back": {
+        "fr": "Paralléliser par sharding, descendre des tests IHM vers l’API/unitaire, remplacer les attentes fixes par du polling, déplacer les tests rares vers la suite nocturne.",
+        "en": "Shard tests across parallel workers, push redundant UI checks down to API/unit layers, eliminate static sleeps, and offload non-critical sweeps to nightly runs."
+      },
+      "tags": [
+        "ch4",
+        "ci-cd"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-083",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le seul « nombre de cas de test automatisés » ou « % d’automatisation » est-il une mauvaise métrique de pilotage ?",
+        "en": "Why are \"number of automated tests\" or \"% automated\" poor vanity metrics on their own?"
+      },
+      "back": {
+        "fr": "On peut écrire 1 000 tests triviaux à faible valeur qui ne détectent aucun risque critique tout en générant une énorme dette de maintenance.",
+        "en": "Teams can inflate counts with 1,000 trivial low-risk scripts that catch zero critical bugs while creating crushing maintenance overhead."
+      },
+      "tags": [
+        "ch5",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-084",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels indicateurs clés mesurent véritablement la valeur d’une TAS ?",
+        "en": "Which metrics genuinely reflect the business and engineering value of a TAS?"
+      },
+      "back": {
+        "fr": "Réduction du délai de mise en production, régression/défauts bloqués avant livraison, couverture des risques critiques, taux de stabilité (anti-flaky) et ratio coût maintenance / exécution.",
+        "en": "Faster release cycle time, regressions caught pre-release, high-risk coverage, suite stability (non-flaky rate), and maintenance-to-execution effort ratio."
+      },
+      "tags": [
+        "ch5",
+        "kpis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-085",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment calculer le Retour sur Investissement (ROI) d’un projet d’automatisation ?",
+        "en": "How is Test Automation ROI calculated cleanly?"
+      },
+      "back": {
+        "fr": "ROI = (Bénéfices cumulés − Coût Total d’Automatisation) / Coût Total × 100 %. Le Coût Total inclut infrastructure, licences, développement initial ET maintenance continue.",
+        "en": "ROI = (Cumulative Benefits − Total Automation Cost) / Total Automation Cost × 100%, where Total Cost includes setup, licenses, scripting, AND ongoing maintenance."
+      },
+      "tags": [
+        "ch5",
+        "roi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-086",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Point d’Équilibre » (Break-Even Point) d’un test automatisé ?",
+        "en": "What does the Automation Break-Even Point signify?"
+      },
+      "back": {
+        "fr": "Le nombre d’exécutions (ou d’itérations) au bout duquel les économies de temps d’exécution manuelle dépassent le coût initial de création plus la maintenance accumulée.",
+        "en": "The execution count or release cycle at which cumulative manual testing savings surpass upfront automation scripting plus cumulative maintenance cost."
+      },
+      "tags": [
+        "ch5",
+        "roi",
+        "break-even"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-087",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez des bénéfices intangibles ou indirects à inclure dans l’analyse de valeur TAS au-delà des heures économisées.",
+        "en": "Name valuable intangible/indirect automation benefits beyond saved manual tester hours."
+      },
+      "back": {
+        "fr": "Confiance accrue pour refactoriser le code, fréquence de déploiement multipliée, détection quasi instantanée pour les développeurs et baisse des incidents clients coûteux.",
+        "en": "Developer confidence to refactor, higher release frequency, near-instant commit feedback, and prevented brand-damaging production outages."
+      },
+      "tags": [
+        "ch5",
+        "value"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-088",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure le « Ratio d’Effort de Maintenance » d’une TAS ?",
+        "en": "What does the Automation Maintenance Effort Ratio track?"
+      },
+      "back": {
+        "fr": "La proportion du temps des automaticiens consacrée à réparer et mettre à jour les scripts existants par rapport à l’ajout de nouvelle couverture. S’il dépasse ~40–50 %, l’architecture doit être assainie.",
+        "en": "The share of automation engineering hours spent fixing/updating existing scripts vs. adding new value. Exceeding ~40–50% signals urgent architectural debt."
+      },
+      "tags": [
+        "ch5",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-089",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier la fiabilité des rapports émis par la TAS ?",
+        "en": "How should an organization verify the accuracy of TAS reports and dashboards?"
+      },
+      "back": {
+        "fr": "Comparer périodiquement les échecs bruts signalés aux vrais défauts confirmés (taux de vrais positifs), auditer les tests ignorés (`skip`) et vérifier l’exactitude des liens traçabilité.",
+        "en": "Audit true-defect vs. false-alarm ratios, track silently skipped/disabled tests (`skip`), and validate requirement-to-test traceability links."
+      },
+      "tags": [
+        "ch5",
+        "verification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-090",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi suivre l’indicateur « Tests ignorés / désactivés (`@skip`) » dans un rapport de couverture ?",
+        "en": "Why must skipped/disabled (`@skip`) tests be visibly tracked in CI metrics?"
+      },
+      "back": {
+        "fr": "Désactiver silencieusement des tests défaillants donne l’illusion d’un pipeline vert à 100 % alors que la couverture réelle s’effondre.",
+        "en": "Silently skipping failing checks creates a false 100% green dashboard while real regression protection silently erodes."
+      },
+      "tags": [
+        "ch5",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-091",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que révèle un « Taux élevé de faux échecs » dans les métriques CI ?",
+        "en": "What damage does a rising False-Failure Rate cause in CI/CD?"
+      },
+      "back": {
+        "fr": "Les développeurs finissent par ignorer les alertes rouges (« alerte au loup ») et fusionner du code défectueux, annulant l’utilité même du garde-fou automatisé.",
+        "en": "Developers develop alert fatigue, ignore red builds (\"boy who cried wolf\"), and merge broken code anyway—nullifying the CI gate."
+      },
+      "tags": [
+        "ch5",
+        "flaky"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-092",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le modèle GQM (Goal-Question-Metric) s’applique-t-il à l’amélioration d’une TAS ?",
+        "en": "How is Goal-Question-Metric (GQM) applied to improve a TAS?"
+      },
+      "back": {
+        "fr": "Partir d’un objectif concret (ex. accélérer le déploiement sans régression), poser les questions clés (temps moyen de feedback ? causes des échecs ?) puis ne collecter que les métriques pertinentes.",
+        "en": "Start from a concrete goal (e.g., faster safe releases), ask targeted diagnostic questions (feedback latency? failure causes?), and collect only metrics answering them."
+      },
+      "tags": [
+        "ch5",
+        "gqm"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-093",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel lien existe entre les défauts échappés en production et l’évolution de la TAS ?",
+        "en": "How should production escaped defects feed continuous TAS improvement?"
+      },
+      "back": {
+        "fr": "Chaque incident majeur doit déclencher une analyse pour ajouter au niveau le plus bas possible (unitaire/API d’abord, E2E si nécessaire) un test automatisé empêchant toute récidive.",
+        "en": "Every major escaped incident should add a permanent regression guard at the lowest effective pyramid layer (unit/API first, E2E if required)."
+      },
+      "tags": [
+        "ch5",
+        "improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-094",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Efficacité de Détection des Défauts de la TAS » (DDE) ?",
+        "en": "How is Defect Detection Effectiveness of a TAS evaluated?"
+      },
+      "back": {
+        "fr": "Proportion de défauts réels interceptés automatiquement avant validation manuelle ou mise en production, rapportée au temps investi pour créer et maintenir la suite.",
+        "en": "Proportion of real defects caught automatically prior to manual testing or release, weighed against the engineering cost to build and maintain the suite."
+      },
+      "tags": [
+        "ch5",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-095",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi mesurer la « Temps moyen de diagnostic d’un échec automatisé » (MTTD/MTTR de test) ?",
+        "en": "Why track Mean Time to Diagnose (MTTD) an automated test failure?"
+      },
+      "back": {
+        "fr": "Si chaque échec CI demande 45 minutes d’investigation manuelle, le gain de vitesse d’exécution est annulé ; améliorer logs et isolation réduit drastiquement ce temps.",
+        "en": "If diagnosing a red CI check takes 45 minutes, execution speed gains vanish; better traces, isolation, and error logs slash triage time."
+      },
+      "tags": [
+        "ch5",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-096",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réviser périodiquement la Stratégie d’Automatisation (Strategy Governance) ?",
+        "en": "When and how should an organization review its Test Automation Strategy?"
+      },
+      "back": {
+        "fr": "Revue trimestrielle ou à chaque changement majeur d’architecture/équipe : comparer ROI réel, flakiness, délais CI, et rééquilibrer les couches de la pyramide.",
+        "en": "Quarterly or upon major architecture/team shifts: review actual ROI, flakiness trends, CI cycle times, and rebalance pyramid investments."
+      },
+      "tags": [
+        "ch5",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-097",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels signes indiquent qu’une architecture TAS vieillissante doit être refactorisée ou remplacée ?",
+        "en": "What warning signs indicate an aging TAS architecture needs refactoring or replacement?"
+      },
+      "back": {
+        "fr": "Taux de maintenance > 50 %, outil incompatible avec les nouveaux navigateurs/frameworks du SUT, impossibilité de paralléliser et perte totale de confiance des développeurs.",
+        "en": "Maintenance consuming >50% of effort, incompatibility with modern SUT stacks, inability to run in parallel, and widespread developer distrust."
+      },
+      "tags": [
+        "ch5",
+        "refactoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-098",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment combiner couverture de code et couverture fonctionnelle/risques pour piloter l’automatisation ?",
+        "en": "Why combine code coverage with business-risk coverage when steering test automation?"
+      },
+      "back": {
+        "fr": "La couverture de code repère les branches techniques jamais atteintes ; la couverture de risques garantit que les flux métier les plus critiques sont solidement protégés.",
+        "en": "Code coverage exposes untouched technical branches while risk coverage ensures the highest-value business journeys receive priority protection."
+      },
+      "tags": [
+        "ch5",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-099",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment communiquer la valeur de l’automatisation à la direction non technique ?",
+        "en": "How should automation metrics be presented to non-technical executives?"
+      },
+      "back": {
+        "fr": "Traduire en métriques métier : fréquence des livraisons sûres, réduction des incidents clients critiques, raccourcissement du time-to-market et évolution du coût par release.",
+        "en": "Translate technical data into business outcomes: safe deployment frequency, drop in customer-impacting incidents, shorter time-to-market, and cost per release."
+      },
+      "tags": [
+        "ch5",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cttas-100",
+      "certificationId": "ct-tas",
+      "versionId": "ct-tas-v1.0",
+      "chapterId": "ct-tas-v1.0-ch5",
+      "objectiveId": "TAS-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel principe directeur résume le mieux la philosophie CT-TAS ?",
+        "en": "What guiding principle best summarizes the CT-TAS philosophy?"
+      },
+      "back": {
+        "fr": "L’automatisation des tests est une discipline d’ingénierie et d’investissement stratégique : architecture découplée, sélection pilotée par le risque, retour rapide en CI et amélioration mesurable continue.",
+        "en": "Test automation is a strategic engineering investment—driven by risk-based scope selection, decoupled gTAA architecture, rapid CI feedback, and measurable continuous improvement."
+      },
+      "tags": [
+        "ch5",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-TAS v1.0 (Test Automation Strategy)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}

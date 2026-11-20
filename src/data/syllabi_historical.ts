@@ -121,6 +121,127 @@ export const HISTORICAL_AND_EXTENSION_CHAPTERS: Chapter[] = [
     },
     recommendedMinutes: 85,
   },
+
+  // CTEL-TM v1.0 (Expert Level Test Management)
+  {
+    id: 'ctel-tm-v1.0-ch1',
+    certificationId: 'ctel-tm',
+    versionId: 'ctel-tm-v1.0',
+    order: 1,
+    code: '1',
+    title: { fr: 'Stratégie de test d’entreprise et gouvernance', en: 'Enterprise Test Strategy and Governance' },
+    summary: {
+      fr: 'Alignement stratégique du test avec les objectifs d’entreprise, politiques de test et gouvernance multi-programmes.',
+      en: 'Aligning enterprise test policies and strategies with business goals and multi-program governance.',
+    },
+    recommendedMinutes: 110,
+  },
+  {
+    id: 'ctel-tm-v1.0-ch2',
+    certificationId: 'ctel-tm',
+    versionId: 'ctel-tm-v1.0',
+    order: 2,
+    code: '2',
+    title: { fr: 'Gestion de la valeur, risques stratégiques et métriques', en: 'Value Management, Strategic Risks, and Metrics' },
+    summary: {
+      fr: 'Coût de la qualité (CoQ), ROI de la qualité, pilotage par indicateurs exécutifs et gestion du risque résiduel.',
+      en: 'Cost of Quality (CoQ), quality ROI, executive KPIs, and enterprise residual risk governance.',
+    },
+    recommendedMinutes: 110,
+  },
+  {
+    id: 'ctel-tm-v1.0-ch3',
+    certificationId: 'ctel-tm',
+    versionId: 'ctel-tm-v1.0',
+    order: 3,
+    code: '3',
+    title: { fr: 'Organisation, maturité et conduite du changement', en: 'Test Organization, Maturity, and Change Leadership' },
+    summary: {
+      fr: 'Centres d’excellence (TCoE), modèles TMMi/TPI, externalisation/insourcing et conduite de transformations.',
+      en: 'Test Centers of Excellence (TCoE), TMMi/TPI maturity models, sourcing strategies, and change leadership.',
+    },
+    recommendedMinutes: 100,
+  },
+
+  // CTFL v2011 (Historical 2011 Edition)
+  {
+    id: 'ctfl-v2011-ch1',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 1,
+    code: '1',
+    title: { fr: 'Fondamentaux des tests (2011)', en: 'Fundamentals of Testing (2011)' },
+    summary: {
+      fr: 'Pourquoi tester, processus fondamental en 5 étapes et psychologie du test selon l’édition 2011.',
+      en: 'Why testing is necessary, 5-step fundamental test process, and psychology of testing (2011 edition).',
+    },
+    recommendedMinutes: 65,
+  },
+  {
+    id: 'ctfl-v2011-ch2',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 2,
+    code: '2',
+    title: { fr: 'Tester dans le cycle de vie logiciel (2011)', en: 'Testing Throughout the Software Life Cycle (2011)' },
+    summary: {
+      fr: 'Modèle en V, développement itératif, niveaux et types de test (2011).',
+      en: 'V-model, iterative development, test levels, and functional/structural/change-related types (2011).',
+    },
+    recommendedMinutes: 60,
+  },
+  {
+    id: 'ctfl-v2011-ch3',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 3,
+    code: '3',
+    title: { fr: 'Techniques statiques (2011)', en: 'Static Techniques (2011)' },
+    summary: {
+      fr: 'Processus de revue en 6 étapes et analyse statique par compilateur/outils (2011).',
+      en: '6-phase formal review lifecycle and static analysis by tools (2011).',
+    },
+    recommendedMinutes: 50,
+  },
+  {
+    id: 'ctfl-v2011-ch4',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 4,
+    code: '4',
+    title: { fr: 'Techniques de conception de test (2011)', en: 'Test Design Techniques (2011)' },
+    summary: {
+      fr: 'Techniques par spécification (EP, BVA, tables, états, cas d’utilisation), par structure (instructions/décisions) et par expérience (2011).',
+      en: 'Specification-based, structure-based (statement/decision), and experience-based techniques (2011).',
+    },
+    recommendedMinutes: 100,
+  },
+  {
+    id: 'ctfl-v2011-ch5',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 5,
+    code: '5',
+    title: { fr: 'Gestion des tests (2011)', en: 'Test Management (2011)' },
+    summary: {
+      fr: 'Planification selon IEEE 829, suivi/contrôle, gestion de configuration, risques et gestion des incidents (2011).',
+      en: 'IEEE 829 test planning, monitoring/control, configuration, risks, and incident management (2011).',
+    },
+    recommendedMinutes: 85,
+  },
+  {
+    id: 'ctfl-v2011-ch6',
+    certificationId: 'ctfl-2011-legacy',
+    versionId: 'ctfl-v2011',
+    order: 6,
+    code: '6',
+    title: { fr: 'Outils de support aux tests (2011)', en: 'Tool Support for Testing (2011)' },
+    summary: {
+      fr: 'Classification des outils et déploiement pilote dans l’organisation (2011).',
+      en: 'Tool classification and organizational pilot introduction process (2011).',
+    },
+    recommendedMinutes: 40,
+  },
 ];
 
 export const HISTORICAL_SECTIONS: SyllabusSection[] = [
@@ -129,6 +250,17 @@ export const HISTORICAL_SECTIONS: SyllabusSection[] = [
   { id: 'ctfl-at-v1.0-s1.1', chapterId: 'ctfl-at-v1.0-ch1', versionId: 'ctfl-at-v1.0', certificationId: 'ctfl-at', order: 1, code: '1.1', title: { fr: 'Fondamentaux du développement Agile', en: 'Fundamentals of Agile Software Development' } },
   { id: 'ctfl-at-v1.0-s2.1', chapterId: 'ctfl-at-v1.0-ch2', versionId: 'ctfl-at-v1.0', certificationId: 'ctfl-at', order: 1, code: '2.1', title: { fr: 'Différences entre approches traditionnelles et Agile', en: 'Differences Between Testing in Traditional and Agile Approaches' } },
   { id: 'ctfl-at-v1.0-s3.1', chapterId: 'ctfl-at-v1.0-ch3', versionId: 'ctfl-at-v1.0', certificationId: 'ctfl-at', order: 1, code: '3.1', title: { fr: 'Méthodes Agile de test', en: 'Agile Testing Methods' } },
+
+  { id: 'ctel-tm-v1.0-s1.1', chapterId: 'ctel-tm-v1.0-ch1', versionId: 'ctel-tm-v1.0', certificationId: 'ctel-tm', order: 1, code: '1.1', title: { fr: 'Politique et stratégie d’entreprise', en: 'Enterprise Policy & Strategy' } },
+  { id: 'ctel-tm-v1.0-s2.1', chapterId: 'ctel-tm-v1.0-ch2', versionId: 'ctel-tm-v1.0', certificationId: 'ctel-tm', order: 1, code: '2.1', title: { fr: 'Valeur, CoQ et métriques exécutives', en: 'Value, CoQ & Executive Metrics' } },
+  { id: 'ctel-tm-v1.0-s3.1', chapterId: 'ctel-tm-v1.0-ch3', versionId: 'ctel-tm-v1.0', certificationId: 'ctel-tm', order: 1, code: '3.1', title: { fr: 'Organisation, maturité et transformation', en: 'Organization, Maturity & Transformation' } },
+
+  { id: 'ctfl-v2011-s1.1', chapterId: 'ctfl-v2011-ch1', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '1.1', title: { fr: 'Fondamentaux (2011)', en: 'Fundamentals (2011)' } },
+  { id: 'ctfl-v2011-s2.1', chapterId: 'ctfl-v2011-ch2', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '2.1', title: { fr: 'Cycle de vie (2011)', en: 'Lifecycle (2011)' } },
+  { id: 'ctfl-v2011-s3.1', chapterId: 'ctfl-v2011-ch3', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '3.1', title: { fr: 'Techniques statiques (2011)', en: 'Static Techniques (2011)' } },
+  { id: 'ctfl-v2011-s4.1', chapterId: 'ctfl-v2011-ch4', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '4.1', title: { fr: 'Techniques de conception (2011)', en: 'Test Design Techniques (2011)' } },
+  { id: 'ctfl-v2011-s5.1', chapterId: 'ctfl-v2011-ch5', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '5.1', title: { fr: 'Gestion des tests IEEE 829 (2011)', en: 'Test Management & IEEE 829 (2011)' } },
+  { id: 'ctfl-v2011-s6.1', chapterId: 'ctfl-v2011-ch6', versionId: 'ctfl-v2011', certificationId: 'ctfl-2011-legacy', order: 1, code: '6.1', title: { fr: 'Outils de test (2011)', en: 'Tool Support (2011)' } },
 ];
 
 export const HISTORICAL_OBJECTIVES: LearningObjective[] = [
@@ -162,6 +294,7 @@ export const HISTORICAL_OBJECTIVES: LearningObjective[] = [
     },
     source: 'CTFL v3.1 Historical Comparison Reference',
   },
+  // CTFL-AT
   {
     id: 'FA-1.1.1',
     certificationId: 'ctfl-at',
@@ -170,10 +303,10 @@ export const HISTORICAL_OBJECTIVES: LearningObjective[] = [
     sectionId: 'ctfl-at-v1.0-s1.1',
     code: 'FA-1.1.1',
     kLevel: 'K1',
-    title: { fr: 'Valeurs du Manifeste Agile', en: 'Agile Manifesto values' },
+    title: { fr: 'Valeurs et principes du Manifeste Agile', en: 'Agile Manifesto values and principles' },
     description: {
-      fr: 'Individus et interactions, logiciel fonctionnel, collaboration client et adaptation au changement.',
-      en: 'Individuals and interactions, working software, customer collaboration, and responding to change.',
+      fr: 'Individus et interactions, logiciel fonctionnel, collaboration client, adaptation au changement et approche Whole Team.',
+      en: 'Individuals and interactions, working software, customer collaboration, responding to change, and Whole-Team approach.',
     },
     source: 'CTFL-AT v1.0 Structure Reference',
   },
@@ -185,11 +318,39 @@ export const HISTORICAL_OBJECTIVES: LearningObjective[] = [
     sectionId: 'ctfl-at-v1.0-s2.1',
     code: 'FA-2.1.1',
     kLevel: 'K2',
-    title: { fr: 'Intégration continue et qualité en sprint', en: 'Continuous integration and sprint quality' },
+    title: { fr: 'Intégration continue, indépendance et statut du testeur', en: 'Continuous integration, independence, and tester status' },
     description: {
-      fr: 'Tests automatisés rapides intégrés au pipeline à chaque commit pour maintenir l’incrément potentiellement livrable.',
-      en: 'Automated fast checks run on every commit to keep the sprint increment potentially shippable.',
+      fr: 'Tests automatisés rapides intégrés au pipeline à chaque commit, Definition of Done et métriques Agile.',
+      en: 'Automated fast checks run on every commit, Definition of Done, and Agile test status metrics.',
     },
     source: 'CTFL-AT v1.0 Structure Reference',
   },
+  {
+    id: 'FA-3.1.1',
+    certificationId: 'ctfl-at',
+    versionId: 'ctfl-at-v1.0',
+    chapterId: 'ctfl-at-v1.0-ch3',
+    sectionId: 'ctfl-at-v1.0-s3.1',
+    code: 'FA-3.1.1',
+    kLevel: 'K3',
+    title: { fr: 'Méthodes TDD/BDD, quadrants, risques et test exploratoire', en: 'TDD/BDD, testing quadrants, risk, and exploratory testing' },
+    description: {
+      fr: 'Pyramide, quadrants Q1–Q4, estimation Planning Poker, tests exploratoires basés sur sessions et outils Agile.',
+      en: 'Test pyramid, Q1–Q4 quadrants, Planning Poker sizing, SBTM exploratory testing, and Agile tooling.',
+    },
+    source: 'CTFL-AT v1.0 Structure Reference',
+  },
+
+  // CTEL-TM
+  { id: 'ETM-1.1.1', certificationId: 'ctel-tm', versionId: 'ctel-tm-v1.0', chapterId: 'ctel-tm-v1.0-ch1', sectionId: 'ctel-tm-v1.0-s1.1', code: 'ETM-1.1.1', kLevel: 'K5', title: { fr: 'Politique de test et stratégie d’entreprise', en: 'Enterprise test policy and strategy' }, description: { fr: 'Aligner la politique et la gouvernance de test sur les objectifs stratégiques multi-programmes.', en: 'Align enterprise test policy and multi-program strategy with corporate goals.' }, source: 'CTEL-TM v1.0 Structure Reference' },
+  { id: 'ETM-2.1.1', certificationId: 'ctel-tm', versionId: 'ctel-tm-v1.0', chapterId: 'ctel-tm-v1.0-ch2', sectionId: 'ctel-tm-v1.0-s2.1', code: 'ETM-2.1.1', kLevel: 'K5', title: { fr: 'Valeur métier, CoQ et gestion stratégique des risques', en: 'Business value, Cost of Quality, and strategic risk' }, description: { fr: 'Optimiser le coût de la qualité, piloter les KPI exécutifs et arbitrer le risque résiduel.', en: 'Optimize Cost of Quality, govern executive KPIs, and manage enterprise residual risk.' }, source: 'CTEL-TM v1.0 Structure Reference' },
+  { id: 'ETM-3.1.1', certificationId: 'ctel-tm', versionId: 'ctel-tm-v1.0', chapterId: 'ctel-tm-v1.0-ch3', sectionId: 'ctel-tm-v1.0-s3.1', code: 'ETM-3.1.1', kLevel: 'K5', title: { fr: 'Organisation, TMMi/TPI et conduite du changement', en: 'Test organization, TMMi/TPI, and change management' }, description: { fr: 'Structurer TCoE, évaluer la maturité (TMMi/TPI), gérer l’externalisation et conduire la transformation.', en: 'Structure TCoEs, assess maturity (TMMi/TPI), manage sourcing, and lead organizational change.' }, source: 'CTEL-TM v1.0 Structure Reference' },
+
+  // CTFL v2011
+  { id: 'FL2011-1.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch1', sectionId: 'ctfl-v2011-s1.1', code: 'FL2011-1.1.1', kLevel: 'K2', title: { fr: 'Fondamentaux et processus en 5 activités (2011)', en: 'Fundamentals and 5-step test process (2011)' }, description: { fr: 'Planification/contrôle, analyse/conception, implémentation/exécution, évaluation critères de sortie et clôture.', en: 'Planning/control, analysis/design, implementation/execution, evaluating exit criteria, and closure.' }, source: 'CTFL 2011 Historical Reference' },
+  { id: 'FL2011-2.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch2', sectionId: 'ctfl-v2011-s2.1', code: 'FL2011-2.1.1', kLevel: 'K2', title: { fr: 'Modèle en V, niveaux et 4 types de test (2011)', en: 'V-model, levels, and 4 test types (2011)' }, description: { fr: 'Tests fonctionnels, non fonctionnels, structurels (boîte blanche) et liés aux changements.', en: 'Functional, non-functional, structural, and change-related testing across V-model levels.' }, source: 'CTFL 2011 Historical Reference' },
+  { id: 'FL2011-3.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch3', sectionId: 'ctfl-v2011-s3.1', code: 'FL2011-3.1.1', kLevel: 'K2', title: { fr: 'Revues en 6 étapes et analyse statique (2011)', en: '6-phase formal reviews and static analysis (2011)' }, description: { fr: 'Planification, kick-off, préparation individuelle, réunion de revue, reprise et suivi.', en: 'Planning, kick-off, individual preparation, review meeting, rework, and follow-up.' }, source: 'CTFL 2011 Historical Reference' },
+  { id: 'FL2011-4.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch4', sectionId: 'ctfl-v2011-s4.1', code: 'FL2011-4.1.1', kLevel: 'K3', title: { fr: 'Techniques boîte noire, structurelles et expérience (2011)', en: 'Specification, structure, and experience techniques (2011)' }, description: { fr: 'EP, BVA, tables de décision, transitions d’états, cas d’utilisation, couverture instructions/décisions.', en: 'EP, BVA, decision tables, state transitions, use case testing, and statement/decision coverage.' }, source: 'CTFL 2011 Historical Reference' },
+  { id: 'FL2011-5.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch5', sectionId: 'ctfl-v2011-s5.1', code: 'FL2011-5.1.1', kLevel: 'K2', title: { fr: 'Gestion des tests et norme IEEE 829 (2011)', en: 'Test management and IEEE 829 standard (2011)' }, description: { fr: 'Plans de test IEEE 829, gestion des incidents, risques projet/produit et organisation.', en: 'IEEE 829 test documentation, incident lifecycle, project/product risks, and test organization.' }, source: 'CTFL 2011 Historical Reference' },
+  { id: 'FL2011-6.1.1', certificationId: 'ctfl-2011-legacy', versionId: 'ctfl-v2011', chapterId: 'ctfl-v2011-ch6', sectionId: 'ctfl-v2011-s6.1', code: 'FL2011-6.1.1', kLevel: 'K1', title: { fr: 'Classification des outils et projet pilote (2011)', en: 'Tool classification and pilot project (2011)' }, description: { fr: 'Catégories d’outils et étapes d’introduction par projet pilote.', en: 'Tool classification categories and pilot deployment stages.' }, source: 'CTFL 2011 Historical Reference' },
 ];

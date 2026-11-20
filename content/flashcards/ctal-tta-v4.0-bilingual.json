@@ -1,0 +1,3016 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-ctaltta-001",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels types de risques le Technical Test Analyst (TTA) identifie-t-il spécifiquement ?",
+        "en": "What specific risk categories does a Technical Test Analyst (TTA) focus on identifying?"
+      },
+      "back": {
+        "fr": "Les risques techniques : failles de sécurité, goulets de performance, fuites mémoire, conflits de concurrence, fragilité d’architecture, perte de données et dettes de maintenabilité.",
+        "en": "Technical quality risks: security vulnerabilities, performance bottlenecks, memory leaks, concurrency races, architectural coupling, data corruption, and maintainability debt."
+      },
+      "tags": [
+        "ch1",
+        "technical-risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-002",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TTA contribue-t-il à l’évaluation de la Probabilité technique (Likelihood) ?",
+        "en": "How does the TTA contribute to assessing technical Likelihood in risk analysis?"
+      },
+      "back": {
+        "fr": "En évaluant complexité cyclomatique, dette technique, nouveauté des composants, couplage entre services, antécédents de bogues par module et qualité des API tierces.",
+        "en": "By assessing cyclomatic complexity, technical debt, new/unproven libraries, tight module coupling, defect-prone history, and fragile third-party APIs."
+      },
+      "tags": [
+        "ch1",
+        "likelihood"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-003",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TTA choisit-il les techniques de mitigation pour un risque de concurrence (Race Condition) ?",
+        "en": "How should a TTA mitigate a concurrency or race-condition technical risk?"
+      },
+      "back": {
+        "fr": "Exécuter des tests de charge parallèles ciblés sur la ressource partagée, activer les détecteurs dynamiques de data-race (ThreadSanitizer) et vérifier les niveaux d’isolation transactionnelle.",
+        "en": "Run concurrent stress tests on shared resources, enable dynamic race detectors (e.g., ThreadSanitizer), and verify database transaction isolation levels."
+      },
+      "tags": [
+        "ch1",
+        "concurrency"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-004",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TTA participe-t-il dès la conception d’architecture ?",
+        "en": "Why must the TTA engage during early system architecture design?"
+      },
+      "back": {
+        "fr": "Pour évaluer testabilité, observabilité, découplage des interfaces, gestion des pannes en cascade et définir les stratégies de bouchonnage ou de virtualisation.",
+        "en": "To verify testability, observability, interface decoupling, fault isolation, and early mocking or service virtualization strategies."
+      },
+      "tags": [
+        "ch1",
+        "architecture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-005",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les risques liés aux API et microservices diffèrent-ils d’un monolithe ?",
+        "en": "What unique technical risks do distributed microservice APIs pose compared to monoliths?"
+      },
+      "back": {
+        "fr": "Latence réseau, pannes partielles, désynchronisation de contrats/schémas, retries amplificateurs, idempotence défaillante et cohérence éventuelle.",
+        "en": "Network timeouts, partial outages, schema/contract drift, retry storms, broken idempotency, and eventual-consistency anomalies."
+      },
+      "tags": [
+        "ch1",
+        "api",
+        "microservices"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-006",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la réutilisation de code hérité (Legacy) sans couverture unitaire ?",
+        "en": "What technical risk arises when modifying legacy code lacking unit test coverage?"
+      },
+      "back": {
+        "fr": "Effets de bord imprévus et régressions silencieuses ; le TTA recommande des tests de caractérisation (Golden Master) et une analyse statique préalable.",
+        "en": "Unintended side effects and silent regressions; the TTA recommends characterization (Golden Master) tests and static complexity profiling first."
+      },
+      "tags": [
+        "ch1",
+        "legacy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-007",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque introduit la dépendance massive à des bibliothèques open-source tierces ?",
+        "en": "What technical risks come from heavy reliance on third-party open-source dependencies?"
+      },
+      "back": {
+        "fr": "Vulnérabilités CVE connues, ruptures d’API lors de mises à jour, licences incompatibles et abandon de maintenance ; mitigés par l’analyse SCA (Software Composition Analysis).",
+        "en": "Known CVE vulnerabilities, breaking transitive updates, license conflicts, and abandoned packages; mitigated via Software Composition Analysis (SCA)."
+      },
+      "tags": [
+        "ch1",
+        "dependencies",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-008",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TTA atténue-t-il un risque élevé d’épuisement mémoire (Memory Leak) avant mise en production ?",
+        "en": "How does a TTA mitigate high memory-leak risk before production release?"
+      },
+      "back": {
+        "fr": "Combiner analyse statique des ressources non libérées, tests d’endurance (soak tests) longs et profilage dynamique de tas (heap snapshots) à la recherche de croissance monotone.",
+        "en": "Combine static resource-leak checks, extended endurance (soak) runs, and dynamic heap profiling to spot monotonic memory growth."
+      },
+      "tags": [
+        "ch1",
+        "memory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-009",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi l’observabilité insuffisante constitue-t-elle un risque technique critique ?",
+        "en": "Why is poor observability considered a critical technical risk?"
+      },
+      "back": {
+        "fr": "Sans logs corrélés, traces distribuées ni métriques exposées, les défauts de test ou de production deviennent quasi impossibles à diagnostiquer et reproduire.",
+        "en": "Without structured correlated logs, distributed traces, and health metrics, diagnosing and reproducing integration or production failures stalls."
+      },
+      "tags": [
+        "ch1",
+        "observability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-010",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TTA priorise-t-il les niveaux de couverture structurelle selon le risque technique ?",
+        "en": "How does a TTA match white-box coverage targets to technical risk levels?"
+      },
+      "back": {
+        "fr": "Risque critique / sécurité : MC/DC ou couverture de conditions multiples. Risque moyen : couverture de branches/décisions. Risque faible : couverture d’instructions ou analyse statique seule.",
+        "en": "Safety/critical modules: MC/DC or Multiple Condition coverage. Moderate risk: Decision/Branch coverage. Low risk: Statement coverage or static gates."
+      },
+      "tags": [
+        "ch1",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-011",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les migrations cloud ou changements de base de données représentent-ils un risque technique majeur ?",
+        "en": "Why do cloud migrations or database engine upgrades carry high technical risk?"
+      },
+      "back": {
+        "fr": "Changements subtils de plans d’exécution SQL, de sémantique d’index/verrous, de latences I/O réseau et de limites IAM/réseau nécessitant benchmarks comparatifs et reprise.",
+        "en": "Subtle shifts in SQL query plans, locking semantics, network I/O latency, and IAM/firewall policies requiring comparative benchmarks and failover drills."
+      },
+      "tags": [
+        "ch1",
+        "cloud",
+        "database"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-012",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "objectiveId": "TTA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « mitiger un risque technique par construction » avec les développeurs ?",
+        "en": "How does a TTA help mitigate technical risks \"by design\" alongside developers?"
+      },
+      "back": {
+        "fr": "Promouvoir disjoncteurs (circuit breakers), délais d’attente explicites (timeouts), requêtes paramétrées contre l’injection et garde-fous statiques dans la CI.",
+        "en": "Advocating circuit breakers, explicit timeouts, parameterized SQL against injections, and automated static security/quality gates in CI."
+      },
+      "tags": [
+        "ch1",
+        "mitigation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-013",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la Couverture des Instructions (Statement Coverage) et quelle est sa principale faiblesse ?",
+        "en": "Define Statement Coverage and state its primary limitation."
+      },
+      "back": {
+        "fr": "Pourcentage d’instructions exécutables traversées au moins une fois. Elle peut atteindre 100 % tout en manquant des branches `else` implicites ou des courts-circuits booléens.",
+        "en": "Percentage of executable statements run at least once. It can reach 100% while skipping empty/implicit `else` branches and Boolean sub-condition flaws."
+      },
+      "tags": [
+        "ch2",
+        "statement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-014",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle relation stricte lie Couverture des Décisions/Branches et Couverture des Instructions ?",
+        "en": "What strict subsumption relationship holds between Decision/Branch Coverage and Statement Coverage?"
+      },
+      "back": {
+        "fr": "100 % de couverture des décisions (ou branches) garantit toujours 100 % de couverture des instructions exécutables, mais la réciproque est fausse.",
+        "en": "100% Decision (or Branch) Coverage always implies 100% Statement Coverage (for reachable statements), whereas 100% Statement Coverage does not guarantee 100% Decision Coverage."
+      },
+      "tags": [
+        "ch2",
+        "decision-coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-015",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez la Couverture des Conditions (Condition Coverage) sur `if (A && B)`.",
+        "en": "Define Condition Coverage for `if (A && B)` and show why it does not imply Decision Coverage."
+      },
+      "back": {
+        "fr": "Chaque sous-condition atomique (A, B) doit prendre Vrai et Faux au moins une fois. Exemple : `(A=V, B=F)` et `(A=F, B=V)` atteignent 100 % Condition mais la décision reste toujours Fausse (50 % Decision) !",
+        "en": "Each atomic Boolean condition (A, B) evaluates to both True and False at least once. `(A=T, B=F)` and `(A=F, B=T)` achieve 100% Condition coverage yet the overall decision only ever evaluates False!"
+      },
+      "tags": [
+        "ch2",
+        "condition-coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-016",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’exige la Couverture Décision/Condition (Decision/Condition Coverage) ?",
+        "en": "What does Decision/Condition Coverage require?"
+      },
+      "back": {
+        "fr": "Que chaque sous-condition atomique prenne les valeurs Vrai et Faux ET que le résultat global de chaque décision prenne aussi les valeurs Vrai et Faux (ex. pour `A && B` : `(V,V)` et `(F,F)`).",
+        "en": "Every atomic condition takes both True and False AND every overall decision outcome evaluates both True and False (e.g., for `A && B`: `(T,T)` and `(F,F)`)."
+      },
+      "tags": [
+        "ch2",
+        "decision-condition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-017",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la Couverture Décision/Condition peut-elle encore laisser passer des défauts dans `if (A && B)` ?",
+        "en": "Why can 100% Decision/Condition Coverage still miss faults in `if (A && B)`?"
+      },
+      "back": {
+        "fr": "Avec `(V,V)` et `(F,F)`, les deux conditions varient ensemble : impossible de prouver que A et B influencent indépendamment le résultat (un bogue ignorant B passerait quand même).",
+        "en": "With `(T,T)` and `(F,F)`, both conditions flip together; it fails to prove A and B independently determine the decision outcome."
+      },
+      "tags": [
+        "ch2",
+        "mcdc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-018",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez la Couverture Condition/Décision Modifiée (MC/DC — Modified Condition/Decision Coverage).",
+        "en": "Define Modified Condition/Decision Coverage (MC/DC)."
+      },
+      "back": {
+        "fr": "Critère exigeant : 1) chaque point d’entrée/sortie est exécuté ; 2) chaque décision prend V/F ; 3) chaque condition atomique prend V/F ; 4) chaque condition démontre qu’elle peut à elle seule inverser la décision (en maintenant les autres constantes).",
+        "en": "Requires: 1) every entry/exit hit, 2) every decision hits T/F, 3) every atomic condition hits T/F, and 4) every condition is shown to independently flip the decision outcome while others stay fixed."
+      },
+      "tags": [
+        "ch2",
+        "mcdc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-019",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel jeu minimal de tests atteint 100 % MC/DC pour `if (A && B)` ?",
+        "en": "What minimal test set achieves 100% MC/DC for `if (A && B)`?"
+      },
+      "back": {
+        "fr": "3 cas : `(V, V) -> V`, `(F, V) -> F` (prouve l’indépendance de A), `(V, F) -> F` (prouve l’indépendance de B). Soit N+1 tests pour N conditions indépendantes !",
+        "en": "3 tests: `(T, T) -> T`, `(F, T) -> F` (proves A independently toggles outcome), and `(T, F) -> F` (proves B independently toggles outcome)—N+1 tests for N conditions."
+      },
+      "tags": [
+        "ch2",
+        "mcdc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-020",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel jeu minimal atteint 100 % MC/DC pour `if (A || B)` ?",
+        "en": "What minimal test set achieves 100% MC/DC for `if (A || B)`?"
+      },
+      "back": {
+        "fr": "3 cas : `(F, F) -> F`, `(V, F) -> V` (indépendance de A) et `(F, V) -> V` (indépendance de B).",
+        "en": "3 tests: `(F, F) -> F`, `(T, F) -> T` (A independence), and `(F, T) -> T` (B independence)."
+      },
+      "tags": [
+        "ch2",
+        "mcdc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-021",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Combien de cas exige au minimum la Couverture des Conditions Multiples (Multiple Condition Coverage) pour N conditions booléennes ?",
+        "en": "How many test cases does Multiple Condition Coverage require for a decision with N atomic Boolean conditions?"
+      },
+      "back": {
+        "fr": "2^N combinaisons (toute la table de vérité de la décision), contre au minimum N+1 cas pour MC/DC (croissance exponentielle vs linéaire).",
+        "en": "2^N combinations (the entire truth table of the decision), vs. N+1 minimum for MC/DC (exponential vs. linear scaling)."
+      },
+      "tags": [
+        "ch2",
+        "multiple-condition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-022",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel impact a l’évaluation paresseuse en court-circuit (`&&` / `||` en C/Java/JS) sur la couverture de conditions ?",
+        "en": "How does short-circuit evaluation (`&&` / `||`) affect white-box Condition and MC/DC coverage?"
+      },
+      "back": {
+        "fr": "Dans `A && B`, si `A` vaut Faux, `B` n’est pas évaluée du tout à l’exécution ; il faut donc veiller à choisir les paires d’indépendance où le premier opérande n’interrompt pas l’évaluation de `B`.",
+        "en": "In `A && B`, if `A` is False, `B` is never evaluated at runtime; MC/DC pairs must therefore select non-short-circuiting values for preceding operands (Unique-Cause / Masking MC/DC)."
+      },
+      "tags": [
+        "ch2",
+        "short-circuit"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-023",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans quel domaine industriel le critère MC/DC est-il historiquement imposé ?",
+        "en": "Which safety-critical industry standard famously mandates MC/DC for highest-assurance software?"
+      },
+      "back": {
+        "fr": "L’avionique civile (norme DO-178C niveau DAL-A) et les normes critiques apparentées (automobile ISO 26262 ASIL-D).",
+        "en": "Civil avionics (DO-178C Level A) and high-integrity safety standards such as automotive ISO 26262 ASIL-D."
+      },
+      "tags": [
+        "ch2",
+        "standards",
+        "mcdc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-024",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la Couverture des Chemins (Path Coverage) et pourquoi est-elle rarement atteignable à 100 % ?",
+        "en": "What is Path Coverage, and why is 100% Path Coverage usually infeasible?"
+      },
+      "back": {
+        "fr": "Exécuter tous les parcours distincts du début à la fin d’une fonction. En présence de boucles ou de plusieurs embranchements séquentiels, le nombre de chemins explose exponentiellement ou devient infini.",
+        "en": "Executing every unique path from entry to exit of a routine. Loops and sequential branches cause exponential or infinite path explosion."
+      },
+      "tags": [
+        "ch2",
+        "path-coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-025",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment teste-t-on pragmatiquement les boucles (`for` / `while`) en boîte blanche (Basis Path / Loop Testing) ?",
+        "en": "What practical boundary cases test a loop in white-box structural testing?"
+      },
+      "back": {
+        "fr": "0 itération (sauter la boucle), 1 itération, 2 itérations (ou valeur typique), N-1, N (maximum autorisé) et N+1 si applicable.",
+        "en": "0 iterations (skip loop), 1 iteration, 2 iterations (or typical pass), N-1, N (max allowed), and N+1 if reachable."
+      },
+      "tags": [
+        "ch2",
+        "loops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-026",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la méthode des Chemins de Base (Basis Path Testing) de McCabe ?",
+        "en": "What is McCabe’s Basis Path Testing method?"
+      },
+      "back": {
+        "fr": "Déterminer un ensemble minimal de chemins linéairement indépendants égal à la complexité cyclomatique V(G) afin de couvrir chaque arête tout en limitant l’explosion combinatoire.",
+        "en": "Selecting a basis set of linearly independent paths equal in count to Cyclomatic Complexity V(G), covering every edge without full path explosion."
+      },
+      "tags": [
+        "ch2",
+        "basis-path"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-027",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TTA utilise-t-il aussi l’analyse et les tests d’API (Contract, Rest/GraphQL/gRPC) en boîte blanche/grise ?",
+        "en": "Why does the TTA perform white/grey-box API testing?"
+      },
+      "back": {
+        "fr": "Pour tester directement codes de statut HTTP, schémas JSON/Protobuf, validation de jetons JWT, gestion d’erreurs serveur, limites de débit (rate limiting) et transactions sans passer par l’IHM.",
+        "en": "To probe HTTP status semantics, payload schemas, JWT validation, internal error handling, rate limits, and persistence directly without UI overhead."
+      },
+      "tags": [
+        "ch2",
+        "api"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-028",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez la Couverture des Branches (Branch) de la Couverture des Décisions (Decision) selon les syllabus avancés.",
+        "en": "How do Branch Coverage and Decision Coverage relate in white-box testing?"
+      },
+      "back": {
+        "fr": "Elles coïncident sur les `if/else`, mais les branches comptent chaque arc sortant dans le graphe de flot de contrôle (y compris chaque `case` d’un `switch` ou branche d’exception `catch`).",
+        "en": "They align on simple `if/else`, whereas Branch Coverage explicitly tracks every outgoing CFG edge including every `switch` case and exception `catch` path."
+      },
+      "tags": [
+        "ch2",
+        "branch-vs-decision"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-029",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le LCSAJ (Linear Code Sequence and Jump) ?",
+        "en": "What is an LCSAJ (Linear Code Sequence and Jump)?"
+      },
+      "back": {
+        "fr": "Une séquence linéaire d’instructions exécutées consécutivement terminée par un saut de contrôle (branchement, boucle ou retour), critère structurel plus fort que la simple branche.",
+        "en": "A sequential block of code from an entry/jump target through a jump instruction, providing a stronger structural metric than Branch Coverage."
+      },
+      "tags": [
+        "ch2",
+        "lcsaj"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-030",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez la hiérarchie ordonnée de rigueur (du plus faible au plus fort) entre critères structurels.",
+        "en": "Rank these white-box coverage criteria from weakest to strongest subsumption:"
+      },
+      "back": {
+        "fr": "Instructions (Statement) → Décisions/Branches (Decision/Branch) → MC/DC → Conditions Multiples (Multiple Condition) → Chemins (Path). (Note : Condition pure n’implique pas Decision).",
+        "en": "Statement → Decision/Branch → MC/DC → Multiple Condition → Path. (Note: basic Condition coverage alone does not subsume Decision coverage)."
+      },
+      "tags": [
+        "ch2",
+        "hierarchy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-031",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Condition couplée » (Coupled Condition) lorsqu’une même variable apparaît deux fois dans une décision, ex. `(A && B) || (!A && C)` ?",
+        "en": "What issue do \"Coupled Conditions\" create when testing MC/DC (e.g., `(A && B) || (!A && C)`)?"
+      },
+      "back": {
+        "fr": "On ne peut pas faire varier `A` et `!A` indépendamment sans changer les deux occurrences à la fois ; l’analyse MC/DC doit traiter la variable logique couplée avec précaution (Unique-Cause vs Masking MC/DC).",
+        "en": "`A` and `!A` cannot vary independently; Masking MC/DC or careful algebraic handling is needed because changing `A` flips both occurrences."
+      },
+      "tags": [
+        "ch2",
+        "mcdc",
+        "coupled"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-032",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi 100 % de couverture structurelle ne garantit-il jamais l’absence de bogues ?",
+        "en": "Why does 100% white-box coverage never prove software is defect-free?"
+      },
+      "back": {
+        "fr": "La couverture mesure uniquement l’exécution du code présent — elle ne détecte ni les fonctionnalités manquantes (code absent), ni les formules métier erronées, ni les bugs sensibles aux données.",
+        "en": "Structural coverage only measures what written code executed; it cannot detect missing requirements, wrong business formulas, or data-specific edge faults."
+      },
+      "tags": [
+        "ch2",
+        "limitations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-033",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le test par mutation (Mutation Testing) et comment aide-t-il le TTA ?",
+        "en": "What is Mutation Testing, and how does it evaluate test suite quality?"
+      },
+      "back": {
+        "fr": "Introduire automatiquement de petits défauts artificiels (« mutants » : remplacer `+` par `-`, `<` par `<=`) dans le code ; si la suite de tests échoue, le mutant est « tué », prouvant la qualité des assertions.",
+        "en": "Injecting small synthetic faults (\"mutants\": changing `+` to `-`, `<` to `<=`) into code; strong test suites \"kill\" mutants rather than merely hitting lines without assertions."
+      },
+      "tags": [
+        "ch2",
+        "mutation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-034",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « mutant équivalent » (Equivalent Mutant) ?",
+        "en": "What is an Equivalent Mutant in Mutation Testing?"
+      },
+      "back": {
+        "fr": "Un mutant syntaxiquement modifié dont le comportement observable reste identique au code original pour toute entrée possible ; aucun test ne peut donc le tuer.",
+        "en": "A syntactically altered mutant whose observable behavior remains identical to the original program for all inputs, making it impossible to kill."
+      },
+      "tags": [
+        "ch2",
+        "mutation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-035",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester un bloc `try / catch / finally` pour obtenir une couverture des branches complète ?",
+        "en": "How must a TTA test `try / catch / finally` blocks to satisfy Branch Coverage?"
+      },
+      "back": {
+        "fr": "Déclencher à la fois le chemin nominal sans exception et chaque type d’exception intercepté (souvent par injection de panne / mock), en vérifiant le nettoyage dans `finally`.",
+        "en": "Exercise both the normal non-throwing path and every `catch` exception path (often via fault-injecting mocks), confirming resource cleanup in `finally`."
+      },
+      "tags": [
+        "ch2",
+        "exceptions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-036",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "objectiveId": "TTA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi les tests boîte blanche s’appliquent-ils aussi aux composants d’architecture et pas seulement aux fonctions unitaires ?",
+        "en": "How do structural coverage ideas extend beyond unit functions to integration and architecture?"
+      },
+      "back": {
+        "fr": "Couverture d’appels entre composants (Call-Pair Coverage), couverture de tous les endpoints/verbes d’API ou parcours entre microservices dans les tests d’intégration.",
+        "en": "Component Call-Pair Coverage, all API endpoint/HTTP-method coverage, and inter-service integration path verification."
+      },
+      "tags": [
+        "ch2",
+        "integration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-037",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence fondamentale sépare l’analyse statique de l’analyse dynamique ?",
+        "en": "What distinguishes Static Analysis from Dynamic Analysis?"
+      },
+      "back": {
+        "fr": "L’analyse statique inspecte le code source/binaire sans l’exécuter (flux de contrôle, flot de données, style, sécurité) ; l’analyse dynamique observe le programme pendant son exécution réelle (mémoire, CPU, concurrence).",
+        "en": "Static analysis inspects code without executing it (control flow, data flow, rules, security); dynamic analysis monitors the running program (memory, CPU, races)."
+      },
+      "tags": [
+        "ch3",
+        "static-dynamic"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-038",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donnez les deux formules classiques de la Complexité Cyclomatique de McCabe V(G) sur un graphe de flot de contrôle.",
+        "en": "State the two standard formulas for McCabe Cyclomatic Complexity V(G) on a single-entry/exit CFG."
+      },
+      "back": {
+        "fr": "1) V(G) = E − N + 2 (E = arêtes, N = nœuds). 2) V(G) = D + 1 (où D est le nombre de nœuds de décision binaires ; ou somme des prédicats booléens élémentaires + 1).",
+        "en": "1) V(G) = E − N + 2 (E = edges, N = nodes). 2) V(G) = D + 1 (where D is the count of binary decision nodes / regions)."
+      },
+      "tags": [
+        "ch3",
+        "cyclomatic"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-039",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’indique une complexité cyclomatique élevée (ex. V(G) > 15–20) dans un module ?",
+        "en": "What does high Cyclomatic Complexity (e.g., V(G) > 15–20) signal about a module?"
+      },
+      "back": {
+        "fr": "Forte densité de branchements, risque élevé d’erreurs de maintenance, difficulté de lecture et besoin d’un grand nombre minimal de tests pour couvrir les branches.",
+        "en": "Dense branching, higher defect proneness, harder maintenance, and a high minimum test count needed for basis-path/branch coverage."
+      },
+      "tags": [
+        "ch3",
+        "cyclomatic"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-040",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifient les trois états d’une variable en Analyse de Flot de Données (Data-Flow Analysis) : d, u, k ?",
+        "en": "What do the letters d, u, and k represent in Data-Flow Analysis?"
+      },
+      "back": {
+        "fr": "d = Defined (valeur affectée/définie) ; u = Used (valeur lue en calcul `c-use` ou prédicat `p-use`) ; k = Killed (variable détruite, libérée ou hors portée).",
+        "en": "d = Defined (assigned a value); u = Used (read in computation `c-use` or predicate `p-use`); k = Killed/Undefined (out of scope or freed)."
+      },
+      "tags": [
+        "ch3",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-041",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie l’anomalie de flot de données « ur » (ou « ku ») ?",
+        "en": "What bug does a `ur` (or `ku`) data-flow anomaly represent?"
+      },
+      "back": {
+        "fr": "Une variable est utilisée (`u`/`r`) avant d’avoir jamais été définie/initialisée (ou après avoir été détruite `k`) — source fréquente de valeurs aléatoires ou crash.",
+        "en": "A variable is used/referenced before being defined/initialized (or after being killed), often causing undefined behavior or crashes."
+      },
+      "tags": [
+        "ch3",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-042",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifient les anomalies de flot de données « dd » et « du »/« dk » ?",
+        "en": "Interpret the `dd` and `dk` data-flow anomalies."
+      },
+      "back": {
+        "fr": "`dd` : variable définie deux fois de suite sans utilisation intermédiaire (calcul gaspillé ou erreur d’affectation). `dk` : variable définie puis détruite sans jamais être utilisée (code mort).",
+        "en": "`dd`: variable defined twice without an intervening read (wasted work or wrong target). `dk`: variable defined and killed/discarded without ever being read (dead store)."
+      },
+      "tags": [
+        "ch3",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-043",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre `c-use` (computational use) et `p-use` (predicate use) ?",
+        "en": "Distinguish `c-use` from `p-use` in data-flow testing."
+      },
+      "back": {
+        "fr": "`c-use` emploie la variable dans un calcul ou une sortie (`x = a + 1`) ; `p-use` l’emploie dans une condition de décision (`if (a > 0)`), impactant le flot de contrôle.",
+        "en": "`c-use` reads a variable inside a calculation or output (`x = a + 1`); `p-use` reads it inside a branching condition (`if (a > 0)`)."
+      },
+      "tags": [
+        "ch3",
+        "data-flow"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-044",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’analyse statique de sécurité SAST (Static Application Security Testing) ?",
+        "en": "What does Static Application Security Testing (SAST) detect?"
+      },
+      "back": {
+        "fr": "Analyse du code source/bytecode pour détecter injections SQL/XSS potentielles (taint analysis), secrets codés en dur, débordements de tampon et API cryptographiques obsolètes.",
+        "en": "Source/bytecode inspection finding taint paths (SQLi/XSS), hardcoded secrets, buffer overflows, and weak cryptographic primitives."
+      },
+      "tags": [
+        "ch3",
+        "sast"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-045",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel problème opérationnel posent souvent les outils d’analyse statique et comment le gérer ?",
+        "en": "What operational drawback commonly hampers static analysis adoption, and how should a TTA handle it?"
+      },
+      "back": {
+        "fr": "Un volume élevé de faux positifs décourageant les développeurs. Solution : calibrer les règles par criticité, introduire progressivement sur le nouveau code et geler la dette existante.",
+        "en": "Noise from high false-positive rates causing alert fatigue. Fix: tune rule severity, enforce gates on new/changed code first, and baseline legacy findings."
+      },
+      "tags": [
+        "ch3",
+        "false-positives"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-046",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Graphe d’Appel » (Call Graph) en analyse statique ?",
+        "en": "How does a Call Graph help a Technical Test Analyst?"
+      },
+      "back": {
+        "fr": "Il cartographie quelles fonctions/méthodes appellent quelles autres, révélant dépendances circulaires, code mort jamais appelé et points névralgiques (« god functions ») à tester en priorité.",
+        "en": "It maps caller-callee relationships across functions, exposing circular dependencies, unreachable dead code, and high-fan-in hotspots to prioritize."
+      },
+      "tags": [
+        "ch3",
+        "call-graph"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-047",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que mesure l’analyse dynamique des fuites mémoire (Memory Leak Detection) ?",
+        "en": "What does Dynamic Analysis reveal about memory leaks and invalid allocations?"
+      },
+      "back": {
+        "fr": "Blocs alloués jamais libérés, références retenues empêchant le Garbage Collector, pointeurs pendants (use-after-free) et dépassements de bornes mémoire (buffer overrun).",
+        "en": "Unfreed heap allocations, retained object graphs blocking GC, use-after-free dangling pointers, and runtime buffer overruns."
+      },
+      "tags": [
+        "ch3",
+        "dynamic-analysis",
+        "memory"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-048",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment détecter un « pointeur sauvage » ou une lecture hors bornes par analyse dynamique (ex. Valgrind / ASan) ?",
+        "en": "How do dynamic tools like AddressSanitizer (ASan) or Valgrind catch wild pointers and out-of-bounds access?"
+      },
+      "back": {
+        "fr": "En instrumentant la mémoire (redzones, shadow memory) pour intercepter immédiatement toute lecture/écriture hors zone allouée ou après `free()`.",
+        "en": "By instrumenting allocations with redzones and shadow memory to trap out-of-bounds reads/writes and use-after-free bugs immediately."
+      },
+      "tags": [
+        "ch3",
+        "sanitizers"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-049",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert le profilage de performance dynamique (CPU / I/O Profiling) ?",
+        "en": "What is Dynamic Performance Profiling used for?"
+      },
+      "back": {
+        "fr": "Mesurer à l’exécution quelles fonctions consomment le plus de temps CPU (flame graphs), d’allocations ou d’attentes I/O/verrous (N+1 queries).",
+        "en": "Measuring at runtime which functions consume the most CPU time (flame graphs), allocations, or I/O/lock waits (such as N+1 DB queries)."
+      },
+      "tags": [
+        "ch3",
+        "profiling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-050",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’analyse dynamique de « Taint Tracking » (propagation de souillure) ou IAST ?",
+        "en": "How does Interactive Application Security Testing (IAST) work dynamically?"
+      },
+      "back": {
+        "fr": "Un agent instrumenté à l’intérieur du serveur observe en direct les flux de données non fiables entrant via HTTP jusqu’aux appels sensibles (SQL, shell) pendant l’exécution des tests fonctionnels.",
+        "en": "An instrumented runtime agent tracks untrusted user inputs from HTTP entry points to sensitive sinks (SQL, OS commands) while functional tests run."
+      },
+      "tags": [
+        "ch3",
+        "iast"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-051",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle anomalie détecte un analyseur statique sur les conventions de codage (MISRA, ESLint, Sonar) ?",
+        "en": "What defects do static coding-standard checkers catch automatically?"
+      },
+      "back": {
+        "fr": "Variables inutilisées, comparaisons `=` au lieu de `==`, branches mortes inaccessibles, conversions implicites risquées et écarts de style.",
+        "en": "Unused variables, accidental assignment in conditionals (`=` vs `==`), unreachable dead code, unsafe casts, and style violations."
+      },
+      "tags": [
+        "ch3",
+        "coding-standards"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-052",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la métrique « Fan-in / Fan-out » (couplage d’architecture) oriente-t-elle le TTA ?",
+        "en": "What do high Fan-In and high Fan-Out metrics indicate in static architecture analysis?"
+      },
+      "back": {
+        "fr": "Fan-in élevé : module très sollicité par de nombreux appelants (risque d’impact large en cas de régression). Fan-out élevé : module orchestrateur dépendant de nombreuses cibles (complexe à mocker et tester).",
+        "en": "High Fan-In: heavily reused core utility (wide blast radius on bugs). High Fan-Out: complex orchestrator depending on many modules (harder to isolate and mock)."
+      },
+      "tags": [
+        "ch3",
+        "architecture-metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-053",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’Indice de Maintenabilité (Maintainability Index) ?",
+        "en": "What does the Maintainability Index measure statically?"
+      },
+      "back": {
+        "fr": "Un score composite combinant volume Halstead, complexité cyclomatique et lignes de code pour estimer la facilité d’évolution et de compréhension d’un fichier.",
+        "en": "A composite metric combining Halstead volume, cyclomatic complexity, and lines of code to gauge how maintainable a module is."
+      },
+      "tags": [
+        "ch3",
+        "maintainability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-054",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment l’analyse dynamique détecte-t-elle les interblocages (Deadlocks) et inversions de verrous ?",
+        "en": "How can dynamic analyzers spot potential Deadlocks before they happen in production?"
+      },
+      "back": {
+        "fr": "En observant l’ordre d’acquisition des mutex/verrous entre threads : si un thread prend A puis B tandis qu’un autre prend B puis A, un risque d’interblocage est signalé même s’il ne s’est pas encore figé.",
+        "en": "By tracking lock-acquisition graphs across threads: detecting opposing orders (Thread 1 locks A→B while Thread 2 locks B→A) flags latent deadlocks even before a hang occurs."
+      },
+      "tags": [
+        "ch3",
+        "deadlocks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-055",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi exécuter l’analyse dynamique (Sanitizers / Profilers) sur la suite de tests fonctionnels existante ?",
+        "en": "Why is running dynamic analyzers (Sanitizers/Profilers) under existing functional/integration suites so efficient?"
+      },
+      "back": {
+        "fr": "Cela révèle instantanément des fuites mémoire, courses critiques ou requêtes N+1 cachées sans avoir à réécrire de nouveaux scénarios de test.",
+        "en": "It instantly surfaces hidden memory leaks, race conditions, or N+1 DB queries across existing journeys without writing brand-new test cases."
+      },
+      "tags": [
+        "ch3",
+        "dynamic-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-056",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "objectiveId": "TTA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle limite possède l’analyse dynamique par rapport à l’analyse statique ?",
+        "en": "What key limitation does Dynamic Analysis have compared to Static Analysis?"
+      },
+      "back": {
+        "fr": "L’analyse dynamique ne peut inspecter que les chemins de code réellement exécutés pendant les tests ; les branches non parcourues restent aveugles, contrairement à l’analyse statique qui couvre 100 % du code.",
+        "en": "Dynamic analysis can only inspect execution paths actually triggered by tests, whereas static analysis examines 100% of the source code including rare error branches."
+      },
+      "tags": [
+        "ch3",
+        "limitations"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-057",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez les six propriétés de la Sécurité selon ISO/IEC 25010 (au-delà de CIA).",
+        "en": "List the sub-characteristics of Security in ISO/IEC 25010."
+      },
+      "back": {
+        "fr": "Confidentialité, Intégrité, Non-répudiation, Imputabilité (Accountability) et Authenticité.",
+        "en": "Confidentiality, Integrity, Non-repudiation, Accountability, and Authenticity."
+      },
+      "tags": [
+        "ch4",
+        "security",
+        "iso25010"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-058",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester techniquement le contrôle d’accès et l’autorisation (Broken Access Control / IDOR) ?",
+        "en": "How does a TTA test technically for Broken Access Control / IDOR?"
+      },
+      "back": {
+        "fr": "Rejouer des appels API en modifiant les identifiants de ressources (`user_id`, `order_id`) avec un jeton de rôle inférieur ou d’un autre tenant (escalade horizontale et verticale).",
+        "en": "Replaying API calls while swapping resource IDs (`user_id`, `order_id`) using lower-privilege or cross-tenant tokens to probe horizontal and vertical privilege escalation."
+      },
+      "tags": [
+        "ch4",
+        "security",
+        "owasp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-059",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le Fuzz Testing (Fuzzing) et quels bogues détecte-t-il ?",
+        "en": "What is Fuzz Testing (Fuzzing) and what failures does it uncover?"
+      },
+      "back": {
+        "fr": "Injecter automatiquement des milliers de données aléatoires, malformées ou mutées dans des parseurs, API ou protocoles pour révéler crashs, débordements mémoire, DoS et exceptions non gérées.",
+        "en": "Bombarding parsers, APIs, or protocols with massive streams of malformed, mutated, or random inputs to expose crashes, memory corruption, hangs, and unhandled exceptions."
+      },
+      "tags": [
+        "ch4",
+        "fuzzing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-060",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez les quatre sous-caractéristiques de la Fiabilité (Reliability) selon ISO/IEC 25010.",
+        "en": "Name the four sub-characteristics of Reliability in ISO/IEC 25010."
+      },
+      "back": {
+        "fr": "Maturité (stabilité en usage normal), Disponibilité (prêt à l’emploi), Tolérance aux pannes (poursuite malgré panne matérielle/logicielle) et Capacité de récupération (Recoverability).",
+        "en": "Maturity, Availability, Fault Tolerance, and Recoverability."
+      },
+      "tags": [
+        "ch4",
+        "reliability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-061",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment un TTA teste-t-il la Tolérance aux Pannes et la Reprise (Failover / Recovery) ?",
+        "en": "How does a TTA verify Fault Tolerance and Recoverability?"
+      },
+      "back": {
+        "fr": "Couper brutalement un nœud base de données ou service tiers en pleine transaction (chaos/fault injection), puis mesurer bascule (RTO), perte de données (RPO) et intégrité des écritures.",
+        "en": "Deliberately killing a DB node or downstream service mid-transaction (fault injection) and measuring failover time (RTO), data loss (RPO), and transactional integrity."
+      },
+      "tags": [
+        "ch4",
+        "recoverability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-062",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifient RTO et RPO dans les tests de reprise après sinistre ?",
+        "en": "Define RTO and RPO in recoverability testing."
+      },
+      "back": {
+        "fr": "RTO (Recovery Time Objective) : durée maximale tolérée pour restaurer le service. RPO (Recovery Point Objective) : perte maximale de données acceptable mesurée en temps depuis la dernière sauvegarde.",
+        "en": "RTO (Recovery Time Objective): maximum acceptable downtime to restore service. RPO (Recovery Point Objective): maximum acceptable data-loss window since last backup."
+      },
+      "tags": [
+        "ch4",
+        "rto-rpo"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-063",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les trois sous-caractéristiques de l’Efficacité de Performance (ISO/IEC 25010) ?",
+        "en": "What are the three sub-characteristics of Performance Efficiency in ISO/IEC 25010?"
+      },
+      "back": {
+        "fr": "Comportement temporel (Time Behaviour : latence/débit), Utilisation des ressources (Resource Utilization : CPU, RAM, I/O) et Capacité (Capacity : limites maximales).",
+        "en": "Time Behaviour (response times/throughput), Resource Utilization (CPU, RAM, I/O), and Capacity (maximum sustainable limits)."
+      },
+      "tags": [
+        "ch4",
+        "performance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-064",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Test de Charge (Load), Test de Stress (Stress) et Test de Pointe (Spike).",
+        "en": "Contrast Load Testing, Stress Testing, and Spike Testing."
+      },
+      "back": {
+        "fr": "Charge : comportement sous charge attendue normale et de pic nominal. Stress : poussée au-delà de la capacité prévue pour observer dégradation et point de rupture. Pointe : variation soudaine et extrême du trafic.",
+        "en": "Load: behavior under expected normal/peak traffic. Stress: pushing beyond design limits to observe degradation and breaking points. Spike: sudden extreme bursts of load."
+      },
+      "tags": [
+        "ch4",
+        "performance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-065",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert un Test d’Endurance (Soak / Stability Test) ?",
+        "en": "What defects does an Endurance (Soak) Test uniquely expose?"
+      },
+      "back": {
+        "fr": "Fuites mémoire lentes, épuisement de descripteurs de fichiers ou de pools de connexions BDD, saturation de logs disque et dégradation progressive sur plusieurs heures/jours.",
+        "en": "Slow memory leaks, file-descriptor or DB connection-pool exhaustion, disk-log bloat, and gradual throughput degradation over hours or days."
+      },
+      "tags": [
+        "ch4",
+        "soak-test"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-066",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre Scalabilité verticale (Scale-Up) et horizontale (Scale-Out) lors des tests ?",
+        "en": "How does testing Vertical Scalability (Scale-Up) differ from Horizontal Scalability (Scale-Out)?"
+      },
+      "back": {
+        "fr": "Scale-Up : ajouter CPU/RAM sur une machine (vérifier l’absence de contention de verrous mono-thread). Scale-Out : ajouter des nœuds/pods (vérifier équilibrage de charge, état partagé et caches distribués).",
+        "en": "Scale-Up adds CPU/RAM to one node (checks single-lock contention); Scale-Out adds instances (verifies load balancing, stateless sessions, and distributed cache coherence)."
+      },
+      "tags": [
+        "ch4",
+        "scalability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-067",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez les cinq sous-caractéristiques de la Maintenabilité (Maintainability) selon ISO/IEC 25010.",
+        "en": "What are the five sub-characteristics of Maintainability in ISO/IEC 25010?"
+      },
+      "back": {
+        "fr": "Modularité, Réutilisabilité, Analysabilité (facilité de diagnostic), Modifiabilité (changement sans régression) et Testabilité.",
+        "en": "Modularity, Reusability, Analyzability, Modifiability, and Testability."
+      },
+      "tags": [
+        "ch4",
+        "maintainability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-068",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TTA évalue-t-il l’Analysabilité et la Testabilité d’une application ?",
+        "en": "How does a TTA assess Analyzability and Testability?"
+      },
+      "back": {
+        "fr": "Vérifier qualité des logs avec IDs de corrélation, messages d’erreur explicites, endpoints de santé (`/health`), injection facile de données/horloge et documentation d’architecture.",
+        "en": "Checking structured logs with correlation IDs, diagnostic error codes, health endpoints, injectable clocks/dependencies, and clean module boundaries."
+      },
+      "tags": [
+        "ch4",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-069",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez les trois sous-caractéristiques de la Portabilité (Portability) selon ISO/IEC 25010.",
+        "en": "What are the three sub-characteristics of Portability in ISO/IEC 25010?"
+      },
+      "back": {
+        "fr": "Adaptabilité (environnements matériels/OS/navigateurs/cloud variés), Installabilité (installation/désinstallation) et Remplaçabilité (remplacer un composant/système existant).",
+        "en": "Adaptability, Installability, and Replaceability."
+      },
+      "tags": [
+        "ch4",
+        "portability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-070",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’Installabilité et la Mise à jour (Upgrade / Rollback) côté TTA ?",
+        "en": "What must a TTA test to verify Installability and Upgradeability?"
+      },
+      "back": {
+        "fr": "Installation fraîche, mise à niveau sans perte de données ni schémas corrompus (migrations SQL), désinstallation propre sans fichiers orphelins et retour arrière (rollback) sûr.",
+        "en": "Clean fresh install, in-place upgrade preserving schema/data integrity, clean uninstall leaving no orphaned state, and verified rollback scripts."
+      },
+      "tags": [
+        "ch4",
+        "installability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-071",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’Adaptabilité en environnement conteneurisé/cloud doit-elle être testée explicitement ?",
+        "en": "What Adaptability checks matter for cloud-native and containerized deployments?"
+      },
+      "back": {
+        "fr": "Fonctionnement sous variables d’environnement différentes, architectures CPU (x86 vs ARM64), limites cgroups de RAM/CPU et absence de chemins locaux codés en dur.",
+        "en": "Running cleanly across differing env configs, CPU architectures (x86 vs. ARM64), tight cgroup memory/CPU limits, and zero hardcoded paths."
+      },
+      "tags": [
+        "ch4",
+        "adaptability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-072",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie-t-on lors d’un test de Remplaçabilité (Replaceability) ?",
+        "en": "How does a TTA test Replaceability when swapping a component or database?"
+      },
+      "back": {
+        "fr": "Confirmer que le nouveau composant respecte exactement les interfaces, formats de données, SLA et comportements limites de l’ancien sans casser les consommateurs.",
+        "en": "Verifying the drop-in replacement honors identical API contracts, data migration fidelity, SLAs, and edge semantics without breaking consumers."
+      },
+      "tags": [
+        "ch4",
+        "replaceability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-073",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les temps de réponse moyens (Average) sont-ils trompeurs face aux percentiles (p95, p99) ?",
+        "en": "Why are mean (average) response times misleading compared to percentiles (p95, p99) in performance testing?"
+      },
+      "back": {
+        "fr": "Une moyenne basse peut masquer que 5 % des requêtes subissent des pauses GC ou blocages BDD de 10 secondes pénalisant fortement l’expérience réelle.",
+        "en": "A low average can hide 1–5% of requests suffering 10-second GC pauses or DB lock stalls that severely degrade real user experience."
+      },
+      "tags": [
+        "ch4",
+        "percentiles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-074",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« omission coordonnée » (Coordinated Omission) dans les générateurs de charge ?",
+        "en": "What is \"Coordinated Omission\" in load-testing tools?"
+      },
+      "back": {
+        "fr": "Lorsque l’outil attend la fin d’une requête lente avant d’émettre la suivante (modèle boucle fermée), il ralentit artificiellement le rythme d’envoi et sous-estime fortement les latences de file d’attente sous vraie charge.",
+        "en": "When a closed-loop generator pauses sending new requests while waiting on a slow response, artificially throttling arrival rates and hiding severe queuing latency."
+      },
+      "tags": [
+        "ch4",
+        "load-testing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-075",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels contrôles cryptographiques et transport (TLS/JWT) le TTA doit-il vérifier ?",
+        "en": "What cryptographic and transport security checks should a TTA execute?"
+      },
+      "back": {
+        "fr": "Version TLS >= 1.2/1.3, rejet des suites faibles, validation stricte des certificats et signatures JWT (`alg=none` bloqué), et hachage salé moderne des mots de passe (Argon2/bcrypt).",
+        "en": "Enforcing TLS 1.2+/1.3, disabling weak ciphers, strict certificate/JWT signature checks (blocking `alg=none`), and modern salted password hashing (Argon2/bcrypt)."
+      },
+      "tags": [
+        "ch4",
+        "crypto"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-076",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste le Chaos Engineering (ex. injection de latence ou coupure de zone) ?",
+        "en": "How does Chaos Engineering complement traditional reliability testing?"
+      },
+      "back": {
+        "fr": "Injecter des pannes contrôlées (latence réseau, perte de paquets, arrêt d’instance, disque plein) dans un système distribué pour vérifier que résilience et alertes réagissent comme prévu.",
+        "en": "Conducting controlled fault experiments (network latency, packet drops, instance termination, disk saturation) to validate distributed resilience and alerting."
+      },
+      "tags": [
+        "ch4",
+        "chaos"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-077",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’efficacité de la Coexistence sur un poste ou serveur partagé ?",
+        "en": "How does a TTA test technical Coexistence?"
+      },
+      "back": {
+        "fr": "Exécuter l’application simultanément avec d’autres processus voisins et vérifier conflits de ports, contention CPU/mémoire, variables d’environnement globales et verrous fichiers.",
+        "en": "Running the app concurrently with neighboring workloads to expose port collisions, CPU/memory starvation, shared env-var clashes, and file locks."
+      },
+      "tags": [
+        "ch4",
+        "coexistence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-078",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "objectiveId": "TTA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la relation entre « Modifiabilité » et suites de tests unitaires rapides ?",
+        "en": "How do fast automated unit/component test suites sustain Maintainability (Modifiability)?"
+      },
+      "back": {
+        "fr": "Elles fournissent un filet de sécurité immédiat permettant aux développeurs de refactoriser le code avec confiance sans craindre de régressions cachées.",
+        "en": "They provide instant regression feedback, empowering developers to refactor safely without fear of silent breakages."
+      },
+      "tags": [
+        "ch4",
+        "modifiability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-079",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels artefacts le TTA examine-t-il principalement lors des revues techniques ?",
+        "en": "Which technical artifacts does the TTA primarily review?"
+      },
+      "back": {
+        "fr": "Documents d’architecture logicielle, schémas de bases de données, contrats d’API (OpenAPI/AsyncAPI), code source, scripts IaC (Terraform/Docker) et pipelines CI.",
+        "en": "Software architecture specs, database schemas, API contracts (OpenAPI/AsyncAPI), source code, Infrastructure-as-Code scripts, and CI pipelines."
+      },
+      "tags": [
+        "ch5",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-080",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles questions clés figurent dans une check-list de revue de code source pour le TTA ?",
+        "en": "Name key items on a TTA’s source code review checklist."
+      },
+      "back": {
+        "fr": "Gestion systématique des erreurs/timeouts, fermeture des ressources (`finally`/RAII), validation des entrées non fiables, absence de secrets en dur, clarté et complexité bornée.",
+        "en": "Proper error/timeout handling, resource cleanup (`finally`/RAII), untrusted input sanitization, zero hardcoded secrets, and bounded complexity."
+      },
+      "tags": [
+        "ch5",
+        "code-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-081",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le TTA lors d’une revue d’architecture logicielle ?",
+        "en": "What critical aspects does a TTA inspect during an Architecture Review?"
+      },
+      "back": {
+        "fr": "Points de défaillance uniques (SPOF), goulets synchrones, stratégie de cache et d’invalidation, frontières de sécurité (Zero Trust), scalabilité et observabilité.",
+        "en": "Single points of failure (SPOFs), synchronous bottlenecks, cache invalidation strategy, trust boundaries, scalability limits, and observability."
+      },
+      "tags": [
+        "ch5",
+        "architecture-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-082",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’analyse statique automatisée doit-elle précéder la revue humaine de code ?",
+        "en": "Why should automated static analysis run before human peer code reviews?"
+      },
+      "back": {
+        "fr": "L’outil élimine automatiquement style, variables mortes et failles triviales, laissant les relecteurs humains se concentrer sur logique métier, concurrence et conception.",
+        "en": "Automated linters and SAST catch style, dead code, and trivial flaws first, freeing human reviewers to inspect logic, concurrency, and architecture."
+      },
+      "tags": [
+        "ch5",
+        "automation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-083",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts de concurrence un relecteur TTA peut-il repérer dans le code ?",
+        "en": "Which concurrency bugs should a TTA look for in source code reviews?"
+      },
+      "back": {
+        "fr": "État mutable partagé non protégé (singletons, caches statiques), ordres d’acquisition de verrous inconsistants, appels bloquants dans une boucle événementielle async et checks non atomiques (TOCTOU).",
+        "en": "Unprotected shared mutable state, inconsistent lock ordering, blocking I/O on async event loops, and Time-Of-Check-to-Time-Of-Use (TOCTOU) races."
+      },
+      "tags": [
+        "ch5",
+        "concurrency"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-084",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le TTA lors de la revue d’un schéma relationnel ou de requêtes SQL ?",
+        "en": "What does a TTA verify when reviewing database schemas or SQL queries?"
+      },
+      "back": {
+        "fr": "Indexation cohérente des clés étrangères et filtres fréquents, contraintes d’intégrité référentielle, absence de requêtes N+1 ou `SELECT *` et requêtes strictement paramétrées.",
+        "en": "Proper indexing on foreign keys and hot filters, referential constraints, absence of N+1 or `SELECT *` anti-patterns, and strictly parameterized queries."
+      },
+      "tags": [
+        "ch5",
+        "sql"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-085",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts cibler en revue de contrats d’API REST/JSON ?",
+        "en": "What defects should a TTA flag when reviewing REST/JSON API specifications?"
+      },
+      "back": {
+        "fr": "Absence de pagination sur collections potentiellement infinies, codes HTTP incohérents, manque d’idempotence sur `PUT/DELETE`, absence de versioning et fuites de pile technique en erreur.",
+        "en": "Unbounded unpaginated lists, inconsistent HTTP status codes, non-idempotent `PUT/DELETE`, missing versioning, and stack-trace leaks in error payloads."
+      },
+      "tags": [
+        "ch5",
+        "api-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-086",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi relire également les scripts d’automatisation de tests et fichiers IaC (Dockerfile/Terraform) ?",
+        "en": "Why must test automation scripts and IaC files (Docker/Terraform) also undergo technical review?"
+      },
+      "back": {
+        "fr": "Les scripts de test sont du logiciel : attentes codées en dur (`sleep`), sélecteurs fragiles, mauvaise gestion de secrets ou droits excessifs en IaC nuisent à la fiabilité et sécurité.",
+        "en": "Test code and IaC are production-grade software: hardcoded `sleep`s, brittle selectors, leaked CI secrets, or over-permissive IAM roles break reliability and security."
+      },
+      "tags": [
+        "ch5",
+        "iac"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-087",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’effet « rubber stamping » (validation superficielle) en Pull Request ?",
+        "en": "How can technical teams prevent superficial \"rubber-stamp\" code reviews?"
+      },
+      "back": {
+        "fr": "Limiter la taille des Pull Requests (< 300–400 lignes), utiliser des check-lists ciblées par risque et exiger au moins un commentaire ou vérification explicite des tests associés.",
+        "en": "Keep PRs small (<300–400 LOC), apply risk-focused checklists, and verify accompanying unit/integration tests actually assert edge behavior."
+      },
+      "tags": [
+        "ch5",
+        "pr-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-088",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "objectiveId": "TTA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle spécifique de la revue de journalisation (Logging Review) par le TTA ?",
+        "en": "What does a TTA verify during a Logging and Telemetry review?"
+      },
+      "back": {
+        "fr": "Vérifier qu’aucune donnée sensible (mots de passe, CB, jetons, PII) n’est écrite en clair dans les logs tout en conservant niveaux adaptés et IDs de corrélation.",
+        "en": "Ensuring zero sensitive secrets/tokens/PII are logged in plaintext while preserving useful severity levels and request correlation IDs."
+      },
+      "tags": [
+        "ch5",
+        "logging",
+        "security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-089",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez les architectures d’automatisation Data-Driven, Keyword-Driven et Model-Based.",
+        "en": "Compare Data-Driven, Keyword-Driven, and Model-Based test automation architectures."
+      },
+      "back": {
+        "fr": "Data-Driven : sépare logique de script et jeux de données tabulaires. Keyword-Driven : sépare scénarios métier en mots-clés réutilisables et implémentation technique. Model-Based : génère automatiquement les tests depuis un modèle comportemental.",
+        "en": "Data-Driven separates scripts from tabular datasets; Keyword-Driven abstracts test steps into reusable domain verbs; Model-Based auto-generates tests from behavioral models."
+      },
+      "tags": [
+        "ch6",
+        "frameworks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-090",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’approche Record-and-Playback (Capture/Rejeu) échoue-t-elle généralement à grande échelle ?",
+        "en": "Why does pure Record-and-Playback automation usually fail at scale?"
+      },
+      "back": {
+        "fr": "Elle génère des scripts monolithiques fortement couplés aux sélecteurs DOM/coordonnées et données en dur, devenant impossibles à maintenir dès la moindre évolution UI.",
+        "en": "It generates monolithic scripts tightly coupled to brittle selectors and hardcoded data, causing maintenance collapse on minor UI updates."
+      },
+      "tags": [
+        "ch6",
+        "record-playback"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-091",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi le patron Page Object Model (POM) ou Screenplay réduit-il la maintenance des tests IHM ?",
+        "en": "How do Page Object Model (POM) and Screenplay reduce UI automation maintenance?"
+      },
+      "back": {
+        "fr": "Ils encapsulent sélecteurs et interactions d’un écran/composant en un seul endroit ; une refonte UI ne nécessite de mettre à jour qu’un seul objet au lieu de centaines de tests.",
+        "en": "They encapsulate locators and screen interactions in one abstraction layer; UI changes require updating only one object rather than hundreds of test files."
+      },
+      "tags": [
+        "ch6",
+        "pom"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-092",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre un Mock, un Stub, un Fake et un Spy ?",
+        "en": "Distinguish Stub, Mock, Fake, and Spy among test doubles."
+      },
+      "back": {
+        "fr": "Stub : renvoie des réponses figées. Mock : vérifie les appels attendus reçus. Fake : implémentation simplifiée fonctionnelle (ex. BDD en mémoire). Spy : enveloppe réelle enregistrant les appels.",
+        "en": "Stub: returns canned data. Mock: asserts expected interactions. Fake: lightweight working implementation (e.g., in-memory DB). Spy: wraps real object to record calls."
+      },
+      "tags": [
+        "ch6",
+        "test-doubles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-093",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la Virtualisation de Services (Service Virtualization) et quand l’utiliser ?",
+        "en": "When should a TTA deploy Service Virtualization instead of simple unit mocks?"
+      },
+      "back": {
+        "fr": "Pour simuler au niveau réseau/protocole des systèmes tiers coûteux, instables ou absents (paiement, mainframe) avec latences réalistes, états persistants et scénarios de panne durant les tests d’intégration/performance.",
+        "en": "To emulate unavailable, costly, or rate-limited external systems over real network protocols—including stateful responses and realistic latencies—during integration and load testing."
+      },
+      "tags": [
+        "ch6",
+        "service-virtualization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-094",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi servent les Harnais de Test (Test Harnesses) et Pilotes (Drivers) ?",
+        "en": "What roles do Test Harnesses and Test Drivers fulfill in technical testing?"
+      },
+      "back": {
+        "fr": "Un Driver appelle un composant inférieur isolé dépourvu de point d’entrée ; un Harnais regroupe pilotes, bouchons, générateurs de données et comparateurs d’exécution automatisés.",
+        "en": "A Driver invokes a lower-level module lacking a caller; a Test Harness bundles drivers, stubs, data feeders, and result comparators."
+      },
+      "tags": [
+        "ch6",
+        "harness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-095",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les outils de Couverture de Code (JaCoCo, Istanbul/v8, Coverage.py) instrumentent-ils le logiciel ?",
+        "en": "How do code coverage tools (e.g., JaCoCo, V8/Istanbul) measure coverage?"
+      },
+      "back": {
+        "fr": "Par instrumentation du code source ou du bytecode (ou support moteur VM) pour tracer exactement quelles lignes, branches et conditions ont été exécutées par la suite.",
+        "en": "Via source/bytecode instrumentation or VM runtime hooks recording exact lines, branches, and conditions hit during test execution."
+      },
+      "tags": [
+        "ch6",
+        "coverage-tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-096",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles bonnes pratiques rendent une suite d’automatisation fiable dans un pipeline CI/CD ?",
+        "en": "Which engineering practices prevent flaky tests in CI/CD automation pipelines?"
+      },
+      "back": {
+        "fr": "Attentes explicites sur événements DOM/API (jamais de `sleep()` fixes), isolation complète des données entre tests parallèles, sélecteurs `data-testid` stables et réinitialisation atomique.",
+        "en": "Event-driven explicit waits (never fixed `sleep()`s), isolated per-test data/state for parallelism, resilient `data-testid` hooks, and deterministic teardown."
+      },
+      "tags": [
+        "ch6",
+        "ci-cd",
+        "flaky"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-097",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les générateurs de charge distribués (JMeter, k6, Gatling, Locust) simulent-ils des milliers d’utilisateurs ?",
+        "en": "How do modern load generators (k6, Gatling, JMeter, Locust) scale to thousands of virtual users?"
+      },
+      "back": {
+        "fr": "En utilisant des E/S non bloquantes asynchrones ou des nœuds injecteurs distribués orchestrés par un contrôleur tout en séparant génération de charge et collecte de métriques.",
+        "en": "Using non-blocking async I/O or clustered distributed worker nodes coordinated by a controller while separating load generation from telemetry aggregation."
+      },
+      "tags": [
+        "ch6",
+        "load-tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-098",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle jouent les environnements éphémères conteneurisés (Docker / Testcontainers) pour le TTA ?",
+        "en": "Why are ephemeral containers (Docker / Testcontainers) transformative for technical integration testing?"
+      },
+      "back": {
+        "fr": "Ils démarrent à la demande de vraies instances isolées de bases de données, files Kafka ou caches Redis exactement conformes à la production, garantissant des tests reproductibles sans partage pollué.",
+        "en": "They spin up clean, production-matching DBs, Kafka brokers, or Redis instances on demand per test run, delivering faithful reproducibility without shared environment drift."
+      },
+      "tags": [
+        "ch6",
+        "containers"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-099",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères guident le choix entre tests visuels/IHM bout en bout et tests au niveau composant/API ?",
+        "en": "How should a TTA decide whether to automate a technical check at unit, API, or E2E level?"
+      },
+      "back": {
+        "fr": "Tester logique et cas combinatoires au plus bas niveau rapide (unitaire/composant), règles d’intégration et sécurité au niveau API, et réserver l’E2E aux parcours critiques transverses.",
+        "en": "Verify logic and combinatorics at fast unit/component level, integration/auth contracts at API level, and reserve E2E for critical cross-layer journeys."
+      },
+      "tags": [
+        "ch6",
+        "automation-strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctaltta-100",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "objectiveId": "TTA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la contribution technique ultime du CTAL-TTA à la qualité logicielle ?",
+        "en": "What is the ultimate engineering contribution of a Technical Test Analyst?"
+      },
+      "back": {
+        "fr": "Rendre mesurables et maîtrisables les risques profonds du code et de l’architecture (structure, sécurité, performance, résilience) grâce à une ingénierie de test rigoureuse et automatisée.",
+        "en": "Making deep code and architectural risks (structure, security, performance, resilience) observable and controlled through disciplined test engineering and automation."
+      },
+      "tags": [
+        "ch6",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TTA v4.0 (Technical Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}

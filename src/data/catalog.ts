@@ -385,8 +385,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Version archivée : consulter les archives officielles ISTQB pour le barème complet 2011.',
-        en: 'Archived edition: verify complete 2011 exam rules via official ISTQB archives.',
+        fr: 'Archive historique (6 chapitres) et 100 flashcards bilingues incluses ; consulter les archives officielles ISTQB pour le barème complet 2011.',
+        en: 'Historical 6-chapter syllabus and 100 bilingual flashcards included; verify complete 2011 exam rules via official ISTQB archives.',
       },
     },
     changelogSummary: {
@@ -394,8 +394,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Early international Foundation syllabus prior to the 2018 overhaul.',
     },
     sources: ['ISTQB Historical Archive'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ctfl-at-v1.0',
@@ -421,8 +421,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: true,
       verificationNote: {
-        fr: 'Paramètres globaux vérifiés ; distribution fine par chapitre à vérifier avant examen officiel.',
-        en: 'Global exam settings verified; exact chapter question weights should be confirmed on istqb.org.',
+        fr: 'Paramètres globaux vérifiés et 100 flashcards bilingues incluses ; distribution fine par chapitre à vérifier avant examen officiel.',
+        en: 'Global exam settings verified and 100 bilingual flashcards included; exact chapter question weights should be confirmed on istqb.org.',
       },
     },
     changelogSummary: {
@@ -430,7 +430,7 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Covers Agile fundamentals, tester role in Agile teams, testing quadrants, and exploratory testing within iterations.',
     },
     sources: ['ISTQB Agile Tester Overview'],
-    lastVerified: '2026-11-19',
+    lastVerified: '2026-11-20',
     isPackDownloaded: true,
   },
   {
@@ -457,8 +457,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Paramètres exacts CTAL-TM v3.0 marqués « à vérifier » afin de ne jamais inventer de barème.',
-        en: 'Exact CTAL-TM v3.0 exam metrics marked "To verify" to avoid fabricating official scoring rules.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres d’examen CTAL-TM v3.0 à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; exact CTAL-TM v3.0 exam metrics remain to be verified on istqb.org.',
       },
     },
     changelogSummary: {
@@ -466,8 +466,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Major update aligned with CTFL v4.0 covering test management across Agile, hybrid, and DevOps contexts.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ctal-ta-v3.1.2',
@@ -493,8 +493,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Paramètres détaillés non embarqués dans ce pack — à vérifier sur istqb.org.',
-        en: 'Detailed exam parameters not bundled in this pack — verify on istqb.org.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; official exam scoring parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -502,8 +502,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Advanced black-box techniques and risk-driven functional test analysis.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ctal-tta-v4.0',
@@ -529,8 +529,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Non vérifié localement — mode entraînement configurable uniquement.',
-        en: 'Locally unverified — configurable practice mode only.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres d’examen non vérifiés localement.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; exam parameters remain locally unverified.',
       },
     },
     changelogSummary: {
@@ -538,8 +538,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Advanced structural coverage (MC/DC), code analysis, and technical non-functional testing.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-tas-v1.0',
@@ -565,8 +565,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Métadonnées uniquement — paramètres d’examen à vérifier.',
-        en: 'Metadata only — exam parameters to verify.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses — paramètres d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included — exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -574,8 +574,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Specialist module focusing on automation strategy, architecture, and maintainability.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-tae-v1.0',
@@ -602,8 +602,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Archive historique non active.',
-        en: 'Inactive historical archive.',
+        fr: 'Archive historique remplacée : structure et 100 flashcards bilingues incluses ; paramètres d’examen archivés.',
+        en: 'Superseded historical archive: syllabus structure and 100 bilingual flashcards included; exam parameters unverified.',
       },
     },
     changelogSummary: {
@@ -611,8 +611,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Historical 2016 gTAA specialist module.',
     },
     sources: ['ISTQB Historical Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-ai-v1.0',
@@ -674,8 +674,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Métadonnées uniquement.',
-        en: 'Metadata only.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -683,8 +683,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Performance metrics, operational profiles, and load test engineering.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-sec-v1.0',
@@ -710,8 +710,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Métadonnées uniquement.',
-        en: 'Metadata only.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -719,8 +719,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Application and infrastructure security testing.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ct-mat-v1.0',
@@ -746,8 +746,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Métadonnées uniquement.',
-        en: 'Metadata only.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -755,8 +755,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Mobile application testing across iOS and Android ecosystems.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
   {
     id: 'ctel-tm-v1.0',
@@ -782,8 +782,8 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       },
       isVerified: false,
       verificationNote: {
-        fr: 'Métadonnées uniquement.',
-        en: 'Metadata only.',
+        fr: 'Structure syllabus et 100 flashcards bilingues incluses ; paramètres officiels d’examen à vérifier sur istqb.org.',
+        en: 'Syllabus structure and 100 bilingual flashcards included; official exam parameters to verify on istqb.org.',
       },
     },
     changelogSummary: {
@@ -791,7 +791,7 @@ export const SYLLABUS_VERSIONS: SyllabusVersion[] = [
       en: 'Strategic test governance at Expert level.',
     },
     sources: ['ISTQB Official Portfolio'],
-    lastVerified: '2026-11-19',
-    isPackDownloaded: false,
+    lastVerified: '2026-11-20',
+    isPackDownloaded: true,
   },
 ];

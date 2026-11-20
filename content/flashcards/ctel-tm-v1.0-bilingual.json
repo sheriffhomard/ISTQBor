@@ -1,0 +1,3051 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-cteltm-001",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle principal d’une politique de test au niveau de l’entreprise ?",
+        "en": "What is the primary role of an enterprise-level test policy?"
+      },
+      "back": {
+        "fr": "Définir la vision, les principes directeurs et les objectifs globaux de la qualité auxquels toutes les stratégies et plans de test de l’organisation doivent se conformer.",
+        "en": "To establish the overarching vision, guiding principles, and quality objectives that all organizational test strategies and plans must align with."
+      },
+      "hint": {
+        "fr": "Document exécutif court, rarement révisé.",
+        "en": "Short executive document, rarely revised."
+      },
+      "tags": [
+        "policy",
+        "governance",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-002",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment distinguer politique de test, stratégie organisationnelle et plan de test ?",
+        "en": "How do test policy, organizational test strategy, and test plan differ?"
+      },
+      "back": {
+        "fr": "La politique fixe le « pourquoi », la stratégie organisationnelle précise le « quoi et comment » générique (modèles, niveaux, risques), et le plan décline le « qui, quand et où » pour un projet ou produit donné.",
+        "en": "The policy defines the \"why\", the organizational strategy specifies the generic \"what and how\", and the test plan details the \"who, when, and where\" for a specific project or product."
+      },
+      "hint": {
+        "fr": "Pyramide documentaire ISO 29119.",
+        "en": "ISO 29119 documentation hierarchy."
+      },
+      "tags": [
+        "policy",
+        "strategy",
+        "iso29119"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-003",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la stratégie de test d’entreprise doit-elle être liée aux objectifs métier ?",
+        "en": "Why must an enterprise test strategy be directly linked to business objectives?"
+      },
+      "back": {
+        "fr": "Pour investir l’effort d’assurance qualité là où la création de valeur, la réputation et la conformité sont critiques plutôt que d’appliquer un effort uniforme et coûteux.",
+        "en": "To focus quality assurance investment where value creation, brand reputation, and compliance are most critical rather than applying uniform, costly effort."
+      },
+      "tags": [
+        "business-alignment",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-004",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la gouvernance du test à l’échelle d’un portefeuille de programmes ?",
+        "en": "What is test governance at a multi-program portfolio scale?"
+      },
+      "back": {
+        "fr": "L’ensemble des mécanismes de décision, de supervision des risques, de standardisation des seuils de qualité et de reddition de comptes assurant la cohérence entre programmes interdépendants.",
+        "en": "The set of decision rights, risk oversight, standardized quality gates, and accountability structures ensuring coherence across interdependent programs."
+      },
+      "tags": [
+        "governance",
+        "portfolio"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-005",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la responsabilité clé d’un Test Manager Expert vis-à-vis du comité de direction (C-level) ?",
+        "en": "What is a key responsibility of an Expert Test Manager toward C-level executives?"
+      },
+      "back": {
+        "fr": "Traduire l’état technique des défauts et de la couverture en exposition financière, risque opérationnel et impact sur la mise sur le marché.",
+        "en": "Translating technical defect and coverage status into financial exposure, operational risk, and time-to-market impact."
+      },
+      "hint": {
+        "fr": "Langage métier et risque résiduel.",
+        "en": "Business language and residual risk."
+      },
+      "tags": [
+        "executive",
+        "communication"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-006",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels facteurs influencent le choix d’une stratégie de test hybride dans une grande entreprise ?",
+        "en": "Which factors drive choosing a hybrid test strategy in a large enterprise?"
+      },
+      "back": {
+        "fr": "La coexistence de systèmes légataires en cycle en V, de produits digitaux Agile/DevOps, de progiciels et de contraintes réglementaires hétérogènes.",
+        "en": "The coexistence of legacy waterfall systems, Agile/DevOps digital products, COTS packages, and varied regulatory constraints."
+      },
+      "tags": [
+        "hybrid-strategy",
+        "enterprise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-007",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’apporte l’approche « Shift-Left » au niveau stratégique de l’entreprise ?",
+        "en": "What does a strategic enterprise-wide \"Shift-Left\" initiative deliver?"
+      },
+      "back": {
+        "fr": "La réduction du coût de correction des défauts grâce à l’implication précoce du test dans les revues d’architecture, les critères d’acceptation et l’automatisation continue.",
+        "en": "Lower defect remediation cost through early test involvement in architecture reviews, acceptance criteria, and continuous automation."
+      },
+      "tags": [
+        "shift-left",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-008",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle stratégique du « Shift-Right » en gouvernance qualité ?",
+        "en": "What is the strategic role of \"Shift-Right\" in quality governance?"
+      },
+      "back": {
+        "fr": "Valider le comportement en conditions réelles (canari, télémétrie, tests synthétiques) afin d’alimenter la boucle d’amélioration des tests pré-production.",
+        "en": "Validating real-world production behavior (canary releases, telemetry, synthetic monitoring) to feed insights back into pre-production testing."
+      },
+      "tags": [
+        "shift-right",
+        "observability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-009",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment arbitrer des conflits de priorités entre plusieurs programmes partageant des environnements de test ?",
+        "en": "How should priority conflicts be resolved across multiple programs sharing test environments?"
+      },
+      "back": {
+        "fr": "Via un comité de gouvernance des environnements utilisant la criticité métier, les dates réglementaires et les dépendances de livraison comme critères objectifs.",
+        "en": "Through an environment governance board using business criticality, regulatory deadlines, and release dependencies as objective criteria."
+      },
+      "tags": [
+        "environments",
+        "portfolio"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-010",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’indépendance du test à l’échelle institutionnelle (gouvernance) ?",
+        "en": "What does test independence mean at an institutional governance level?"
+      },
+      "back": {
+        "fr": "Garantir que l’évaluation de la qualité et la recommandation Go/No-Go ne soient pas soumises à la pression hiérarchique des objectifs de délai de livraison.",
+        "en": "Ensuring quality assessment and Go/No-Go recommendations are shielded from hierarchical pressure tied purely to delivery schedules."
+      },
+      "tags": [
+        "independence",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-011",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment maintenir l’indépendance de jugement dans une organisation Agile décentralisée ?",
+        "en": "How is independence of judgment maintained in a decentralized Agile organization?"
+      },
+      "back": {
+        "fr": "En combinant des testeurs intégrés aux équipes pour le feedback rapide et une communauté de pratique ou des revues croisées/audits indépendants pour les risques critiques.",
+        "en": "By combining embedded testers for rapid feedback with a quality chapter/guild and cross-team or independent audits for high-risk areas."
+      },
+      "tags": [
+        "agile",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-012",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi formaliser un cadre de gouvernance des données de test (TDM) à l’échelle de l’entreprise ?",
+        "en": "Why formalize an enterprise Test Data Management (TDM) governance framework?"
+      },
+      "back": {
+        "fr": "Pour assurer la conformité RGPD/PII via l’anonymisation ou la génération synthétique, tout en garantissant des jeux de données reproductibles entre systèmes intégrés.",
+        "en": "To enforce privacy/GDPR compliance via masking or synthetic data while guaranteeing consistent, repeatable datasets across integrated systems."
+      },
+      "tags": [
+        "tdm",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-013",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un jalon qualité (Quality Gate) exécutif et quand doit-il être bloquant ?",
+        "en": "What is an executive Quality Gate and when should it be blocking?"
+      },
+      "back": {
+        "fr": "Un point de décision basé sur des critères vérifiables (risque résiduel, défauts bloquants, conformité) qui bloque le passage lorsque les seuils de risque acceptables sont dépassés.",
+        "en": "A decision checkpoint using verifiable criteria (residual risk, severe defects, compliance) that blocks progression when acceptable risk thresholds are breached."
+      },
+      "tags": [
+        "quality-gate",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-014",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque comporte l’utilisation de Quality Gates purement mécaniques (ex. 100 % de tests réussis) ?",
+        "en": "What risk arises from purely mechanical Quality Gates (e.g., 100% pass rate)?"
+      },
+      "back": {
+        "fr": "Ils favorisent des tests triviaux, encouragent la falsification de métriques (effet Cobra) et ignorent la pertinence réelle face aux risques métier.",
+        "en": "They incentivize trivial tests, encourage metric gaming (Goodhart’s Law), and ignore real exposure to business risks."
+      },
+      "hint": {
+        "fr": "Loi de Goodhart : quand une mesure devient cible, elle cesse d’être fiable.",
+        "en": "Goodhart’s Law."
+      },
+      "tags": [
+        "quality-gate",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-015",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment intégrer la conformité réglementaire (ex. DORA, ISO 26262, FDA, PCI-DSS) dans la stratégie de test ?",
+        "en": "How should regulatory compliance (e.g., DORA, ISO 26262, FDA, PCI-DSS) be integrated into test strategy?"
+      },
+      "back": {
+        "fr": "Par une matrice de traçabilité obligatoire exigences-risques-tests-preuves, l’archivage immuable des résultats et des audits périodiques de processus.",
+        "en": "Through mandatory requirements-risks-tests-evidence traceability matrices, immutable execution archiving, and periodic process audits."
+      },
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-016",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’alignement sur les normes internationales telles que ISO/IEC/IEEE 29119 ?",
+        "en": "What is the strategic value of aligning with ISO/IEC/IEEE 29119?"
+      },
+      "back": {
+        "fr": "Disposer d’un vocabulaire et d’un cadre de processus vérifiables facilitant les appels d’offres, la sous-traitance et la démonstration de diligence raisonnable lors d’audits.",
+        "en": "Providing an auditable vocabulary and process framework that streamlines procurement, vendor governance, and regulatory due diligence."
+      },
+      "tags": [
+        "iso29119",
+        "standards"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-017",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment adapter la stratégie de test lors d’une fusion-acquisition (M&A) de deux SI ?",
+        "en": "How must test strategy adapt during an IT merger & acquisition (M&A)?"
+      },
+      "back": {
+        "fr": "En évaluant la dette qualité et la maturité de l’entité acquise, en priorisant les tests d’intégration et de sécurité aux interfaces, puis en harmonisant progressivement les politiques.",
+        "en": "By assessing the acquired entity’s quality debt and maturity, prioritizing integration and security boundary tests, then phasing in policy harmonization."
+      },
+      "tags": [
+        "m-and-a",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-018",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle du Test Manager Expert dans les décisions d’architecture d’entreprise ?",
+        "en": "What is the Expert Test Manager’s role in enterprise architecture decisions?"
+      },
+      "back": {
+        "fr": "Exiger la testabilité dès la conception (observabilité, API de stub, découplage, gestion des environnements) avant l’approbation des choix technologiques.",
+        "en": "Enforcing testability-by-design (observability, stubbing APIs, decoupling, environment parity) before architectural choices are ratified."
+      },
+      "tags": [
+        "architecture",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-019",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre stratégie de test analytique et stratégie de test méthodique ?",
+        "en": "What distinguishes an analytical test strategy from a methodical test strategy?"
+      },
+      "back": {
+        "fr": "L’analytique s’appuie sur l’analyse des risques ou des exigences (ex. RBT), tandis que la méthodique suit un jeu prédéfini de conditions ou normes (ex. checklists ISO 25010).",
+        "en": "Analytical strategies derive tests from risk or requirement analysis (e.g., RBT), whereas methodical ones follow a predefined baseline of checklists or quality models."
+      },
+      "tags": [
+        "strategy-types",
+        "istqb"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-020",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand privilégier une stratégie de test réactive ou consultative dans un portefeuille ?",
+        "en": "When are reactive or consultative test strategies appropriate in a portfolio?"
+      },
+      "back": {
+        "fr": "Réactive lorsque les exigences évoluent rapidement ou après mise à disposition (exploratoire) ; consultative lorsque des experts métier/techniques guident le périmètre de test.",
+        "en": "Reactive fits volatile requirements or late-stage exploration; consultative applies when domain or technical experts steer what must be tested."
+      },
+      "tags": [
+        "strategy-types",
+        "istqb"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-021",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gouverner les tests sur des progiciels SaaS ou COTS fréquemment mis à jour par l’éditeur ?",
+        "en": "How should testing be governed for SaaS or COTS solutions frequently updated by vendors?"
+      },
+      "back": {
+        "fr": "Concentrer l’effort interne sur les flux métier critiques de bout en bout, les intégrations et la sécurité d’accès, sans répliquer les tests unitaires de l’éditeur.",
+        "en": "Focus internal testing on critical end-to-end business workflows, integrations, and access security rather than duplicating vendor core unit tests."
+      },
+      "tags": [
+        "saas",
+        "cots",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-022",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’ingénierie de la qualité (Quality Engineering) par opposition au contrôle qualité (QC) ?",
+        "en": "How does Quality Engineering differ from traditional Quality Control (QC)?"
+      },
+      "back": {
+        "fr": "Le QC vérifie le produit en aval pour détecter les défauts ; l’ingénierie de la qualité prévient les défauts tout au long de la chaîne via conception, CI/CD et responsabilité partagée.",
+        "en": "QC inspects outputs downstream to detect defects; Quality Engineering prevents defects end-to-end through design, CI/CD automation, and shared ownership."
+      },
+      "tags": [
+        "quality-engineering",
+        "culture"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-023",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment arbitrer le niveau d’automatisation cible dans une stratégie d’entreprise ?",
+        "en": "How should target test automation coverage be decided in an enterprise strategy?"
+      },
+      "back": {
+        "fr": "En évaluant la fréquence d’exécution, la stabilité de l’interface, la criticité des parcours et le coût de maintenance plutôt qu’en fixant un objectif arbitraire de 100 %.",
+        "en": "By evaluating execution frequency, interface stability, workflow criticality, and maintenance cost rather than mandating an arbitrary 100% target."
+      },
+      "tags": [
+        "automation",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-024",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la virtualisation de services à l’échelle de l’entreprise et quel problème résout-elle ?",
+        "en": "What is enterprise service virtualization and what bottleneck does it solve?"
+      },
+      "back": {
+        "fr": "La simulation de dépendances tierces ou mainframe coûteuses/indisponibles, éliminant les files d’attente d’environnements et accélérant les tests d’intégration.",
+        "en": "Simulating unavailable or costly third-party/mainframe dependencies, eliminating environment bottlenecks and accelerating integration testing."
+      },
+      "tags": [
+        "virtualization",
+        "environments"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-025",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel mécanisme permet d’éviter qu’une politique de test ne devienne obsolète ou ignorée ?",
+        "en": "What mechanism prevents an enterprise test policy from becoming obsolete or ignored?"
+      },
+      "back": {
+        "fr": "Des revues annuelles alignées sur la stratégie SI, le parrainage d’un sponsor exécutif et l’intégration des principes dans les modèles de contrat et revues de portefeuille.",
+        "en": "Annual reviews tied to IT strategy, visible executive sponsorship, and embedding policy rules into vendor contracts and portfolio reviews."
+      },
+      "tags": [
+        "policy",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-026",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer stratégiquement la dette technique de test (scripts fragiles, cas obsolètes) ?",
+        "en": "How should test technical debt (flaky scripts, obsolete cases) be managed strategically?"
+      },
+      "back": {
+        "fr": "En allouant un budget récurrent de refactoring (ex. 15–20 % de capacité), en mesurant le taux de flakiness et en archivant les tests sans valeur de détection.",
+        "en": "By allocating recurring refactoring capacity (e.g., 15–20%), tracking flakiness rates, and retiring tests that yield no defect signal."
+      },
+      "tags": [
+        "technical-debt",
+        "maintenance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-027",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un contrat de niveau de service qualité (Quality SLA) interne ou fournisseur ?",
+        "en": "What is an internal or vendor Quality SLA?"
+      },
+      "back": {
+        "fr": "Un engagement chiffré sur la disponibilité des environnements, les délais de correction des défauts critiques, la couverture minimale et la transparence des rapports.",
+        "en": "A quantified commitment covering environment uptime, critical defect turnaround times, minimum coverage thresholds, and reporting transparency."
+      },
+      "tags": [
+        "sla",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-028",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment traiter les tests non fonctionnels (performance, sécurité, accessibilité) dans la stratégie globale ?",
+        "en": "How should non-functional testing (performance, security, accessibility) be framed in global strategy?"
+      },
+      "back": {
+        "fr": "Comme des exigences de premier ordre dès la phase de cadrage, avec des seuils mesurables (ISO 25010) et des créneaux d’outillage dédiés dans le pipeline.",
+        "en": "As first-class requirements defined from inception with measurable thresholds (ISO 25010) and dedicated pipeline gates and tooling."
+      },
+      "tags": [
+        "non-functional",
+        "iso25010"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-029",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est l’impact stratégique de l’utilisation de l’IA générative dans les tests d’entreprise ?",
+        "en": "What is the strategic impact of adopting generative AI in enterprise testing?"
+      },
+      "back": {
+        "fr": "Accélération de la génération de cas et de données de test, mais nécessité de gouverner les biais, la fuite de propriété intellectuelle et la revue humaine des oracles.",
+        "en": "Faster test case and test data generation, balanced by strict governance over IP leakage, bias, and mandatory human validation of test oracles."
+      },
+      "tags": [
+        "ai",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-030",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi séparer le rôle d’approbateur de mise en production du responsable de la livraison projet ?",
+        "en": "Why separate the release approval authority from the project delivery lead?"
+      },
+      "back": {
+        "fr": "Pour éviter le conflit d’intérêts entre respect du planning budgétaire et protection des actifs opérationnels et clients de l’entreprise.",
+        "en": "To prevent conflict of interest between hitting schedule budgets and protecting the enterprise’s operational assets and customers."
+      },
+      "tags": [
+        "release-management",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-031",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels éléments doit contenir un tableau de bord de gouvernance qualité destiné au conseil de direction ?",
+        "en": "What elements belong in an executive quality governance dashboard?"
+      },
+      "back": {
+        "fr": "Exposition aux risques résiduels, tendance d’échappement des défauts en production, coût de la non-qualité, avancement des jalons conformité et maturité du portefeuille.",
+        "en": "Residual risk exposure, production defect escape trend, Cost of Poor Quality, compliance readiness, and portfolio maturity trajectory."
+      },
+      "tags": [
+        "dashboard",
+        "executive"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-032",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment définir une stratégie d’archivage et de rétention des artefacts de test ?",
+        "en": "How should a test artifact retention and archiving strategy be defined?"
+      },
+      "back": {
+        "fr": "En alignant la durée de conservation, l’intégrité cryptographique et l’accessibilité aux audits sur les obligations légales du secteur et le cycle de vie produit.",
+        "en": "By aligning retention duration, tamper-evident integrity, and audit retrievability with sector legal mandates and product lifespans."
+      },
+      "tags": [
+        "archiving",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-033",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la limite d’une stratégie de test basée uniquement sur la couverture de code ?",
+        "en": "What is the strategic limitation of relying solely on code coverage?"
+      },
+      "back": {
+        "fr": "Elle mesure le code exécuté, pas le code manquant, la validité des assertions métier ou la qualité de l’expérience utilisateur et de la sécurité.",
+        "en": "It measures code executed, not missing requirements, assertion accuracy, business logic validity, usability, or security resilience."
+      },
+      "tags": [
+        "coverage",
+        "strategy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-034",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch1",
+      "objectiveId": "ETM-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment instaurer une culture où le test est perçu comme un accélérateur de valeur plutôt qu’un goulot d’étranglement ?",
+        "en": "How do you foster a culture where testing is viewed as a value accelerator rather than a bottleneck?"
+      },
+      "back": {
+        "fr": "En raccourcissant les boucles de feedback, en fournissant des risques actionnables tôt et en démontrant la réduction des incidents coûteux en production.",
+        "en": "By shortening feedback loops, delivering actionable risk insights early, and proving reductions in costly production outages."
+      },
+      "tags": [
+        "culture",
+        "value"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-035",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les quatre catégories du modèle Coût de la Qualité (CoQ) ?",
+        "en": "What are the four categories of the Cost of Quality (CoQ) model?"
+      },
+      "back": {
+        "fr": "Coûts de prévention, coûts d’évaluation (détection), coûts de défaillance interne et coûts de défaillance externe.",
+        "en": "Prevention costs, appraisal (detection) costs, internal failure costs, and external failure costs."
+      },
+      "hint": {
+        "fr": "PAF + défaillances internes/externes.",
+        "en": "Prevention, Appraisal, Internal & External Failure."
+      },
+      "tags": [
+        "coq",
+        "economics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-036",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Donner deux exemples de coûts de prévention dans le test logiciel d’entreprise.",
+        "en": "Give two examples of prevention costs in enterprise software testing."
+      },
+      "back": {
+        "fr": "Formation des équipes à la conception testable, revues précoces des exigences/architectures et mise en place de linters ou standards de codage.",
+        "en": "Training teams on testable design, early requirements/architecture reviews, and implementing static coding standards or linters."
+      },
+      "tags": [
+        "coq",
+        "prevention"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-037",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre coût de défaillance interne et coût de défaillance externe ?",
+        "en": "What distinguishes internal failure costs from external failure costs?"
+      },
+      "back": {
+        "fr": "Les défaillances internes surviennent avant livraison (correction de bugs, re-test), tandis que les défaillances externes surviennent chez le client (support, pénalités, perte d’image).",
+        "en": "Internal failures occur prior to release (bug fixing, retesting), whereas external failures happen in production (support, SLA penalties, churn, reputational damage)."
+      },
+      "tags": [
+        "coq",
+        "failure-costs"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-038",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment démontrer le retour sur investissement (ROI) d’un programme d’automatisation de tests à la direction financière ?",
+        "en": "How is the ROI of a test automation program demonstrated to the CFO?"
+      },
+      "back": {
+        "fr": "En comparant les coûts complets (licences, développement, maintenance, infrastructure) aux gains quantifiés (heures manuelles économisées, accélération des releases, défauts évités).",
+        "en": "By comparing total cost of ownership (tooling, creation, maintenance, infra) against quantified savings (manual effort avoided, faster release velocity, escaped-defect reduction)."
+      },
+      "tags": [
+        "roi",
+        "automation",
+        "finance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-039",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège financier guette le calcul simpliste du coût de la qualité ?",
+        "en": "What financial pitfall threatens simplistic Cost of Quality calculations?"
+      },
+      "back": {
+        "fr": "Sous-estimer le coût de maintenance continue des scripts automatisés et omettre les coûts indirects des pannes en production (perte de confiance client, attrition).",
+        "en": "Underestimating ongoing automation maintenance costs and omitting intangible external failure costs such as customer churn and brand erosion."
+      },
+      "tags": [
+        "coq",
+        "economics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-040",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment définir le « point d’équilibre économique » du test ?",
+        "en": "What defines the economic break-even point of testing effort?"
+      },
+      "back": {
+        "fr": "Le niveau d’investissement où le coût marginal de prévention et de détection égale la réduction marginale du coût attendu des défaillances en production.",
+        "en": "The investment point where the marginal cost of prevention and appraisal equals the marginal reduction in expected production failure costs."
+      },
+      "tags": [
+        "economics",
+        "optimization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-041",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’efficacité de détection des défauts (DDP / DRE) et comment la calculer ?",
+        "en": "What is Defect Detection Percentage (DDP / DRE) and how is it calculated?"
+      },
+      "back": {
+        "fr": "DDP = Défauts trouvés avant mise en production / (Défauts trouvés avant mise en production + Défauts échappés en production sur une période donnée) × 100 %.",
+        "en": "DDP = Pre-release defects found / (Pre-release defects found + Production escaped defects over a defined window) × 100%."
+      },
+      "hint": {
+        "fr": "Mesure l’efficacité globale du filtre qualité.",
+        "en": "Measures overall quality filter effectiveness."
+      },
+      "tags": [
+        "metrics",
+        "ddp",
+        "dre"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-042",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le DDP seul ne suffit-il pas pour piloter la performance d’une équipe de test ?",
+        "en": "Why is DDP alone insufficient to manage test team performance?"
+      },
+      "back": {
+        "fr": "Il peut inciter à enregistrer des défauts cosmétiques mineurs avant la sortie pour gonfler le numérateur, sans refléter la gravité ni l’impact client réel.",
+        "en": "It can encourage logging trivial defects pre-release to inflate the numerator without reflecting defect severity or real customer impact."
+      },
+      "tags": [
+        "metrics",
+        "ddp",
+        "anti-pattern"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-043",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la méthode GQM (Goal-Question-Metric) appliquée au management du test ?",
+        "en": "What is the Goal-Question-Metric (GQM) approach applied to test management?"
+      },
+      "back": {
+        "fr": "Partir d’un objectif stratégique métier, formuler les questions permettant d’évaluer son atteinte, puis ne collecter que les métriques qui répondent à ces questions.",
+        "en": "Starting from a strategic goal, deriving operational questions to assess progress, and collecting only the metrics needed to answer those questions."
+      },
+      "hint": {
+        "fr": "Évite l’accumulation de métriques inutiles.",
+        "en": "Prevents vanity metric collection."
+      },
+      "tags": [
+        "gqm",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-044",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguer une métrique prédictive (leading indicator) d’une métrique rétrospective (lagging indicator).",
+        "en": "Distinguish a leading indicator from a lagging indicator in quality governance."
+      },
+      "back": {
+        "fr": "Une métrique prédictive alerte tôt sur un risque futur (ex. taux d’instabilité des specs, couverture des risques critiques) ; une métrique rétrospective mesure le résultat passé (ex. incidents en prod).",
+        "en": "A leading indicator gives early warning of future risk (e.g., requirement churn, critical-risk coverage); a lagging indicator measures past outcomes (e.g., production incidents)."
+      },
+      "tags": [
+        "metrics",
+        "leading-lagging"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-045",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le risque résiduel avant une décision Go/No-Go ?",
+        "en": "How is residual risk evaluated prior to a Go/No-Go decision?"
+      },
+      "back": {
+        "fr": "En confrontant les risques initiaux identifiés, les zones non testées ou bloquées, les défauts ouverts pondérés par sévérité et la faisabilité de contournements en production.",
+        "en": "By weighing identified risks against untested/blocked areas, open defects weighted by severity, and feasibility of production workarounds or rollbacks."
+      },
+      "tags": [
+        "residual-risk",
+        "go-no-go"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-046",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’acceptation formelle d’un risque résiduel revient-elle au sponsor métier et non au Test Manager ?",
+        "en": "Why does formal acceptance of residual risk belong to the business sponsor rather than the Test Manager?"
+      },
+      "back": {
+        "fr": "Le Test Manager éclaire objectivement le niveau de risque et ses conséquences ; seul le propriétaire métier porte l’autorité financière et légale d’accepter ce risque.",
+        "en": "The Test Manager objectively illuminates risk level and consequences; only the business owner holds financial and legal authority to accept that risk."
+      },
+      "tags": [
+        "risk-ownership",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-047",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels indicateurs DORA complètent les métriques de test traditionnelles à l’échelle de l’entreprise ?",
+        "en": "Which DORA metrics complement traditional testing metrics at enterprise scale?"
+      },
+      "back": {
+        "fr": "Fréquence de déploiement, délai de mise en production (Lead Time), taux d’échec des changements (Change Failure Rate) et temps moyen de restauration (MTTR).",
+        "en": "Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Mean Time to Restore (MTTR)."
+      },
+      "tags": [
+        "dora",
+        "metrics",
+        "devops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-048",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment utiliser l’analyse de Pareto sur les défauts pour orienter la stratégie d’entreprise ?",
+        "en": "How is Pareto analysis of defects used to steer enterprise quality strategy?"
+      },
+      "back": {
+        "fr": "Identifier les 20 % de causes racines ou de composants générant 80 % des défaillances coûteuses afin d’y concentrer le refactoring, la formation et la couverture.",
+        "en": "Identifying the 20% of root causes or modules generating 80% of costly failures to target refactoring, training, and coverage investments."
+      },
+      "tags": [
+        "pareto",
+        "root-cause"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-049",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’Analyse des Modes de Défaillance et de leurs Effets (AMDEC / FMEA) dans la gestion des risques ?",
+        "en": "What is Failure Mode and Effects Analysis (FMEA) in strategic risk management?"
+      },
+      "back": {
+        "fr": "Une méthode structurée calculant un indice de criticité (Gravité × Occurrence × Détectabilité) pour prioriser les mesures préventives et les tests approfondis.",
+        "en": "A structured method computing a Risk Priority Number (Severity × Occurrence × Detectability) to prioritize preventive actions and deep testing."
+      },
+      "tags": [
+        "fmea",
+        "risk-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-050",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi mesurer l’âge et le temps de rotation des défauts (Defect Turnaround Time) ?",
+        "en": "Why track defect age and Defect Turnaround Time?"
+      },
+      "back": {
+        "fr": "Pour détecter les goulots d’étranglement entre développement et test, éviter l’accumulation de dette en fin de cycle et fiabiliser les prévisions de sortie.",
+        "en": "To expose bottlenecks between development and testing, prevent late-cycle defect backlogs, and improve release date predictability."
+      },
+      "tags": [
+        "metrics",
+        "defects"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-051",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment budgétiser les activités de test au niveau d’un portefeuille pluriannuel ?",
+        "en": "How should testing activities be budgeted at a multi-year portfolio level?"
+      },
+      "back": {
+        "fr": "En combinant modèles historiques paramétriques, évaluation de la complexité/criticité, CAPEX d’outillage/environnements et OPEX de maintenance continue.",
+        "en": "By combining parametric historical baselines, complexity/risk weighting, tooling/environment CAPEX, and ongoing maintenance OPEX."
+      },
+      "tags": [
+        "budgeting",
+        "portfolio"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-052",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’effet « iceberg » dans le suivi des coûts d’incidents en production ?",
+        "en": "What is the \"iceberg effect\" when tracking production incident costs?"
+      },
+      "back": {
+        "fr": "Ne voir que le coût visible du correctif informatique alors que les coûts cachés (indisponibilité métier, pénalités, surcharge support, perte clients) sont bien supérieurs.",
+        "en": "Seeing only the visible IT hotfix cost while ignoring far larger hidden costs (business downtime, SLA penalties, support surge, customer loss)."
+      },
+      "tags": [
+        "coq",
+        "production-incidents"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-053",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi lier les métriques de couverture aux niveaux de risque produit plutôt qu’au nombre brut de cas ?",
+        "en": "Why tie coverage metrics to product risk levels rather than raw test case counts?"
+      },
+      "back": {
+        "fr": "100 tests sur des écrans secondaires n’apportent pas la sécurité d’une couverture rigoureuse de 20 scénarios sur le moteur de facturation critique.",
+        "en": "100 tests on low-risk UI screens provide far less assurance than rigorous coverage of 20 scenarios on the critical billing engine."
+      },
+      "tags": [
+        "rbt",
+        "coverage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-054",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la rémunération ou l’évaluation individuelle des testeurs basée sur le nombre de bugs trouvés ?",
+        "en": "What risk arises from rewarding testers based on the count of bugs logged?"
+      },
+      "back": {
+        "fr": "Inflation de faux positifs, fragmentation artificielle des rapports, dégradation de la coopération avec les développeurs et négligence des tests exploratoires de fond.",
+        "en": "Inflated trivial or duplicate bug reports, strained developer collaboration, and neglect of deep risk prevention and collaboration."
+      },
+      "tags": [
+        "metrics",
+        "psychology"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-055",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment estimer le coût d’opportunité d’un retard de mise en production dû à des tests manuels lents ?",
+        "en": "How do you quantify the opportunity cost of release delays caused by slow manual testing?"
+      },
+      "back": {
+        "fr": "En évaluant le « Cost of Delay » hebdomadaire : revenus différés, avantage concurrentiel perdu et pénalités contractuelles liées au retard.",
+        "en": "By calculating weekly Cost of Delay: deferred revenue, lost competitive window, and contractual penalties tied to late delivery."
+      },
+      "tags": [
+        "cost-of-delay",
+        "economics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-056",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert l’analyse des défauts par classification orthogonale (ODC — Orthogonal Defect Classification) ?",
+        "en": "What is the purpose of Orthogonal Defect Classification (ODC)?"
+      },
+      "back": {
+        "fr": "Catégoriser les défauts de manière non ambiguë (type, déclencheur, impact, phase d’injection) pour diagnostiquer précisément où renforcer les processus d’ingénierie.",
+        "en": "Categorizing defects orthogonally (type, trigger, impact, phase injected) to pinpoint where engineering and test processes need structural improvement."
+      },
+      "tags": [
+        "odc",
+        "defect-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-057",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’indice de stabilité ou de volatilité des exigences et son impact sur le budget de test ?",
+        "en": "What is requirements volatility and how does it impact the enterprise test budget?"
+      },
+      "back": {
+        "fr": "Le pourcentage d’exigences modifiées ou ajoutées après validation initiale ; une forte volatilité augmente exponentiellement les reprises de conception et de scripts.",
+        "en": "The rate of requirements changed or added after baseline sign-off; high volatility drives exponential rework in test design and automation scripts."
+      },
+      "tags": [
+        "requirements",
+        "budgeting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-058",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment justifier financièrement l’investissement dans des environnements de test éphémères ou conteneurisés ?",
+        "en": "How can investment in ephemeral or containerized test environments be financially justified?"
+      },
+      "back": {
+        "fr": "Par la réduction du temps d’attente des équipes, la diminution des défauts dus aux écarts de configuration et l’arrêt automatique des ressources hors usage.",
+        "en": "Through eliminated team wait times, fewer environment-drift false failures, and automated teardown of idle cloud compute resources."
+      },
+      "tags": [
+        "environments",
+        "roi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-059",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle approche adopter pour mesurer la valeur des tests exploratoires en entreprise ?",
+        "en": "How can the value of exploratory testing be measured at enterprise level?"
+      },
+      "back": {
+        "fr": "Via le suivi des chartes de session (SBTM), le ratio temps d’investigation/documentation, la sévérité des défauts découverts et la couverture des zones à risque.",
+        "en": "Through Session-Based Test Management (SBTM) charters, investigation-to-reporting ratios, severity of defects uncovered, and risk-area coverage."
+      },
+      "tags": [
+        "exploratory",
+        "sbtm",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-060",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer le coût réel d’un test instable (« flaky test ») dans un pipeline CI/CD d’entreprise ?",
+        "en": "How do you assess the true cost of a flaky test in an enterprise CI/CD pipeline?"
+      },
+      "back": {
+        "fr": "Additionner le temps d’investigation ingénieur gaspillé, les relances de build, les blocages de fusion et surtout l’érosion de confiance conduisant à ignorer de vrais échecs.",
+        "en": "Sum wasted engineer triage time, pipeline reruns, blocked merges, and above all the erosion of trust that causes teams to ignore genuine failures."
+      },
+      "tags": [
+        "flaky-tests",
+        "cicd",
+        "economics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-061",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est l’objectif d’une analyse de cause racine (RCA) systémique plutôt qu’individuelle ?",
+        "en": "What is the goal of systemic Root Cause Analysis (RCA) rather than individual blame?"
+      },
+      "back": {
+        "fr": "Corriger les défaillances de processus, d’outillage ou de communication qui ont permis au défaut d’être injecté puis manqué, dans une culture sans blâme.",
+        "en": "Fixing process, tooling, or communication gaps that allowed a defect to be injected and missed, within a blameless learning culture."
+      },
+      "tags": [
+        "rca",
+        "continuous-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-062",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment modéliser la fiabilité logicielle pour appuyer un critère d’arrêt des tests ?",
+        "en": "How can software reliability growth modeling support a test exit criterion?"
+      },
+      "back": {
+        "fr": "En observant la courbe cumulée d’arrivée des défauts (taux de détection décroissant vers une asymptote) afin d’estimer la probabilité d’incidents résiduels.",
+        "en": "By tracking cumulative defect arrival curves flattening toward an asymptote to estimate remaining failure intensity."
+      },
+      "tags": [
+        "reliability",
+        "exit-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-063",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi comparer la densité de défauts entre modules sans contexte peut-il être trompeur ?",
+        "en": "Why can comparing raw defect density across modules without context be misleading?"
+      },
+      "back": {
+        "fr": "Un module très testé ou complexe présente souvent plus de défauts détectés qu’un module critique peu testé ; la densité révèle l’effort de test autant que la fragilité.",
+        "en": "A heavily tested module often shows higher logged defect density than an undertested critical module; density reflects test thoroughness as much as code quality."
+      },
+      "tags": [
+        "metrics",
+        "defect-density"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-064",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’efficacité d’élimination par phase (Phase Containment Effectiveness) ?",
+        "en": "What is Phase Containment Effectiveness (PCE)?"
+      },
+      "back": {
+        "fr": "Le pourcentage de défauts détectés et corrigés dans la phase même où ils ont été introduits (ex. revue des specs avant codage), maximisant les économies.",
+        "en": "The percentage of defects detected and fixed within the exact phase in which they were injected (e.g., catching spec bugs during spec review), maximizing savings."
+      },
+      "tags": [
+        "pce",
+        "metrics",
+        "shift-left"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-065",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment intégrer les risques de cybersécurité et de résilience dans la matrice de risque qualité ?",
+        "en": "How should cybersecurity and resilience risks be integrated into the quality risk matrix?"
+      },
+      "back": {
+        "fr": "En intégrant la vraisemblance d’exploitation malveillante et l’impact réglementaire/continuité d’activité dans la cotation commune des risques produit.",
+        "en": "By incorporating adversarial exploit likelihood and regulatory/continuity impact into the unified product risk scoring model."
+      },
+      "tags": [
+        "security",
+        "risk-management"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-066",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage offre la méthode des points de cas de test ou de l’estimation en trois points (PERT) au niveau programme ?",
+        "en": "What benefit do Test Point Analysis or Three-Point (PERT) estimation offer at program scale?"
+      },
+      "back": {
+        "fr": "Fournir des fourchettes d’effort probabilistes intégrant incertitude et facteurs techniques plutôt qu’une estimation ponctuelle illusoire.",
+        "en": "Providing probabilistic effort ranges that capture uncertainty and technical complexity factors rather than an illusory single-point guess."
+      },
+      "tags": [
+        "estimation",
+        "pert"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-067",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mesurer la valeur perçue par les utilisateurs finaux (Quality in Use — ISO 25010) ?",
+        "en": "How is end-user perceived value (Quality in Use — ISO 25010) measured?"
+      },
+      "back": {
+        "fr": "Par l’efficacité, l’efficience, la satisfaction utilisateur (NPS, CSAT), l’absence de risque financier/sécurité et le taux d’adoption réel des parcours clés.",
+        "en": "Through effectiveness, efficiency, user satisfaction (NPS/CSAT), freedom from financial/safety harm, and real adoption of key user journeys."
+      },
+      "tags": [
+        "iso25010",
+        "value"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-068",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch2",
+      "objectiveId": "ETM-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle d’un tableau de bord équilibré (Balanced Scorecard) en management de la qualité ?",
+        "en": "What is the role of a Balanced Scorecard in enterprise quality management?"
+      },
+      "back": {
+        "fr": "Éviter la sur-optimisation d’un seul axe en équilibrant quatre dimensions : valeur client/métier, coûts/efficacité, processus internes et apprentissage/compétences.",
+        "en": "Preventing single-axis sub-optimization by balancing four perspectives: customer/business value, financial efficiency, internal processes, and learning/skills."
+      },
+      "tags": [
+        "balanced-scorecard",
+        "metrics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-069",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un Centre d’Excellence en Test (TCoE) et quel est son principal risque de dérive ?",
+        "en": "What is a Test Center of Excellence (TCoE) and its primary organizational pitfall?"
+      },
+      "back": {
+        "fr": "Une structure centralisant standards, outils, formations et ressources partagées ; sa dérive est de devenir une tour d’ivoire bureaucratique déconnectée des équipes Agile.",
+        "en": "A body centralizing standards, tooling, training, and shared services; its main pitfall is turning into a bureaucratic ivory tower disconnected from Agile delivery."
+      },
+      "tags": [
+        "tcoe",
+        "organization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-070",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment faire évoluer un TCoE traditionnel vers un modèle fédéré ou d’enablement (Quality Enablement) ?",
+        "en": "How do you evolve a traditional TCoE into a federated or Quality Enablement model?"
+      },
+      "back": {
+        "fr": "En intégrant les testeurs aux squads produit tout en maintenant une plateforme centrale légère de coaching, d’outillage libre-service et de communautés de pratique.",
+        "en": "By embedding testers inside product squads while retaining a lean central enablement team providing coaching, self-service tooling, and communities of practice."
+      },
+      "tags": [
+        "tcoe",
+        "agile",
+        "enablement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-071",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels sont les 5 niveaux de maturité du modèle TMMi (Test Maturity Model integration) ?",
+        "en": "What are the 5 maturity levels of the TMMi model?"
+      },
+      "back": {
+        "fr": "1 : Initial, 2 : Géré (Managed), 3 : Défini (Defined), 4 : Mesuré (Measured), 5 : Optimisation (Optimization).",
+        "en": "1: Initial, 2: Managed, 3: Defined, 4: Measured, 5: Optimization."
+      },
+      "hint": {
+        "fr": "Même progression en 5 niveaux que CMMI.",
+        "en": "Same 5-level structure as CMMI."
+      },
+      "tags": [
+        "tmmi",
+        "maturity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-072",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi TPI Next diffère-t-il fondamentalement de TMMi ?",
+        "en": "How does TPI Next fundamentally differ from TMMi?"
+      },
+      "back": {
+        "fr": "TMMi est un modèle normatif en niveaux séquentiels avec aires de processus obligatoires ; TPI Next est un modèle continu par domaines clés (16) guidé par la valeur métier.",
+        "en": "TMMi is a staged maturity model with required process areas per level; TPI Next is a continuous matrix across 16 key areas tailored to business priorities."
+      },
+      "tags": [
+        "tpi-next",
+        "tmmi",
+        "maturity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-073",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi viser systématiquement le niveau TMMi 5 pour toute une entreprise est-il souvent contre-productif ?",
+        "en": "Why is targeting TMMi Level 5 across an entire enterprise often counterproductive?"
+      },
+      "back": {
+        "fr": "La formalisation et la gouvernance statistique du niveau 5 ne se justifient économiquement que pour les systèmes critiques ; viser le niveau adapté au risque évite la sur-qualité.",
+        "en": "The rigor and statistical process control of Level 5 only pay off for high-criticality domains; targeting right-sized maturity avoids costly bureaucracy."
+      },
+      "tags": [
+        "tmmi",
+        "roi"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-074",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels modèles d’approvisionnement (sourcing) existent pour les activités de test d’entreprise ?",
+        "en": "What sourcing models exist for enterprise testing services?"
+      },
+      "back": {
+        "fr": "Interne (insourcing), assistance technique (staff augmentation), centre de service géré (managed testing services / TaaS), onshore, nearshore, offshore et crowdsourcing.",
+        "en": "Insourcing, staff augmentation, managed testing services (TaaS), onshore, nearshore, offshore, and crowdsourcing."
+      },
+      "tags": [
+        "sourcing",
+        "organization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-075",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles activités de test ne doivent généralement pas être entièrement externalisées ?",
+        "en": "Which testing responsibilities should generally not be completely outsourced?"
+      },
+      "back": {
+        "fr": "La stratégie qualité, la gouvernance des risques métier, l’arbitrage Go/No-Go et la connaissance fonctionnelle cœur de métier.",
+        "en": "Quality strategy, business risk governance, Go/No-Go release authority, and core proprietary domain knowledge."
+      },
+      "tags": [
+        "outsourcing",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-076",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel type de contrat privilégier pour un centre de services de test externalisé et pourquoi ?",
+        "en": "What contract model fits an outsourced managed testing service and why?"
+      },
+      "back": {
+        "fr": "Un modèle hybride basé sur des résultats/SLA (capacité + indicateurs de valeur et DDP) plutôt que sur le seul volume de cas exécutés ou de bugs déclarés.",
+        "en": "An outcome/SLA-based model combining baseline capacity with quality/DDP incentives rather than paying per test case run or defect logged."
+      },
+      "tags": [
+        "outsourcing",
+        "contracts"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-077",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand le crowdsourcing (crowdtesting) apporte-t-il une réelle valeur stratégique ?",
+        "en": "When does crowdtesting deliver genuine strategic value?"
+      },
+      "back": {
+        "fr": "Pour tester la compatibilité sur une vaste fragmentation d’terminaux/réseaux réels, l’ergonomie multilingue ou la sécurité via des campagnes de bug bounty encadrées.",
+        "en": "For broad real-device/network compatibility matrices, localized UX validation, or structured security bug-bounty programs."
+      },
+      "tags": [
+        "crowdtesting",
+        "sourcing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-078",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels risques majeurs accompagne le recours au modèle offshore pour l’exécution des tests ?",
+        "en": "What major risks accompany offshore testing models?"
+      },
+      "back": {
+        "fr": "Latence de communication liée aux fuseaux horaires, barrières culturelles/linguistiques, perte de savoir tacite et surcoût de spécification formelle détaillée.",
+        "en": "Time-zone communication latency, cultural/linguistic friction, tacit knowledge loss, and hidden overhead of writing exhaustive specifications."
+      },
+      "tags": [
+        "offshore",
+        "sourcing",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-079",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le profil de compétences en « T » (T-shaped) versus en « Peigne » (Comb-shaped) chez les professionnels du test ?",
+        "en": "What is a T-shaped versus a Comb-shaped skill profile for testing professionals?"
+      },
+      "back": {
+        "fr": "Le profil en T combine une expertise profonde (ex. test/automatisation) et une culture générale Agile ; le profil en peigne y ajoute plusieurs spécialités profondes (sécurité, perf, CI).",
+        "en": "T-shaped pairs one deep core specialty with broad team skills; Comb-shaped adds multiple deep pillars such as security, performance, and CI engineering."
+      },
+      "tags": [
+        "competencies",
+        "hr"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-080",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment structurer un parcours de carrière motivant pour les testeurs sans les forcer vers le management ?",
+        "en": "How do you structure a motivating career path for testers without forcing everyone into management?"
+      },
+      "back": {
+        "fr": "En créant une double filière équivalente : expertise technique (SDET, architecte automatisation/perf/sécurité) et leadership/management (Test Lead, Coach Qualité, Test Manager).",
+        "en": "By offering dual parallel tracks: deep technical mastery (SDET, automation/perf/security architect) and leadership/management (Quality Coach, Test Manager)."
+      },
+      "tags": [
+        "career-path",
+        "talent"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-081",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la première étape d’une conduite du changement réussie lors d’une transformation qualité (modèle de Kotter) ?",
+        "en": "What is the first step of successful change leadership during a quality transformation (Kotter’s model)?"
+      },
+      "back": {
+        "fr": "Créer un sentiment d’urgence partagé fondé sur des faits concrets (incidents clients, lenteur des releases, coûts de non-qualité) avant d’imposer de nouveaux outils.",
+        "en": "Creating a shared sense of urgency grounded in concrete facts (customer outages, slow releases, cost of poor quality) before imposing new tools."
+      },
+      "tags": [
+        "change-management",
+        "kotter"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-082",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi impliquer des « champions » locaux lors du déploiement d’un nouvel outillage ou processus ?",
+        "en": "Why engage local quality champions when rolling out a new tool or process?"
+      },
+      "back": {
+        "fr": "Ils valident l’adéquation au terrain, rassurent leurs pairs par l’exemple et identifient rapidement les frictions pratiques avant la généralisation.",
+        "en": "They validate real-world fit, build peer credibility through early wins, and surface practical friction before organization-wide scaling."
+      },
+      "tags": [
+        "change-management",
+        "adoption"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-083",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment traiter la résistance des testeurs manuels face à la généralisation de l’automatisation et du DevOps ?",
+        "en": "How should resistance from manual testers toward automation and DevOps be addressed?"
+      },
+      "back": {
+        "fr": "Par une communication transparente valorisant l’analyse des risques et l’exploratoire, accompagnée d’un plan financé de montée en compétences techniques progressif.",
+        "en": "Through transparent communication valuing risk analysis and exploratory skill, paired with a funded, step-by-step technical upskilling roadmap."
+      },
+      "tags": [
+        "change-management",
+        "upskilling"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-084",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’apporte une évaluation structurée type « IDEAL » (Initiating, Diagnosing, Establishing, Acting, Learning) à l’amélioration du test ?",
+        "en": "What does an IDEAL cycle (Initiating, Diagnosing, Establishing, Acting, Learning) bring to test process improvement?"
+      },
+      "back": {
+        "fr": "Un cadre itératif discipliné évitant les réformes hâtives : diagnostiquer objectivement l’existant, expérimenter par pilotes, déployer puis capitaliser.",
+        "en": "A disciplined iterative framework avoiding rash rollouts: baseline diagnosis, targeted planning, piloted execution, and institutionalized learning."
+      },
+      "tags": [
+        "ideal",
+        "process-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-085",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères déterminent le succès d’un projet pilote lors de l’amélioration des processus de test ?",
+        "en": "What criteria determine the success of a test process improvement pilot?"
+      },
+      "back": {
+        "fr": "Choisir un périmètre représentatif (ni trop facile ni catastrophique), fixer des critères d’évaluation mesurables à l’avance et obtenir l’adhésion active de l’équipe pilote.",
+        "en": "Selecting a representative project (neither trivial nor failing), defining measurable success metrics upfront, and securing active pilot-team buy-in."
+      },
+      "tags": [
+        "pilot",
+        "process-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-086",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment éviter l’effet « retombée » après l’obtention d’une certification ou d’un audit de maturité ?",
+        "en": "How do you prevent post-assessment regression after achieving a maturity level or audit pass?"
+      },
+      "back": {
+        "fr": "En ancrant les pratiques dans les flux d’outils quotidiens, les définitions de « Terminé » et des revues légères périodiques plutôt que dans des classeurs documentaires.",
+        "en": "By embedding practices directly into daily workflows, automated pipelines, and Definitions of Done rather than static audit binders."
+      },
+      "tags": [
+        "maturity",
+        "sustainability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-087",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est le rôle d’une Communauté de Pratique (Chapter / Guild) dans une organisation matricielle ou Spotify ?",
+        "en": "What is the role of a Quality Community of Practice (Chapter/Guild) in a matrix or Spotify model?"
+      },
+      "back": {
+        "fr": "Assurer l’alignement des standards, le mentorat, la veille technique, la mobilité des testeurs et la capitalisation des retours d’expérience entre squads.",
+        "en": "Maintaining engineering standards, mentoring, tech scouting, cross-squad mobility, and sharing lessons learned across autonomous teams."
+      },
+      "tags": [
+        "community-of-practice",
+        "agile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-088",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment arbitrer entre recrutement interne, montée en compétence et recours à des consultants externes ?",
+        "en": "How should a Test Manager balance internal hiring, upskilling, and external consultants?"
+      },
+      "back": {
+        "fr": "Internaliser le savoir critique et la gouvernance durable, requalifier les profils motivés sur l’automatisation et réserver les experts externes aux pics ou expertises rares (sécurité/perf).",
+        "en": "Insource critical domain knowledge and governance, upskill internal staff into automation, and reserve external specialists for surge demand or niche skills."
+      },
+      "tags": [
+        "staffing",
+        "sourcing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-089",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la gestion des connaissances (Knowledge Management) est-elle critique lors du départ ou de la rotation des prestataires ?",
+        "en": "Why is Knowledge Management critical when managing contractor turnover?"
+      },
+      "back": {
+        "fr": "Sans transfert documenté et pair-testing régulier, la compréhension des règles métier complexes et des subtilités d’environnement disparaît avec le prestataire.",
+        "en": "Without documented workflows and structured pairing, understanding of complex business rules and environment quirks walks out the door with contractors."
+      },
+      "tags": [
+        "knowledge-management",
+        "sourcing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-090",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer objectivement la maturité des compétences d’une équipe de test ?",
+        "en": "How is the skill maturity of an enterprise test organization objectively assessed?"
+      },
+      "back": {
+        "fr": "À l’aide d’une matrice de compétences couvrant techniques de test, connaissance métier, outillage/code, analyse de risque et aptitudes relationnelles, revue semestriellement.",
+        "en": "Using a skills matrix spanning test design, domain knowledge, automation/coding, risk analysis, and soft skills, reviewed bi-annually."
+      },
+      "tags": [
+        "competencies",
+        "assessment"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-091",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la responsabilité éthique d’un Test Manager Expert face à une pression pour dissimuler un défaut critique ?",
+        "en": "What is an Expert Test Manager’s ethical duty when pressured to hide a critical defect?"
+      },
+      "back": {
+        "fr": "Refuser toute altération des faits, documenter objectivement le risque et l’escalader au niveau approprié conformément au code de déontologie et aux obligations légales.",
+        "en": "Refuse to suppress factual evidence, document the risk objectively, and escalate through proper governance channels per ethical and legal obligations."
+      },
+      "tags": [
+        "ethics",
+        "leadership"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-092",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment optimiser le ratio développeurs / testeurs sans règle dogmatique ?",
+        "en": "How should the developer-to-tester ratio be tuned without dogmatic rules?"
+      },
+      "back": {
+        "fr": "En fonction du degré d’automatisation par les développeurs, de la maturité CI/CD, de la complexité réglementaire et de la criticité des défaillances.",
+        "en": "Based on developer unit/integration automation maturity, CI/CD reliability, regulatory burden, and cost of failure rather than fixed ratios."
+      },
+      "tags": [
+        "organization",
+        "staffing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-093",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’apporte la pratique du « Test Coaching » dans une transformation DevOps ?",
+        "en": "What does \"Quality / Test Coaching\" bring to a DevOps transformation?"
+      },
+      "back": {
+        "fr": "Accompagner les développeurs et Product Owners à concevoir leurs propres stratégies de test, revues et tests automatisés plutôt que d’exécuter tous les tests à leur place.",
+        "en": "Coaching developers and Product Owners to design their own test strategies, reviews, and automation rather than acting as a manual safety net."
+      },
+      "tags": [
+        "coaching",
+        "devops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-094",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment aligner la gestion des fournisseurs logiciels tiers sur la politique qualité interne ?",
+        "en": "How should third-party software vendor management be aligned with internal quality policy?"
+      },
+      "back": {
+        "fr": "En imposant dès les appels d’offres des critères d’acceptation mesurables, la livraison de preuves de tests unitaires/sécurité et des audits de code ou de pipeline.",
+        "en": "By embedding measurable acceptance criteria, unit/security test evidence deliverables, and process audits directly into RFPs and contracts."
+      },
+      "tags": [
+        "vendor-management",
+        "procurement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-095",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel levier réduit les tensions récurrentes entre équipes de développement, d’exploitation (Ops) et de test ?",
+        "en": "What lever reduces recurring friction among Development, Operations, and Testing teams?"
+      },
+      "back": {
+        "fr": "Des objectifs partagés de fiabilité de livraison (ex. taux de succès en production, DORA), des rituels communs et l’accès partagé à l’observabilité.",
+        "en": "Shared delivery reliability objectives (e.g., production stability, DORA metrics), joint rituals, and shared observability dashboards."
+      },
+      "tags": [
+        "devops",
+        "collaboration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-096",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment planifier la transition de connaissance (KT) lors du rapatriement d’un centre de test externalisé ?",
+        "en": "How should Knowledge Transfer (KT) be structured when insourcing an outsourced test team?"
+      },
+      "back": {
+        "fr": "Phase d’observation (shadowing), prise en main accompagnée (reverse shadowing), validation de jalons documentaires et maintien temporaire d’un recouvrement contractuel.",
+        "en": "Structured shadowing, reverse shadowing, sign-off on documentation milestones, and planned contractual overlap before full handover."
+      },
+      "tags": [
+        "insourcing",
+        "knowledge-transfer"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-097",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’intelligence émotionnelle et l’influence sans autorité hiérarchique sont-elles essentielles au Test Manager Expert ?",
+        "en": "Why are emotional intelligence and influence without formal authority vital for an Expert Test Manager?"
+      },
+      "back": {
+        "fr": "Parce que la qualité dépend d’équipes métier, architecture et développement sur lesquelles le responsable qualité n’a souvent aucune autorité hiérarchique directe.",
+        "en": "Because quality depends on product, architecture, and development teams over whom the quality leader rarely holds direct line authority."
+      },
+      "tags": [
+        "leadership",
+        "soft-skills"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-098",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment conduire une revue annuelle d’efficacité de la fonction Test au niveau entreprise ?",
+        "en": "How should an annual enterprise Test function effectiveness review be conducted?"
+      },
+      "back": {
+        "fr": "Évaluer l’évolution du CoQ, des incidents majeurs, du délai de feedback CI, de la satisfaction des parties prenantes et réajuster la feuille de route maturité.",
+        "en": "Review CoQ trends, major production escapes, CI feedback speed, and stakeholder satisfaction, then recalibrate the annual maturity roadmap."
+      },
+      "tags": [
+        "review",
+        "continuous-improvement"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-099",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel facteur distingue le modèle d’évaluation TMMi d’un audit de conformité réglementaire ?",
+        "en": "What distinguishes a TMMi maturity assessment from a regulatory compliance audit?"
+      },
+      "back": {
+        "fr": "L’évaluation TMMi mesure la capabilité et guide l’amélioration volontaire des processus de test ; l’audit réglementaire vérifie la conformité légale obligatoire avec preuves.",
+        "en": "A TMMi assessment gauges capability to guide voluntary improvement; a regulatory audit verifies mandatory legal compliance backed by formal evidence."
+      },
+      "tags": [
+        "tmmi",
+        "audit"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-cteltm-100",
+      "certificationId": "ctel-tm",
+      "versionId": "ctel-tm-v1.0",
+      "chapterId": "ctel-tm-v1.0-ch3",
+      "objectiveId": "ETM-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste la vision à long terme d’un Test Manager Expert dans une organisation apprenante ?",
+        "en": "What is the long-term vision of an Expert Test Manager in a learning organization?"
+      },
+      "back": {
+        "fr": "Faire évoluer l’organisation du contrôle des défauts vers la prévention systémique, l’apprentissage continu après incident et l’excellence durable de la valeur livrée.",
+        "en": "Shifting the enterprise from late defect policing toward systemic defect prevention, blameless post-incident learning, and sustainable business value."
+      },
+      "tags": [
+        "vision",
+        "learning-organization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTEL-TM v1.0 (Expert Level Test Management)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}

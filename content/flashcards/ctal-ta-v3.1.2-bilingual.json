@@ -1,0 +1,3013 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-ctalta-001",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la responsabilité distinctive du Test Analyst (TA) par rapport au Technical Test Analyst (TTA) ?",
+        "en": "What is the distinctive focus of a Test Analyst (TA) vs. a Technical Test Analyst (TTA)?"
+      },
+      "back": {
+        "fr": "Le TA se concentre sur les aspects métier, fonctionnels et d’utilisabilité (boîte noire, expérience, revues d’exigences), tandis que le TTA traite les tests structurels boîte blanche, le code et les qualités techniques.",
+        "en": "The TA focuses on business, functional, and usability aspects (black-box, experience, requirement reviews), whereas the TTA focuses on white-box structural coverage and technical non-functional traits."
+      },
+      "tags": [
+        "ch1",
+        "roles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-002",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez un cas de test de haut niveau (High-Level) d’un cas de test de bas niveau (Low-Level).",
+        "en": "Contrast High-Level (logical) Test Cases with Low-Level (concrete) Test Cases."
+      },
+      "back": {
+        "fr": "Un cas de haut niveau décrit conditions logiques et résultats attendus sans données concrètes figées ; un cas de bas niveau spécifie valeurs exactes, étapes détaillées et jeux d’essai précis.",
+        "en": "High-level test cases outline logical test conditions and expected behavior without concrete values; low-level test cases specify exact input data, steps, and expected outputs."
+      },
+      "tags": [
+        "ch1",
+        "test-design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-003",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand le Test Analyst privilégie-t-il les cas de test de haut niveau plutôt que de bas niveau ?",
+        "en": "When should a Test Analyst prefer High-Level over Low-Level test cases?"
+      },
+      "back": {
+        "fr": "Lorsque les interfaces ou données évoluent vite (Agile), que les testeurs sont expérimentés, ou pour garder de la flexibilité en maintenance et exploration.",
+        "en": "When UI/data frequently evolve (Agile), experienced testers execute the suite, or flexibility is desired to vary test inputs."
+      },
+      "tags": [
+        "ch1",
+        "high-level"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-004",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans quel contexte les cas de test de bas niveau deviennent-ils indispensables ?",
+        "en": "When are Low-Level (detailed concrete) test cases strictly necessary?"
+      },
+      "back": {
+        "fr": "Systèmes critiques ou réglementés exigeant des preuves reproductibles en audit, exécution déléguée à des profils juniors ou scripts automatisés déterministes.",
+        "en": "Regulated/safety-critical systems requiring exact audit reproducibility, execution by less experienced staff, or deterministic automated scripts."
+      },
+      "tags": [
+        "ch1",
+        "low-level"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-005",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que réalise le Test Analyst durant l’activité « Analyse des tests » (Test Analysis) ?",
+        "en": "What does a Test Analyst accomplish during Test Analysis?"
+      },
+      "back": {
+        "fr": "Examiner la base de test (exigences, stories, règles métier), détecter les défauts dans ces documents et définir des conditions de test priorisées traçables.",
+        "en": "Evaluating the test basis (requirements, stories, business rules), spotting specification defects early, and identifying prioritized traceable test conditions."
+      },
+      "tags": [
+        "ch1",
+        "analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-006",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste la « Conception des tests » (Test Design) pour le TA ?",
+        "en": "What occurs during Test Design for the Test Analyst?"
+      },
+      "back": {
+        "fr": "Élaborer des cas de test à partir des conditions via les techniques adaptées, définir les jeux de données nécessaires et préciser les prérequis d’environnement.",
+        "en": "Elaborating test conditions into test cases via black-box techniques, identifying required test data, and defining logical test environment needs."
+      },
+      "tags": [
+        "ch1",
+        "design"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-007",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que produit le TA lors de l’« Implémentation des tests » (Test Implementation) ?",
+        "en": "What artifacts does the TA finalize during Test Implementation?"
+      },
+      "back": {
+        "fr": "Assembler les cas en procédures ordonnées et suites optimisées, préparer/vérifier les jeux de données concrets et planifier la séquence d’exécution.",
+        "en": "Assembling test cases into ordered test procedures and suites, finalizing concrete test data, and sequencing execution schedules."
+      },
+      "tags": [
+        "ch1",
+        "implementation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-008",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA adapte-t-il son travail en Agile par rapport à un cycle en V ?",
+        "en": "How does the TA adapt test analysis and design in Agile vs. V-model lifecycles?"
+      },
+      "back": {
+        "fr": "En cycle en V, l’analyse précède longuement l’exécution ; en Agile, le TA co-écrit critères d’acceptation et cas légers en flux continu juste avant ou pendant le sprint.",
+        "en": "In V-model, detailed analysis precedes execution long-term; in Agile, the TA continuously refines acceptance criteria and lightweight test charters just in time."
+      },
+      "tags": [
+        "ch1",
+        "sdlc"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-009",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’oracle de test (Test Oracle) peut-il représenter un défi pour le TA ?",
+        "en": "Why can establishing a reliable Test Oracle be challenging for a Test Analyst?"
+      },
+      "back": {
+        "fr": "Spécifications incomplètes, calculs métier complexes ou règles ambiguës obligent souvent à valider les résultats attendus auprès d’experts métier ou de systèmes existants.",
+        "en": "Incomplete specifications, complex business calculations, or ambiguous rules may force the TA to consult domain SMEs or legacy benchmarks."
+      },
+      "tags": [
+        "ch1",
+        "oracle"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-010",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel rôle joue le TA pendant l’évaluation des critères de sortie et le reporting ?",
+        "en": "What is the TA’s contribution to Exit Criteria evaluation and reporting?"
+      },
+      "back": {
+        "fr": "Vérifier la couverture des exigences métier, évaluer l’impact fonctionnel des défauts ouverts et synthétiser les risques métier résiduels.",
+        "en": "Confirming business-requirement coverage, assessing functional severity of open defects, and reporting remaining business workflow risks."
+      },
+      "tags": [
+        "ch1",
+        "exit-criteria"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-011",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TA doit-il éviter les dépendances en cascade entre cas de test ?",
+        "en": "Why should a TA avoid unnecessary chained dependencies between test cases?"
+      },
+      "back": {
+        "fr": "Si un test amont échoue, les tests suivants sont bloqués et masquent d’autres anomalies ; des tests indépendants facilitent le diagnostic et la parallélisation.",
+        "en": "If an upstream test fails, dependent tests become blocked and hide other bugs; independent tests enable clean diagnosis and parallel runs."
+      },
+      "tags": [
+        "ch1",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-012",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA gère-t-il les suites de confirmation et de régression ?",
+        "en": "How does the TA manage confirmation and regression test suites?"
+      },
+      "back": {
+        "fr": "Ajouter un cas ciblé reproduisant chaque anomalie critique corrigée, puis actualiser la suite de non-régression selon l’analyse d’impact métier.",
+        "en": "Adding targeted confirmation checks for critical fixed defects and maintaining risk-ranked regression suites updated after functional changes."
+      },
+      "tags": [
+        "ch1",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-013",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que réalise le TA lors de la clôture des tests sur son périmètre ?",
+        "en": "What does the TA archive and verify during Test Completion?"
+      },
+      "back": {
+        "fr": "Promouvoir les tests réutilisables dans le référentiel de régression, archiver les jeux de données anonymisés et consigner les leçons métier.",
+        "en": "Promoting reusable tests into master regression suites, archiving anonymized test datasets, and capturing domain design lessons."
+      },
+      "tags": [
+        "ch1",
+        "completion"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-014",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "objectiveId": "TA-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la traçabilité aide-t-elle concrètement le Test Analyst ?",
+        "en": "How does bidirectional traceability practically benefit the Test Analyst?"
+      },
+      "back": {
+        "fr": "Elle révèle immédiatement les exigences non couvertes et identifie les cas exacts à modifier lorsqu’une règle métier change.",
+        "en": "It instantly reveals uncovered business rules and pinpoints the exact test cases needing updates when a requirement changes."
+      },
+      "tags": [
+        "ch1",
+        "traceability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-015",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels types de risques le Test Analyst identifie-t-il prioritairement ?",
+        "en": "What specific risk domains does a Test Analyst prioritize during risk identification?"
+      },
+      "back": {
+        "fr": "Les risques qualité métier et fonctionnels : règles de calcul erronées, parcours critiques, conformité métier, interopérabilité fonctionnelle et utilisabilité.",
+        "en": "Business and functional quality risks: flawed calculations, critical user journeys, domain compliance, functional interoperability, and usability."
+      },
+      "tags": [
+        "ch2",
+        "rbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-016",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TA contribue-t-il surtout à l’Impact métier plutôt qu’à la Probabilité technique du code ?",
+        "en": "Why does the TA contribute primarily to Business Impact scoring rather than low-level code Likelihood?"
+      },
+      "back": {
+        "fr": "L’impact métier dépend de l’usage, des pertes financières et des normes (domaine TA/PO), alors que la probabilité technique interne relève souvent de la complexité du code (Dev/TTA).",
+        "en": "Business impact depends on usage frequency, revenue loss, and regulation (TA/PO), whereas code likelihood depends on architecture and complexity (Dev/TTA)."
+      },
+      "tags": [
+        "ch2",
+        "impact"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-017",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA adapte-t-il le choix des techniques de test selon le niveau de risque ?",
+        "en": "How should a TA select test design techniques based on risk level?"
+      },
+      "back": {
+        "fr": "Risque critique : techniques approfondies (tables de décision étendues, BVA 3 valeurs, pairwise + exploratoire). Risque faible : partitions simples ou check-list légère.",
+        "en": "High risk: rigorous techniques (extended decision tables, 3-value BVA, pairwise + exploratory). Low risk: basic equivalence partitioning or lightweight checks."
+      },
+      "tags": [
+        "ch2",
+        "techniques"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-018",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez l’ordre d’exécution « profondeur d’abord » (Depth-First) vs « largeur d’abord » (Breadth-First).",
+        "en": "Explain Depth-First vs. Breadth-First risk-based test execution ordering."
+      },
+      "back": {
+        "fr": "Profondeur d’abord : exécuter tous les tests des risques maximaux avant les suivants. Largeur d’abord : tester un échantillon de chaque risque majeur avant d’approfondir.",
+        "en": "Depth-First: exhaust all tests on the highest-risk feature first. Breadth-First: sample every major risk area early for baseline confidence before deepening."
+      },
+      "tags": [
+        "ch2",
+        "ordering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-019",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand l’ordre d’exécution « largeur d’abord » (Breadth-First) est-il recommandé ?",
+        "en": "When is Breadth-First risk execution preferable to Depth-First?"
+      },
+      "back": {
+        "fr": "Pour évaluer vite la santé globale d’une livraison en début de cycle et détecter des blocages transverses avant d’approfondir un seul module.",
+        "en": "When stakeholders need quick early visibility across the entire application’s stability to spot widespread blockers before deep-diving."
+      },
+      "tags": [
+        "ch2",
+        "ordering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-020",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la fréquence d’utilisation influence-t-elle le score de risque métier ?",
+        "en": "How does operational usage frequency affect a feature’s quality risk score?"
+      },
+      "back": {
+        "fr": "Un défaut même modéré sur un parcours utilisé massivement (paiement, connexion) engendre un impact cumulé critique et justifie une mitigation maximale.",
+        "en": "Even moderate flaws on high-frequency workflows (login, checkout) create massive cumulative impact, justifying highest mitigation priority."
+      },
+      "tags": [
+        "ch2",
+        "operational-profile"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-021",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel effet a l’absence de contournement (Workaround) sur la priorité d’un risque ?",
+        "en": "How does the absence of a workaround affect risk impact assessment?"
+      },
+      "back": {
+        "fr": "Sans solution de contournement simple, la moindre panne bloque le client final ; l’impact métier et la priorité de test restent très élevés.",
+        "en": "Without a practical workaround, a failure completely blocks users, keeping business impact and test priority high."
+      },
+      "tags": [
+        "ch2",
+        "workaround"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-022",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA réduit-il un risque produit avant même d’exécuter le logiciel ?",
+        "en": "How can a Test Analyst mitigate product risk before any test execution occurs?"
+      },
+      "back": {
+        "fr": "En effectuant des revues ciblées par check-lists sur les spécifications et user stories critiques pour lever toute ambiguïté avant le codage.",
+        "en": "Through targeted checklist-based reviews of high-risk requirements and user stories to eliminate ambiguities prior to coding."
+      },
+      "tags": [
+        "ch2",
+        "mitigation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-023",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les clusters de défauts découverts réorientent-ils l’effort du TA ?",
+        "en": "How should observed defect clusters update the TA’s risk assessment?"
+      },
+      "back": {
+        "fr": "Les modules concentrant les anomalies présentent une probabilité accrue de bugs résiduels et exigent de renforcer les tests combinatoires et exploratoires.",
+        "en": "Modules showing defect clustering carry higher likelihood of residual bugs, prompting deeper combinatorial and exploratory checks there."
+      },
+      "tags": [
+        "ch2",
+        "clustering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-024",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA rend-il compte de la couverture des risques métier ?",
+        "en": "How does a TA demonstrate that critical functional risks have been mitigated?"
+      },
+      "back": {
+        "fr": "Via une matrice reliant chaque risque aux cas exécutés, à leur statut (Succès/Échec) et aux défauts ouverts associés.",
+        "en": "Through a traceability matrix linking each risk item to executed test cases, pass/fail outcomes, and remaining open defects."
+      },
+      "tags": [
+        "ch2",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-025",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’identification des risques doit-elle être collaborative ?",
+        "en": "Why must risk identification involve diverse stakeholders rather than the TA alone?"
+      },
+      "back": {
+        "fr": "Le métier connaît les enjeux légaux et financiers, les développeurs connaissent les zones fragiles du code et le support connaît les incidents réels des clients.",
+        "en": "Business SMEs know regulatory/revenue impact, developers know fragile code spots, and support knows recurring user pain."
+      },
+      "tags": [
+        "ch2",
+        "workshops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-026",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège éviter lorsqu’on score Probabilité et Impact de façon qualitative ?",
+        "en": "What caution applies when scoring qualitative Likelihood and Impact?"
+      },
+      "back": {
+        "fr": "Ne jamais banaliser un impact catastrophique (sécurité, conformité légale) sous prétexte que sa probabilité semble faible.",
+        "en": "Never ignore catastrophic impact (e.g., safety or regulatory failure) simply because likelihood appears low."
+      },
+      "tags": [
+        "ch2",
+        "scoring"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-027",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les tests basés sur les risques optimisent-ils la non-régression ?",
+        "en": "How does risk-based thinking optimize regression testing?"
+      },
+      "back": {
+        "fr": "Conserver une couverture dense et automatisée sur les flux critiques et réduire la fréquence sur les fonctions stables à faible impact.",
+        "en": "Keeping deep automated regression on high-impact critical flows while trimming redundant checks on stable low-risk areas."
+      },
+      "tags": [
+        "ch2",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-028",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "objectiveId": "TA-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que représente le « risque résiduel » en sortie de campagne boîte noire ?",
+        "en": "What does \"residual risk\" represent after a TA finishes executing planned tests?"
+      },
+      "back": {
+        "fr": "L’exposition restante au moment de livrer : défauts différés, zones non testées faute de temps ou hypothèses d’environnement non reproduites.",
+        "en": "Remaining quality exposure at release: deferred open defects, under-tested low-priority areas, or unverified edge conditions."
+      },
+      "tags": [
+        "ch2",
+        "residual-risk"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-029",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Au-delà des champs de saisie, où le TA applique-t-il les Partitions d’Équivalence (EP) ?",
+        "en": "Beyond input fields, where else does a Test Analyst apply Equivalence Partitioning?"
+      },
+      "back": {
+        "fr": "Aux valeurs de sortie, plages de temps, états internes de traitement et combinaisons de partitions invalides multi-critères.",
+        "en": "On output domains, time ranges, internal processing states, and multi-condition invalid partitions."
+      },
+      "tags": [
+        "ch3",
+        "ep"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-030",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester les partitions invalides une à une plutôt que combinées ensemble ?",
+        "en": "Why should invalid Equivalence Partitions normally be tested one at a time?"
+      },
+      "back": {
+        "fr": "Combiner deux entrées invalides risque de déclencher le premier rejet et de masquer le défaut sur le contrôle du second champ (effet de masquage).",
+        "en": "Combining multiple invalid inputs risks one early validation error masking how the second invalid input is handled."
+      },
+      "tags": [
+        "ch3",
+        "ep",
+        "masking"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-031",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez BVA à 2 valeurs et BVA à 3 valeurs pour une plage entière valide [10..50].",
+        "en": "Compare 2-value and 3-value BVA for an integer valid range [10..50]."
+      },
+      "back": {
+        "fr": "2 valeurs : {9, 10, 50, 51}. 3 valeurs : {9, 10, 11, 49, 50, 51}, ajoutant les voisins intérieurs pour déceler des erreurs d’opérateurs relationnels (< vs <=).",
+        "en": "2-value BVA tests {9, 10, 50, 51}. 3-value BVA tests {9, 10, 11, 49, 50, 51}, adding interior neighbors to catch relational operator flaws."
+      },
+      "tags": [
+        "ch3",
+        "bva"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-032",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment appliquer BVA sur des chaînes, dates ou tableaux ?",
+        "en": "How is Boundary Value Analysis applied to strings, dates, or lists?"
+      },
+      "back": {
+        "fr": "Longueurs (0, 1, max, max+1), cardinalités (liste vide, 1 élément, N) et bornes calendaires (28/29 fév, fin d’année, passage à minuit).",
+        "en": "Testing length limits (0, 1, max, max+1 chars), cardinality (empty, 1, max items), and calendar edges (leap days, year-end, midnight)."
+      },
+      "tags": [
+        "ch3",
+        "bva"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-033",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Table de Décision à entrées limitées (Limited-Entry) et à entrées étendues (Extended-Entry).",
+        "en": "How does a Limited-Entry Decision Table differ from an Extended-Entry Decision Table?"
+      },
+      "back": {
+        "fr": "Entrées limitées : conditions exclusivement booléennes (V/F). Entrées étendues : conditions à valeurs multiples ou plages discrètes (ex. Or/Argent/Bronze).",
+        "en": "Limited-entry tables use strictly Boolean (T/F) conditions; extended-entry tables allow multi-valued discrete conditions or ranges (e.g., Gold/Silver/Bronze)."
+      },
+      "tags": [
+        "ch3",
+        "decision-tables"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-034",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réduire une table de décision sans perdre de logique métier ?",
+        "en": "How can a Test Analyst safely collapse a full Decision Table?"
+      },
+      "back": {
+        "fr": "Fusionner les paires de colonnes aux actions identiques qui ne diffèrent que sur une condition devenue indifférente (« — ») et exclure les combinaisons impossibles.",
+        "en": "Merge pairs of columns yielding identical actions differing on just one condition (marked \"—\"), and drop impossible combinations."
+      },
+      "tags": [
+        "ch3",
+        "decision-tables"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-035",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts de spécification une table de décision révèle-t-elle précocement ?",
+        "en": "What specification defects does building a Decision Table uncover early?"
+      },
+      "back": {
+        "fr": "Règles contradictoires, combinaisons non spécifiées (omissions) et conditions redondantes.",
+        "en": "Contradictory rules, missing combinations (gaps), and redundant conditions."
+      },
+      "tags": [
+        "ch3",
+        "decision-tables"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-036",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Définissez la couverture 0-switch et 1-switch en test de transitions d’états.",
+        "en": "Define 0-switch vs. 1-switch coverage in State Transition Testing."
+      },
+      "back": {
+        "fr": "0-switch : chaque transition simple valide. 1-switch : chaque paire valide de deux transitions consécutives (A → B → C).",
+        "en": "0-switch covers every single valid transition; 1-switch covers every valid pair of consecutive transitions (A → B → C)."
+      },
+      "tags": [
+        "ch3",
+        "state-transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-037",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage clé offre une Table d’États (State Table) par rapport à un diagramme d’états ?",
+        "en": "What specific testing advantage does a State Table offer over a State Diagram?"
+      },
+      "back": {
+        "fr": "Elle croise tous les états et tous les événements, mettant en évidence les transitions invalides/interdites pour concevoir les tests négatifs.",
+        "en": "It explicitly lists every state × event cell, exposing invalid/disallowed transitions for negative testing that diagrams omit."
+      },
+      "tags": [
+        "ch3",
+        "state-table"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-038",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que sont les conditions de garde (Guard Conditions) dans un automate à états ?",
+        "en": "What are Guard Conditions in State Transition Testing?"
+      },
+      "back": {
+        "fr": "Des prédicats booléens associés à un événement (ex. `[solde >= montant]`) qui conditionnent le franchissement de la transition ; il faut tester garde vraie et garde fausse.",
+        "en": "Boolean conditions on a transition (e.g., `[balance >= amount]`) gating whether it fires, requiring both true and false test cases."
+      },
+      "tags": [
+        "ch3",
+        "state-transition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-039",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel constat fonde les Tests par Paires (Pairwise / All-Pairs) ?",
+        "en": "What empirical principle motivates Pairwise (All-Pairs / 2-wise) Testing?"
+      },
+      "back": {
+        "fr": "La grande majorité des défauts provient d’un paramètre seul ou d’une interaction à 2 paramètres, permettant de réduire drastiquement les combinaisons sans perdre l’essentiel des détections.",
+        "en": "Most field defects are triggered by single parameters or 2-way interactions rather than 3+ way combinations, enabling huge test compression."
+      },
+      "tags": [
+        "ch3",
+        "pairwise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-040",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Combien de cas minimalement faut-il en Pairwise pour 3 paramètres à 3 valeurs (3×3×3 = 27) ?",
+        "en": "What is the theoretical minimum test count for 100% Pairwise coverage on 3 parameters with 3 values each?"
+      },
+      "back": {
+        "fr": "9 cas de test (tableau orthogonal L9) pour couvrir toutes les paires possibles entre chaque couple de paramètres.",
+        "en": "9 test cases (via an L9 orthogonal array) to cover every distinct 2-way pair across parameters."
+      },
+      "tags": [
+        "ch3",
+        "pairwise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-041",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi préfère-t-on souvent les générateurs Pairwise modernes aux tableaux orthogonaux stricts ?",
+        "en": "What key limitation of pure Orthogonal Arrays is solved by modern Pairwise generators?"
+      },
+      "back": {
+        "fr": "Ils gèrent facilement des nombres de valeurs hétérogènes par paramètre et les contraintes métier d’exclusion entre valeurs.",
+        "en": "Modern tools handle mixed parameter sizes and complex business exclusion constraints that rigid orthogonal arrays struggle with."
+      },
+      "tags": [
+        "ch3",
+        "combinatorial"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-042",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quand passer du Pairwise (2-wise) au test combinatoire 3-wise ?",
+        "en": "When should a Test Analyst escalate from 2-wise (Pairwise) to 3-wise coverage?"
+      },
+      "back": {
+        "fr": "Dans des systèmes critiques (santé, aéronautique, tarification complexe) où des interactions à trois facteurs représentent un risque élevé.",
+        "en": "On high-criticality domains (medical, avionics, complex pricing rules) where 3-way parameter interactions pose severe failure risk."
+      },
+      "tags": [
+        "ch3",
+        "combinatorial"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-043",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la méthode de l’Arbre de Classification (Classification Tree Method — CTM) ?",
+        "en": "What is the Classification Tree Method (CTM)?"
+      },
+      "back": {
+        "fr": "Méthode graphique hiérarchisant les aspects du domaine d’entrée en classifications et classes feuilles, combinées ensuite dans une grille inférieure pour former des cas de test.",
+        "en": "A visual method partitioning the input domain into hierarchical classifications and leaf classes, combined via a bottom combination grid into test cases."
+      },
+      "tags": [
+        "ch3",
+        "classification-tree"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-044",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels critères de combinaison utilise-t-on dans la grille d’un Arbre de Classification ?",
+        "en": "Which combination criteria can be applied in a Classification Tree grid?"
+      },
+      "back": {
+        "fr": "Critère minimal (chaque classe au moins une fois), Pairwise (toutes paires valides) ou combinatoire complet sur des sous-arbres critiques.",
+        "en": "Minimal (each class covered once), Pairwise (all valid class pairs), or full combinatorial on critical subtrees."
+      },
+      "tags": [
+        "ch3",
+        "classification-tree"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-045",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment dériver des cas de test par Cas d’Utilisation (Use Case Testing) ?",
+        "en": "How does Use Case Testing derive test scenarios?"
+      },
+      "back": {
+        "fr": "Couvrir le scénario nominal (Mainstream), chaque flux alternatif et chaque flux d’exception en vérifiant interactions acteur-système et pré/post-conditions.",
+        "en": "Exercising the mainstream path, all alternative flows, and all exception paths across actor-system interactions plus pre/post-conditions."
+      },
+      "tags": [
+        "ch3",
+        "use-case"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-046",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel avantage apporte le Use Case Testing par rapport aux tests champ par champ ?",
+        "en": "What advantage does Use Case Testing offer over isolated field-level techniques?"
+      },
+      "back": {
+        "fr": "Il vérifie l’enchaînement métier complet entre écrans et révèle les défauts d’intégration fonctionnelle des processus.",
+        "en": "It validates end-to-end business workflows across screens and uncovers functional integration flaws between steps."
+      },
+      "tags": [
+        "ch3",
+        "use-case"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-047",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’Analyse de Domaine (Domain Analysis) multi-variables ?",
+        "en": "What is multi-variable Domain Analysis?"
+      },
+      "back": {
+        "fr": "Extension de EP/BVA à plusieurs variables liées (ex. `x + y <= 100`), sélectionnant points ON, OFF, IN et OUT autour des frontières conjointes.",
+        "en": "Extending EP and BVA to multiple interdependent variables (e.g., `x + y <= 100`), selecting ON, OFF, IN, and OUT points around joint boundaries."
+      },
+      "tags": [
+        "ch3",
+        "domain-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-048",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Dans le Domain Testing pour `X >= 10` (entiers), quels sont les points ON et OFF ?",
+        "en": "In Domain Testing for `X >= 10` (integers), what are the ON and OFF points?"
+      },
+      "back": {
+        "fr": "Point ON = 10 (sur la frontière, valide) ; point OFF = 9 (immédiatement adjacent côté opposé, invalide).",
+        "en": "ON point = 10 (exactly on the boundary, valid); OFF point = 9 (immediately adjacent on the opposite side, invalid)."
+      },
+      "tags": [
+        "ch3",
+        "domain-analysis"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-049",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une technique basée sur les défauts (Defect-Based Technique) ?",
+        "en": "What characterizes Defect-Based Test Techniques?"
+      },
+      "back": {
+        "fr": "Dériver des tests systématiques à partir de taxonomies historiques de bogues fréquents pour un langage, une IHM ou un secteur métier.",
+        "en": "Techniques deriving tests directly from categorized historical defect taxonomies (e.g., software attacks, fault catalogues)."
+      },
+      "tags": [
+        "ch3",
+        "defect-based"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-050",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consistent les « Attaques Logicielles » (Software Attacks) ?",
+        "en": "What are \"Software Attacks\" in defect-based testing?"
+      },
+      "back": {
+        "fr": "Catalogue structuré d’entrées et scénarios agressifs ciblant IHM, fichiers, OS et API (chaînes géantes, caractères spéciaux, double-clic, disque saturé).",
+        "en": "A structured catalogue of fault-provoking probes across UI, files, OS, and APIs (oversized strings, special characters, double-clicks, disk full)."
+      },
+      "tags": [
+        "ch3",
+        "attacks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-051",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les Taxonomies de Défauts complètent-elles les tests basés sur les risques ?",
+        "en": "How do Defect Taxonomies complement Risk-Based Testing?"
+      },
+      "back": {
+        "fr": "Les familles d’anomalies récurrentes de l’historique fournissent des hypothèses concrètes de défaillance à cibler en priorité.",
+        "en": "Historically frequent defect categories serve as concrete failure-mode checklists to probe first on high-risk features."
+      },
+      "tags": [
+        "ch3",
+        "taxonomies"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-052",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Error Guessing, Test par Check-lists et Test Exploratoire.",
+        "en": "Distinguish Error Guessing, Checklist-Based Testing, and Exploratory Testing."
+      },
+      "back": {
+        "fr": "Error Guessing anticipe des erreurs précises ; Check-lists suit des points capitalisés ; Exploratoire apprend, conçoit et exécute en boucle simultanée.",
+        "en": "Error Guessing anticipates likely mistakes; Checklist-Based verifies curated reminders; Exploratory simultaneously learns, designs, and executes."
+      },
+      "tags": [
+        "ch3",
+        "experience-based"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-053",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi entretenir régulièrement les check-lists de test ?",
+        "en": "Why must Checklist-Based test suites be actively maintained?"
+      },
+      "back": {
+        "fr": "Pour intégrer les nouveaux défauts échappés et supprimer les contrôles obsolètes afin d’éviter le paradoxe des pesticides.",
+        "en": "Without periodic pruning and updating after new incidents, checklists go stale and suffer from the pesticide paradox."
+      },
+      "tags": [
+        "ch3",
+        "checklists"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-054",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment associer tests scriptés formels et tests exploratoires ?",
+        "en": "How does a Test Analyst effectively combine scripted and exploratory testing?"
+      },
+      "back": {
+        "fr": "Scriptés formels pour les règles critiques/réglementaires reproductibles, exploratoires minutés pour les zones ambiguës, intégrations et ergonomies.",
+        "en": "Scripted techniques for baseline regulatory/contractual rules, then time-boxed exploratory charters on ambiguous flows, integrations, and UX."
+      },
+      "tags": [
+        "ch3",
+        "blended"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-055",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi concevoir des scénarios multi-rôles (workflow tests) ?",
+        "en": "Why do Test Analysts design multi-role business workflow tests?"
+      },
+      "back": {
+        "fr": "Pour tester les transmissions d’états entre profils (créateur → valideur → auditeur), les contrôles d’accès et la concurrence.",
+        "en": "To verify handoffs across distinct actors (creator → approver → auditor), role permissions, and concurrent workflow state locks."
+      },
+      "tags": [
+        "ch3",
+        "workflows"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-056",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment choisir entre Table de Décision et Transitions d’États ?",
+        "en": "When should a TA choose a Decision Table vs. a State Transition Diagram?"
+      },
+      "back": {
+        "fr": "Table de décision si le résultat dépend de combinaisons simultanées de conditions ; Transitions d’états s’il dépend de l’état historique du système.",
+        "en": "Use Decision Tables when outcomes depend on simultaneous condition combinations; use State Transitions when history/state dictates event responses."
+      },
+      "tags": [
+        "ch3",
+        "selection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-057",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles limites temporelles tester sur les dates et fuseaux horaires ?",
+        "en": "What date and time boundaries must a TA verify in international applications?"
+      },
+      "back": {
+        "fr": "Années bissextiles (29 fév), passage heure d’été/hiver (23 h / 25 h), minuit UTC vs local et formats JJ/MM vs MM/JJ.",
+        "en": "Leap years (Feb 29), Daylight Saving transitions (23h/25h days), UTC vs. local midnight boundaries, and regional date parsing."
+      },
+      "tags": [
+        "ch3",
+        "bva",
+        "i18n"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-058",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "objectiveId": "TA-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi intégrer les contraintes métier dans un générateur Pairwise ?",
+        "en": "Why must combinatorial generation respect business domain constraints?"
+      },
+      "back": {
+        "fr": "Pour éviter de générer des combinaisons impossibles à saisir (ex. Pays=France et État=Californie) qui gaspillent l’effort d’exécution.",
+        "en": "Otherwise the generator produces impossible configurations (e.g., Country=France, State=California), wasting effort on unexecutable tests."
+      },
+      "tags": [
+        "ch3",
+        "combinatorial"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-059",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez les trois sous-caractéristiques de l’Adéquation Fonctionnelle (ISO/IEC 25010).",
+        "en": "What are the three sub-characteristics of Functional Suitability in ISO/IEC 25010?"
+      },
+      "back": {
+        "fr": "Complétude fonctionnelle, Exactitude fonctionnelle et Pertinence fonctionnelle.",
+        "en": "Functional Completeness, Functional Correctness, and Functional Appropriateness."
+      },
+      "tags": [
+        "ch4",
+        "iso25010"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-060",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Exactitude fonctionnelle et Pertinence fonctionnelle.",
+        "en": "How does Functional Correctness differ from Functional Appropriateness?"
+      },
+      "back": {
+        "fr": "L’exactitude vérifie la justesse des calculs/sorties ; la pertinence vérifie que la fonction aide efficacement l’utilisateur à accomplir sa tâche sans étapes superflues.",
+        "en": "Correctness verifies accurate outputs; Appropriateness verifies functions actually streamline the user’s task without unnecessary friction."
+      },
+      "tags": [
+        "ch4",
+        "iso25010"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-061",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA teste-t-il l’Exactitude fonctionnelle sur des calculs d’arrondi financiers ?",
+        "en": "How does a Test Analyst test Functional Correctness in financial or rounding logic?"
+      },
+      "back": {
+        "fr": "Tester règles d’arrondi, précision décimale cumulée sur de multiples écritures, conversions de devises et réconciliation comptable des totaux.",
+        "en": "Checking rounding rules, cumulative decimal precision across many transactions, currency conversions, and ledger balancing."
+      },
+      "tags": [
+        "ch4",
+        "correctness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-062",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Interopérabilité et Coexistence (Compatibilité ISO 25010).",
+        "en": "Distinguish Interoperability from Coexistence in ISO 25010 Compatibility testing."
+      },
+      "back": {
+        "fr": "Interopérabilité : deux systèmes échangent et exploitent correctement des données. Coexistence : l’application partage un environnement sans perturber ses voisines.",
+        "en": "Interoperability checks systems exchange and use shared data accurately; Coexistence checks apps share an environment without interfering."
+      },
+      "tags": [
+        "ch4",
+        "compatibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-063",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sous-caractéristiques composent l’Utilisabilité (Usability) selon ISO/IEC 25010 ?",
+        "en": "Name key sub-characteristics of Usability in ISO/IEC 25010."
+      },
+      "back": {
+        "fr": "Reconnaissance d’adéquation, capacité d’apprentissage, exploitabilité, protection contre les erreurs utilisateur, esthétique IHM et accessibilité.",
+        "en": "Appropriateness recognizability, learnability, operability, user error protection, UI aesthetics, and accessibility."
+      },
+      "tags": [
+        "ch4",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-064",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez une revue heuristique d’utilisabilité et un test d’utilisabilité avec utilisateurs réels.",
+        "en": "Compare a heuristic usability inspection vs. empirical Usability Testing with end users."
+      },
+      "back": {
+        "fr": "La revue heuristique applique des principes ergonomiques par des experts ; le test d’utilisabilité observe de vrais utilisateurs accomplir des tâches réelles.",
+        "en": "Heuristic evaluation inspects UI against design rules; Usability Testing observes real representative users completing realistic tasks."
+      },
+      "tags": [
+        "ch4",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-065",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi servent les questionnaires standardisés SUMI et WAMMI ?",
+        "en": "What are SUMI and WAMMI in usability evaluation?"
+      },
+      "back": {
+        "fr": "Questionnaires standardisés mesurant la satisfaction perçue des utilisateurs (SUMI pour logiciels classiques, WAMMI pour applications web).",
+        "en": "Statistically validated standardized usability questionnaires measuring perceived user satisfaction (SUMI for software, WAMMI for web apps)."
+      },
+      "tags": [
+        "ch4",
+        "usability",
+        "surveys"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-066",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels sont les quatre principes WCAG (POUR) pour l’accessibilité ?",
+        "en": "What are the four core principles of WCAG accessibility guidelines (POUR)?"
+      },
+      "back": {
+        "fr": "Perceptible (Perceivable), Utilisable (Operable), Compréhensible (Understandable) et Robuste (Robust).",
+        "en": "Perceivable, Operable, Understandable, and Robust."
+      },
+      "tags": [
+        "ch4",
+        "accessibility",
+        "wcag"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-067",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels contrôles manuels d’accessibilité restent indispensables en plus des scanners ?",
+        "en": "Which essential manual checks must a TA run for accessibility beyond automated scanners?"
+      },
+      "back": {
+        "fr": "Navigation clavier complète (tabulation, focus visible), lecture par lecteur d’écran (NVDA/VoiceOver), zoom 200 % et clarté des erreurs.",
+        "en": "Full keyboard-only navigation (tab order, focus visibility), screen-reader testing, 200% zoom layout, and clear error announcements."
+      },
+      "tags": [
+        "ch4",
+        "accessibility"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-068",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier la « Protection contre les erreurs utilisateur » ?",
+        "en": "How does a TA test \"User Error Protection\" in an application?"
+      },
+      "back": {
+        "fr": "Tester confirmations avant suppression, bouton Annuler (Undo), validation proactive lisible et conservation des champs saisis après erreur.",
+        "en": "Verifying confirmations before destructive actions, undo support, clear inline validation guidance, and preserving inputs after errors."
+      },
+      "tags": [
+        "ch4",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-069",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels aspects d’internationalisation (I18n) et localisation (L10n) vérifie le TA ?",
+        "en": "Which Internationalization (I18n) and Localization (L10n) checks belong to the TA?"
+      },
+      "back": {
+        "fr": "Dilatation des textes traduits sans coupure, support UTF-8/accents, formats locaux de dates/devises et absence de chaînes oubliées en langue source.",
+        "en": "Text expansion without UI truncation, UTF-8 rendering, local date/currency formats, and spotting hardcoded untranslated strings."
+      },
+      "tags": [
+        "ch4",
+        "i18n"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-070",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment TA et TTA se répartissent-ils les tests de Sécurité et Performance ?",
+        "en": "How do the TA and TTA split responsibilities for Security and Performance testing?"
+      },
+      "back": {
+        "fr": "Le TA spécifie les scénarios métier réalistes, matrices de rôles/droits et latences perçues ; le TTA outille l’injection de charge et les scans techniques.",
+        "en": "The TA defines realistic workflows, role-access matrices, and user-perceived SLAs; the TTA builds load scripts and technical vulnerability probes."
+      },
+      "tags": [
+        "ch4",
+        "collaboration"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-071",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester l’Interopérabilité fonctionnelle des échanges de fichiers ou API ?",
+        "en": "How does a TA verify Interoperability in file or API exchanges between systems?"
+      },
+      "back": {
+        "fr": "Vérifier champs obligatoires/optionnels, bornes de format, encodages, gestion des balises manquantes et compatibilité entre versions.",
+        "en": "Testing mandatory/optional schema fields, field format limits, character encoding, missing-tag handling, and version tolerance."
+      },
+      "tags": [
+        "ch4",
+        "interoperability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-072",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment mesurer concrètement la « Capacité d’apprentissage » (Learnability) ?",
+        "en": "How is \"Learnability\" practically assessed in usability testing?"
+      },
+      "back": {
+        "fr": "Mesurer le taux de succès et le temps requis pour que des novices accomplissent les tâches clés avec la seule aide intégrée.",
+        "en": "Measuring task completion rate and time-to-success for untrained first-time users relying only on in-app guidance."
+      },
+      "tags": [
+        "ch4",
+        "learnability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-073",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel biais de modérateur éviter en test d’utilisabilité ?",
+        "en": "What facilitator bias must be avoided during a moderated usability test session?"
+      },
+      "back": {
+        "fr": "Indiquer le bon bouton quand l’utilisateur hésite ; il faut observer en silence (méthode Think-Aloud) pour identifier les vrais blocages.",
+        "en": "Hinting or rescuing the participant too early; neutral silence and Think-Aloud prompting expose true UX friction."
+      },
+      "tags": [
+        "ch4",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-074",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester la « Complétude fonctionnelle » d’une version ?",
+        "en": "How does a TA verify Functional Completeness for a release?"
+      },
+      "back": {
+        "fr": "Auditer systématiquement chaque exigence et User Story engagée face aux fonctions réellement opérationnelles via la traçabilité.",
+        "en": "Auditing every committed requirement and user story against implemented, working functionality via traceability."
+      },
+      "tags": [
+        "ch4",
+        "completeness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-075",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le TA sur l’ergonomie fonctionnelle en affichage responsive mobile ?",
+        "en": "What functional usability traits should a TA check across responsive/mobile viewports?"
+      },
+      "back": {
+        "fr": "Absence de défilement horizontal parasite, cibles tactiles suffisantes, boutons d’action visibles et parité fonctionnelle.",
+        "en": "Readability without horizontal overflow, adequate touch target sizing, unobstructed CTAs, and functional parity."
+      },
+      "tags": [
+        "ch4",
+        "usability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-076",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "objectiveId": "TA-4.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels aspects de Portabilité concernent aussi le TA côté utilisateur final ?",
+        "en": "Which Portability aspects still require TA attention even though Portability is mostly technical?"
+      },
+      "back": {
+        "fr": "Le parcours d’installation guidé, la clarté des messages de mise à jour et la préservation des préférences ou données utilisateur lors d’une migration.",
+        "en": "End-user installability flows (setup wizards, upgrade onboarding) and preservation of user settings during version upgrades."
+      },
+      "tags": [
+        "ch4",
+        "portability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-077",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels défauts le TA traque-t-il en priorité lors d’une revue d’exigences ?",
+        "en": "What defect types does a Test Analyst prioritize when reviewing requirements?"
+      },
+      "back": {
+        "fr": "Ambiguïtés, omissions (cas d’erreur, limites), contradictions entre règles, critères non testables et hypothèses métier implicites.",
+        "en": "Ambiguities, omissions (error flows, boundaries), contradictions, untestable statements, and hidden business assumptions."
+      },
+      "tags": [
+        "ch5",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-078",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi utiliser des check-lists ciblées plutôt qu’une relecture libre en revue ?",
+        "en": "Why does a TA rely on structured checklists rather than ad hoc reading during reviews?"
+      },
+      "back": {
+        "fr": "Elles évitent d’oublier des dimensions transverses récurrentes : limites, droits, messages d’erreur, i18n et testabilité.",
+        "en": "A defect-focused checklist ensures recurring blind spots (boundaries, roles, errors, i18n, testability) are never overlooked."
+      },
+      "tags": [
+        "ch5",
+        "checklists"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-079",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie le critère de « Testabilité » d’une exigence en revue ?",
+        "en": "What does \"Testability\" mean when reviewing a requirement or User Story?"
+      },
+      "back": {
+        "fr": "Possibilité de définir objectivement entrées, préconditions et résultat attendu mesurable pour trancher sans ambiguïté Succès/Échec.",
+        "en": "Being able to specify concrete inputs, preconditions, and an objective measurable oracle to distinguish Pass from Fail unambiguously."
+      },
+      "tags": [
+        "ch5",
+        "testability"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-080",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "En quoi consiste la Lecture basée sur les Perspectives (Perspective-Based Reading) ?",
+        "en": "How does Perspective-Based Reading improve formal specification reviews?"
+      },
+      "back": {
+        "fr": "Chaque relecteur lit le document sous un rôle précis (Utilisateur, Architecte, Testeur, Sécurité) afin de maximiser les détections complémentaires.",
+        "en": "Assigning each reviewer a distinct viewpoint (End User, Architect, Tester, Security) to maximize complementary defect detection."
+      },
+      "tags": [
+        "ch5",
+        "pbr"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-081",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment repérer des contradictions entre deux User Stories distinctes du Backlog ?",
+        "en": "How can a TA spot hidden contradictions across separate User Stories?"
+      },
+      "back": {
+        "fr": "En consolidant les règles transverses dans un diagramme d’états ou une table de décision globale plutôt qu’en relisant chaque story isolément.",
+        "en": "By mapping cross-story business rules into a unified State Diagram or Decision Table rather than reviewing stories in isolation."
+      },
+      "tags": [
+        "ch5",
+        "reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-082",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles questions essentielles poser lors d’une revue de User Story ?",
+        "en": "Which key questions belong on a TA’s User Story review checklist?"
+      },
+      "back": {
+        "fr": "Quel acteur exact ? Quelles données modifiées ? Que faire en erreur/annulation ? Les critères d’acceptation couvrent-ils bornes et permissions ?",
+        "en": "Who is the exact actor? What data changes? What happens on failure/cancellation? Do acceptance criteria cover boundaries and permissions?"
+      },
+      "tags": [
+        "ch5",
+        "user-stories"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-083",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le TA en revue de maquettes UI ou spécifications d’écran ?",
+        "en": "What defects does a TA look for when reviewing UI wireframes or interface specs?"
+      },
+      "back": {
+        "fr": "Libellés incohérents, champs obligatoires non indiqués, formats non précisés, impasses de navigation et absence d’états vides/erreur.",
+        "en": "Inconsistent labels, unmarked mandatory fields, unspecified input formats, dead-end flows, and missing empty/error states."
+      },
+      "tags": [
+        "ch5",
+        "ui-reviews"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-084",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TA relit-il aussi par les pairs les cas de test écrits par d’autres testeurs ?",
+        "en": "Why should TAs peer-review test cases written by colleagues?"
+      },
+      "back": {
+        "fr": "Vérifier préconditions claires, justesse des oracles attendus, couverture des risques et suppression des redondances.",
+        "en": "To verify unambiguous preconditions, valid expected oracles, adequate risk coverage, and removal of redundant tests."
+      },
+      "tags": [
+        "ch5",
+        "peer-review"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-085",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel piège logique accompagne les formulations « et/ou » ou « sauf si » dans une spécification ?",
+        "en": "What classic defect hides in specifications containing \"and/or\" or \"unless\" clauses?"
+      },
+      "back": {
+        "fr": "Une ambiguïté booléenne : développeur et testeur interprètent différemment la précédence ou le cas d’exception non détaillé.",
+        "en": "Boolean precedence ambiguity where developers and testers interpret compound conditions or unstated exception fallbacks differently."
+      },
+      "tags": [
+        "ch5",
+        "ambiguity"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-086",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment améliorer une check-list de revue au fil des projets ?",
+        "en": "How should a TA maintain and improve a review checklist over time?"
+      },
+      "back": {
+        "fr": "Enrichir avec les causes de défauts échappés en production liés aux exigences et retirer les points devenus inutiles.",
+        "en": "Add items targeting escaped specification defects from past releases while pruning stale checks that yield zero defects."
+      },
+      "tags": [
+        "ch5",
+        "checklists"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-087",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les revues précoces améliorent-elles l’estimation des tests par le TA ?",
+        "en": "How does early review participation improve the TA’s test estimation accuracy?"
+      },
+      "back": {
+        "fr": "Elles révèlent la vraie complexité des règles métier, des interfaces cachées et des zones floues avant de figer le planning.",
+        "en": "It reveals hidden business complexity, cross-system dependencies, and missing details early before timelines are locked."
+      },
+      "tags": [
+        "ch5",
+        "estimation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-088",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "objectiveId": "TA-5.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment réagir en revue face à une exigence disant « le système doit être rapide » ?",
+        "en": "How should a TA respond when a spec states \"the system must be fast\" during a review?"
+      },
+      "back": {
+        "fr": "Consigner un défaut d’ambiguïté/non-testabilité et demander un seuil chiffré mesurable (ex. p95 < 500 ms sous 200 utilisateurs).",
+        "en": "Log an ambiguity/testability defect and request quantified targets (e.g., p95 < 500 ms under 200 concurrent users)."
+      },
+      "tags": [
+        "ch5",
+        "non-functional"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-089",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles données clés le TA doit-il inclure dans un rapport de défaut ?",
+        "en": "What essential details must a TA include in a defect report to speed up diagnosis?"
+      },
+      "back": {
+        "fr": "Build/environnement exact, préconditions, étapes minimales reproductibles, résultat observé vs attendu, logs/captures et sévérité fonctionnelle.",
+        "en": "Exact build/environment, data preconditions, minimal reproduction steps, observed vs. expected behavior, logs/screenshots, and functional severity."
+      },
+      "tags": [
+        "ch6",
+        "defects"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-090",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment la classification des défauts améliore-t-elle la conception future des tests du TA ?",
+        "en": "How does defect classification help a Test Analyst refine test design?"
+      },
+      "back": {
+        "fr": "Si beaucoup d’anomalies échappées concernent bornes ou transitions d’états, le TA renforce ces techniques spécifiques.",
+        "en": "If metrics show many escaped bugs stemmed from missed boundaries or state transitions, the TA strengthens those exact design techniques."
+      },
+      "tags": [
+        "ch6",
+        "classification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-091",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez des attributs typiques d’une taxonomie de défauts utile au TA (ex. IEEE 1044).",
+        "en": "Name typical attributes captured in a TA-relevant defect classification scheme (e.g., IEEE 1044)."
+      },
+      "back": {
+        "fr": "Phase d’introduction, phase de détection, catégorie fonctionnelle (calcul, IHM, données, règles), cause racine et mode de défaillance.",
+        "en": "Injection phase, detection phase, defect type (calculation, UI, data, logic), root cause, and failure mode."
+      },
+      "tags": [
+        "ch6",
+        "classification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-092",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment un outil de Test Basé sur les Modèles (MBT) assiste-t-il le Test Analyst ?",
+        "en": "How does a Model-Based Testing (MBT) tool assist a Test Analyst?"
+      },
+      "back": {
+        "fr": "Le TA modélise le comportement (états, activités, BPMN) et l’outil génère automatiquement des cas traçables répondant à un critère de couverture.",
+        "en": "The TA models expected behavior (state machines, activity/BPMN flows) and the tool generates traceable test cases meeting chosen coverage criteria."
+      },
+      "tags": [
+        "ch6",
+        "mbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-093",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Citez un bénéfice clé et un risque majeur des outils MBT.",
+        "en": "What is a key benefit and a key risk of adopting Model-Based Testing (MBT) tools?"
+      },
+      "back": {
+        "fr": "Bénéfice : régénération rapide et cohérente lors des changements. Risque : un modèle erroné ou sur-complexe propage de mauvais oracles et coûte cher à maintenir.",
+        "en": "Benefit: rapid, consistent test regeneration when rules change. Risk: flawed or overly complex models propagate oracle errors and inflate effort."
+      },
+      "tags": [
+        "ch6",
+        "mbt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-094",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi servent les générateurs combinatoires (Pairwise tools) pour le TA ?",
+        "en": "What practical problem do Combinatorial/Pairwise test design tools solve for a TA?"
+      },
+      "back": {
+        "fr": "Calculer en quelques secondes une suite minimale atteignant 100 % de couverture 2-wise ou 3-wise tout en respectant les contraintes d’exclusion métier.",
+        "en": "Rapidly computing minimal configuration suites satisfying 100% 2-wise or 3-wise coverage while honoring complex business exclusion constraints."
+      },
+      "tags": [
+        "ch6",
+        "tools",
+        "pairwise"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-095",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les outils de préparation/anonymisation des données aident-ils le TA ?",
+        "en": "How do Test Data Preparation Tools support the Test Analyst?"
+      },
+      "back": {
+        "fr": "Extraire des sous-ensembles représentatifs, masquer les données personnelles (RGPD) et générer des jeux de valeurs limites reproductibles.",
+        "en": "Subsetting realistic production records, masking PII for privacy compliance, and synthesizing reproducible boundary datasets."
+      },
+      "tags": [
+        "ch6",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-096",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’automatisation pilotée par mots-clés (Keyword-Driven) est-elle particulièrement adaptée au TA ?",
+        "en": "Why is Keyword-Driven Automation especially beneficial for a Test Analyst?"
+      },
+      "back": {
+        "fr": "Elle permet au TA non-développeur de composer des scénarios métier lisibles (`Connecter`, `Facturer`) indépendamment du code technique géré par le TTA.",
+        "en": "It lets domain-focused TAs compose readable business flows (`Login`, `VerifyInvoice`) decoupled from technical code maintained by TTAs."
+      },
+      "tags": [
+        "ch6",
+        "keyword-driven"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-097",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment le TA exploite-t-il l’automatisation pilotée par les données (Data-Driven Testing) ?",
+        "en": "How does a Test Analyst leverage Data-Driven Testing tools?"
+      },
+      "back": {
+        "fr": "Faire rejouer un même scénario fonctionnel sur de multiples cas issus de BVA, partitions ou tables de décision stockés en CSV/JSON.",
+        "en": "Running one reusable test script across dozens of BVA, equivalence, or decision-table rows stored externally in CSV/Excel/JSON."
+      },
+      "tags": [
+        "ch6",
+        "data-driven"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-098",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les outils de capture de session améliorent-ils le test exploratoire du TA ?",
+        "en": "How do session-capture and screen-recording tools support exploratory testing?"
+      },
+      "back": {
+        "fr": "En enregistrant automatiquement actions, requêtes réseau et captures horodatées pour rendre reproductible toute anomalie fugitive.",
+        "en": "They automatically record user steps, network logs, and timestamped screenshots, making elusive exploratory bugs easy to reproduce."
+      },
+      "tags": [
+        "ch6",
+        "exploratory",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-099",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le TA ne doit-il pas se limiter aux scanners automatiques d’accessibilité ?",
+        "en": "Why must a TA never rely solely on automated accessibility checkers?"
+      },
+      "back": {
+        "fr": "Ils ne repèrent qu’environ 30 % des non-conformités WCAG ; l’évaluation humaine reste indispensable pour le sens des textes alternatifs et l’ergonomie clavier/lecteur d’écran.",
+        "en": "Automated scanners catch only ~30% of WCAG failures; human evaluation is required to judge alt-text meaning and real keyboard usability."
+      },
+      "tags": [
+        "ch6",
+        "accessibility",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctalta-100",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "objectiveId": "TA-6.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle complémentarité unit Test Analyst et Technical Test Analyst ?",
+        "en": "What core synergy unites the Test Analyst and Technical Test Analyst on complex projects?"
+      },
+      "back": {
+        "fr": "Le TA garantit la conformité aux exigences métier et usages humains ; le TTA garantit la profondeur structurelle du code, la résilience technique et l’automatisation.",
+        "en": "The TA ensures the right business behaviors and usability are tested; the TTA ensures code-level coverage, technical resilience, and scalable automation."
+      },
+      "tags": [
+        "ch6",
+        "synergy"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CTAL-TA v3.1.2 (Test Analyst)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}

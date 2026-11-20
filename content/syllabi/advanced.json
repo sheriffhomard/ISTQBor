@@ -1,0 +1,698 @@
+{
+  "chapters": [
+    {
+      "id": "ctal-tm-v3.0-ch1",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Gestion des activités de test",
+        "en": "Managing the Test Activities"
+      },
+      "summary": {
+        "fr": "Processus de test avancé, gestion des tests en contextes Agile, séquentiel et hybride, stratégie de test et pilotage continu.",
+        "en": "Advanced test process, managing testing in Agile, sequential, and hybrid contexts, test strategy, and continuous control."
+      },
+      "recommendedMinutes": 120
+    },
+    {
+      "id": "ctal-tm-v3.0-ch2",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Gestion du produit et des risques",
+        "en": "Managing the Product"
+      },
+      "summary": {
+        "fr": "Métriques et KPI pertinents, estimation avancée, gestion des défauts orientée valeur, analyse de risques produit et optimisation de la qualité.",
+        "en": "Test metrics and KPIs, advanced test estimation, defect management workflow, product risk analysis, and quality optimization."
+      },
+      "recommendedMinutes": 120
+    },
+    {
+      "id": "ctal-tm-v3.0-ch3",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Gestion de l’équipe et amélioration continue",
+        "en": "Managing the Team"
+      },
+      "summary": {
+        "fr": "Compétences, structuration des équipes, motivation, gestion des parties prenantes, évaluation de maturité (TMMi/TPI) et rétrospectives.",
+        "en": "Skills matrix, team organization, motivation, stakeholder communication, test process improvement (TMMi/TPI), and retrospectives."
+      },
+      "recommendedMinutes": 100
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Le processus de test de l’Analyste de Test",
+        "en": "The Test Analyst’s Tasks in the Test Process"
+      },
+      "summary": {
+        "fr": "Rôle de l’analyste de test tout au long du SDLC, conception et implémentation avancées dans les modèles séquentiels et Agile.",
+        "en": "Test Analyst activities across the SDLC, advanced test analysis and design in sequential and Agile lifecycles."
+      },
+      "recommendedMinutes": 80
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch2",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Les tâches du Test Analyst dans les tests basés sur les risques",
+        "en": "The Test Analyst’s Tasks in Risk-Based Testing"
+      },
+      "summary": {
+        "fr": "Identification des risques qualité métier, évaluation probabilité/impact, choix des techniques de mitigation et priorisation.",
+        "en": "Identifying business quality risks, evaluating likelihood and impact, selecting mitigation techniques, and risk-driven prioritization."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch3",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Techniques de test boîte noire avancées",
+        "en": "Test Techniques"
+      },
+      "summary": {
+        "fr": "Pairwise/Combinatoire, tables de décision avancées, transitions d’états N-switch, classification tree, cas d’utilisation et attaques basées sur l’expérience.",
+        "en": "Pairwise/combinatorial, extended decision tables, N-switch state transitions, classification trees, use cases, and defect taxonomies."
+      },
+      "recommendedMinutes": 140
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch4",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "Tester les caractéristiques qualité logicielles",
+        "en": "Testing Software Quality Characteristics"
+      },
+      "summary": {
+        "fr": "Exactitude fonctionnelle, adéquation, interopérabilité, utilisabilité, accessibilité WCAG et revues d’exigences métier.",
+        "en": "Functional completeness/correctness/appropriateness, usability, WCAG accessibility, and interoperability testing."
+      },
+      "recommendedMinutes": 90
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch5",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 5,
+      "code": "5",
+      "title": {
+        "fr": "Revues dirigées par check-lists",
+        "en": "Reviews"
+      },
+      "summary": {
+        "fr": "Préparation et utilisation de check-lists ciblées pour détecter les défauts dans les spécifications et user stories.",
+        "en": "Preparing and applying defect-focused checklists to review requirements and user stories."
+      },
+      "recommendedMinutes": 60
+    },
+    {
+      "id": "ctal-ta-v3.1.2-ch6",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "order": 6,
+      "code": "6",
+      "title": {
+        "fr": "Gestion des défauts et outils de l’analyste",
+        "en": "Defect Management and Test Tools"
+      },
+      "summary": {
+        "fr": "Classification orthogonale des défauts (ODC), analyse de causes racines et outillage d’aide à la conception (MBT, gestion de données).",
+        "en": "Defect classification schemes, root-cause analysis, and model-based/data-generation tooling."
+      },
+      "recommendedMinutes": 70
+    },
+    {
+      "id": "ctal-tta-v4.0-ch1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 1,
+      "code": "1",
+      "title": {
+        "fr": "Rôle du Technical Test Analyst dans les tests basés sur les risques",
+        "en": "The Technical Test Analyst’s Tasks in Risk-Based Testing"
+      },
+      "summary": {
+        "fr": "Identification et mitigation des risques techniques (architecture, concurrence, mémoire, sécurité, performance).",
+        "en": "Identifying and mitigating technical risks: architecture, concurrency, memory leaks, security, and performance."
+      },
+      "recommendedMinutes": 75
+    },
+    {
+      "id": "ctal-tta-v4.0-ch2",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 2,
+      "code": "2",
+      "title": {
+        "fr": "Techniques de test structurel (boîte blanche avancée)",
+        "en": "White-Box Test Techniques"
+      },
+      "summary": {
+        "fr": "Couverture de conditions, couverture de décisions, couverture condition/décision modifiée (MC/DC), chemins multiples et tests API.",
+        "en": "Condition coverage, decision coverage, Modified Condition/Decision Coverage (MC/DC), multiple-condition coverage, and API testing."
+      },
+      "recommendedMinutes": 120
+    },
+    {
+      "id": "ctal-tta-v4.0-ch3",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 3,
+      "code": "3",
+      "title": {
+        "fr": "Analyse statique et dynamique",
+        "en": "Static and Dynamic Analysis"
+      },
+      "summary": {
+        "fr": "Graphes de flot de contrôle, complexité cyclomatique, analyse de flot de données (def-use), détection de fuites mémoire et profilage dynamique.",
+        "en": "Control-flow graphs, cyclomatic complexity, data-flow anomalies (def-use), memory leak detection, and dynamic profiling."
+      },
+      "recommendedMinutes": 95
+    },
+    {
+      "id": "ctal-tta-v4.0-ch4",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 4,
+      "code": "4",
+      "title": {
+        "fr": "Tests des caractéristiques qualité techniques",
+        "en": "Quality Characteristics for Technical Testing"
+      },
+      "summary": {
+        "fr": "Sécurité, fiabilité/disponibilité/reprise, efficacité de performance, maintenabilité et portabilité selon ISO 25010.",
+        "en": "Security, reliability/availability/recoverability, performance efficiency, maintainability, and portability per ISO 25010."
+      },
+      "recommendedMinutes": 110
+    },
+    {
+      "id": "ctal-tta-v4.0-ch5",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 5,
+      "code": "5",
+      "title": {
+        "fr": "Revues techniques et d’architecture",
+        "en": "Reviews"
+      },
+      "summary": {
+        "fr": "Revues de code source et de documents d’architecture à l’aide de check-lists techniques dédiées.",
+        "en": "Source code and architecture reviews supported by technical inspection checklists."
+      },
+      "recommendedMinutes": 60
+    },
+    {
+      "id": "ctal-tta-v4.0-ch6",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "order": 6,
+      "code": "6",
+      "title": {
+        "fr": "Outils et automatisation technique",
+        "en": "Test Tools and Automation"
+      },
+      "summary": {
+        "fr": "Frameworks pilotés par les données/mots-clés, mocks/stubs, virtualisation de services, tests basés sur les modèles et pipelines CI.",
+        "en": "Data-driven/keyword-driven frameworks, mocks/stubs, service virtualization, MBT, and CI pipeline integration."
+      },
+      "recommendedMinutes": 90
+    }
+  ],
+  "sections": [
+    {
+      "id": "ctal-tm-v3.0-s1.1",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "versionId": "ctal-tm-v3.0",
+      "certificationId": "ctal-tm",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Stratégie et pilotage du processus de test",
+        "en": "Test Strategy and Test Process Control"
+      }
+    },
+    {
+      "id": "ctal-tm-v3.0-s2.1",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "versionId": "ctal-tm-v3.0",
+      "certificationId": "ctal-tm",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Métriques, risques et estimation",
+        "en": "Metrics, Risks, and Estimation"
+      }
+    },
+    {
+      "id": "ctal-tm-v3.0-s3.1",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "versionId": "ctal-tm-v3.0",
+      "certificationId": "ctal-tm",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Compétences, parties prenantes et amélioration",
+        "en": "Skills, Stakeholders, and Improvement"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s1.1",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Activités de l’analyste dans le SDLC",
+        "en": "Analyst Tasks Across SDLC"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s2.1",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Tests basés sur les risques métier",
+        "en": "Business Risk-Based Testing"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s3.1",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Conception boîte noire et combinatoire",
+        "en": "Black-Box & Combinatorial Design"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s4.1",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "4.1",
+      "title": {
+        "fr": "Qualités fonctionnelles et utilisabilité",
+        "en": "Functional Quality & Usability"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s5.1",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "5.1",
+      "title": {
+        "fr": "Revues de spécifications",
+        "en": "Specification Reviews"
+      }
+    },
+    {
+      "id": "ctal-ta-v3.1.2-s6.1",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "versionId": "ctal-ta-v3.1.2",
+      "certificationId": "ctal-ta",
+      "order": 1,
+      "code": "6.1",
+      "title": {
+        "fr": "Défauts et outils de conception",
+        "en": "Defects & Design Tooling"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s1.1",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "1.1",
+      "title": {
+        "fr": "Risques techniques",
+        "en": "Technical Risk Management"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s2.1",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "2.1",
+      "title": {
+        "fr": "Couverture structurelle avancée",
+        "en": "Advanced Structural Coverage"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s3.1",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "3.1",
+      "title": {
+        "fr": "Analyse statique et dynamique du code",
+        "en": "Static & Dynamic Code Analysis"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s4.1",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "4.1",
+      "title": {
+        "fr": "Tests non fonctionnels techniques",
+        "en": "Technical Non-Functional Testing"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s5.1",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "5.1",
+      "title": {
+        "fr": "Revues de code et d’architecture",
+        "en": "Code & Architecture Reviews"
+      }
+    },
+    {
+      "id": "ctal-tta-v4.0-s6.1",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "versionId": "ctal-tta-v4.0",
+      "certificationId": "ctal-tta",
+      "order": 1,
+      "code": "6.1",
+      "title": {
+        "fr": "Automatisation technique et virtualisation",
+        "en": "Technical Automation & Virtualization"
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "TM-1.1.1",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch1",
+      "sectionId": "ctal-tm-v3.0-s1.1",
+      "code": "TM-1.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Stratégie, planification et pilotage des tests",
+        "en": "Test strategy, planning, and control"
+      },
+      "description": {
+        "fr": "Choisir une approche de test adaptée, orchestrer les activités en Agile/hybride et contrôler les critères d’entrée/sortie.",
+        "en": "Select tailored test strategies, orchestrate Agile/hybrid delivery, and govern entry/exit gates."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TM v3.0"
+    },
+    {
+      "id": "TM-2.1.1",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch2",
+      "sectionId": "ctal-tm-v3.0-s2.1",
+      "code": "TM-2.1.1",
+      "kLevel": "K4",
+      "title": {
+        "fr": "Risques, estimation, métriques et gestion des défauts",
+        "en": "Risks, estimation, metrics, and defect management"
+      },
+      "description": {
+        "fr": "Évaluer les risques produit/projet, estimer les coûts de qualité, interpréter les métriques et piloter le workflow des défauts.",
+        "en": "Assess product/project risks, estimate cost of quality, interpret metrics, and manage defect lifecycles."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TM v3.0"
+    },
+    {
+      "id": "TM-3.1.1",
+      "certificationId": "ctal-tm",
+      "versionId": "ctal-tm-v3.0",
+      "chapterId": "ctal-tm-v3.0-ch3",
+      "sectionId": "ctal-tm-v3.0-s3.1",
+      "code": "TM-3.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Équipe, parties prenantes et amélioration du processus",
+        "en": "Team leadership, stakeholders, and test improvement"
+      },
+      "description": {
+        "fr": "Développer les compétences de l’équipe, communiquer la valeur métier et conduire l’amélioration via TMMi, TPI ou rétrospectives.",
+        "en": "Develop team capabilities, report business value, and lead process improvement via TMMi, TPI, or retrospectives."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TM v3.0"
+    },
+    {
+      "id": "TA-1.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch1",
+      "sectionId": "ctal-ta-v3.1.2-s1.1",
+      "code": "TA-1.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tâches de l’analyste de test tout au long du SDLC",
+        "en": "Test Analyst tasks across the SDLC"
+      },
+      "description": {
+        "fr": "Définir conditions et cas de test de haut ou bas niveau selon le contexte séquentiel ou Agile.",
+        "en": "Design high-level vs low-level test cases across sequential and Agile lifecycles."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TA-2.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch2",
+      "sectionId": "ctal-ta-v3.1.2-s2.1",
+      "code": "TA-2.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Analyse de risques métier par l’analyste",
+        "en": "Business risk analysis for test analysts"
+      },
+      "description": {
+        "fr": "Collaborer à l’identification des risques fonctionnels et dimensionner la profondeur de conception.",
+        "en": "Facilitate functional risk identification and allocate test design rigor."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TA-3.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch3",
+      "sectionId": "ctal-ta-v3.1.2-s3.1",
+      "code": "TA-3.1.1",
+      "kLevel": "K4",
+      "title": {
+        "fr": "Maîtrise des techniques boîte noire et combinatoires",
+        "en": "Advanced black-box and combinatorial techniques"
+      },
+      "description": {
+        "fr": "Appliquer classification tree, pairwise, N-switch, tables de décision et taxonomies de défauts.",
+        "en": "Apply classification trees, pairwise, N-switch state coverage, decision tables, and defect taxonomies."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TA-4.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch4",
+      "sectionId": "ctal-ta-v3.1.2-s4.1",
+      "code": "TA-4.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tests d’exactitude fonctionnelle, utilisabilité et accessibilité",
+        "en": "Functional quality, usability, and accessibility testing"
+      },
+      "description": {
+        "fr": "Concevoir des tests vérifiant pertinence fonctionnelle, ergonomie, WCAG et interopérabilité.",
+        "en": "Design tests for functional appropriateness, usability, WCAG accessibility, and interoperability."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TA-5.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch5",
+      "sectionId": "ctal-ta-v3.1.2-s5.1",
+      "code": "TA-5.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Revues d’exigences et user stories par check-lists",
+        "en": "Checklist-driven requirement and story reviews"
+      },
+      "description": {
+        "fr": "Repérer ambiguïtés, incohérences et manques dans la base de test métier.",
+        "en": "Detect ambiguities, inconsistencies, and omissions in business specifications."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TA-6.1.1",
+      "certificationId": "ctal-ta",
+      "versionId": "ctal-ta-v3.1.2",
+      "chapterId": "ctal-ta-v3.1.2-ch6",
+      "sectionId": "ctal-ta-v3.1.2-s6.1",
+      "code": "TA-6.1.1",
+      "kLevel": "K2",
+      "title": {
+        "fr": "Classification des défauts et outils de conception",
+        "en": "Defect taxonomy and test design tools"
+      },
+      "description": {
+        "fr": "Exploiter la classification des défauts pour améliorer la prévention et utiliser les outils MBT.",
+        "en": "Use defect classification for root-cause improvement and adopt MBT tooling."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TA v3.1.2"
+    },
+    {
+      "id": "TTA-1.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch1",
+      "sectionId": "ctal-tta-v4.0-s1.1",
+      "code": "TTA-1.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Évaluation et mitigation des risques techniques",
+        "en": "Technical risk identification and mitigation"
+      },
+      "description": {
+        "fr": "Analyser les risques liés à l’architecture, la concurrence, les API et la sécurité.",
+        "en": "Assess architectural, concurrency, API, and security risks."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    },
+    {
+      "id": "TTA-2.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch2",
+      "sectionId": "ctal-tta-v4.0-s2.1",
+      "code": "TTA-2.1.1",
+      "kLevel": "K4",
+      "title": {
+        "fr": "Couverture structurelle avancée et MC/DC",
+        "en": "Advanced white-box coverage and MC/DC"
+      },
+      "description": {
+        "fr": "Concevoir des jeux minimaux atteignant Condition, Decision, Multiple Condition et MC/DC.",
+        "en": "Construct minimal suites satisfying Condition, Decision, Multiple Condition, and MC/DC criteria."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    },
+    {
+      "id": "TTA-3.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch3",
+      "sectionId": "ctal-tta-v4.0-s3.1",
+      "code": "TTA-3.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Analyse statique (flot de données, complexité) et dynamique",
+        "en": "Static data-flow/complexity and dynamic profiling"
+      },
+      "description": {
+        "fr": "Détecter anomalies def-use, calculer le nombre cyclomatique de McCabe et analyser les fuites à l’exécution.",
+        "en": "Detect def-use anomalies, compute McCabe cyclomatic complexity, and profile runtime memory/CPU."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    },
+    {
+      "id": "TTA-4.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch4",
+      "sectionId": "ctal-tta-v4.0-s4.1",
+      "code": "TTA-4.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Tests de sécurité, fiabilité, performance et maintenabilité",
+        "en": "Security, reliability, performance, and maintainability testing"
+      },
+      "description": {
+        "fr": "Tester tolérance aux pannes, montée en charge, failles OWASP et portabilité.",
+        "en": "Test fault tolerance, load scalability, OWASP security threats, and portability."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    },
+    {
+      "id": "TTA-5.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch5",
+      "sectionId": "ctal-tta-v4.0-s5.1",
+      "code": "TTA-5.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Revues techniques d’architecture et de code",
+        "en": "Architectural and code-level technical reviews"
+      },
+      "description": {
+        "fr": "Vérifier modularité, couplage, gestion d’erreurs et journalisation en revue technique.",
+        "en": "Verify modularity, coupling, error handling, and logging during technical reviews."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    },
+    {
+      "id": "TTA-6.1.1",
+      "certificationId": "ctal-tta",
+      "versionId": "ctal-tta-v4.0",
+      "chapterId": "ctal-tta-v4.0-ch6",
+      "sectionId": "ctal-tta-v4.0-s6.1",
+      "code": "TTA-6.1.1",
+      "kLevel": "K3",
+      "title": {
+        "fr": "Ingénierie de l’automatisation et virtualisation de services",
+        "en": "Test automation engineering and service virtualization"
+      },
+      "description": {
+        "fr": "Concevoir architectures data-driven/keyword-driven, bouchons, mocks et pipelines continus.",
+        "en": "Architect data-driven/keyword-driven frameworks, mocks, service virtualization, and CI runs."
+      },
+      "source": "ISTQB Academy Original Syllabus Structure — CTAL-TTA v4.0"
+    }
+  ]
+}

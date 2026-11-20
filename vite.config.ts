@@ -48,7 +48,7 @@ export default defineConfig(() => {
         },
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2,json}'],
-          maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+          maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
           runtimeCaching: [
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -106,6 +106,21 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '@': path.resolve(import.meta.dirname, '.'),
+      },
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('/src/data/flashcards_ctfl_') || id.includes('/src/data/flashcards_ctal_')) {
+              return 'flashcards-core-adv';
+            }
+            if (id.includes('/src/data/flashcards_ct_') || id.includes('/src/data/flashcards_ctel_')) {
+              return 'flashcards-spec-exp';
+            }
+            return undefined;
+          },
+        },
       },
     },
     server: {

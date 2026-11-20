@@ -1,0 +1,3009 @@
+{
+  "schemaVersion": 1,
+  "type": "flashcards_pack",
+  "cards": [
+    {
+      "id": "fc-ctsec-001",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que désignent les trois piliers de la triade CIA en sécurité de l’information ?",
+        "en": "What do the three pillars of the CIA Triad stand for in information security?"
+      },
+      "back": {
+        "fr": "Confidentialité (Confidentiality : protéger contre l’accès non autorisé), Intégrité (Integrity : garantir exactitude et absence d’altération) et Disponibilité (Availability : accès fiable pour les utilisateurs autorisés).",
+        "en": "Confidentiality (preventing unauthorized disclosure), Integrity (preventing unauthorized modification), and Availability (ensuring reliable access when needed)."
+      },
+      "tags": [
+        "ch1",
+        "cia"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-002",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles autres propriétés complète l’ISO 25010 / sécurité moderne autour de la triade CIA ?",
+        "en": "Which additional security properties extend the classic CIA Triad?"
+      },
+      "back": {
+        "fr": "Authenticité (prouver l’identité réelle), Non-répudiation (prouver qu’une action a bien eu lieu sans pouvoir la nier) et Imputabilité (Accountability : tracer chaque action à un acteur).",
+        "en": "Authenticity (verifying claimed identity), Non-repudiation (cryptographic/audit proof preventing denial of an action), and Accountability (audit trails tied to actors)."
+      },
+      "tags": [
+        "ch1",
+        "properties"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-003",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Menace (Threat), Vulnérabilité (Vulnerability), Exploit et Risque de sécurité.",
+        "en": "Distinguish Threat, Vulnerability, Exploit, and Security Risk."
+      },
+      "back": {
+        "fr": "Vulnérabilité : faiblesse du système. Menace : événement ou acteur potentiel pouvant nuire. Exploit : technique/code tirant parti d’une vulnérabilité. Risque : combinaison probabilité d’exploitation × impact métier sur l’actif.",
+        "en": "Vulnerability: system flaw. Threat: potential actor/event causing harm. Exploit: concrete attack using a vulnerability. Risk: likelihood of exploitation × business asset impact."
+      },
+      "tags": [
+        "ch1",
+        "risks"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-004",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence distingue une Politique de Sécurité d’une Procédure ou d’un Contrôle de Sécurité ?",
+        "en": "Contrast Security Policy, Security Standard/Procedure, and Security Control."
+      },
+      "back": {
+        "fr": "Politique : règles et objectifs généraux décidés par la direction. Procédure/Standard : étapes concrètes pour s’y conformer. Contrôle : mesure technique ou organisationnelle implémentée (chiffrement, pare-feu, revue) et vérifiée par le testeur.",
+        "en": "Policy sets high-level organizational rules; Procedures/Standards detail how to comply; Controls are implemented safeguards (encryption, RBAC, WAF) verified by security tests."
+      },
+      "tags": [
+        "ch1",
+        "policies"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-005",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie l’acronyme STRIDE pour la modélisation des menaces ?",
+        "en": "What does the STRIDE threat modeling mnemonic represent?"
+      },
+      "back": {
+        "fr": "Spoofing (Usurpation), Tampering (Altération), Repudiation (Répudiation), Information Disclosure (Divulgation), Denial of Service (Déni de service), Elevation of Privilege (Élévation de privilèges).",
+        "en": "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege."
+      },
+      "tags": [
+        "ch1",
+        "stride"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-006",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Associez chaque lettre de STRIDE à la propriété de sécurité qu’elle menace directement.",
+        "en": "Map each STRIDE category to the security property it violates."
+      },
+      "back": {
+        "fr": "Spoofing → Authenticité ; Tampering → Intégrité ; Repudiation → Non-répudiation ; Information Disclosure → Confidentialité ; DoS → Disponibilité ; Elevation of Privilege → Autorisation.",
+        "en": "Spoofing → Authenticity; Tampering → Integrity; Repudiation → Non-repudiation; Information Disclosure → Confidentiality; DoS → Availability; Elevation of Privilege → Authorization."
+      },
+      "tags": [
+        "ch1",
+        "stride"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-007",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "À quoi sert le modèle DREAD ou l’évaluation des risques CVSS ?",
+        "en": "How are DREAD and CVSS used in security risk prioritization?"
+      },
+      "back": {
+        "fr": "À évaluer et classer la criticité des menaces ou vulnérabilités selon exploitabilité, portée, impact et difficulté de détection afin de prioriser corrections et tests.",
+        "en": "To score and rank threat/vulnerability severity based on exploitability, impact scope, and remediation urgency so tests and fixes target top risks first."
+      },
+      "tags": [
+        "ch1",
+        "cvss",
+        "dread"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-008",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la « Surface d’Attaque » (Attack Surface) d’un système ?",
+        "en": "Define a system’s \"Attack Surface\"."
+      },
+      "back": {
+        "fr": "L’ensemble de tous les points d’entrée, interfaces réseau, API, formulaires, fichiers, ports ouverts et interactions humaines par lesquels un attaquant peut soumettre ou extraire des données.",
+        "en": "The sum of all entry points, open ports, APIs, UI inputs, file parsers, and human interfaces through which an attacker can probe or extract data."
+      },
+      "tags": [
+        "ch1",
+        "attack-surface"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-009",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Arbre d’Attaque » (Attack Tree) en analyse de sécurité ?",
+        "en": "How does an Attack Tree help security testers?"
+      },
+      "back": {
+        "fr": "Un diagramme hiérarchique plaçant l’objectif final de l’attaquant à la racine et décomposant via portes ET/OU tous les chemins techniques ou humains possibles pour y parvenir.",
+        "en": "A hierarchical diagram placing the attacker’s goal at the root and decomposing technical and human sub-paths via AND/OR nodes to reveal realistic attack vectors."
+      },
+      "tags": [
+        "ch1",
+        "attack-tree"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-010",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’énonce le principe de « Défense en profondeur » (Defense in Depth) ?",
+        "en": "What is the \"Defense in Depth\" security architecture principle?"
+      },
+      "back": {
+        "fr": "Superposer plusieurs couches indépendantes de contrôles (réseau/WAF, authentification, autorisation API, validation métier, chiffrement BDD, monitoring) afin qu’une faille dans une couche n’expose pas tout le système.",
+        "en": "Layering multiple independent defensive controls (WAF, auth, RBAC, input validation, DB encryption, monitoring) so a breach in one layer fails to compromise assets."
+      },
+      "tags": [
+        "ch1",
+        "principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-011",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le principe du « Moindre Privilège » (Least Privilege) ?",
+        "en": "Define the Principle of Least Privilege."
+      },
+      "back": {
+        "fr": "N’accorder à chaque utilisateur, processus ou service que le minimum strict de droits et de durée nécessaires à sa tâche légitime, limitant le rayon d’impact en cas de compromission.",
+        "en": "Granting every user, service account, or process only the minimal permissions and duration required to perform its legitimate task."
+      },
+      "tags": [
+        "ch1",
+        "least-privilege"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-012",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment les exigences réglementaires (RGPD, PCI-DSS, HIPAA, ISO 27001) orientent-elles les tests de sécurité ?",
+        "en": "How do compliance standards (GDPR, PCI-DSS, HIPAA, ISO 27001) shape security testing?"
+      },
+      "back": {
+        "fr": "Elles imposent des audits réguliers, chiffrement au repos/en transit, masquage de données bancaires/santé, journalisation d’accès et preuves documentées de remédiation.",
+        "en": "They mandate periodic security audits, encryption at rest/in transit, PII/cardholder masking, access audit logs, and documented remediation evidence."
+      },
+      "tags": [
+        "ch1",
+        "compliance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-013",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle différence distingue un « Contrôle préventif », « détectif » et « correctif » ?",
+        "en": "Distinguish Preventive, Detective, and Corrective security controls."
+      },
+      "back": {
+        "fr": "Préventif : empêche l’attaque (RBAC, pare-feu, validation). Détectif : alerte ou trace l’intrusion (IDS/SIEM, journaux d’audit). Correctif : limite et répare l’impact (blocage de compte, rotation clés, restauration).",
+        "en": "Preventive blocks attacks (RBAC, WAF, validation); Detective alerts/logs intrusions (IDS/SIEM, audit trails); Corrective contains and restores (account lockout, key rotation, restore)."
+      },
+      "tags": [
+        "ch1",
+        "controls"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-014",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la « Sécurité par l’obscurité » (Security by Obscurity) est-elle insuffisante ?",
+        "en": "Why is \"Security through Obscurity\" unacceptable as a primary defense?"
+      },
+      "back": {
+        "fr": "Cacher une URL d’admin, obfusquer du JavaScript ou utiliser un algorithme secret finit toujours par être découvert par rétro-ingénierie ; la sécurité doit reposer sur des contrôles robustes même si l’architecture est connue.",
+        "en": "Hiding admin URLs, minifying JS, or keeping algorithms secret fails against reverse-engineering; security must remain sound even when architecture is public (Kerckhoffs’s principle)."
+      },
+      "tags": [
+        "ch1",
+        "principles"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-015",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’approche « Fail Secure / Fail Closed » face à une erreur imprévue ?",
+        "en": "What does \"Fail Secure\" (Fail Closed) mean during exception handling?"
+      },
+      "back": {
+        "fr": "Si un module d’authentification, pare-feu ou autorisation plante ou expire, l’accès doit être refusé par défaut plutôt qu’accordé ouvertement (« Fail Open »).",
+        "en": "If an auth check, policy engine, or timeout fails unexpectedly, default to denying access rather than failing open."
+      },
+      "tags": [
+        "ch1",
+        "fail-secure"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-016",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi le test de sécurité ne peut-il se limiter aux fonctionnalités positives décrites dans les user stories ?",
+        "en": "Why must security testing extend beyond positive functional requirements?"
+      },
+      "back": {
+        "fr": "Les stories décrivent ce que le système DOIT faire pour un utilisateur honnête ; les tests de sécurité vérifient aussi les « Abuse Cases » (ce que le système ne doit JAMAIS permettre à un attaquant).",
+        "en": "Stories specify what valid users should achieve; security tests probe \"Abuse / Misuse Cases\"—what malicious actors must never be allowed to exploit."
+      },
+      "tags": [
+        "ch1",
+        "abuse-cases"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-017",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test d’Audit de Sécurité » vs un « Scan de Vulnérabilités » ?",
+        "en": "Contrast a Security Audit with an Automated Vulnerability Scan."
+      },
+      "back": {
+        "fr": "Le scan utilise des outils automatisés pour repérer des failles/configurations connues (CVE, ports, en-têtes) ; l’audit évalue globalement conformité, politiques, processus et contrôles par preuves documentaires et techniques.",
+        "en": "Vulnerability scanning uses automated tools to spot known CVEs and misconfigurations; a Security Audit systematically evaluates policies, processes, and control compliance."
+      },
+      "tags": [
+        "ch1",
+        "audit"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-018",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quels profils d’attaquants (Threat Actors) modélise-t-on lors de l’analyse des risques ?",
+        "en": "Which Threat Actor categories are modeled during security test planning?"
+      },
+      "back": {
+        "fr": "Script kiddies automatisés, cybercriminels organisés (rançongiciels, fraude), menaces internes malveillantes ou négligentes (insiders), concurrents et acteurs étatiques avancés (APT).",
+        "en": "Automated scanners/script kiddies, financially motivated cybercrime, malicious or negligent insiders, competitors, and advanced persistent threats (APTs)."
+      },
+      "tags": [
+        "ch1",
+        "threat-actors"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-019",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la sensibilisation et la politique de gestion des correctifs (Patch Management) font-elles partie du contexte évalué par le Security Tester ?",
+        "en": "Why does a Security Tester evaluate Patch Management and dependency hygiene?"
+      },
+      "back": {
+        "fr": "La majorité des compromissions exploitent des failles connues depuis des mois déjà corrigées par les éditeurs mais non appliquées sur les serveurs ou dépendances.",
+        "en": "Most real-world breaches exploit known CVEs for which vendor patches already exist yet remain unapplied on servers or packages."
+      },
+      "tags": [
+        "ch1",
+        "patching"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-020",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’architecture « Zero Trust » et quel impact a-t-elle sur les tests ?",
+        "en": "How does Zero Trust architecture alter security testing assumptions?"
+      },
+      "back": {
+        "fr": "Ne jamais faire confiance implicitement même sur le réseau interne (VPN/LAN) : le testeur vérifie authentification mutuelle (mTLS), jetons et autorisation stricte sur chaque appel inter-services.",
+        "en": "Never implicitly trust internal LAN/VPN callers: testers verify mTLS, signed tokens, and strict per-request authorization across every microservice hop."
+      },
+      "tags": [
+        "ch1",
+        "zero-trust"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-021",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle responsabilité légale et contractuelle précède TOUT test de sécurité actif sur un système cible ?",
+        "en": "What mandatory legal authorization must precede any active security testing?"
+      },
+      "back": {
+        "fr": "Une autorisation écrite explicite (« Rules of Engagement » / mandat signé par le propriétaire du système) définissant périmètre IP/URL exact, fenêtres horaires, limites DoS et contacts d’urgence.",
+        "en": "Explicit written authorization (signed Rules of Engagement from the system owner) defining exact in-scope IPs/URLs, windows, DoS limits, and emergency contacts."
+      },
+      "tags": [
+        "ch1",
+        "authorization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-022",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la classification des actifs informationnels (Public, Interne, Confidentiel, Secret) ?",
+        "en": "Why must data assets be classified (Public, Internal, Confidential, Restricted) before security test design?"
+      },
+      "back": {
+        "fr": "Pour concentrer les contrôles et tests les plus exigeants (chiffrement fort, isolation, pentest) sur les données les plus sensibles plutôt que gaspiller l’effort sur du contenu public.",
+        "en": "So the strongest encryption, access checks, and penetration tests target Confidential/Restricted assets rather than low-impact public content."
+      },
+      "tags": [
+        "ch1",
+        "assets"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-023",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment se compare le test de sécurité « Boîte Noire », « Boîte Grise » et « Boîte Blanche » ?",
+        "en": "Contrast Black-Box, Grey-Box, and White-Box security testing approaches."
+      },
+      "back": {
+        "fr": "Boîte Noire : sans accès code/comptes (simule un attaquant externe). Boîte Grise : avec comptes utilisateurs standards et docs d’API (meilleur ROI pour tester autorisations/logique). Boîte Blanche : accès complet au code source et configs (SAST + revues profondes).",
+        "en": "Black-Box simulates an unauthenticated outsider; Grey-Box supplies standard accounts and API docs (best ROI for IDOR/logic flaws); White-Box inspects full source code and configs."
+      },
+      "tags": [
+        "ch1",
+        "approaches"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-024",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’approche « Shift-Left Security » (DevSecOps) réduit-elle drastiquement les coûts ?",
+        "en": "Why does DevSecOps \"Shift-Left Security\" dramatically lower remediation costs?"
+      },
+      "back": {
+        "fr": "Détecter secrets en dur, injections ou dépendances vulnérables dès la Pull Request via SAST/SCA et revues de menaces évite des correctifs d’urgence coûteux ou des brèches après mise en production.",
+        "en": "Catching hardcoded secrets, taint paths, and vulnerable packages in PR pipelines via threat modeling and SAST/SCA avoids costly emergency patching and breaches."
+      },
+      "tags": [
+        "ch1",
+        "devsecops"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-025",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie la « Séparation des tâches » (Separation of Duties) en gouvernance sécurité ?",
+        "en": "What does Separation of Duties enforce in secure workflows?"
+      },
+      "back": {
+        "fr": "Aucune personne seule ne doit pouvoir initier et approuver seule une opération critique (ex. virement bancaire, déploiement en production ou modification des logs d’audit).",
+        "en": "No single user or admin can both initiate and approve a critical action (e.g., wire transfer, prod release, or altering audit logs)."
+      },
+      "tags": [
+        "ch1",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-026",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque introduit la conservation de copies non anonymisées de la production en environnement de test ?",
+        "en": "Why is copying unmasked production data into QA test environments a major security risk?"
+      },
+      "back": {
+        "fr": "Les environnements QA ont souvent une sécurité moindre et plus d’accès ouverts ; exposer de vrais clients viole le RGPD et offre une cible facile aux attaquants.",
+        "en": "QA environments have looser access controls and broader visibility; real PII leaks violate privacy laws and create soft breach targets."
+      },
+      "tags": [
+        "ch1",
+        "test-data"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-027",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Chemin d’attaque en chaîne » (Attack Chaining) ?",
+        "en": "What is \"Vulnerability / Attack Chaining\" in risk assessment?"
+      },
+      "back": {
+        "fr": "Combiner deux ou trois faiblesses jugées mineures isolément (ex. fuite d’un nom interne + XSS réfléchi + jeton sans `HttpOnly`) pour obtenir une compromission critique complète de compte admin.",
+        "en": "Linking multiple seemingly low-severity flaws (e.g., info disclosure + reflected XSS + missing `HttpOnly` flag) into a critical full account takeover."
+      },
+      "tags": [
+        "ch1",
+        "chaining"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-028",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch1",
+      "objectiveId": "SEC-1.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel est l’objectif principal des tests de sécurité dans le SDLC par rapport au simple test fonctionnel ?",
+        "en": "How do security test objectives differ from functional test objectives in the SDLC?"
+      },
+      "back": {
+        "fr": "Le test fonctionnel confirme que les fonctions attendues marchent dans des conditions prévues ; le test de sécurité cherche à prouver que même face à des entrées hostiles et détournements intentionnels, les actifs restent protégés.",
+        "en": "Functional tests confirm expected behavior under normal usage; security tests challenge whether assets stay protected under intentional hostile misuse."
+      },
+      "tags": [
+        "ch1",
+        "objectives"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-029",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Identification, Authentification et Autorisation (IAA).",
+        "en": "Distinguish Identification, Authentication, and Authorization."
+      },
+      "back": {
+        "fr": "Identification : déclarer qui l’on prétend être (login/email). Authentification : prouver cette identité (mot de passe, MFA, clé FIDO2). Autorisation : vérifier ce que cette identité a le droit de faire sur une ressource.",
+        "en": "Identification claims an identity (username); Authentication proves it (password, MFA, passkey); Authorization enforces what that verified identity may access or do."
+      },
+      "tags": [
+        "ch2",
+        "auth"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-030",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles failles tester sur un mécanisme d’Authentification et de Gestion de Session ?",
+        "en": "What vulnerabilities should a tester probe in Authentication and Session Management?"
+      },
+      "back": {
+        "fr": "Absence de limitation contre force brute/credential stuffing, énumération d’utilisateurs, jetons de session prédictibles ou non expirés au logout, fixation de session et absence de drapeaux `Secure`/`HttpOnly`/`SameSite` sur les cookies.",
+        "en": "Missing brute-force/rate limits, user enumeration, predictable or non-invalidated session tokens on logout, session fixation, and missing `Secure`/`HttpOnly`/`SameSite` cookie flags."
+      },
+      "tags": [
+        "ch2",
+        "sessions"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-031",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que signifie « Broken Access Control » (n°1 OWASP Top 10) et comment le tester ?",
+        "en": "Explain \"Broken Access Control\" (OWASP #1) and how to test for it."
+      },
+      "back": {
+        "fr": "Faille permettant d’accéder à des fonctions ou données hors de ses droits : tester IDOR (modifier l’ID d’un autre utilisateur dans l’URL/JSON), accès direct à des routes admin sans rôle et contournement via méthode HTTP alternative.",
+        "en": "Violations letting users act beyond intended permissions: probe IDOR (swapping another user’s ID in URL/body), missing role checks on admin APIs, and HTTP verb tampering."
+      },
+      "tags": [
+        "ch2",
+        "owasp",
+        "access-control"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-032",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment fonctionne une attaque par « Injection SQL » (SQLi) et quelle est sa défense principale ?",
+        "en": "Explain SQL Injection (SQLi) and its primary remediation."
+      },
+      "back": {
+        "fr": "L’attaquant injecte des fragments SQL (`' OR 1=1 --`) dans une entrée non validée concaténée directement dans une requête. Défense absolue : requêtes paramétrées / préparées (Prepared Statements), complétées par moindre privilège BDD.",
+        "en": "Untrusted input concatenated into raw SQL alters query syntax (`' OR 1=1 --`). Primary defense: parameterized/prepared statements plus least-privilege DB accounts."
+      },
+      "tags": [
+        "ch2",
+        "sqli"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-033",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez les trois types d’attaques XSS (Cross-Site Scripting) : Stocké, Réfléchi et DOM-based.",
+        "en": "Compare Stored XSS, Reflected XSS, and DOM-based XSS."
+      },
+      "back": {
+        "fr": "Stocké : payload malveillant enregistré en base puis servi à toute victime. Réfléchi : payload renvoyé immédiatement depuis un paramètre URL/requête. DOM-based : le JavaScript côté client écrit directement une source non fiable dans le DOM (`innerHTML`).",
+        "en": "Stored: malicious script saved in DB and served to victims. Reflected: payload echoed immediately from URL/request input. DOM-based: client-side JS unsafely injects untrusted source into DOM sinks."
+      },
+      "tags": [
+        "ch2",
+        "xss"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-034",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles défenses vérifie le testeur contre les attaques XSS ?",
+        "en": "What defenses must a tester verify against Cross-Site Scripting (XSS)?"
+      },
+      "back": {
+        "fr": "Encodage contextuel strict de toutes les sorties (HTML, attribut, JS, URL), assainissement HTML spécialisé (DOMPurify), Content-Security-Policy (CSP) stricte et cookies de session marqués `HttpOnly`.",
+        "en": "Context-aware output encoding, safe HTML sanitization (e.g., DOMPurify), strict Content-Security-Policy (CSP), and `HttpOnly` session cookies."
+      },
+      "tags": [
+        "ch2",
+        "xss"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-035",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une attaque CSRF (Cross-Site Request Forgery) et comment la bloquer ?",
+        "en": "Explain Cross-Site Request Forgery (CSRF) and how to prevent it."
+      },
+      "back": {
+        "fr": "Un site tiers malveillant force le navigateur d’une victime déjà connectée à envoyer une requête authentifiée (via cookies automatiques) à son insu. Défenses : jetons anti-CSRF imprévisibles, attribut cookie `SameSite=Lax/Strict` et ré-authentification sur actions sensibles.",
+        "en": "A malicious third-party site tricks a logged-in victim’s browser into sending unintended state-changing requests with automatic cookies. Defenses: unpredictable anti-CSRF tokens and `SameSite=Lax/Strict` cookies."
+      },
+      "tags": [
+        "ch2",
+        "csrf"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-036",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une attaque SSRF (Server-Side Request Forgery) ?",
+        "en": "What is Server-Side Request Forgery (SSRF)?"
+      },
+      "back": {
+        "fr": "Tromper le serveur pour qu’il envoie des requêtes HTTP depuis son réseau interne privilégié vers des cibles locales (`127.0.0.1`, métadonnées cloud `169.254.169.254`) via une URL fournie par l’utilisateur.",
+        "en": "Tricking a backend server into fetching attacker-supplied URLs targeting internal services (`127.0.0.1`, cloud metadata `169.254.169.254`) behind the firewall."
+      },
+      "tags": [
+        "ch2",
+        "ssrf"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-037",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez chiffrement symétrique (AES), asymétrique (RSA/ECDSA) et hachage cryptographique (SHA-256 / Argon2).",
+        "en": "Compare Symmetric Encryption, Asymmetric Encryption, and Cryptographic Hashing."
+      },
+      "back": {
+        "fr": "Symétrique (AES-GCM) : même clé secrète pour chiffrer/déchiffrer (rapide, gros volumes). Asymétrique (RSA/ECC) : paire clé publique/privée (échange de clés, signatures). Hachage : transformation irréversible à sens unique (intégrité ou stockage mots de passe via Argon2/bcrypt avec sel).",
+        "en": "Symmetric (AES-GCM): shared secret key, fast for bulk data. Asymmetric (RSA/ECC): public/private keypair for signatures and key exchange. Hashing: one-way irreversible digest (SHA-256 integrity; salted Argon2/bcrypt for passwords)."
+      },
+      "tags": [
+        "ch2",
+        "crypto"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-038",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi est-il critique d’utiliser un sel unique et un algorithme lent (Argon2id/bcrypt) plutôt que SHA-256 brut pour les mots de passe ?",
+        "en": "Why must passwords use unique salts with slow KDFs (Argon2id/bcrypt) instead of plain fast SHA-256?"
+      },
+      "back": {
+        "fr": "Un sel unique empêche les attaques par tables arc-en-ciel (Rainbow Tables) et détecte les mots de passe identiques ; Argon2id/bcrypt ralentissent massivement le cassage par GPU.",
+        "en": "Per-user salts defeat rainbow tables and identical-hash detection, while slow memory-hard KDFs like Argon2id/bcrypt resist GPU brute-force cracking."
+      },
+      "tags": [
+        "ch2",
+        "passwords"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-039",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comparez SAST, DAST, IAST et SCA dans le processus de test de sécurité.",
+        "en": "Compare SAST, DAST, IAST, and SCA tools."
+      },
+      "back": {
+        "fr": "SAST : analyse statique boîte blanche du code source. DAST : scan dynamique boîte noire de l’application déployée via HTTP. IAST : agent instrumenté combinant exécution temps réel et contexte interne. SCA : audit des vulnérabilités/licences des bibliothèques tierces.",
+        "en": "SAST: white-box static source analysis. DAST: black-box runtime HTTP scanning. IAST: runtime instrumented agent tracking tainted flows during tests. SCA: auditing third-party package CVEs and licenses."
+      },
+      "tags": [
+        "ch2",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-040",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la limite majeure d’un scanner DAST utilisé seul sans tests manuels ?",
+        "en": "What major blind spot affects automated DAST scanners if used alone?"
+      },
+      "back": {
+        "fr": "Il détecte bien les erreurs de configuration, en-têtes manquants et injections basiques, mais comprend très mal la logique métier multi-étapes, les workflows authentifiés complexes et les failles IDOR contextuelles.",
+        "en": "DAST catches missing headers and simple injections well, yet struggles with multi-step business logic flaws, complex auth flows, and contextual IDOR access bugs."
+      },
+      "tags": [
+        "ch2",
+        "dast"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-041",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles vulnérabilités vérifie-t-on spécifiquement sur les jetons JWT (JSON Web Tokens) ?",
+        "en": "What common vulnerabilities must a tester verify in JWT authentication?"
+      },
+      "back": {
+        "fr": "Acceptation de l’algorithme `alg: \"none\"`, confusion d’algorithme RS256→HS256, secret HMAC faible devinable, absence de vérification d’expiration (`exp`) ou absence de révocation après déconnexion/changement de mot de passe.",
+        "en": "Accepting `alg: \"none\"`, RS256-to-HS256 key confusion, weak HMAC signing secrets, ignoring `exp` claims, and failing to invalidate sessions after password reset."
+      },
+      "tags": [
+        "ch2",
+        "jwt"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-042",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une faille de « Désérialisation non sécurisée » (Insecure Deserialization) ?",
+        "en": "What risk does Insecure Deserialization create?"
+      },
+      "back": {
+        "fr": "Reconstruire des objets exécutables depuis des flux non fiables fournis par l’utilisateur peut déclencher des gadgets menant à l’exécution de code à distance (RCE) ou à la falsification de privilèges.",
+        "en": "Reconstructing live runtime objects from untrusted user payloads can invoke gadget chains leading to Remote Code Execution (RCE) or privilege tampering."
+      },
+      "tags": [
+        "ch2",
+        "deserialization"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-043",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le testeur sur les fonctionnalités d’envoi de fichiers (File Upload Security) ?",
+        "en": "What security checks must be run against File Upload features?"
+      },
+      "back": {
+        "fr": "Validation du type réel côté serveur (magic bytes, pas seulement extension/Content-Type), taille max, renommage aléatoire hors racine web exécutable, blocage de Path Traversal (`../`) dans le nom et scan antivirus.",
+        "en": "Server-side content validation (magic bytes, not only extension), size caps, randomized filenames stored outside webroot, Path Traversal sanitization (`../`), and malware scanning."
+      },
+      "tags": [
+        "ch2",
+        "file-upload"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-044",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une attaque « Path Traversal » (Directory Traversal) et comment la tester ?",
+        "en": "Explain Path Traversal attacks and how testers probe them."
+      },
+      "back": {
+        "fr": "Injecter des séquences `../` ou encodées (`%2e%2e%2f`) dans un paramètre de nom de fichier (`?doc=../../etc/passwd`) pour lire ou écraser des fichiers arbitraires hors du dossier prévu.",
+        "en": "Supplying `../` or encoded sequences (`%2e%2e%2f`) in file parameters to escape intended directories and read/overwrite arbitrary server files."
+      },
+      "tags": [
+        "ch2",
+        "path-traversal"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-045",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester la présence de « Mauvaises configurations de sécurité » (Security Misconfiguration) ?",
+        "en": "What checks reveal common Security Misconfigurations?"
+      },
+      "back": {
+        "fr": "Mots de passe par défaut, pages d’erreur verbeuses exposant stack traces/versions, répertoires listables, consoles admin/debug exposées, en-têtes de sécurité absents (`HSTS`, `X-Frame-Options`, `CSP`) et CORS trop permissif (`*` avec credentials).",
+        "en": "Default admin credentials, verbose stack-trace errors, directory listings, exposed debug consoles, missing headers (`HSTS`, `CSP`, `X-Frame-Options`), and wildcard CORS with credentials."
+      },
+      "tags": [
+        "ch2",
+        "misconfig"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-046",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi la configuration CORS `Access-Control-Allow-Origin: *` combinée à `Allow-Credentials: true` (ou écho aveugle d’`Origin`) est-elle critique ?",
+        "en": "Why is blindly echoing the `Origin` header with `Access-Control-Allow-Credentials: true` a severe CORS flaw?"
+      },
+      "back": {
+        "fr": "Cela autorise n’importe quel site web malveillant visité par l’utilisateur à lire ses données privées authentifiées via requêtes cross-origin depuis son navigateur.",
+        "en": "It lets any malicious website visited by a logged-in user read private authenticated API responses cross-origin from their browser."
+      },
+      "tags": [
+        "ch2",
+        "cors"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-047",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque « Clickjacking » et quel en-tête HTTP la prévient ?",
+        "en": "Explain Clickjacking and the HTTP headers that prevent it."
+      },
+      "back": {
+        "fr": "Intégrer la page sensible dans une `<iframe>` invisible sous un bouton leurre pour tromper le clic de l’utilisateur. Prévention : `Content-Security-Policy: frame-ancestors 'none'` (ou `self`) et `X-Frame-Options: DENY`.",
+        "en": "Overlaying a transparent `<iframe>` of a sensitive app beneath decoy buttons to hijack user clicks. Prevented via `CSP: frame-ancestors` and `X-Frame-Options`."
+      },
+      "tags": [
+        "ch2",
+        "clickjacking"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-048",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester le « Contrôle côté client uniquement » (Client-Side Validation Bypass) via un proxy d’interception ?",
+        "en": "Why must a tester bypass browser UI controls using an intercepting proxy (e.g., ZAP / Burp)?"
+      },
+      "back": {
+        "fr": "Un attaquant ignore JavaScript, champs `disabled` ou listes déroulantes HTML en envoyant directement des requêtes HTTP modifiées (ex. prix négatif, rôle=`admin`) ; toute règle critique doit être revalidée côté serveur.",
+        "en": "Attackers bypass JS validation, `disabled` fields, and HTML dropdowns via direct HTTP requests (e.g., negative prices, `role=admin`); every rule must be enforced server-side."
+      },
+      "tags": [
+        "ch2",
+        "client-bypass"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-049",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que la vulnérabilité « Mass Assignment » (Affectation de masse) dans les API JSON ?",
+        "en": "What is a \"Mass Assignment\" vulnerability in modern JSON/ORM APIs?"
+      },
+      "back": {
+        "fr": "Envoyer des champs supplémentaires non exposés dans le formulaire (`\"isAdmin\": true`, `\"balance\": 9999`) que le backend lie automatiquement au modèle BDD faute de liste blanche explicite (DTO).",
+        "en": "Sending unexpected fields in JSON payloads (`\"isAdmin\": true`, `\"tier\": \"vip\"`) that an ORM blindly binds into database records without an explicit DTO allowlist."
+      },
+      "tags": [
+        "ch2",
+        "api-security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-050",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester les failles de « Journalisation et Surveillance insuffisantes » (Insufficient Logging & Monitoring) ?",
+        "en": "How do security testers verify Logging and Alerting effectiveness?"
+      },
+      "back": {
+        "fr": "Effectuer des échecs de connexion répétés, escalades refusées (403) et changements de privilèges pour vérifier qu’ils sont horodatés, corrélés à l’IP/acteur, protégés contre l’injection de logs et alertent le SIEM — sans fuiter mots de passe ni jetons.",
+        "en": "Trigger repeated failed logins, 403 violations, and role changes to confirm immutable, non-forged, secret-free audit logs and real-time SIEM alerts fire."
+      },
+      "tags": [
+        "ch2",
+        "logging"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-051",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une faille XXE (XML External Entity) et comment la prévenir ?",
+        "en": "What is an XML External Entity (XXE) vulnerability and its mitigation?"
+      },
+      "back": {
+        "fr": "Un parseur XML mal configuré résout des entités externes `<!ENTITY ... SYSTEM \"file:///...\">`, exposant fichiers locaux ou SSRF. Défense : désactiver explicitement les DTD et entités externes dans le parseur.",
+        "en": "An insecure XML parser resolves `<!ENTITY ... SYSTEM>` declarations, exposing local files or SSRF. Defense: explicitly disable DTDs and external entity resolution."
+      },
+      "tags": [
+        "ch2",
+        "xxe"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-052",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque par « Injection de commandes OS » (Command Injection) ?",
+        "en": "Explain OS Command Injection and how to verify protection against it."
+      },
+      "back": {
+        "fr": "Injecter des séparateurs shell (`;`, `&&`, `|`, backticks) dans un paramètre transmis à `exec`/`system` pour exécuter des commandes serveur arbitraires. Prévention : éviter les shells, passer des tableaux d’arguments stricts et valider par liste blanche.",
+        "en": "Injecting shell metacharacters (`;`, `&&`, `|`) into parameters passed to `system`/`exec` to run arbitrary OS commands. Prevent via shell-free parameterized APIs and strict allowlists."
+      },
+      "tags": [
+        "ch2",
+        "injection"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-053",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre « Liste noire » (Blocklist) et « Liste blanche » (Allowlist) pour valider les entrées ?",
+        "en": "Why is Allowlist input validation superior to Blocklist filtering?"
+      },
+      "back": {
+        "fr": "Une liste noire tente de bloquer des motifs connus (`<script>`) mais échoue face aux encodages et variantes créatives (`<ScRiPt>`, Unicode) ; une liste blanche n’accepte que le format syntaxique exact légitime.",
+        "en": "Blocklists try banning known bad patterns (`<script>`) and break against creative encodings; Allowlists accept strictly expected valid characters/formats."
+      },
+      "tags": [
+        "ch2",
+        "validation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-054",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester les failles de logique métier (Business Logic Flaws) qu’aucun scanner automatique ne voit ?",
+        "en": "How do testers uncover Business Logic Security Flaws missed by scanners?"
+      },
+      "back": {
+        "fr": "Sauter des étapes dans un tunnel de paiement, appliquer deux fois le même code promo en parallèle (race condition), saisir quantités négatives ou abuser d’arrondis sur micro-transactions.",
+        "en": "Skipping checkout workflow steps, redeeming one coupon twice concurrently (race conditions), ordering negative quantities, or abusing rounding loopholes."
+      },
+      "tags": [
+        "ch2",
+        "business-logic"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-055",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment tester une « Race Condition » de sécurité (ex. double retrait ou double utilisation de coupon) ?",
+        "en": "How does a Security Tester test for Race Conditions (TOCTOU) on financial or coupon flows?"
+      },
+      "back": {
+        "fr": "Envoyer 20 requêtes identiques exactement synchronisées en parallèle (ex. dernier paquet envoyé simultanément en HTTP/2) pour vérifier si le solde ou coupon n’est vérifié qu’une fois sans verrou atomique BDD.",
+        "en": "Firing 20 identical requests simultaneously in tight concurrency bursts to see whether missing atomic DB locks allow double-spending or multi-redemption."
+      },
+      "tags": [
+        "ch2",
+        "race-condition"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-056",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que vérifie le test de sécurité sur la fonctionnalité « Mot de passe oublié » ?",
+        "en": "What security checks target a \"Forgot Password\" reset flow?"
+      },
+      "back": {
+        "fr": "Absence d’énumération d’emails, jetons longs aléatoires à usage unique et courte durée (15 min), invalidation immédiate après usage, pas de fuite du jeton via en-tête `Referer` et révocation des anciennes sessions.",
+        "en": "No email enumeration, high-entropy short-lived single-use reset tokens, immediate invalidation after use, no token leak in `Referer`, and active session revocation."
+      },
+      "tags": [
+        "ch2",
+        "password-reset"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-057",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que doit vérifier un testeur sur OAuth 2.0 / OpenID Connect ?",
+        "en": "What common vulnerabilities should be tested in OAuth 2.0 / OIDC implementations?"
+      },
+      "back": {
+        "fr": "Validation stricte du `redirect_uri` (empêcher vol de code vers domaine tiers), présence obligatoire et vérification du paramètre `state` contre le CSRF, usage de PKCE et validation complète de signature/audience des ID tokens.",
+        "en": "Strict exact `redirect_uri` allowlisting, mandatory verified `state` anti-CSRF checks, PKCE on public clients, and full ID-token signature/audience validation."
+      },
+      "tags": [
+        "ch2",
+        "oauth"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-058",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier la sécurité des communications TLS d’une application ?",
+        "en": "What checks verify proper TLS transport security?"
+      },
+      "back": {
+        "fr": "Redirection forcée HTTP → HTTPS + HSTS avec `includeSubDomains`, désactivation de SSLv3/TLS 1.0/1.1 et chiffrements faibles (RC4, 3DES, NULL), validité de la chaîne de certificats et PFS (Forward Secrecy).",
+        "en": "Mandatory HTTPS + HSTS, disabling legacy SSL/TLS 1.0/1.1 and weak ciphers, valid trusted certificate chains, and Perfect Forward Secrecy (ECDHE)."
+      },
+      "tags": [
+        "ch2",
+        "tls"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-059",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’une attaque « ReDoS » (Regular Expression Denial of Service) ?",
+        "en": "What is ReDoS (Regular Expression Denial of Service) and how can testers spot it?"
+      },
+      "back": {
+        "fr": "Une expression régulière mal conçue présentant du « catastrophic backtracking » (`(a+)+`) sature 100 % d’un thread CPU dès qu’on soumet une chaîne spécifique de 40 caractères.",
+        "en": "An evil regex with exponential backtracking (`(a+)+`) pins a CPU thread at 100% on a crafted 40-character string, causing denial of service."
+      },
+      "tags": [
+        "ch2",
+        "dos",
+        "regex"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-060",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’historique Git et les variables d’environnement client (`VITE_*`, bundles JS) doivent-ils être inspectés pour la sécurité ?",
+        "en": "Why inspect Git commit history and compiled frontend JS bundles during security tests?"
+      },
+      "back": {
+        "fr": "Des clés API secrètes, jetons cloud ou mots de passe poussés par erreur puis « supprimés » dans un commit ultérieur restent lisibles dans l’historique Git ou embarqués dans les bundles publics du navigateur.",
+        "en": "API keys or DB secrets committed once and \"deleted\" later remain exposed in Git history, while secret keys mistakenly prefixed `VITE_` ship straight into public browser bundles."
+      },
+      "tags": [
+        "ch2",
+        "secrets"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-061",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque « Open Redirect » et quel danger représente-t-elle ?",
+        "en": "What is an Open Redirect vulnerability, and why does it matter?"
+      },
+      "back": {
+        "fr": "Une URL légitime acceptant `?next=https://evil.com` redirige automatiquement la victime après connexion vers un site de phishing crédible ou peut exfiltrer des jetons OAuth.",
+        "en": "An endpoint accepting `?next=https://evil.com` redirects users automatically to attacker phishing sites using a trusted domain—or leaks OAuth tokens."
+      },
+      "tags": [
+        "ch2",
+        "redirect"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-062",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle attaque cible spécifiquement les API GraphQL mal durcies ?",
+        "en": "What security weaknesses uniquely affect improperly hardened GraphQL APIs?"
+      },
+      "back": {
+        "fr": "Introspection laissée active en production exposant tout le schéma, requêtes profondément imbriquées ou aliasées causant du DoS, et contrôles d’autorisation manquants sur certains résolveurs imbriqués.",
+        "en": "Enabled introspection leaking full schemas, deeply nested/batched query DoS attacks, and missing authorization checks inside nested field resolvers."
+      },
+      "tags": [
+        "ch2",
+        "graphql"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-063",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester le comportement des applications face à la désactivation ou au contournement de la MFA ?",
+        "en": "What security checks must verify Multi-Factor Authentication (MFA)?"
+      },
+      "back": {
+        "fr": "Vérifier que les endpoints post-login refusent bien les requêtes tant que l’étape MFA n’est pas validée, limiter les tentatives sur le code OTP à 6 chiffres et invalider les anciens codes après usage.",
+        "en": "Confirm protected APIs reject pre-MFA sessions, enforce strict rate limits on 6-digit OTP guessing, and expire codes immediately after single use."
+      },
+      "tags": [
+        "ch2",
+        "mfa"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-064",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque « Prototype Pollution » dans les écosystèmes JavaScript / Node.js ?",
+        "en": "What is Prototype Pollution in JavaScript/Node.js applications?"
+      },
+      "back": {
+        "fr": "Fusionner récursivement un JSON utilisateur contenant `\"__proto__\": {\"isAdmin\": true}` altère le prototype global `Object.prototype`, modifiant potentiellement le comportement d’autorisation ou menant à RCE.",
+        "en": "Deep-merging untrusted JSON containing `\"__proto__\"` keys mutates `Object.prototype` across the runtime, potentially bypassing authorization checks or triggering RCE."
+      },
+      "tags": [
+        "ch2",
+        "javascript"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-065",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier la résilience contre le « Web Cache Poisoning » ?",
+        "en": "What causes Web Cache Poisoning vulnerabilities?"
+      },
+      "back": {
+        "fr": "Lorsqu’un cache/CDN stocke une réponse contenant des valeurs tirées d’en-têtes non inclus dans la clé de cache (`X-Forwarded-Host`), permettant de servir un script malveillant à tous les visiteurs suivants.",
+        "en": "When a CDN/proxy caches responses influenced by unkeyed HTTP headers (e.g., `X-Forwarded-Host`), letting attackers serve poisoned payloads to subsequent users."
+      },
+      "tags": [
+        "ch2",
+        "caching"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-066",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi tester l’isolation multi-tenant (Multi-Tenant Isolation) en SaaS ?",
+        "en": "How do testers verify Multi-Tenant Isolation in SaaS platforms?"
+      },
+      "back": {
+        "fr": "Tester identifiants d’un tenant A depuis une session tenant B sur recherche plein texte, exports CSV asynchrones, caches partagés, webhooks et buckets de stockage S3/Cloud.",
+        "en": "Probing cross-tenant IDs across APIs, full-text search indexes, async CSV exports, shared Redis caches, and object storage buckets."
+      },
+      "tags": [
+        "ch2",
+        "multi-tenant"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-067",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Fuzzing orienté sécurité » et comment diffère-t-il des tests négatifs simples ?",
+        "en": "How does security Fuzz Testing go beyond standard negative input testing?"
+      },
+      "back": {
+        "fr": "Il automatise l’envoi de millions de mutations binaires, chaînes limites, surcharges UTF-8 et protocoles corrompus tout en surveillant exceptions serveur, fuites mémoire et crashs silencieux.",
+        "en": "It blasts thousands/millions of mutated payloads, malformed binaries, and edge encodings while monitoring for server crashes, memory corruption, or unhandled faults."
+      },
+      "tags": [
+        "ch2",
+        "fuzzing"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-068",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Durcissement de Conteneurs et Infrastructure » (Infra/IaC Scanning) ?",
+        "en": "What does Infrastructure-as-Code (IaC) & Container Security Testing verify?"
+      },
+      "back": {
+        "fr": "Absence d’exécution en tant que `root` dans Docker, images minimales sans paquets inutiles ni CVE critiques, buckets cloud non publics par défaut et groupes de sécurité réseau restrictifs.",
+        "en": "Ensuring non-root container users, minimal CVE-free base images, private-by-default cloud storage buckets, and least-privilege IAM/firewall rules."
+      },
+      "tags": [
+        "ch2",
+        "iac"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-069",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’attaque « Subdomain Takeover » ?",
+        "en": "What is a Subdomain Takeover vulnerability?"
+      },
+      "back": {
+        "fr": "Un enregistrement DNS (`CNAME app.exemple.com`) pointe vers un service cloud supprimé (ex. bucket S3 ou site PaaS) qu’un attaquant peut réclamer à son nom pour héberger du phishing sous le domaine officiel.",
+        "en": "A dangling DNS `CNAME` points to a decommissioned cloud resource (S3/PaaS) that an attacker claims to serve phishing pages under the organization’s trusted domain."
+      },
+      "tags": [
+        "ch2",
+        "dns"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-070",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier l’intégrité des bibliothèques JavaScript chargées depuis des CDN tiers ?",
+        "en": "How does Subresource Integrity (SRI) protect web apps loading third-party scripts?"
+      },
+      "back": {
+        "fr": "L’attribut HTML `integrity=\"sha384-...\"` force le navigateur à refuser le script si le CDN tiers compromis sert un fichier altéré ne correspondant pas à l’empreinte attendue.",
+        "en": "The `integrity=\"sha384-...\"` attribute ensures browsers refuse to run external scripts if a compromised CDN alters their content."
+      },
+      "tags": [
+        "ch2",
+        "sri"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-071",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre tests de sécurité « fonctionnels » et « non fonctionnels » ?",
+        "en": "Distinguish functional vs. non-functional dimensions of Security Testing."
+      },
+      "back": {
+        "fr": "Fonctionnel : vérifier que les mécanismes prévus marchent (login bloque après 5 échecs, RBAC refuse un rôle non admin). Non fonctionnel : résister au fuzzing, scans DAST, DoS applicatif et ingénierie inverse.",
+        "en": "Functional checks verify designed controls work (account lockout, RBAC checks); non-functional checks probe resilience under fuzzing, DAST, DoS, and reverse-engineering."
+      },
+      "tags": [
+        "ch2",
+        "classification"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-072",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch2",
+      "objectiveId": "SEC-2.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi exécuter les tests de régression de sécurité dès qu’une vulnérabilité a été corrigée ?",
+        "en": "Why add automated security regression tests immediately after patching any vulnerability?"
+      },
+      "back": {
+        "fr": "Une modification ultérieure réactive souvent une ancienne faille IDOR, XSS ou de configuration ; un test automatisé dans la CI empêche toute réintroduction silencieuse.",
+        "en": "Future refactoring frequently reopens old IDOR, XSS, or auth flaws; automated CI security checks permanently block silent regressions."
+      },
+      "tags": [
+        "ch2",
+        "regression"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-073",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment un Test d’Intrusion (Penetration Test) diffère-t-il d’un simple Scan de Vulnérabilités ?",
+        "en": "How does a Penetration Test differ fundamentally from a Vulnerability Scan?"
+      },
+      "back": {
+        "fr": "Un scan dresse une liste automatique de failles potentielles connues ; un pentest implique un testeur humain qui tente activement d’exploiter, enchaîner les failles et démontrer l’impact métier réel.",
+        "en": "A scan lists potential known weaknesses automatically; a pentest involves human experts actively exploiting and chaining vulnerabilities to prove real-world business impact."
+      },
+      "tags": [
+        "ch3",
+        "pentest"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-074",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles sont les grandes phases d’un test d’intrusion structuré (PTES / OSSTMM) ?",
+        "en": "What are the core phases of a structured Penetration Test?"
+      },
+      "back": {
+        "fr": "1) Cadrage & Autorisation (Rules of Engagement). 2) Reconnaissance / Découverte (OSINT, cartographie). 3) Analyse des vulnérabilités. 4) Exploitation & Post-exploitation contrôlée. 5) Rapport, présentation des risques & Re-test.",
+        "en": "1) Scoping & Rules of Engagement. 2) Reconnaissance / Discovery. 3) Vulnerability enumeration. 4) Controlled Exploitation & Post-exploitation. 5) Reporting, risk remediation & Retest."
+      },
+      "tags": [
+        "ch3",
+        "pentest"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-075",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez « Reconnaissance passive » et « Reconnaissance active » en pentest.",
+        "en": "Distinguish Passive Reconnaissance from Active Reconnaissance."
+      },
+      "back": {
+        "fr": "Passive : collecter des informations sans toucher directement les serveurs cibles (WHOIS, certificats CT logs, offres d’emploi, dépôts publics). Active : scanner ports, DNS, bannières et endpoints directement sur la cible.",
+        "en": "Passive gathers public OSINT without touching target servers (CT logs, WHOIS, job posts, public repos); Active directly probes target ports, DNS, banners, and endpoints."
+      },
+      "tags": [
+        "ch3",
+        "recon"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-076",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez les exercices « Red Team », « Blue Team » et « Purple Team ».",
+        "en": "Contrast Red Team, Blue Team, and Purple Team exercises."
+      },
+      "back": {
+        "fr": "Red Team : simule un attaquant réel furtif pour tester détection et défense complètes. Blue Team : équipe défensive (SOC) qui détecte, bloque et répond. Purple Team : collaboration directe des deux pour améliorer continuellement détections et contrôles.",
+        "en": "Red Team simulates realistic stealth adversaries; Blue Team defends, detects, and responds (SOC); Purple Team collaborates transparently between offense and defense to sharpen detections."
+      },
+      "tags": [
+        "ch3",
+        "red-blue-purple"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-077",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que désigne le terme « Pivotement » (Pivoting) et « Mouvement latéral » en pentest ?",
+        "en": "What do \"Pivoting\" and \"Lateral Movement\" mean during post-exploitation?"
+      },
+      "back": {
+        "fr": "Utiliser une première machine compromise (ex. serveur web DMZ) comme tremplin pour explorer et compromettre d’autres machines du réseau interne normalement inaccessibles depuis internet.",
+        "en": "Using an initially compromised host (e.g., DMZ web server) as a foothold to scan and compromise deeper internal hosts unreachable from outside."
+      },
+      "tags": [
+        "ch3",
+        "post-exploitation"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-078",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Ingénierie Sociale » (Social Engineering) en sécurité ?",
+        "en": "Define Social Engineering in information security."
+      },
+      "back": {
+        "fr": "Manipuler psychologiquement des humains (confiance, urgence, autorité, curiosité) afin qu’ils divulguent des secrets, cliquent sur un lien piégé ou contournent les procédures de sécurité.",
+        "en": "Psychologically manipulating people—via urgency, authority, trust, or curiosity—into disclosing credentials, opening malicious links, or bypassing security procedures."
+      },
+      "tags": [
+        "ch3",
+        "social-engineering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-079",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Distinguez Phishing, Spear Phishing, Vishing et Pretexting.",
+        "en": "Compare Phishing, Spear Phishing, Vishing, and Pretexting."
+      },
+      "back": {
+        "fr": "Phishing : emails trompeurs de masse. Spear Phishing : courriel très ciblé personnalisé sur un employé/dirigeant précis. Vishing : hameçonnage vocal par téléphone. Pretexting : inventer un scénario crédible (faux support IT/auditeur) pour obtenir des accès.",
+        "en": "Phishing: mass decoy emails. Spear Phishing: tailored targeting of specific staff/executives. Vishing: voice/phone phishing. Pretexting: fabricating an authoritative persona (fake IT support) to extract access."
+      },
+      "tags": [
+        "ch3",
+        "social-engineering"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-080",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment évaluer légalement et éthiquement la résistance au phishing au sein d’une organisation ?",
+        "en": "How should organizations run phishing awareness simulations ethically and legally?"
+      },
+      "back": {
+        "fr": "Cadre validé par direction/RH/juridique, campagnes éducatives bienveillantes orientées formation immédiate en cas de clic, zéro humiliation publique des collaborateurs et suivi du taux de signalement au SOC.",
+        "en": "With executive/HR/legal sign-off, framing simulations as constructive instant learning moments rather than punitive public shaming, and measuring SOC reporting rates."
+      },
+      "tags": [
+        "ch3",
+        "awareness"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-081",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles protections techniques complètent la formation humaine contre le phishing ?",
+        "en": "Which technical controls defend against phishing even when a user is tricked?"
+      },
+      "back": {
+        "fr": "Authentification MFA résistante au phishing (passkeys/FIDO2 liées au domaine), protocoles email SPF/DKIM/DMARC, filtrage DNS/proxy et principe du moindre privilège limitant l’impact d’un compte compromis.",
+        "en": "Phishing-resistant MFA (domain-bound FIDO2/WebAuthn passkeys), SPF/DKIM/DMARC email auth, DNS/link filtering, and least-privilege accounts."
+      },
+      "tags": [
+        "ch3",
+        "phishing-defense"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-082",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Tailgating / Piggybacking » et le « Baiting » en sécurité physique ?",
+        "en": "What are \"Tailgating\" and \"Baiting\" in physical security testing?"
+      },
+      "back": {
+        "fr": "Tailgating : franchir une porte sécurisée derrière un employé badgé sans montrer son propre badge. Baiting : déposer une clé USB piégée étiquetée « Salaires 2026 » sur un parking ou bureau.",
+        "en": "Tailgating: slipping through a badge-locked door behind an authorized employee. Baiting: leaving malware-laden USB drives labeled \"2026 Payroll\" in lobbies or parking lots."
+      },
+      "tags": [
+        "ch3",
+        "physical-security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-083",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi des tests de sécurité mal préparés risquent-ils d’endommager l’environnement testé ?",
+        "en": "How can poorly scoped security scans or pentests inadvertently disrupt environments?"
+      },
+      "back": {
+        "fr": "Un scanner agressif peut saturer la bande passante/CPU (DoS involontaire), remplir des formulaires publics déclenchant des milliers d’emails ou effacer/corrompre des données via des formulaires d’administration non isolés.",
+        "en": "Aggressive scanners can trigger accidental DoS, flood customer email/SMS queues via contact forms, or delete/corrupt data in shared databases."
+      },
+      "tags": [
+        "ch3",
+        "safety"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-084",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi un rapport de pentest ne doit-il jamais circuler sans chiffrement ni restriction stricte d’accès ?",
+        "en": "Why must vulnerability and penetration test reports be stored and shared under strict confidentiality?"
+      },
+      "back": {
+        "fr": "Ils constituent une feuille de route prête à l’emploi (preuves d’exploits, URL exactes, comptes faibles) qui faciliterait grandement la tâche d’un attaquant en cas de fuite.",
+        "en": "They serve as an actionable attack blueprint (PoC payloads, vulnerable endpoints, weak accounts) that would arm adversaries if leaked."
+      },
+      "tags": [
+        "ch3",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-085",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Que doit obligatoirement inclure un bon rapport de test d’intrusion ?",
+        "en": "What key sections must a high-quality Penetration Test Report contain?"
+      },
+      "back": {
+        "fr": "Synthèse managériale (niveau de risque global, périmètre testé), liste priorisée des vulnérabilités (CVSS/risque métier), preuve de reproductibilité pas-à-pas et recommandations concrètes de remédiation vérifiables.",
+        "en": "Executive summary (overall risk posture and scope), risk-ranked findings, step-by-step reproduction PoCs, and actionable developer remediation guidance."
+      },
+      "tags": [
+        "ch3",
+        "reporting"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-086",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Re-test » (Validation de correctif) après un pentest et pourquoi est-il indispensable ?",
+        "en": "Why is a post-remediation Retest mandatory after fixing pentest findings?"
+      },
+      "back": {
+        "fr": "De nombreux correctifs initiaux ne corrigent qu’un cas particulier (ex. filtrage d’un seul payload XSS) tout en laissant des variantes contournables ou en cassant une autre autorisation.",
+        "en": "Initial developer patches often block only the single reported PoC string while leaving bypass variants open or introducing adjacent regressions."
+      },
+      "tags": [
+        "ch3",
+        "retest"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-087",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelles catégories d’outils emploie un testeur de sécurité applicative et réseau ?",
+        "en": "Name the core tool categories in a Security Tester’s toolkit."
+      },
+      "back": {
+        "fr": "Proxies d’interception HTTP (OWASP ZAP, Burp Suite), scanners réseau/ports (Nmap), SAST/SCA (Semgrep, Trivy, Snyk), fuzzers (ffuf, AFL/libFuzzer), audits TLS et analyseurs de paquets (Wireshark).",
+        "en": "HTTP intercepting proxies (OWASP ZAP, Burp Suite), network/port mappers (Nmap), SAST/SCA scanners (Semgrep, Trivy), fuzzers (ffuf, libFuzzer), TLS checkers, and packet analyzers (Wireshark)."
+      },
+      "tags": [
+        "ch3",
+        "tools"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-088",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi les outils de sécurité (scanners, fuzzers) exigent-ils une validation humaine des résultats ?",
+        "en": "Why must security tool outputs always undergo human triage?"
+      },
+      "back": {
+        "fr": "Pour éliminer les faux positifs (bruit), évaluer la véritable exploitabilité dans le contexte applicatif (facteurs compensatoires) et repérer les faux négatifs de logique métier.",
+        "en": "To filter out false positives, judge true exploitability against compensating controls, and uncover business-logic false negatives missed by scanners."
+      },
+      "tags": [
+        "ch3",
+        "triage"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-089",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Bug Bounty » et le « VDP » (Vulnerability Disclosure Policy) ?",
+        "en": "Contrast a Vulnerability Disclosure Policy (VDP) with a Bug Bounty Program."
+      },
+      "back": {
+        "fr": "Une VDP offre aux chercheurs externes un canal sûr et légal pour signaler de bonne foi une faille découverte ; un Bug Bounty y associe des récompenses financières graduées selon la sévérité.",
+        "en": "A VDP establishes a safe legal reporting channel for external researchers; a Bug Bounty program adds tiered monetary rewards by severity."
+      },
+      "tags": [
+        "ch3",
+        "vdp"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-090",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que le « Durcissement » (Hardening) d’un serveur ou système d’exploitation ?",
+        "en": "What does OS and server Hardening entail before production?"
+      },
+      "back": {
+        "fr": "Supprimer comptes/services/ports inutiles, appliquer benchmarks CIS, désactiver protocoles faibles, restreindre droits fichiers/pare-feu et activer journaux d’audit et mises à jour automatiques.",
+        "en": "Disabling unnecessary services/ports/default accounts, applying CIS benchmarks, tightening file/firewall permissions, and enabling audit logging."
+      },
+      "tags": [
+        "ch3",
+        "hardening"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-091",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quel risque pose la chaîne logistique logicielle (Software Supply Chain Attacks) et comment la tester ?",
+        "en": "How can teams test and mitigate Software Supply Chain risks?"
+      },
+      "back": {
+        "fr": "Générer et auditer le SBOM (Software Bill of Materials), vérifier signatures/checksums des paquets et images CI, verrouiller versions (`lockfiles`) et prévenir le typosquatting ou confusion de dépendances.",
+        "en": "Generate and audit SBOMs, verify package/container signatures and lockfile hashes, and defend against dependency confusion or typosquatting."
+      },
+      "tags": [
+        "ch3",
+        "supply-chain"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-092",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Contrôle de sécurité des pipelines CI/CD » lui-même ?",
+        "en": "Why must the CI/CD pipeline infrastructure itself undergo security testing?"
+      },
+      "back": {
+        "fr": "Le pipeline détient clés de déploiement, secrets cloud et accès au code source ; une faille via Pull Request externe (`pull_request_target`) ou secret mal isolé permet de compromettre directement la production.",
+        "en": "CI/CD runners hold deployment keys and prod access; insecure PR triggers or leaked runner tokens let attackers compromise production directly."
+      },
+      "tags": [
+        "ch3",
+        "ci-security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-093",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment vérifier l’efficacité des « En-têtes de sécurité HTTP » sur un navigateur moderne ?",
+        "en": "Which critical HTTP security response headers should testers verify on web applications?"
+      },
+      "back": {
+        "fr": "`Strict-Transport-Security` (HSTS), `Content-Security-Policy` (CSP), `X-Content-Type-Options: nosniff`, `Referrer-Policy` et `Permissions-Policy`.",
+        "en": "`Strict-Transport-Security` (HSTS), `Content-Security-Policy` (CSP), `X-Content-Type-Options: nosniff`, `Referrer-Policy`, and `Permissions-Policy`."
+      },
+      "tags": [
+        "ch3",
+        "headers"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-094",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Pourquoi l’indépendance du testeur est-elle particulièrement valorisée pour le test d’intrusion ?",
+        "en": "Why is strong tester independence especially valuable in Penetration Testing?"
+      },
+      "back": {
+        "fr": "Les créateurs d’un système peinent à voir les hypothèses implicites qu’ils ont codées ; un pentester externe adopte l’état d’esprit offensif sans biais d’auteur ni tabou technique.",
+        "en": "System builders carry blind spots around their own assumptions; external pentesters bring an unbiased adversarial mindset."
+      },
+      "tags": [
+        "ch3",
+        "independence"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-095",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle est la différence entre tester une application Web classique et tester une API / application Mobile ?",
+        "en": "What additional security checks apply when testing Mobile apps vs. standard Web apps?"
+      },
+      "back": {
+        "fr": "Stockage local sécurisé (Keychain/Keystore vs SharedPreferences en clair), certificate pinning, obfuscation binaire, permissions OS excessives, deep links/intents non validés et fuite dans les sauvegardes/captures système.",
+        "en": "Insecure local storage (plaintext prefs vs. Keychain/Keystore), SSL pinning, binary reverse-engineering, excessive OS permissions, hijacked deep links/intents, and background screen caching."
+      },
+      "tags": [
+        "ch3",
+        "mobile-security"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-096",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment maintenir à jour la compétence d’une équipe Security Testing face à de nouvelles menaces (ex. IA générative / Prompt Injection) ?",
+        "en": "How should security testers stay effective against emerging threats such as LLM Prompt Injection?"
+      },
+      "back": {
+        "fr": "Veille continue (OWASP Top 10 for Web, API, and LLM Applications), entraînement régulier sur labs (CTF/Juice Shop/PortSwigger) et mise à jour des check-lists de revue et d’abuse cases.",
+        "en": "Tracking evolving OWASP Top 10 lists (Web, API, LLM), hands-on CTF/lab practice, and continually updating threat-model and abuse-case checklists."
+      },
+      "tags": [
+        "ch3",
+        "continuous-learning"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-097",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce que l’« Éthique de divulgation responsable » (Coordinated Vulnerability Disclosure) ?",
+        "en": "What defines Coordinated (Responsible) Vulnerability Disclosure?"
+      },
+      "back": {
+        "fr": "Signaler en privé une faille découverte au vendeur/propriétaire, lui laisser un délai raisonnable (ex. 90 jours) pour publier un correctif et n’informer le public qu’une fois les utilisateurs protégés.",
+        "en": "Privately reporting discovered flaws to the vendor, granting a reasonable remediation window (e.g., 90 days) for patching, and publishing advisories only after fixes protect users."
+      },
+      "tags": [
+        "ch3",
+        "ethics"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-098",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Comment gérer un conflit quand un Product Owner veut livrer une fonctionnalité malgré une faille critique de sécurité ?",
+        "en": "How should a Security Tester handle release pressure when a critical security flaw remains open?"
+      },
+      "back": {
+        "fr": "Documenter factuellement l’exploit, l’actif exposé et l’impact réglementaire/financier, escalader au RSSI (CISO) / direction des risques et exiger une acceptation formelle écrite de la direction ou le blocage de la mise en ligne.",
+        "en": "Document concrete exploitability, exposed assets, and regulatory/financial blast radius, escalate to CISO/risk leadership, and require formal executive risk sign-off or release hold."
+      },
+      "tags": [
+        "ch3",
+        "governance"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-099",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Qu’est-ce qu’un « Test de Sécurité Continu » en production / préprod (BAS — Breach & Attack Simulation) ?",
+        "en": "What role do Breach and Attack Simulation (BAS) and Continuous Security Testing play?"
+      },
+      "back": {
+        "fr": "Rejouer automatiquement à intervalles réguliers des scénarios d’attaque réalistes pour vérifier que pare-feu, EDR, règles SIEM et politiques cloud restent effectivement bloquants malgré les changements infra quotidiens.",
+        "en": "Continuously replaying realistic adversarial probes to verify WAF, EDR, SIEM alerts, and cloud guardrails remain effective amid daily infra changes."
+      },
+      "tags": [
+        "ch3",
+        "continuous"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "fc-ctsec-100",
+      "certificationId": "ct-sec",
+      "versionId": "ct-sec-v1.0",
+      "chapterId": "ct-sec-v1.0-ch3",
+      "objectiveId": "SEC-3.1.1",
+      "languageScope": "bilingual",
+      "front": {
+        "fr": "Quelle posture synthétise le mieux le rôle du Security Tester ISTQB (CT-SEC) ?",
+        "en": "What mindset best summarizes the ISTQB Security Tester (CT-SEC)?"
+      },
+      "back": {
+        "fr": "Penser comme un attaquant pour défendre les utilisateurs : combiner modélisation de menaces dès la conception, outillage SAST/DAST/SCA automatisé, tests manuels d’autorisation/logique et accompagnement constructif des équipes.",
+        "en": "Think like an adversary to protect users: blend early threat modeling, automated SAST/DAST/SCA pipelines, deep manual auth/logic probing, and constructive remediation guidance."
+      },
+      "tags": [
+        "ch3",
+        "summary"
+      ],
+      "isCustom": false,
+      "provenance": {
+        "source": "ISTQB Academy Original Flashcards — CT-SEC v1.0 (Security Tester)",
+        "license": "CC BY-NC-SA 4.0 (Original Pedagogical Content)",
+        "author": "ISTQB Academy Editorial Team",
+        "lastVerifiedAt": "2026-11-20",
+        "status": "published"
+      },
+      "createdAt": "2026-11-20T00:00:00.000Z",
+      "updatedAt": "2026-11-20T00:00:00.000Z"
+    }
+  ]
+}
